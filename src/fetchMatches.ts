@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import * as fs from 'fs'
 import * as path from 'path'
+import { execSync } from 'child_process'
 import { generateAllMatchData } from './generateSeedData.js'
 
 const API_KEY = process.env.FOOTBALL_DATA_API_KEY!
@@ -39,21 +40,29 @@ function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function fetchLeagueSeason(league: string, season: number): Promise<any> {
+function curlFetch(url: string, headers: Record<string, string>): any {
+  const headerArgs = Object.entries(headers)
+    .map(([k, v]) => `-H "${k}: ${v}"`)
+    .join(' ')
+
+  const result = execSync(
+    `curl -s --connect-timeout 10 ${headerArgs} "${url}"`,
+    { maxBuffer: 50 * 1024 * 1024 }
+  )
+  return JSON.parse(result.toString())
+}
+
+function fetchLeagueSeason(league: string, season: number): any {
   const url = `${BASE_URL}/competitions/${league}/matches?season=${season}&status=FINISHED`
   console.log(`  Fetching ${league} ${season}-${season + 1}...`)
 
-  const res = await fetch(url, {
-    headers: { 'X-Auth-Token': API_KEY },
-  })
+  const data = curlFetch(url, { 'X-Auth-Token': API_KEY })
 
-  if (!res.ok) {
-    const text = await res.text()
-    console.error(`  ERROR ${res.status} for ${league} ${season}: ${text}`)
+  if (data.error || data.errorCode) {
+    console.error(`  ERROR for ${league} ${season}: ${data.message || JSON.stringify(data)}`)
     return null
   }
 
-  const data = await res.json()
   console.log(`  Got ${data.matches?.length ?? 0} matches for ${league} ${season}-${season + 1}`)
   return data
 }
@@ -109,7 +118,7 @@ async function fetchFromAPI(): Promise<Match[] | null> {
       }
 
       try {
-        const raw = await fetchLeagueSeason(league, season)
+        const raw = fetchLeagueSeason(league, season)
         requestCount++
 
         if (raw) {
