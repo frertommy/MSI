@@ -1,0 +1,21 @@
+{
+  "name": "msi",
+  "version": "1.0.0",
+  "description": "MSI Elo Rating Engine — computes team strength ratings from match results",
+  "private": true,
+  "scripts": {
+    "fetch": "tsx src/fetchMatches.ts",
+    "compute": "tsx src/computeRatings.ts",
+    "validate": "tsx src/validate.ts",
+    "rankings": "tsx src/printRankings.ts",
+    "pipeline": "tsx src/fetchMatches.ts && tsx src/computeRatings.ts && tsx src/validate.ts && tsx src/printRankings.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.10.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.0"
+  }
+}
