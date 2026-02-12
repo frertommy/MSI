@@ -3,6 +3,9 @@ export interface EloConfig {
   kFactor: number;
   homeAdvantage: number;
   goalMarginFactor: boolean;
+  leagueStrength: Record<string, number>;
+  leagueBaseline: Record<string, number>;
+  seasonRegression: number;
 }
 
 export interface TeamRating {
@@ -21,6 +24,21 @@ export const DEFAULT_CONFIG: EloConfig = {
   kFactor: 32,
   homeAdvantage: 75,
   goalMarginFactor: true,
+  leagueStrength: {
+    PL: 1.10,
+    PD: 1.05,
+    BL1: 1.00,
+    SA: 1.00,
+    FL1: 0.85,
+  },
+  leagueBaseline: {
+    PL: 1530,
+    PD: 1515,
+    BL1: 1500,
+    SA: 1500,
+    FL1: 1470,
+  },
+  seasonRegression: 0.05,
 };
 
 export interface EloResult {
@@ -35,7 +53,8 @@ export function computeElo(
   awayRating: number,
   homeGoals: number,
   awayGoals: number,
-  config: EloConfig
+  config: EloConfig,
+  league?: string
 ): EloResult {
   // Expected scores
   const homeExpected =
@@ -60,11 +79,24 @@ export function computeElo(
   const goalDiff = Math.abs(homeGoals - awayGoals);
   const G = config.goalMarginFactor ? 1 + Math.log(goalDiff + 1) : 1;
 
+  // League strength multiplier on K-factor
+  const leagueMultiplier =
+    league && config.leagueStrength ? (config.leagueStrength[league] ?? 1.0) : 1.0;
+  const effectiveK = config.kFactor * leagueMultiplier;
+
   // Rating updates
   const homeNewRating =
-    homeRating + config.kFactor * G * (homeActual - homeExpected);
+    homeRating + effectiveK * G * (homeActual - homeExpected);
   const awayNewRating =
-    awayRating + config.kFactor * G * (awayActual - awayExpected);
+    awayRating + effectiveK * G * (awayActual - awayExpected);
 
   return { homeNewRating, awayNewRating, homeExpected, awayExpected };
+}
+
+export function regressTowardMean(
+  rating: number,
+  mean: number = 1500,
+  factor: number = 0.1
+): number {
+  return rating + factor * (mean - rating);
 }
