@@ -182,6 +182,88 @@ function main() {
   console.log(
     `so absolute Elo values will differ. Rank correlation is the key metric.`
   );
+
+  // Before/After comparison if old ratings file exists
+  const oldRatingsFile = path.join(dataDir, "msi_ratings_old.json");
+  if (fs.existsSync(oldRatingsFile)) {
+    const oldData: RatingsFile = JSON.parse(
+      fs.readFileSync(oldRatingsFile, "utf-8")
+    );
+
+    const oldByName: Record<string, { rank: number; rating: number }> = {};
+    for (let i = 0; i < oldData.teams.length; i++) {
+      const t = oldData.teams[i];
+      const normalized = NAME_MAP[t.team] || t.team;
+      oldByName[normalized] = { rank: i + 1, rating: t.rating };
+    }
+
+    // Re-rank old matched teams
+    const oldMatched: { team: string; ceRank: number; oldRating: number }[] = [];
+    for (const ref of clubEloReference) {
+      const old = oldByName[ref.team];
+      if (old) {
+        oldMatched.push({ team: ref.team, ceRank: ref.rank, oldRating: old.rating });
+      }
+    }
+    const oldByRating = [...oldMatched].sort((a, b) => b.oldRating - a.oldRating);
+    const oldLocalRank: Record<string, number> = {};
+    oldByRating.forEach((t, i) => { oldLocalRank[t.team] = i + 1; });
+
+    const oldRatingsArr: number[] = [];
+    const oldCeElos: number[] = [];
+    for (const ref of clubEloReference) {
+      const old = oldByName[ref.team];
+      if (old) {
+        oldRatingsArr.push(old.rating);
+        oldCeElos.push(ref.elo);
+      }
+    }
+    const oldSpearman = spearmanCorrelation(oldRatingsArr, oldCeElos);
+
+    console.log("\n\n━━━ Before / After Comparison ━━━\n");
+    console.log(
+      `${"Team".padEnd(25)} ${"Old Rank".padStart(9)} ${"New Rank".padStart(9)} ${"Change".padStart(8)} ${"CE Rank".padStart(8)}`
+    );
+    console.log("─".repeat(68));
+
+    const keyTeams = ["Arsenal", "Paris Saint-Germain", "AS Roma", "Bayern Munich",
+      "Manchester City", "Liverpool", "Barcelona", "Real Madrid", "Inter Milan"];
+
+    for (const ref of clubEloReference) {
+      const oldRank = oldLocalRank[ref.team] ?? 0;
+      const newRank = msiLocalRank[ref.team] ?? 0;
+      const change = oldRank - newRank;
+      const changeStr = change > 0 ? `+${change}` : change === 0 ? "=" : `${change}`;
+      const marker = keyTeams.includes(ref.team) ? " *" : "";
+      console.log(
+        `${ref.team.padEnd(25)} ${String(oldRank).padStart(9)} ${String(newRank).padStart(9)} ${changeStr.padStart(8)} ${String(ref.rank).padStart(8)}${marker}`
+      );
+    }
+
+    console.log("─".repeat(68));
+    console.log(`Old Spearman: ${oldSpearman.toFixed(4)}`);
+    console.log(`New Spearman: ${spearman.toFixed(4)}`);
+    console.log(`Change:       ${(spearman - oldSpearman) >= 0 ? "+" : ""}${(spearman - oldSpearman).toFixed(4)}`);
+    console.log(`\n* = key teams to watch`);
+
+    // Call out specific movements
+    console.log("\n━━━ Key Team Movements ━━━");
+    const arsenalNew = msiLocalRank["Arsenal"] ?? 0;
+    const arsenalOld = oldLocalRank["Arsenal"] ?? 0;
+    console.log(`Arsenal:  #${arsenalOld} → #${arsenalNew} (ClubElo: #1) ${arsenalNew < arsenalOld ? "↑ IMPROVED" : arsenalNew > arsenalOld ? "↓ dropped" : "= unchanged"}`);
+
+    const psgNew = msiLocalRank["Paris Saint-Germain"] ?? 0;
+    const psgOld = oldLocalRank["Paris Saint-Germain"] ?? 0;
+    console.log(`PSG:      #${psgOld} → #${psgNew} (ClubElo: #4) ${psgNew > psgOld ? "↓ Moved down (FL1 penalty working)" : "= unchanged"}`);
+
+    // Check AS Roma (not in top-20 ClubElo, check global rank)
+    const romaNew = msiByName["AS Roma"] ?? { rank: 0 };
+    const romaOld = oldByName["AS Roma"] ?? { rank: 0 };
+    // For Roma we need global rank since it's not in the CE reference
+    const romaNewGlobal = ratingsData.teams.findIndex(t => (NAME_MAP[t.team] || t.team) === "AS Roma") + 1;
+    const romaOldGlobal = oldData.teams.findIndex(t => (NAME_MAP[t.team] || t.team) === "AS Roma") + 1;
+    console.log(`AS Roma:  #${romaOldGlobal} → #${romaNewGlobal} (global rank) ${romaNewGlobal > romaOldGlobal ? "↓ dropped" : romaNewGlobal < romaOldGlobal ? "↑ rose" : "= unchanged"}`);
+  }
 }
 
 main();

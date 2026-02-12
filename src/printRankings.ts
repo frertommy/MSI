@@ -54,9 +54,21 @@ function main() {
 
   const { teams, matchesProcessed } = ratingsData;
 
+  // Determine date range from match data
+  let dateRange = "";
+  const matchesFile = path.join(dataDir, "matches_all.json");
+  if (fs.existsSync(matchesFile)) {
+    const allMatches = JSON.parse(fs.readFileSync(matchesFile, "utf-8"));
+    if (allMatches.length > 0) {
+      const firstYear = allMatches[0].date.substring(0, 4);
+      const lastYear = allMatches[allMatches.length - 1].date.substring(0, 4);
+      dateRange = `${firstYear}-${lastYear}`;
+    }
+  }
+
   // Header
   console.log(
-    `\nMSI Rankings — Computed from ${matchesProcessed.toLocaleString()} real matches (2023-2025)`
+    `\nMSI Rankings — Computed from ${matchesProcessed.toLocaleString()} real matches (${dateRange})`
   );
   console.log("━".repeat(70));
   console.log(

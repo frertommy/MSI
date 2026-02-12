@@ -17,6 +17,9 @@ export interface EloConfig {
   kFactor: number;
   homeAdvantage: number;
   goalMarginFactor: boolean;
+  leagueStrength: Record<string, number>;
+  leagueBaseline: Record<string, number>;
+  seasonRegression: number;
 }
 
 export interface RatingsFile {

@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { computeElo, DEFAULT_CONFIG, TeamRating, EloConfig } from "./elo";
+import { computeElo, regressTowardMean, DEFAULT_CONFIG, TeamRating, EloConfig } from "./elo";
 
 interface Match {
   id: number;
@@ -26,14 +26,24 @@ function main() {
   const matches: Match[] = JSON.parse(fs.readFileSync(matchesFile, "utf-8"));
   console.log(`Loaded ${matches.length} matches`);
 
+  // Load team registry for league info
+  const registryFile = path.join(dataDir, "teams_registry.json");
+  const teamRegistry: Record<string, { league: string; country: string; matchesPlayed: number }> =
+    fs.existsSync(registryFile) ? JSON.parse(fs.readFileSync(registryFile, "utf-8")) : {};
+
   const config: EloConfig = { ...DEFAULT_CONFIG };
   const ratings: Record<string, TeamRating> = {};
+  const teamLeague: Record<string, string> = {};
 
-  function getOrCreate(team: string): TeamRating {
+  function getOrCreate(team: string, league?: string): TeamRating {
     if (!ratings[team]) {
+      // Determine league from match context, registry, or fallback
+      const lg = league || teamRegistry[team]?.league || "";
+      if (lg) teamLeague[team] = lg;
+      const baseline = config.leagueBaseline[lg] ?? config.initialRating;
       ratings[team] = {
         team,
-        rating: config.initialRating,
+        rating: baseline,
         matches: 0,
         wins: 0,
         draws: 0,
@@ -42,20 +52,52 @@ function main() {
         ratingHistory: [],
       };
     }
+    if (league && !teamLeague[team]) teamLeague[team] = league;
     return ratings[team];
   }
 
+  // Detect season boundaries: when there's a 60+ day gap between matches
+  let lastMatchDate: Date | null = null;
+  let seasonBreakCount = 0;
+
   // Process matches chronologically
   for (const match of matches) {
-    const home = getOrCreate(match.homeTeam);
-    const away = getOrCreate(match.awayTeam);
+    const matchDate = new Date(match.date);
+
+    // Check for season break (60+ day gap)
+    if (lastMatchDate) {
+      const dayGap = (matchDate.getTime() - lastMatchDate.getTime()) / (1000 * 60 * 60 * 24);
+      if (dayGap >= 60) {
+        seasonBreakCount++;
+        console.log(
+          `  Season break detected: ${lastMatchDate.toISOString().substring(0, 10)} → ${match.date.substring(0, 10)} (${Math.round(dayGap)} days gap)`
+        );
+        console.log(`  Applying ${(config.seasonRegression * 100).toFixed(0)}% regression to mean for ${Object.keys(ratings).length} teams`);
+
+        // Apply regression toward league-adjusted mean for all existing teams
+        for (const team of Object.values(ratings)) {
+          const lg = teamLeague[team.team] || "";
+          const mean = config.leagueBaseline[lg] ?? config.initialRating;
+          const oldRating = team.rating;
+          team.rating = regressTowardMean(oldRating, mean, config.seasonRegression);
+          // Record the regression in history
+          const dateStr = match.date.substring(0, 10);
+          team.ratingHistory.push({ date: dateStr, rating: team.rating });
+        }
+      }
+    }
+    lastMatchDate = matchDate;
+
+    const home = getOrCreate(match.homeTeam, match.league);
+    const away = getOrCreate(match.awayTeam, match.league);
 
     const result = computeElo(
       home.rating,
       away.rating,
       match.homeGoals,
       match.awayGoals,
-      config
+      config,
+      match.league
     );
 
     // Update ratings
@@ -84,6 +126,8 @@ function main() {
     home.ratingHistory.push({ date: dateStr, rating: home.rating });
     away.ratingHistory.push({ date: dateStr, rating: away.rating });
   }
+
+  console.log(`Season breaks detected: ${seasonBreakCount}`);
 
   // Sort teams by rating descending
   const sortedTeams = Object.values(ratings).sort(
