@@ -1,0 +1,25 @@
+{
+  "name": "msi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "tsx src/fetchMatches.ts",
+    "compute": "tsx src/computeRatings.ts",
+    "validate": "tsx src/validate.ts",
+    "rankings": "tsx src/printRankings.ts",
+    "pipeline": "npm run fetch && npm run compute && npm run validate && npm run rankings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:27748/git/frertommy/MSI"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
