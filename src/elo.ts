@@ -21,24 +21,24 @@ export interface TeamRating {
 
 export const DEFAULT_CONFIG: EloConfig = {
   initialRating: 1500,
-  kFactor: 32,
-  homeAdvantage: 75,
+  kFactor: 24,
+  homeAdvantage: 65,
   goalMarginFactor: true,
   leagueStrength: {
-    PL: 1.10,
+    PL: 1.15,
     PD: 1.05,
     BL1: 1.00,
     SA: 1.00,
     FL1: 0.85,
   },
   leagueBaseline: {
-    PL: 1530,
+    PL: 1600,
     PD: 1515,
     BL1: 1500,
     SA: 1500,
     FL1: 1470,
   },
-  seasonRegression: 0.05,
+  seasonRegression: 0.15,
 };
 
 export interface EloResult {
