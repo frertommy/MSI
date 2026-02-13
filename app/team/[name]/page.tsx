@@ -23,7 +23,7 @@ interface PageProps {
 export async function generateStaticParams() {
   const ratings = getRatings();
   return ratings.teams.map((t) => ({
-    name: encodeURIComponent(t.team),
+    name: t.team,
   }));
 }
 
