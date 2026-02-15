@@ -50,6 +50,37 @@ export interface TeamRegistryEntry {
 export type DailyData = Record<string, { date: string; rating: number }[]>;
 export type TeamsRegistry = Record<string, TeamRegistryEntry>;
 
+export interface NextFixture {
+  opponent: string;
+  date: string;
+  marketWinProb: number;
+  predictedWinProb: number;
+  isHome: boolean;
+}
+
+export interface MSILiveRating {
+  team: string;
+  league: string;
+  baseElo: number;
+  oddsAdjustment: number;
+  msiLive: number;
+  msiLiveRank: number;
+  nextFixture: NextFixture | null;
+  lastUpdated: string;
+}
+
+export interface MSILiveFile {
+  computedAt: string;
+  oddsSource: string;
+  stale: boolean;
+  ratings: MSILiveRating[];
+}
+
+export type MSILiveDaily = Record<
+  string,
+  Record<string, { baseElo: number; oddsAdj: number; msiLive: number }>
+>;
+
 const dataDir = path.join(process.cwd(), "data");
 
 function readJSON<T>(filename: string): T {
@@ -70,6 +101,22 @@ export function getDailyData(): DailyData {
 
 export function getTeamsRegistry(): TeamsRegistry {
   return readJSON<TeamsRegistry>("teams_registry.json");
+}
+
+export function getMSILive(): MSILiveFile | null {
+  try {
+    return readJSON<MSILiveFile>("msi_live.json");
+  } catch {
+    return null;
+  }
+}
+
+export function getMSILiveDaily(): MSILiveDaily | null {
+  try {
+    return readJSON<MSILiveDaily>("msi_live_daily.json");
+  } catch {
+    return null;
+  }
 }
 
 export const LEAGUE_LABELS: Record<string, string> = {

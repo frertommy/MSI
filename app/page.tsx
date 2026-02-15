@@ -1,23 +1,39 @@
-import { getRatings, getTeamsRegistry, LEAGUE_COUNTRY } from "@/lib/data";
+import { getRatings, getTeamsRegistry, getMSILive, LEAGUE_COUNTRY } from "@/lib/data";
 import StatsBar from "./components/StatsBar";
 import RankingsTable from "./components/RankingsTable";
 
 export default function Home() {
   const ratings = getRatings();
   const registry = getTeamsRegistry();
+  const liveData = getMSILive();
 
-  const teams = ratings.teams.map((t, i) => {
+  // Build lookup for live ratings
+  const liveLookup: Record<string, { msiLive: number; oddsAdj: number }> = {};
+  if (liveData) {
+    for (const r of liveData.ratings) {
+      liveLookup[r.team] = { msiLive: r.msiLive, oddsAdj: r.oddsAdjustment };
+    }
+  }
+
+  // Use live rankings order if available, otherwise base Elo
+  const source = liveData ? liveData.ratings : ratings.teams;
+
+  const teams = source.map((t, i) => {
+    const baseTeam = ratings.teams.find((bt) => bt.team === t.team);
     const reg = registry[t.team];
+    const live = liveLookup[t.team];
     return {
       rank: i + 1,
       team: t.team,
       league: reg?.league || "?",
       country: reg?.country || LEAGUE_COUNTRY[reg?.league] || "?",
-      rating: t.rating,
-      wins: t.wins,
-      draws: t.draws,
-      losses: t.losses,
-      lastUpdated: t.lastUpdated,
+      rating: baseTeam?.rating ?? 0,
+      msiLive: live?.msiLive ?? baseTeam?.rating ?? 0,
+      oddsAdj: live?.oddsAdj ?? 0,
+      wins: baseTeam?.wins ?? 0,
+      draws: baseTeam?.draws ?? 0,
+      losses: baseTeam?.losses ?? 0,
+      lastUpdated: baseTeam?.lastUpdated ?? "",
     };
   });
 
@@ -26,15 +42,14 @@ export default function Home() {
   );
 
   const leagueAvgs: Record<string, { sum: number; count: number }> = {};
-  for (const t of ratings.teams) {
-    const reg = registry[t.team];
-    if (reg) {
-      const country = reg.country;
-      if (!leagueAvgs[country]) leagueAvgs[country] = { sum: 0, count: 0 };
-      leagueAvgs[country].sum += t.rating;
-      leagueAvgs[country].count++;
-    }
+  for (const t of teams) {
+    const country = t.country;
+    if (!leagueAvgs[country]) leagueAvgs[country] = { sum: 0, count: 0 };
+    leagueAvgs[country].sum += t.msiLive;
+    leagueAvgs[country].count++;
   }
+
+  const hasOdds = liveData && !liveData.stale && liveData.oddsSource !== "none";
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-8">
@@ -50,6 +65,7 @@ export default function Home() {
         <p className="text-xs text-[var(--color-text-dim)] mb-3">
           Proprietary Elo ratings computed from{" "}
           {ratings.matchesProcessed.toLocaleString()}+ real match results
+          {hasOdds && " · Enhanced with live bookmaker odds"}
         </p>
         <div className="flex flex-wrap gap-2 mb-3">
           <span className="text-[10px] border border-[var(--color-border)] rounded px-2 py-0.5 text-[var(--color-text-dim)]">
@@ -61,11 +77,22 @@ export default function Home() {
           <span className="text-[10px] border border-[var(--color-border)] rounded px-2 py-0.5 text-[var(--color-text-dim)]">
             Not Opta
           </span>
+          {hasOdds && (
+            <span className="text-[10px] border border-[var(--color-green)]/30 rounded px-2 py-0.5 text-[var(--color-green)]">
+              Odds Live
+            </span>
+          )}
+          {liveData?.stale && (
+            <span className="text-[10px] border border-[var(--color-yellow)]/30 rounded px-2 py-0.5 text-[var(--color-yellow)]">
+              Odds Stale
+            </span>
+          )}
         </div>
         <p className="text-[10px] text-[var(--color-text-dim)]">
           Powered by football-data.org &middot; Engine: K=
           {ratings.config.kFactor}, Home={ratings.config.homeAdvantage},
           GoalMargin=ln
+          {hasOdds && " · Odds: The Odds API"}
         </p>
       </div>
 
@@ -74,12 +101,12 @@ export default function Home() {
         teamsRated={ratings.teams.length}
         matchesProcessed={ratings.matchesProcessed}
         leagues={leagueSet.size}
-        topRating={ratings.teams[0].rating}
-        topTeam={ratings.teams[0].team}
+        topRating={teams[0]?.msiLive ?? 0}
+        topTeam={teams[0]?.team ?? ""}
       />
 
       {/* Rankings Table */}
-      <RankingsTable teams={teams} />
+      <RankingsTable teams={teams} hasOdds={!!hasOdds} />
 
       {/* League Averages */}
       <div className="mt-8 border-t border-[var(--color-border)] pt-4">
@@ -103,8 +130,9 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-12 border-t border-[var(--color-border)] pt-4 text-[10px] text-[var(--color-text-dim)]">
-        MSI v1.0 &middot; Elo Engine: K={ratings.config.kFactor}, Home
+        MSI v2.0 &middot; Elo Engine: K={ratings.config.kFactor}, Home
         Advantage={ratings.config.homeAdvantage}, Goal Margin Multiplier=ln(|GD|+1)
+        {hasOdds && ` · Odds blended at 15% weight`}
       </footer>
     </main>
   );
