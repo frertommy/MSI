@@ -1,0 +1,3251 @@
+{
+  "computedAt": "2026-02-16T12:37:42.423Z",
+  "matchesProcessed": 18011,
+  "matchesWithOdds": 18010,
+  "validation": {
+    "baseElo": {
+      "correctPct": 52,
+      "avgBrier": 0.1979,
+      "count": 18010
+    },
+    "eloOdds": {
+      "correctPct": 52.6,
+      "avgBrier": 0.1959,
+      "count": 18010
+    },
+    "improvement": {
+      "correctPctDelta": 0.6,
+      "brierDelta": -0.002
+    }
+  },
+  "layers": {
+    "baseElo": {
+      "label": "Match Data",
+      "description": "Elo from match results only",
+      "color": "#22c55e",
+      "teams": [
+        {
+          "team": "Manchester City FC",
+          "rating": 1883.54,
+          "rank": 1
+        },
+        {
+          "team": "Liverpool FC",
+          "rating": 1879.81,
+          "rank": 2
+        },
+        {
+          "team": "Arsenal FC",
+          "rating": 1868.8,
+          "rank": 3
+        },
+        {
+          "team": "FC Barcelona",
+          "rating": 1848.7,
+          "rank": 4
+        },
+        {
+          "team": "FC Bayern München",
+          "rating": 1833.09,
+          "rank": 5
+        },
+        {
+          "team": "Paris Saint-Germain FC",
+          "rating": 1827.89,
+          "rank": 6
+        },
+        {
+          "team": "FC Internazionale Milano",
+          "rating": 1818.48,
+          "rank": 7
+        },
+        {
+          "team": "Real Madrid CF",
+          "rating": 1801.65,
+          "rank": 8
+        },
+        {
+          "team": "Chelsea FC",
+          "rating": 1797.96,
+          "rank": 9
+        },
+        {
+          "team": "Aston Villa FC",
+          "rating": 1779.14,
+          "rank": 10
+        },
+        {
+          "team": "Bayer 04 Leverkusen",
+          "rating": 1771.43,
+          "rank": 11
+        },
+        {
+          "team": "SSC Napoli",
+          "rating": 1761.34,
+          "rank": 12
+        },
+        {
+          "team": "Brighton & Hove Albion FC",
+          "rating": 1755.15,
+          "rank": 13
+        },
+        {
+          "team": "Newcastle United FC",
+          "rating": 1751.95,
+          "rank": 14
+        },
+        {
+          "team": "AS Roma",
+          "rating": 1748.64,
+          "rank": 15
+        },
+        {
+          "team": "Crystal Palace FC",
+          "rating": 1746.92,
+          "rank": 16
+        },
+        {
+          "team": "Atalanta BC",
+          "rating": 1730.8,
+          "rank": 17
+        },
+        {
+          "team": "Everton FC",
+          "rating": 1720.48,
+          "rank": 18
+        },
+        {
+          "team": "Villarreal CF",
+          "rating": 1718.32,
+          "rank": 19
+        },
+        {
+          "team": "Athletic Club",
+          "rating": 1710.7,
+          "rank": 20
+        },
+        {
+          "team": "Club Atlético de Madrid",
+          "rating": 1709.57,
+          "rank": 21
+        },
+        {
+          "team": "Brentford FC",
+          "rating": 1707.77,
+          "rank": 22
+        },
+        {
+          "team": "Juventus FC",
+          "rating": 1702.81,
+          "rank": 23
+        },
+        {
+          "team": "Borussia Dortmund",
+          "rating": 1694.03,
+          "rank": 24
+        },
+        {
+          "team": "Nottingham Forest FC",
+          "rating": 1693.99,
+          "rank": 25
+        },
+        {
+          "team": "AFC Bournemouth",
+          "rating": 1693.02,
+          "rank": 26
+        },
+        {
+          "team": "AC Milan",
+          "rating": 1668.37,
+          "rank": 27
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "rating": 1658.45,
+          "rank": 28
+        },
+        {
+          "team": "ACF Fiorentina",
+          "rating": 1657.19,
+          "rank": 29
+        },
+        {
+          "team": "Fulham FC",
+          "rating": 1655.99,
+          "rank": 30
+        },
+        {
+          "team": "SS Lazio",
+          "rating": 1649.33,
+          "rank": 31
+        },
+        {
+          "team": "AS Monaco FC",
+          "rating": 1636.49,
+          "rank": 32
+        },
+        {
+          "team": "OGC Nice",
+          "rating": 1633.1,
+          "rank": 33
+        },
+        {
+          "team": "Lille OSC",
+          "rating": 1624.79,
+          "rank": 34
+        },
+        {
+          "team": "Real Betis Balompié",
+          "rating": 1623.45,
+          "rank": 35
+        },
+        {
+          "team": "Olympique de Marseille",
+          "rating": 1621.8,
+          "rank": 36
+        },
+        {
+          "team": "Bologna FC 1909",
+          "rating": 1620.07,
+          "rank": 37
+        },
+        {
+          "team": "Wolverhampton Wanderers FC",
+          "rating": 1614.35,
+          "rank": 38
+        },
+        {
+          "team": "Olympique Lyonnais",
+          "rating": 1614.13,
+          "rank": 39
+        },
+        {
+          "team": "VfB Stuttgart",
+          "rating": 1603.83,
+          "rank": 40
+        },
+        {
+          "team": "RC Strasbourg Alsace",
+          "rating": 1601.2,
+          "rank": 41
+        },
+        {
+          "team": "1. FSV Mainz 05",
+          "rating": 1600.63,
+          "rank": 42
+        },
+        {
+          "team": "SV Werder Bremen",
+          "rating": 1588.37,
+          "rank": 43
+        },
+        {
+          "team": "West Ham United FC",
+          "rating": 1586.77,
+          "rank": 44
+        },
+        {
+          "team": "Como 1907",
+          "rating": 1585.71,
+          "rank": 45
+        },
+        {
+          "team": "RB Leipzig",
+          "rating": 1585.35,
+          "rank": 46
+        },
+        {
+          "team": "CA Osasuna",
+          "rating": 1583.95,
+          "rank": 47
+        },
+        {
+          "team": "RC Celta de Vigo",
+          "rating": 1578.23,
+          "rank": 48
+        },
+        {
+          "team": "SC Freiburg",
+          "rating": 1575.65,
+          "rank": 49
+        },
+        {
+          "team": "Cardiff",
+          "rating": 1569.3,
+          "rank": 50
+        },
+        {
+          "team": "Manchester United FC",
+          "rating": 1568.73,
+          "rank": 51
+        },
+        {
+          "team": "Stoke City FC",
+          "rating": 1564.88,
+          "rank": 52
+        },
+        {
+          "team": "Hull",
+          "rating": 1561.93,
+          "rank": 53
+        },
+        {
+          "team": "Swansea City AFC",
+          "rating": 1560.88,
+          "rank": 54
+        },
+        {
+          "team": "Valencia CF",
+          "rating": 1556.3,
+          "rank": 55
+        },
+        {
+          "team": "Racing Club de Lens",
+          "rating": 1553.11,
+          "rank": 56
+        },
+        {
+          "team": "Middlesbrough",
+          "rating": 1548.59,
+          "rank": 57
+        },
+        {
+          "team": "Rayo Vallecano de Madrid",
+          "rating": 1545.01,
+          "rank": 58
+        },
+        {
+          "team": "Stade Brestois 29",
+          "rating": 1542.8,
+          "rank": 59
+        },
+        {
+          "team": "Sunderland AFC",
+          "rating": 1542.41,
+          "rank": 60
+        },
+        {
+          "team": "West Bromwich Albion FC",
+          "rating": 1530.51,
+          "rank": 61
+        },
+        {
+          "team": "Genoa CFC",
+          "rating": 1523.82,
+          "rank": 62
+        },
+        {
+          "team": "Tottenham Hotspur FC",
+          "rating": 1516.78,
+          "rank": 63
+        },
+        {
+          "team": "Deportivo Alavés",
+          "rating": 1511.43,
+          "rank": 64
+        },
+        {
+          "team": "Levante UD",
+          "rating": 1510,
+          "rank": 65
+        },
+        {
+          "team": "Torino FC",
+          "rating": 1505.43,
+          "rank": 66
+        },
+        {
+          "team": "VfL Wolfsburg",
+          "rating": 1501.51,
+          "rank": 67
+        },
+        {
+          "team": "RCD Espanyol de Barcelona",
+          "rating": 1499.6,
+          "rank": 68
+        },
+        {
+          "team": "Toulouse FC",
+          "rating": 1499.13,
+          "rank": 69
+        },
+        {
+          "team": "Huddersfield",
+          "rating": 1498.57,
+          "rank": 70
+        },
+        {
+          "team": "Stade Rennais FC 1901",
+          "rating": 1496.97,
+          "rank": 71
+        },
+        {
+          "team": "Carpi FC 1909",
+          "rating": 1488.84,
+          "rank": 72
+        },
+        {
+          "team": "AJ Auxerre",
+          "rating": 1486.93,
+          "rank": 73
+        },
+        {
+          "team": "Leeds",
+          "rating": 1484.47,
+          "rank": 74
+        },
+        {
+          "team": "FC Augsburg",
+          "rating": 1482.63,
+          "rank": 75
+        },
+        {
+          "team": "Real Sporting de Gijón",
+          "rating": 1481.94,
+          "rank": 76
+        },
+        {
+          "team": "Huesca",
+          "rating": 1481.44,
+          "rank": 77
+        },
+        {
+          "team": "FC Ingolstadt 04",
+          "rating": 1475.6,
+          "rank": 78
+        },
+        {
+          "team": "Borussia Mönchengladbach",
+          "rating": 1474.47,
+          "rank": 79
+        },
+        {
+          "team": "CD Leganés",
+          "rating": 1474.42,
+          "rank": 80
+        },
+        {
+          "team": "Hamburger SV",
+          "rating": 1472.35,
+          "rank": 81
+        },
+        {
+          "team": "1. FC Union Berlin",
+          "rating": 1470.39,
+          "rank": 82
+        },
+        {
+          "team": "Burnley FC",
+          "rating": 1470.33,
+          "rank": 83
+        },
+        {
+          "team": "Real Sociedad de Fútbol",
+          "rating": 1468.17,
+          "rank": 84
+        },
+        {
+          "team": "RCD Mallorca",
+          "rating": 1467.86,
+          "rank": 85
+        },
+        {
+          "team": "RC Deportivo de La Coruña",
+          "rating": 1466.56,
+          "rank": 86
+        },
+        {
+          "team": "Fortuna Dusseldorf",
+          "rating": 1459.99,
+          "rank": 87
+        },
+        {
+          "team": "Luton Town FC",
+          "rating": 1458.49,
+          "rank": 88
+        },
+        {
+          "team": "Sevilla FC",
+          "rating": 1455.71,
+          "rank": 89
+        },
+        {
+          "team": "Parma Calcio 1913",
+          "rating": 1454.37,
+          "rank": 90
+        },
+        {
+          "team": "Watford FC",
+          "rating": 1454.29,
+          "rank": 91
+        },
+        {
+          "team": "Norwich City FC",
+          "rating": 1452.88,
+          "rank": 92
+        },
+        {
+          "team": "TSG 1899 Hoffenheim",
+          "rating": 1451.43,
+          "rank": 93
+        },
+        {
+          "team": "SD Eibar",
+          "rating": 1451.18,
+          "rank": 94
+        },
+        {
+          "team": "US Città di Palermo",
+          "rating": 1450.7,
+          "rank": 95
+        },
+        {
+          "team": "Getafe CF",
+          "rating": 1450.43,
+          "rank": 96
+        },
+        {
+          "team": "Málaga CF",
+          "rating": 1447.46,
+          "rank": 97
+        },
+        {
+          "team": "Cagliari Calcio",
+          "rating": 1446.24,
+          "rank": 98
+        },
+        {
+          "team": "Hellas Verona FC",
+          "rating": 1445.65,
+          "rank": 99
+        },
+        {
+          "team": "GFC Ajaccio",
+          "rating": 1445.51,
+          "rank": 100
+        },
+        {
+          "team": "Elche",
+          "rating": 1444.16,
+          "rank": 101
+        },
+        {
+          "team": "FC Schalke 04",
+          "rating": 1442.93,
+          "rank": 102
+        },
+        {
+          "team": "SC Bastia",
+          "rating": 1441.73,
+          "rank": 103
+        },
+        {
+          "team": "Cremonese",
+          "rating": 1439.87,
+          "rank": 104
+        },
+        {
+          "team": "Nancy",
+          "rating": 1439.53,
+          "rank": 105
+        },
+        {
+          "team": "Bielefeld",
+          "rating": 1439.2,
+          "rank": 106
+        },
+        {
+          "team": "Pescara",
+          "rating": 1437.34,
+          "rank": 107
+        },
+        {
+          "team": "Udinese Calcio",
+          "rating": 1432.38,
+          "rank": 108
+        },
+        {
+          "team": "US Lecce",
+          "rating": 1432.36,
+          "rank": 109
+        },
+        {
+          "team": "Nimes",
+          "rating": 1431.97,
+          "rank": 110
+        },
+        {
+          "team": "Spezia",
+          "rating": 1428.18,
+          "rank": 111
+        },
+        {
+          "team": "Hannover 96",
+          "rating": 1426.45,
+          "rank": 112
+        },
+        {
+          "team": "Girona FC",
+          "rating": 1426.33,
+          "rank": 113
+        },
+        {
+          "team": "Frosinone Calcio",
+          "rating": 1425.53,
+          "rank": 114
+        },
+        {
+          "team": "FC St. Pauli 1910",
+          "rating": 1425.52,
+          "rank": 115
+        },
+        {
+          "team": "FC Nantes",
+          "rating": 1423.97,
+          "rank": 116
+        },
+        {
+          "team": "1. FC Heidenheim 1846",
+          "rating": 1422.27,
+          "rank": 117
+        },
+        {
+          "team": "Cádiz CF",
+          "rating": 1421.77,
+          "rank": 118
+        },
+        {
+          "team": "SM Caen",
+          "rating": 1420.99,
+          "rank": 119
+        },
+        {
+          "team": "AC Chievo Verona",
+          "rating": 1419.53,
+          "rank": 120
+        },
+        {
+          "team": "Nurnberg",
+          "rating": 1419.48,
+          "rank": 121
+        },
+        {
+          "team": "EA Guingamp",
+          "rating": 1418.98,
+          "rank": 122
+        },
+        {
+          "team": "Benevento",
+          "rating": 1418.5,
+          "rank": 123
+        },
+        {
+          "team": "Amiens",
+          "rating": 1417.66,
+          "rank": 124
+        },
+        {
+          "team": "Hertha BSC",
+          "rating": 1415.71,
+          "rank": 125
+        },
+        {
+          "team": "Leicester City FC",
+          "rating": 1415.5,
+          "rank": 126
+        },
+        {
+          "team": "1. FC Köln",
+          "rating": 1415.13,
+          "rank": 127
+        },
+        {
+          "team": "Crotone",
+          "rating": 1413.56,
+          "rank": 128
+        },
+        {
+          "team": "Le Havre AC",
+          "rating": 1411.02,
+          "rank": 129
+        },
+        {
+          "team": "Brescia",
+          "rating": 1410.36,
+          "rank": 130
+        },
+        {
+          "team": "FC Lorient",
+          "rating": 1406.63,
+          "rank": 131
+        },
+        {
+          "team": "Paderborn",
+          "rating": 1404.21,
+          "rank": 132
+        },
+        {
+          "team": "Greuther Furth",
+          "rating": 1400.55,
+          "rank": 133
+        },
+        {
+          "team": "Holstein Kiel",
+          "rating": 1399.62,
+          "rank": 134
+        },
+        {
+          "team": "FC Girondins de Bordeaux",
+          "rating": 1397.39,
+          "rank": 135
+        },
+        {
+          "team": "Stade de Reims",
+          "rating": 1394.99,
+          "rank": 136
+        },
+        {
+          "team": "Angers SCO",
+          "rating": 1392.46,
+          "rank": 137
+        },
+        {
+          "team": "UD Almería",
+          "rating": 1390.84,
+          "rank": 138
+        },
+        {
+          "team": "Ipswich Town FC",
+          "rating": 1390.27,
+          "rank": 139
+        },
+        {
+          "team": "AS Saint-Étienne",
+          "rating": 1389,
+          "rank": 140
+        },
+        {
+          "team": "Venezia FC",
+          "rating": 1388.09,
+          "rank": 141
+        },
+        {
+          "team": "US Sassuolo Calcio",
+          "rating": 1387.69,
+          "rank": 142
+        },
+        {
+          "team": "Empoli FC",
+          "rating": 1386.85,
+          "rank": 143
+        },
+        {
+          "team": "VfL Bochum 1848",
+          "rating": 1386.26,
+          "rank": 144
+        },
+        {
+          "team": "Clermont Foot 63",
+          "rating": 1386.14,
+          "rank": 145
+        },
+        {
+          "team": "FC Metz",
+          "rating": 1380.7,
+          "rank": 146
+        },
+        {
+          "team": "Spal",
+          "rating": 1372.87,
+          "rank": 147
+        },
+        {
+          "team": "Dijon",
+          "rating": 1368.64,
+          "rank": 148
+        },
+        {
+          "team": "Sheffield United FC",
+          "rating": 1367.02,
+          "rank": 149
+        },
+        {
+          "team": "UD Las Palmas",
+          "rating": 1361.54,
+          "rank": 150
+        },
+        {
+          "team": "UC Sampdoria",
+          "rating": 1361.46,
+          "rank": 151
+        },
+        {
+          "team": "Ajaccio",
+          "rating": 1345.28,
+          "rank": 152
+        },
+        {
+          "team": "Granada CF",
+          "rating": 1344.04,
+          "rank": 153
+        },
+        {
+          "team": "ES Troyes AC",
+          "rating": 1333.57,
+          "rank": 154
+        },
+        {
+          "team": "US Salernitana 1919",
+          "rating": 1310.59,
+          "rank": 155
+        },
+        {
+          "team": "Southampton FC",
+          "rating": 1308.52,
+          "rank": 156
+        },
+        {
+          "team": "SV Darmstadt 98",
+          "rating": 1303.47,
+          "rank": 157
+        },
+        {
+          "team": "AC Monza",
+          "rating": 1277.07,
+          "rank": 158
+        },
+        {
+          "team": "Montpellier HSC",
+          "rating": 1255.52,
+          "rank": 159
+        },
+        {
+          "team": "Real Valladolid CF",
+          "rating": 1219.22,
+          "rank": 160
+        }
+      ]
+    },
+    "eloOdds": {
+      "label": "Match + Odds",
+      "description": "Elo adjusted by pre-match betting odds",
+      "color": "#eab308",
+      "teams": [
+        {
+          "team": "Manchester City FC",
+          "rating": 1891.83,
+          "rank": 1
+        },
+        {
+          "team": "Liverpool FC",
+          "rating": 1860.92,
+          "rank": 2
+        },
+        {
+          "team": "Arsenal FC",
+          "rating": 1857.64,
+          "rank": 3
+        },
+        {
+          "team": "FC Bayern München",
+          "rating": 1857.54,
+          "rank": 4
+        },
+        {
+          "team": "FC Barcelona",
+          "rating": 1845.59,
+          "rank": 5
+        },
+        {
+          "team": "Chelsea FC",
+          "rating": 1810.88,
+          "rank": 6
+        },
+        {
+          "team": "Paris Saint-Germain FC",
+          "rating": 1808.3,
+          "rank": 7
+        },
+        {
+          "team": "FC Internazionale Milano",
+          "rating": 1806.95,
+          "rank": 8
+        },
+        {
+          "team": "Real Madrid CF",
+          "rating": 1791.07,
+          "rank": 9
+        },
+        {
+          "team": "Aston Villa FC",
+          "rating": 1776.26,
+          "rank": 10
+        },
+        {
+          "team": "Brighton & Hove Albion FC",
+          "rating": 1763.72,
+          "rank": 11
+        },
+        {
+          "team": "SSC Napoli",
+          "rating": 1759.64,
+          "rank": 12
+        },
+        {
+          "team": "Newcastle United FC",
+          "rating": 1759.1,
+          "rank": 13
+        },
+        {
+          "team": "AS Roma",
+          "rating": 1751.23,
+          "rank": 14
+        },
+        {
+          "team": "Bayer 04 Leverkusen",
+          "rating": 1736.53,
+          "rank": 15
+        },
+        {
+          "team": "Borussia Dortmund",
+          "rating": 1727.53,
+          "rank": 16
+        },
+        {
+          "team": "Crystal Palace FC",
+          "rating": 1724.8,
+          "rank": 17
+        },
+        {
+          "team": "Atalanta BC",
+          "rating": 1721.62,
+          "rank": 18
+        },
+        {
+          "team": "Villarreal CF",
+          "rating": 1717.55,
+          "rank": 19
+        },
+        {
+          "team": "Everton FC",
+          "rating": 1704.49,
+          "rank": 20
+        },
+        {
+          "team": "Brentford FC",
+          "rating": 1700.44,
+          "rank": 21
+        },
+        {
+          "team": "Club Atlético de Madrid",
+          "rating": 1700.2,
+          "rank": 22
+        },
+        {
+          "team": "Juventus FC",
+          "rating": 1698.18,
+          "rank": 23
+        },
+        {
+          "team": "AFC Bournemouth",
+          "rating": 1694.81,
+          "rank": 24
+        },
+        {
+          "team": "AC Milan",
+          "rating": 1677.75,
+          "rank": 25
+        },
+        {
+          "team": "Athletic Club",
+          "rating": 1677.44,
+          "rank": 26
+        },
+        {
+          "team": "Nottingham Forest FC",
+          "rating": 1668.57,
+          "rank": 27
+        },
+        {
+          "team": "AS Monaco FC",
+          "rating": 1648.99,
+          "rank": 28
+        },
+        {
+          "team": "Fulham FC",
+          "rating": 1648.64,
+          "rank": 29
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "rating": 1643.94,
+          "rank": 30
+        },
+        {
+          "team": "Olympique de Marseille",
+          "rating": 1638.13,
+          "rank": 31
+        },
+        {
+          "team": "SS Lazio",
+          "rating": 1637.19,
+          "rank": 32
+        },
+        {
+          "team": "OGC Nice",
+          "rating": 1635.23,
+          "rank": 33
+        },
+        {
+          "team": "ACF Fiorentina",
+          "rating": 1629.97,
+          "rank": 34
+        },
+        {
+          "team": "Lille OSC",
+          "rating": 1622.18,
+          "rank": 35
+        },
+        {
+          "team": "Olympique Lyonnais",
+          "rating": 1615.03,
+          "rank": 36
+        },
+        {
+          "team": "Real Betis Balompié",
+          "rating": 1613.17,
+          "rank": 37
+        },
+        {
+          "team": "Wolverhampton Wanderers FC",
+          "rating": 1612.05,
+          "rank": 38
+        },
+        {
+          "team": "VfB Stuttgart",
+          "rating": 1610.18,
+          "rank": 39
+        },
+        {
+          "team": "Bologna FC 1909",
+          "rating": 1600.83,
+          "rank": 40
+        },
+        {
+          "team": "Como 1907",
+          "rating": 1592.1,
+          "rank": 41
+        },
+        {
+          "team": "RC Celta de Vigo",
+          "rating": 1591.19,
+          "rank": 42
+        },
+        {
+          "team": "Manchester United FC",
+          "rating": 1589.71,
+          "rank": 43
+        },
+        {
+          "team": "RC Strasbourg Alsace",
+          "rating": 1586.97,
+          "rank": 44
+        },
+        {
+          "team": "1. FSV Mainz 05",
+          "rating": 1584.27,
+          "rank": 45
+        },
+        {
+          "team": "West Ham United FC",
+          "rating": 1581.05,
+          "rank": 46
+        },
+        {
+          "team": "SV Werder Bremen",
+          "rating": 1580.68,
+          "rank": 47
+        },
+        {
+          "team": "RB Leipzig",
+          "rating": 1575.2,
+          "rank": 48
+        },
+        {
+          "team": "CA Osasuna",
+          "rating": 1571.37,
+          "rank": 49
+        },
+        {
+          "team": "SC Freiburg",
+          "rating": 1570.53,
+          "rank": 50
+        },
+        {
+          "team": "Stoke City FC",
+          "rating": 1568.35,
+          "rank": 51
+        },
+        {
+          "team": "Cardiff",
+          "rating": 1565.66,
+          "rank": 52
+        },
+        {
+          "team": "Racing Club de Lens",
+          "rating": 1563.96,
+          "rank": 53
+        },
+        {
+          "team": "Hull",
+          "rating": 1561.55,
+          "rank": 54
+        },
+        {
+          "team": "Valencia CF",
+          "rating": 1558.62,
+          "rank": 55
+        },
+        {
+          "team": "Swansea City AFC",
+          "rating": 1555.35,
+          "rank": 56
+        },
+        {
+          "team": "Rayo Vallecano de Madrid",
+          "rating": 1548.13,
+          "rank": 57
+        },
+        {
+          "team": "Middlesbrough",
+          "rating": 1547.63,
+          "rank": 58
+        },
+        {
+          "team": "Sunderland AFC",
+          "rating": 1539.55,
+          "rank": 59
+        },
+        {
+          "team": "West Bromwich Albion FC",
+          "rating": 1530.06,
+          "rank": 60
+        },
+        {
+          "team": "Deportivo Alavés",
+          "rating": 1525.06,
+          "rank": 61
+        },
+        {
+          "team": "Tottenham Hotspur FC",
+          "rating": 1518.17,
+          "rank": 62
+        },
+        {
+          "team": "Stade Rennais FC 1901",
+          "rating": 1517.03,
+          "rank": 63
+        },
+        {
+          "team": "Levante UD",
+          "rating": 1515.89,
+          "rank": 64
+        },
+        {
+          "team": "Stade Brestois 29",
+          "rating": 1512.76,
+          "rank": 65
+        },
+        {
+          "team": "Toulouse FC",
+          "rating": 1510.43,
+          "rank": 66
+        },
+        {
+          "team": "Genoa CFC",
+          "rating": 1507.98,
+          "rank": 67
+        },
+        {
+          "team": "Huddersfield",
+          "rating": 1504.51,
+          "rank": 68
+        },
+        {
+          "team": "Leeds",
+          "rating": 1501.62,
+          "rank": 69
+        },
+        {
+          "team": "VfL Wolfsburg",
+          "rating": 1498.8,
+          "rank": 70
+        },
+        {
+          "team": "Huesca",
+          "rating": 1493.84,
+          "rank": 71
+        },
+        {
+          "team": "Real Sociedad de Fútbol",
+          "rating": 1489.1,
+          "rank": 72
+        },
+        {
+          "team": "Carpi FC 1909",
+          "rating": 1488.58,
+          "rank": 73
+        },
+        {
+          "team": "Real Sporting de Gijón",
+          "rating": 1486.35,
+          "rank": 74
+        },
+        {
+          "team": "1. FC Union Berlin",
+          "rating": 1484.61,
+          "rank": 75
+        },
+        {
+          "team": "FC Ingolstadt 04",
+          "rating": 1481,
+          "rank": 76
+        },
+        {
+          "team": "Parma Calcio 1913",
+          "rating": 1480.29,
+          "rank": 77
+        },
+        {
+          "team": "Burnley FC",
+          "rating": 1479.09,
+          "rank": 78
+        },
+        {
+          "team": "RCD Espanyol de Barcelona",
+          "rating": 1477.95,
+          "rank": 79
+        },
+        {
+          "team": "Hamburger SV",
+          "rating": 1477.43,
+          "rank": 80
+        },
+        {
+          "team": "RC Deportivo de La Coruña",
+          "rating": 1476.23,
+          "rank": 81
+        },
+        {
+          "team": "Sevilla FC",
+          "rating": 1467.69,
+          "rank": 82
+        },
+        {
+          "team": "Torino FC",
+          "rating": 1466.88,
+          "rank": 83
+        },
+        {
+          "team": "SD Eibar",
+          "rating": 1466.68,
+          "rank": 84
+        },
+        {
+          "team": "AJ Auxerre",
+          "rating": 1465.74,
+          "rank": 85
+        },
+        {
+          "team": "FC Schalke 04",
+          "rating": 1463.5,
+          "rank": 86
+        },
+        {
+          "team": "FC Augsburg",
+          "rating": 1462.96,
+          "rank": 87
+        },
+        {
+          "team": "Watford FC",
+          "rating": 1461.11,
+          "rank": 88
+        },
+        {
+          "team": "TSG 1899 Hoffenheim",
+          "rating": 1460.73,
+          "rank": 89
+        },
+        {
+          "team": "Borussia Mönchengladbach",
+          "rating": 1460.07,
+          "rank": 90
+        },
+        {
+          "team": "CD Leganés",
+          "rating": 1459.77,
+          "rank": 91
+        },
+        {
+          "team": "RCD Mallorca",
+          "rating": 1457.57,
+          "rank": 92
+        },
+        {
+          "team": "Fortuna Dusseldorf",
+          "rating": 1457.22,
+          "rank": 93
+        },
+        {
+          "team": "Cagliari Calcio",
+          "rating": 1456.93,
+          "rank": 94
+        },
+        {
+          "team": "Málaga CF",
+          "rating": 1453.01,
+          "rank": 95
+        },
+        {
+          "team": "Norwich City FC",
+          "rating": 1453,
+          "rank": 96
+        },
+        {
+          "team": "Luton Town FC",
+          "rating": 1450.49,
+          "rank": 97
+        },
+        {
+          "team": "US Città di Palermo",
+          "rating": 1448.99,
+          "rank": 98
+        },
+        {
+          "team": "Frosinone Calcio",
+          "rating": 1447.34,
+          "rank": 99
+        },
+        {
+          "team": "Getafe CF",
+          "rating": 1446.35,
+          "rank": 100
+        },
+        {
+          "team": "Cremonese",
+          "rating": 1445.83,
+          "rank": 101
+        },
+        {
+          "team": "GFC Ajaccio",
+          "rating": 1444.03,
+          "rank": 102
+        },
+        {
+          "team": "FC Nantes",
+          "rating": 1443.75,
+          "rank": 103
+        },
+        {
+          "team": "US Lecce",
+          "rating": 1443.64,
+          "rank": 104
+        },
+        {
+          "team": "Nancy",
+          "rating": 1441.05,
+          "rank": 105
+        },
+        {
+          "team": "SC Bastia",
+          "rating": 1438.02,
+          "rank": 106
+        },
+        {
+          "team": "Pescara",
+          "rating": 1438.02,
+          "rank": 107
+        },
+        {
+          "team": "Hellas Verona FC",
+          "rating": 1437.8,
+          "rank": 108
+        },
+        {
+          "team": "Spezia",
+          "rating": 1437.78,
+          "rank": 109
+        },
+        {
+          "team": "Elche",
+          "rating": 1436.62,
+          "rank": 110
+        },
+        {
+          "team": "Girona FC",
+          "rating": 1433.24,
+          "rank": 111
+        },
+        {
+          "team": "1. FC Heidenheim 1846",
+          "rating": 1433.24,
+          "rank": 112
+        },
+        {
+          "team": "FC St. Pauli 1910",
+          "rating": 1431.93,
+          "rank": 113
+        },
+        {
+          "team": "Udinese Calcio",
+          "rating": 1429.86,
+          "rank": 114
+        },
+        {
+          "team": "Nimes",
+          "rating": 1428.42,
+          "rank": 115
+        },
+        {
+          "team": "Hannover 96",
+          "rating": 1428.21,
+          "rank": 116
+        },
+        {
+          "team": "Hertha BSC",
+          "rating": 1427.14,
+          "rank": 117
+        },
+        {
+          "team": "Bielefeld",
+          "rating": 1426.47,
+          "rank": 118
+        },
+        {
+          "team": "EA Guingamp",
+          "rating": 1425.91,
+          "rank": 119
+        },
+        {
+          "team": "SM Caen",
+          "rating": 1425.46,
+          "rank": 120
+        },
+        {
+          "team": "Amiens",
+          "rating": 1423.6,
+          "rank": 121
+        },
+        {
+          "team": "Cádiz CF",
+          "rating": 1422.84,
+          "rank": 122
+        },
+        {
+          "team": "AC Chievo Verona",
+          "rating": 1422.43,
+          "rank": 123
+        },
+        {
+          "team": "Benevento",
+          "rating": 1420.87,
+          "rank": 124
+        },
+        {
+          "team": "Leicester City FC",
+          "rating": 1420.78,
+          "rank": 125
+        },
+        {
+          "team": "Nurnberg",
+          "rating": 1417.8,
+          "rank": 126
+        },
+        {
+          "team": "1. FC Köln",
+          "rating": 1416.09,
+          "rank": 127
+        },
+        {
+          "team": "Le Havre AC",
+          "rating": 1414.45,
+          "rank": 128
+        },
+        {
+          "team": "UD Almería",
+          "rating": 1412.41,
+          "rank": 129
+        },
+        {
+          "team": "Crotone",
+          "rating": 1410.63,
+          "rank": 130
+        },
+        {
+          "team": "US Sassuolo Calcio",
+          "rating": 1408.65,
+          "rank": 131
+        },
+        {
+          "team": "VfL Bochum 1848",
+          "rating": 1407.79,
+          "rank": 132
+        },
+        {
+          "team": "Venezia FC",
+          "rating": 1405.47,
+          "rank": 133
+        },
+        {
+          "team": "Empoli FC",
+          "rating": 1403.05,
+          "rank": 134
+        },
+        {
+          "team": "FC Girondins de Bordeaux",
+          "rating": 1402.52,
+          "rank": 135
+        },
+        {
+          "team": "FC Lorient",
+          "rating": 1400.33,
+          "rank": 136
+        },
+        {
+          "team": "AS Saint-Étienne",
+          "rating": 1398.36,
+          "rank": 137
+        },
+        {
+          "team": "Brescia",
+          "rating": 1398,
+          "rank": 138
+        },
+        {
+          "team": "Paderborn",
+          "rating": 1397.26,
+          "rank": 139
+        },
+        {
+          "team": "Stade de Reims",
+          "rating": 1396.6,
+          "rank": 140
+        },
+        {
+          "team": "Angers SCO",
+          "rating": 1392.5,
+          "rank": 141
+        },
+        {
+          "team": "Greuther Furth",
+          "rating": 1392.47,
+          "rank": 142
+        },
+        {
+          "team": "Holstein Kiel",
+          "rating": 1392.42,
+          "rank": 143
+        },
+        {
+          "team": "Ipswich Town FC",
+          "rating": 1390.02,
+          "rank": 144
+        },
+        {
+          "team": "FC Metz",
+          "rating": 1381.27,
+          "rank": 145
+        },
+        {
+          "team": "UC Sampdoria",
+          "rating": 1374.31,
+          "rank": 146
+        },
+        {
+          "team": "Spal",
+          "rating": 1371.56,
+          "rank": 147
+        },
+        {
+          "team": "Clermont Foot 63",
+          "rating": 1369.6,
+          "rank": 148
+        },
+        {
+          "team": "Sheffield United FC",
+          "rating": 1366.17,
+          "rank": 149
+        },
+        {
+          "team": "Dijon",
+          "rating": 1361.95,
+          "rank": 150
+        },
+        {
+          "team": "Granada CF",
+          "rating": 1359.45,
+          "rank": 151
+        },
+        {
+          "team": "UD Las Palmas",
+          "rating": 1348.44,
+          "rank": 152
+        },
+        {
+          "team": "Ajaccio",
+          "rating": 1346.18,
+          "rank": 153
+        },
+        {
+          "team": "Southampton FC",
+          "rating": 1341.99,
+          "rank": 154
+        },
+        {
+          "team": "ES Troyes AC",
+          "rating": 1326.36,
+          "rank": 155
+        },
+        {
+          "team": "US Salernitana 1919",
+          "rating": 1305.93,
+          "rank": 156
+        },
+        {
+          "team": "SV Darmstadt 98",
+          "rating": 1296.45,
+          "rank": 157
+        },
+        {
+          "team": "AC Monza",
+          "rating": 1273.72,
+          "rank": 158
+        },
+        {
+          "team": "Montpellier HSC",
+          "rating": 1254.89,
+          "rank": 159
+        },
+        {
+          "team": "Real Valladolid CF",
+          "rating": 1207.17,
+          "rank": 160
+        }
+      ]
+    },
+    "eloOddsInjuries": {
+      "label": "Match + Odds + Injuries",
+      "description": "Coming soon — placeholder",
+      "color": "#f97316",
+      "teams": [
+        {
+          "team": "Manchester City FC",
+          "rating": 1891.83,
+          "rank": 1
+        },
+        {
+          "team": "Liverpool FC",
+          "rating": 1860.92,
+          "rank": 2
+        },
+        {
+          "team": "Arsenal FC",
+          "rating": 1857.64,
+          "rank": 3
+        },
+        {
+          "team": "FC Bayern München",
+          "rating": 1857.54,
+          "rank": 4
+        },
+        {
+          "team": "FC Barcelona",
+          "rating": 1845.59,
+          "rank": 5
+        },
+        {
+          "team": "Chelsea FC",
+          "rating": 1810.88,
+          "rank": 6
+        },
+        {
+          "team": "Paris Saint-Germain FC",
+          "rating": 1808.3,
+          "rank": 7
+        },
+        {
+          "team": "FC Internazionale Milano",
+          "rating": 1806.95,
+          "rank": 8
+        },
+        {
+          "team": "Real Madrid CF",
+          "rating": 1791.07,
+          "rank": 9
+        },
+        {
+          "team": "Aston Villa FC",
+          "rating": 1776.26,
+          "rank": 10
+        },
+        {
+          "team": "Brighton & Hove Albion FC",
+          "rating": 1763.72,
+          "rank": 11
+        },
+        {
+          "team": "SSC Napoli",
+          "rating": 1759.64,
+          "rank": 12
+        },
+        {
+          "team": "Newcastle United FC",
+          "rating": 1759.1,
+          "rank": 13
+        },
+        {
+          "team": "AS Roma",
+          "rating": 1751.23,
+          "rank": 14
+        },
+        {
+          "team": "Bayer 04 Leverkusen",
+          "rating": 1736.53,
+          "rank": 15
+        },
+        {
+          "team": "Borussia Dortmund",
+          "rating": 1727.53,
+          "rank": 16
+        },
+        {
+          "team": "Crystal Palace FC",
+          "rating": 1724.8,
+          "rank": 17
+        },
+        {
+          "team": "Atalanta BC",
+          "rating": 1721.62,
+          "rank": 18
+        },
+        {
+          "team": "Villarreal CF",
+          "rating": 1717.55,
+          "rank": 19
+        },
+        {
+          "team": "Everton FC",
+          "rating": 1704.49,
+          "rank": 20
+        },
+        {
+          "team": "Brentford FC",
+          "rating": 1700.44,
+          "rank": 21
+        },
+        {
+          "team": "Club Atlético de Madrid",
+          "rating": 1700.2,
+          "rank": 22
+        },
+        {
+          "team": "Juventus FC",
+          "rating": 1698.18,
+          "rank": 23
+        },
+        {
+          "team": "AFC Bournemouth",
+          "rating": 1694.81,
+          "rank": 24
+        },
+        {
+          "team": "AC Milan",
+          "rating": 1677.75,
+          "rank": 25
+        },
+        {
+          "team": "Athletic Club",
+          "rating": 1677.44,
+          "rank": 26
+        },
+        {
+          "team": "Nottingham Forest FC",
+          "rating": 1668.57,
+          "rank": 27
+        },
+        {
+          "team": "AS Monaco FC",
+          "rating": 1648.99,
+          "rank": 28
+        },
+        {
+          "team": "Fulham FC",
+          "rating": 1648.64,
+          "rank": 29
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "rating": 1643.94,
+          "rank": 30
+        },
+        {
+          "team": "Olympique de Marseille",
+          "rating": 1638.13,
+          "rank": 31
+        },
+        {
+          "team": "SS Lazio",
+          "rating": 1637.19,
+          "rank": 32
+        },
+        {
+          "team": "OGC Nice",
+          "rating": 1635.23,
+          "rank": 33
+        },
+        {
+          "team": "ACF Fiorentina",
+          "rating": 1629.97,
+          "rank": 34
+        },
+        {
+          "team": "Lille OSC",
+          "rating": 1622.18,
+          "rank": 35
+        },
+        {
+          "team": "Olympique Lyonnais",
+          "rating": 1615.03,
+          "rank": 36
+        },
+        {
+          "team": "Real Betis Balompié",
+          "rating": 1613.17,
+          "rank": 37
+        },
+        {
+          "team": "Wolverhampton Wanderers FC",
+          "rating": 1612.05,
+          "rank": 38
+        },
+        {
+          "team": "VfB Stuttgart",
+          "rating": 1610.18,
+          "rank": 39
+        },
+        {
+          "team": "Bologna FC 1909",
+          "rating": 1600.83,
+          "rank": 40
+        },
+        {
+          "team": "Como 1907",
+          "rating": 1592.1,
+          "rank": 41
+        },
+        {
+          "team": "RC Celta de Vigo",
+          "rating": 1591.19,
+          "rank": 42
+        },
+        {
+          "team": "Manchester United FC",
+          "rating": 1589.71,
+          "rank": 43
+        },
+        {
+          "team": "RC Strasbourg Alsace",
+          "rating": 1586.97,
+          "rank": 44
+        },
+        {
+          "team": "1. FSV Mainz 05",
+          "rating": 1584.27,
+          "rank": 45
+        },
+        {
+          "team": "West Ham United FC",
+          "rating": 1581.05,
+          "rank": 46
+        },
+        {
+          "team": "SV Werder Bremen",
+          "rating": 1580.68,
+          "rank": 47
+        },
+        {
+          "team": "RB Leipzig",
+          "rating": 1575.2,
+          "rank": 48
+        },
+        {
+          "team": "CA Osasuna",
+          "rating": 1571.37,
+          "rank": 49
+        },
+        {
+          "team": "SC Freiburg",
+          "rating": 1570.53,
+          "rank": 50
+        },
+        {
+          "team": "Stoke City FC",
+          "rating": 1568.35,
+          "rank": 51
+        },
+        {
+          "team": "Cardiff",
+          "rating": 1565.66,
+          "rank": 52
+        },
+        {
+          "team": "Racing Club de Lens",
+          "rating": 1563.96,
+          "rank": 53
+        },
+        {
+          "team": "Hull",
+          "rating": 1561.55,
+          "rank": 54
+        },
+        {
+          "team": "Valencia CF",
+          "rating": 1558.62,
+          "rank": 55
+        },
+        {
+          "team": "Swansea City AFC",
+          "rating": 1555.35,
+          "rank": 56
+        },
+        {
+          "team": "Rayo Vallecano de Madrid",
+          "rating": 1548.13,
+          "rank": 57
+        },
+        {
+          "team": "Middlesbrough",
+          "rating": 1547.63,
+          "rank": 58
+        },
+        {
+          "team": "Sunderland AFC",
+          "rating": 1539.55,
+          "rank": 59
+        },
+        {
+          "team": "West Bromwich Albion FC",
+          "rating": 1530.06,
+          "rank": 60
+        },
+        {
+          "team": "Deportivo Alavés",
+          "rating": 1525.06,
+          "rank": 61
+        },
+        {
+          "team": "Tottenham Hotspur FC",
+          "rating": 1518.17,
+          "rank": 62
+        },
+        {
+          "team": "Stade Rennais FC 1901",
+          "rating": 1517.03,
+          "rank": 63
+        },
+        {
+          "team": "Levante UD",
+          "rating": 1515.89,
+          "rank": 64
+        },
+        {
+          "team": "Stade Brestois 29",
+          "rating": 1512.76,
+          "rank": 65
+        },
+        {
+          "team": "Toulouse FC",
+          "rating": 1510.43,
+          "rank": 66
+        },
+        {
+          "team": "Genoa CFC",
+          "rating": 1507.98,
+          "rank": 67
+        },
+        {
+          "team": "Huddersfield",
+          "rating": 1504.51,
+          "rank": 68
+        },
+        {
+          "team": "Leeds",
+          "rating": 1501.62,
+          "rank": 69
+        },
+        {
+          "team": "VfL Wolfsburg",
+          "rating": 1498.8,
+          "rank": 70
+        },
+        {
+          "team": "Huesca",
+          "rating": 1493.84,
+          "rank": 71
+        },
+        {
+          "team": "Real Sociedad de Fútbol",
+          "rating": 1489.1,
+          "rank": 72
+        },
+        {
+          "team": "Carpi FC 1909",
+          "rating": 1488.58,
+          "rank": 73
+        },
+        {
+          "team": "Real Sporting de Gijón",
+          "rating": 1486.35,
+          "rank": 74
+        },
+        {
+          "team": "1. FC Union Berlin",
+          "rating": 1484.61,
+          "rank": 75
+        },
+        {
+          "team": "FC Ingolstadt 04",
+          "rating": 1481,
+          "rank": 76
+        },
+        {
+          "team": "Parma Calcio 1913",
+          "rating": 1480.29,
+          "rank": 77
+        },
+        {
+          "team": "Burnley FC",
+          "rating": 1479.09,
+          "rank": 78
+        },
+        {
+          "team": "RCD Espanyol de Barcelona",
+          "rating": 1477.95,
+          "rank": 79
+        },
+        {
+          "team": "Hamburger SV",
+          "rating": 1477.43,
+          "rank": 80
+        },
+        {
+          "team": "RC Deportivo de La Coruña",
+          "rating": 1476.23,
+          "rank": 81
+        },
+        {
+          "team": "Sevilla FC",
+          "rating": 1467.69,
+          "rank": 82
+        },
+        {
+          "team": "Torino FC",
+          "rating": 1466.88,
+          "rank": 83
+        },
+        {
+          "team": "SD Eibar",
+          "rating": 1466.68,
+          "rank": 84
+        },
+        {
+          "team": "AJ Auxerre",
+          "rating": 1465.74,
+          "rank": 85
+        },
+        {
+          "team": "FC Schalke 04",
+          "rating": 1463.5,
+          "rank": 86
+        },
+        {
+          "team": "FC Augsburg",
+          "rating": 1462.96,
+          "rank": 87
+        },
+        {
+          "team": "Watford FC",
+          "rating": 1461.11,
+          "rank": 88
+        },
+        {
+          "team": "TSG 1899 Hoffenheim",
+          "rating": 1460.73,
+          "rank": 89
+        },
+        {
+          "team": "Borussia Mönchengladbach",
+          "rating": 1460.07,
+          "rank": 90
+        },
+        {
+          "team": "CD Leganés",
+          "rating": 1459.77,
+          "rank": 91
+        },
+        {
+          "team": "RCD Mallorca",
+          "rating": 1457.57,
+          "rank": 92
+        },
+        {
+          "team": "Fortuna Dusseldorf",
+          "rating": 1457.22,
+          "rank": 93
+        },
+        {
+          "team": "Cagliari Calcio",
+          "rating": 1456.93,
+          "rank": 94
+        },
+        {
+          "team": "Málaga CF",
+          "rating": 1453.01,
+          "rank": 95
+        },
+        {
+          "team": "Norwich City FC",
+          "rating": 1453,
+          "rank": 96
+        },
+        {
+          "team": "Luton Town FC",
+          "rating": 1450.49,
+          "rank": 97
+        },
+        {
+          "team": "US Città di Palermo",
+          "rating": 1448.99,
+          "rank": 98
+        },
+        {
+          "team": "Frosinone Calcio",
+          "rating": 1447.34,
+          "rank": 99
+        },
+        {
+          "team": "Getafe CF",
+          "rating": 1446.35,
+          "rank": 100
+        },
+        {
+          "team": "Cremonese",
+          "rating": 1445.83,
+          "rank": 101
+        },
+        {
+          "team": "GFC Ajaccio",
+          "rating": 1444.03,
+          "rank": 102
+        },
+        {
+          "team": "FC Nantes",
+          "rating": 1443.75,
+          "rank": 103
+        },
+        {
+          "team": "US Lecce",
+          "rating": 1443.64,
+          "rank": 104
+        },
+        {
+          "team": "Nancy",
+          "rating": 1441.05,
+          "rank": 105
+        },
+        {
+          "team": "SC Bastia",
+          "rating": 1438.02,
+          "rank": 106
+        },
+        {
+          "team": "Pescara",
+          "rating": 1438.02,
+          "rank": 107
+        },
+        {
+          "team": "Hellas Verona FC",
+          "rating": 1437.8,
+          "rank": 108
+        },
+        {
+          "team": "Spezia",
+          "rating": 1437.78,
+          "rank": 109
+        },
+        {
+          "team": "Elche",
+          "rating": 1436.62,
+          "rank": 110
+        },
+        {
+          "team": "Girona FC",
+          "rating": 1433.24,
+          "rank": 111
+        },
+        {
+          "team": "1. FC Heidenheim 1846",
+          "rating": 1433.24,
+          "rank": 112
+        },
+        {
+          "team": "FC St. Pauli 1910",
+          "rating": 1431.93,
+          "rank": 113
+        },
+        {
+          "team": "Udinese Calcio",
+          "rating": 1429.86,
+          "rank": 114
+        },
+        {
+          "team": "Nimes",
+          "rating": 1428.42,
+          "rank": 115
+        },
+        {
+          "team": "Hannover 96",
+          "rating": 1428.21,
+          "rank": 116
+        },
+        {
+          "team": "Hertha BSC",
+          "rating": 1427.14,
+          "rank": 117
+        },
+        {
+          "team": "Bielefeld",
+          "rating": 1426.47,
+          "rank": 118
+        },
+        {
+          "team": "EA Guingamp",
+          "rating": 1425.91,
+          "rank": 119
+        },
+        {
+          "team": "SM Caen",
+          "rating": 1425.46,
+          "rank": 120
+        },
+        {
+          "team": "Amiens",
+          "rating": 1423.6,
+          "rank": 121
+        },
+        {
+          "team": "Cádiz CF",
+          "rating": 1422.84,
+          "rank": 122
+        },
+        {
+          "team": "AC Chievo Verona",
+          "rating": 1422.43,
+          "rank": 123
+        },
+        {
+          "team": "Benevento",
+          "rating": 1420.87,
+          "rank": 124
+        },
+        {
+          "team": "Leicester City FC",
+          "rating": 1420.78,
+          "rank": 125
+        },
+        {
+          "team": "Nurnberg",
+          "rating": 1417.8,
+          "rank": 126
+        },
+        {
+          "team": "1. FC Köln",
+          "rating": 1416.09,
+          "rank": 127
+        },
+        {
+          "team": "Le Havre AC",
+          "rating": 1414.45,
+          "rank": 128
+        },
+        {
+          "team": "UD Almería",
+          "rating": 1412.41,
+          "rank": 129
+        },
+        {
+          "team": "Crotone",
+          "rating": 1410.63,
+          "rank": 130
+        },
+        {
+          "team": "US Sassuolo Calcio",
+          "rating": 1408.65,
+          "rank": 131
+        },
+        {
+          "team": "VfL Bochum 1848",
+          "rating": 1407.79,
+          "rank": 132
+        },
+        {
+          "team": "Venezia FC",
+          "rating": 1405.47,
+          "rank": 133
+        },
+        {
+          "team": "Empoli FC",
+          "rating": 1403.05,
+          "rank": 134
+        },
+        {
+          "team": "FC Girondins de Bordeaux",
+          "rating": 1402.52,
+          "rank": 135
+        },
+        {
+          "team": "FC Lorient",
+          "rating": 1400.33,
+          "rank": 136
+        },
+        {
+          "team": "AS Saint-Étienne",
+          "rating": 1398.36,
+          "rank": 137
+        },
+        {
+          "team": "Brescia",
+          "rating": 1398,
+          "rank": 138
+        },
+        {
+          "team": "Paderborn",
+          "rating": 1397.26,
+          "rank": 139
+        },
+        {
+          "team": "Stade de Reims",
+          "rating": 1396.6,
+          "rank": 140
+        },
+        {
+          "team": "Angers SCO",
+          "rating": 1392.5,
+          "rank": 141
+        },
+        {
+          "team": "Greuther Furth",
+          "rating": 1392.47,
+          "rank": 142
+        },
+        {
+          "team": "Holstein Kiel",
+          "rating": 1392.42,
+          "rank": 143
+        },
+        {
+          "team": "Ipswich Town FC",
+          "rating": 1390.02,
+          "rank": 144
+        },
+        {
+          "team": "FC Metz",
+          "rating": 1381.27,
+          "rank": 145
+        },
+        {
+          "team": "UC Sampdoria",
+          "rating": 1374.31,
+          "rank": 146
+        },
+        {
+          "team": "Spal",
+          "rating": 1371.56,
+          "rank": 147
+        },
+        {
+          "team": "Clermont Foot 63",
+          "rating": 1369.6,
+          "rank": 148
+        },
+        {
+          "team": "Sheffield United FC",
+          "rating": 1366.17,
+          "rank": 149
+        },
+        {
+          "team": "Dijon",
+          "rating": 1361.95,
+          "rank": 150
+        },
+        {
+          "team": "Granada CF",
+          "rating": 1359.45,
+          "rank": 151
+        },
+        {
+          "team": "UD Las Palmas",
+          "rating": 1348.44,
+          "rank": 152
+        },
+        {
+          "team": "Ajaccio",
+          "rating": 1346.18,
+          "rank": 153
+        },
+        {
+          "team": "Southampton FC",
+          "rating": 1341.99,
+          "rank": 154
+        },
+        {
+          "team": "ES Troyes AC",
+          "rating": 1326.36,
+          "rank": 155
+        },
+        {
+          "team": "US Salernitana 1919",
+          "rating": 1305.93,
+          "rank": 156
+        },
+        {
+          "team": "SV Darmstadt 98",
+          "rating": 1296.45,
+          "rank": 157
+        },
+        {
+          "team": "AC Monza",
+          "rating": 1273.72,
+          "rank": 158
+        },
+        {
+          "team": "Montpellier HSC",
+          "rating": 1254.89,
+          "rank": 159
+        },
+        {
+          "team": "Real Valladolid CF",
+          "rating": 1207.17,
+          "rank": 160
+        }
+      ]
+    },
+    "eloOddsInjuriesNews": {
+      "label": "Full Signal",
+      "description": "Coming soon — placeholder",
+      "color": "#ef4444",
+      "teams": [
+        {
+          "team": "Manchester City FC",
+          "rating": 1891.83,
+          "rank": 1
+        },
+        {
+          "team": "Liverpool FC",
+          "rating": 1860.92,
+          "rank": 2
+        },
+        {
+          "team": "Arsenal FC",
+          "rating": 1857.64,
+          "rank": 3
+        },
+        {
+          "team": "FC Bayern München",
+          "rating": 1857.54,
+          "rank": 4
+        },
+        {
+          "team": "FC Barcelona",
+          "rating": 1845.59,
+          "rank": 5
+        },
+        {
+          "team": "Chelsea FC",
+          "rating": 1810.88,
+          "rank": 6
+        },
+        {
+          "team": "Paris Saint-Germain FC",
+          "rating": 1808.3,
+          "rank": 7
+        },
+        {
+          "team": "FC Internazionale Milano",
+          "rating": 1806.95,
+          "rank": 8
+        },
+        {
+          "team": "Real Madrid CF",
+          "rating": 1791.07,
+          "rank": 9
+        },
+        {
+          "team": "Aston Villa FC",
+          "rating": 1776.26,
+          "rank": 10
+        },
+        {
+          "team": "Brighton & Hove Albion FC",
+          "rating": 1763.72,
+          "rank": 11
+        },
+        {
+          "team": "SSC Napoli",
+          "rating": 1759.64,
+          "rank": 12
+        },
+        {
+          "team": "Newcastle United FC",
+          "rating": 1759.1,
+          "rank": 13
+        },
+        {
+          "team": "AS Roma",
+          "rating": 1751.23,
+          "rank": 14
+        },
+        {
+          "team": "Bayer 04 Leverkusen",
+          "rating": 1736.53,
+          "rank": 15
+        },
+        {
+          "team": "Borussia Dortmund",
+          "rating": 1727.53,
+          "rank": 16
+        },
+        {
+          "team": "Crystal Palace FC",
+          "rating": 1724.8,
+          "rank": 17
+        },
+        {
+          "team": "Atalanta BC",
+          "rating": 1721.62,
+          "rank": 18
+        },
+        {
+          "team": "Villarreal CF",
+          "rating": 1717.55,
+          "rank": 19
+        },
+        {
+          "team": "Everton FC",
+          "rating": 1704.49,
+          "rank": 20
+        },
+        {
+          "team": "Brentford FC",
+          "rating": 1700.44,
+          "rank": 21
+        },
+        {
+          "team": "Club Atlético de Madrid",
+          "rating": 1700.2,
+          "rank": 22
+        },
+        {
+          "team": "Juventus FC",
+          "rating": 1698.18,
+          "rank": 23
+        },
+        {
+          "team": "AFC Bournemouth",
+          "rating": 1694.81,
+          "rank": 24
+        },
+        {
+          "team": "AC Milan",
+          "rating": 1677.75,
+          "rank": 25
+        },
+        {
+          "team": "Athletic Club",
+          "rating": 1677.44,
+          "rank": 26
+        },
+        {
+          "team": "Nottingham Forest FC",
+          "rating": 1668.57,
+          "rank": 27
+        },
+        {
+          "team": "AS Monaco FC",
+          "rating": 1648.99,
+          "rank": 28
+        },
+        {
+          "team": "Fulham FC",
+          "rating": 1648.64,
+          "rank": 29
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "rating": 1643.94,
+          "rank": 30
+        },
+        {
+          "team": "Olympique de Marseille",
+          "rating": 1638.13,
+          "rank": 31
+        },
+        {
+          "team": "SS Lazio",
+          "rating": 1637.19,
+          "rank": 32
+        },
+        {
+          "team": "OGC Nice",
+          "rating": 1635.23,
+          "rank": 33
+        },
+        {
+          "team": "ACF Fiorentina",
+          "rating": 1629.97,
+          "rank": 34
+        },
+        {
+          "team": "Lille OSC",
+          "rating": 1622.18,
+          "rank": 35
+        },
+        {
+          "team": "Olympique Lyonnais",
+          "rating": 1615.03,
+          "rank": 36
+        },
+        {
+          "team": "Real Betis Balompié",
+          "rating": 1613.17,
+          "rank": 37
+        },
+        {
+          "team": "Wolverhampton Wanderers FC",
+          "rating": 1612.05,
+          "rank": 38
+        },
+        {
+          "team": "VfB Stuttgart",
+          "rating": 1610.18,
+          "rank": 39
+        },
+        {
+          "team": "Bologna FC 1909",
+          "rating": 1600.83,
+          "rank": 40
+        },
+        {
+          "team": "Como 1907",
+          "rating": 1592.1,
+          "rank": 41
+        },
+        {
+          "team": "RC Celta de Vigo",
+          "rating": 1591.19,
+          "rank": 42
+        },
+        {
+          "team": "Manchester United FC",
+          "rating": 1589.71,
+          "rank": 43
+        },
+        {
+          "team": "RC Strasbourg Alsace",
+          "rating": 1586.97,
+          "rank": 44
+        },
+        {
+          "team": "1. FSV Mainz 05",
+          "rating": 1584.27,
+          "rank": 45
+        },
+        {
+          "team": "West Ham United FC",
+          "rating": 1581.05,
+          "rank": 46
+        },
+        {
+          "team": "SV Werder Bremen",
+          "rating": 1580.68,
+          "rank": 47
+        },
+        {
+          "team": "RB Leipzig",
+          "rating": 1575.2,
+          "rank": 48
+        },
+        {
+          "team": "CA Osasuna",
+          "rating": 1571.37,
+          "rank": 49
+        },
+        {
+          "team": "SC Freiburg",
+          "rating": 1570.53,
+          "rank": 50
+        },
+        {
+          "team": "Stoke City FC",
+          "rating": 1568.35,
+          "rank": 51
+        },
+        {
+          "team": "Cardiff",
+          "rating": 1565.66,
+          "rank": 52
+        },
+        {
+          "team": "Racing Club de Lens",
+          "rating": 1563.96,
+          "rank": 53
+        },
+        {
+          "team": "Hull",
+          "rating": 1561.55,
+          "rank": 54
+        },
+        {
+          "team": "Valencia CF",
+          "rating": 1558.62,
+          "rank": 55
+        },
+        {
+          "team": "Swansea City AFC",
+          "rating": 1555.35,
+          "rank": 56
+        },
+        {
+          "team": "Rayo Vallecano de Madrid",
+          "rating": 1548.13,
+          "rank": 57
+        },
+        {
+          "team": "Middlesbrough",
+          "rating": 1547.63,
+          "rank": 58
+        },
+        {
+          "team": "Sunderland AFC",
+          "rating": 1539.55,
+          "rank": 59
+        },
+        {
+          "team": "West Bromwich Albion FC",
+          "rating": 1530.06,
+          "rank": 60
+        },
+        {
+          "team": "Deportivo Alavés",
+          "rating": 1525.06,
+          "rank": 61
+        },
+        {
+          "team": "Tottenham Hotspur FC",
+          "rating": 1518.17,
+          "rank": 62
+        },
+        {
+          "team": "Stade Rennais FC 1901",
+          "rating": 1517.03,
+          "rank": 63
+        },
+        {
+          "team": "Levante UD",
+          "rating": 1515.89,
+          "rank": 64
+        },
+        {
+          "team": "Stade Brestois 29",
+          "rating": 1512.76,
+          "rank": 65
+        },
+        {
+          "team": "Toulouse FC",
+          "rating": 1510.43,
+          "rank": 66
+        },
+        {
+          "team": "Genoa CFC",
+          "rating": 1507.98,
+          "rank": 67
+        },
+        {
+          "team": "Huddersfield",
+          "rating": 1504.51,
+          "rank": 68
+        },
+        {
+          "team": "Leeds",
+          "rating": 1501.62,
+          "rank": 69
+        },
+        {
+          "team": "VfL Wolfsburg",
+          "rating": 1498.8,
+          "rank": 70
+        },
+        {
+          "team": "Huesca",
+          "rating": 1493.84,
+          "rank": 71
+        },
+        {
+          "team": "Real Sociedad de Fútbol",
+          "rating": 1489.1,
+          "rank": 72
+        },
+        {
+          "team": "Carpi FC 1909",
+          "rating": 1488.58,
+          "rank": 73
+        },
+        {
+          "team": "Real Sporting de Gijón",
+          "rating": 1486.35,
+          "rank": 74
+        },
+        {
+          "team": "1. FC Union Berlin",
+          "rating": 1484.61,
+          "rank": 75
+        },
+        {
+          "team": "FC Ingolstadt 04",
+          "rating": 1481,
+          "rank": 76
+        },
+        {
+          "team": "Parma Calcio 1913",
+          "rating": 1480.29,
+          "rank": 77
+        },
+        {
+          "team": "Burnley FC",
+          "rating": 1479.09,
+          "rank": 78
+        },
+        {
+          "team": "RCD Espanyol de Barcelona",
+          "rating": 1477.95,
+          "rank": 79
+        },
+        {
+          "team": "Hamburger SV",
+          "rating": 1477.43,
+          "rank": 80
+        },
+        {
+          "team": "RC Deportivo de La Coruña",
+          "rating": 1476.23,
+          "rank": 81
+        },
+        {
+          "team": "Sevilla FC",
+          "rating": 1467.69,
+          "rank": 82
+        },
+        {
+          "team": "Torino FC",
+          "rating": 1466.88,
+          "rank": 83
+        },
+        {
+          "team": "SD Eibar",
+          "rating": 1466.68,
+          "rank": 84
+        },
+        {
+          "team": "AJ Auxerre",
+          "rating": 1465.74,
+          "rank": 85
+        },
+        {
+          "team": "FC Schalke 04",
+          "rating": 1463.5,
+          "rank": 86
+        },
+        {
+          "team": "FC Augsburg",
+          "rating": 1462.96,
+          "rank": 87
+        },
+        {
+          "team": "Watford FC",
+          "rating": 1461.11,
+          "rank": 88
+        },
+        {
+          "team": "TSG 1899 Hoffenheim",
+          "rating": 1460.73,
+          "rank": 89
+        },
+        {
+          "team": "Borussia Mönchengladbach",
+          "rating": 1460.07,
+          "rank": 90
+        },
+        {
+          "team": "CD Leganés",
+          "rating": 1459.77,
+          "rank": 91
+        },
+        {
+          "team": "RCD Mallorca",
+          "rating": 1457.57,
+          "rank": 92
+        },
+        {
+          "team": "Fortuna Dusseldorf",
+          "rating": 1457.22,
+          "rank": 93
+        },
+        {
+          "team": "Cagliari Calcio",
+          "rating": 1456.93,
+          "rank": 94
+        },
+        {
+          "team": "Málaga CF",
+          "rating": 1453.01,
+          "rank": 95
+        },
+        {
+          "team": "Norwich City FC",
+          "rating": 1453,
+          "rank": 96
+        },
+        {
+          "team": "Luton Town FC",
+          "rating": 1450.49,
+          "rank": 97
+        },
+        {
+          "team": "US Città di Palermo",
+          "rating": 1448.99,
+          "rank": 98
+        },
+        {
+          "team": "Frosinone Calcio",
+          "rating": 1447.34,
+          "rank": 99
+        },
+        {
+          "team": "Getafe CF",
+          "rating": 1446.35,
+          "rank": 100
+        },
+        {
+          "team": "Cremonese",
+          "rating": 1445.83,
+          "rank": 101
+        },
+        {
+          "team": "GFC Ajaccio",
+          "rating": 1444.03,
+          "rank": 102
+        },
+        {
+          "team": "FC Nantes",
+          "rating": 1443.75,
+          "rank": 103
+        },
+        {
+          "team": "US Lecce",
+          "rating": 1443.64,
+          "rank": 104
+        },
+        {
+          "team": "Nancy",
+          "rating": 1441.05,
+          "rank": 105
+        },
+        {
+          "team": "SC Bastia",
+          "rating": 1438.02,
+          "rank": 106
+        },
+        {
+          "team": "Pescara",
+          "rating": 1438.02,
+          "rank": 107
+        },
+        {
+          "team": "Hellas Verona FC",
+          "rating": 1437.8,
+          "rank": 108
+        },
+        {
+          "team": "Spezia",
+          "rating": 1437.78,
+          "rank": 109
+        },
+        {
+          "team": "Elche",
+          "rating": 1436.62,
+          "rank": 110
+        },
+        {
+          "team": "Girona FC",
+          "rating": 1433.24,
+          "rank": 111
+        },
+        {
+          "team": "1. FC Heidenheim 1846",
+          "rating": 1433.24,
+          "rank": 112
+        },
+        {
+          "team": "FC St. Pauli 1910",
+          "rating": 1431.93,
+          "rank": 113
+        },
+        {
+          "team": "Udinese Calcio",
+          "rating": 1429.86,
+          "rank": 114
+        },
+        {
+          "team": "Nimes",
+          "rating": 1428.42,
+          "rank": 115
+        },
+        {
+          "team": "Hannover 96",
+          "rating": 1428.21,
+          "rank": 116
+        },
+        {
+          "team": "Hertha BSC",
+          "rating": 1427.14,
+          "rank": 117
+        },
+        {
+          "team": "Bielefeld",
+          "rating": 1426.47,
+          "rank": 118
+        },
+        {
+          "team": "EA Guingamp",
+          "rating": 1425.91,
+          "rank": 119
+        },
+        {
+          "team": "SM Caen",
+          "rating": 1425.46,
+          "rank": 120
+        },
+        {
+          "team": "Amiens",
+          "rating": 1423.6,
+          "rank": 121
+        },
+        {
+          "team": "Cádiz CF",
+          "rating": 1422.84,
+          "rank": 122
+        },
+        {
+          "team": "AC Chievo Verona",
+          "rating": 1422.43,
+          "rank": 123
+        },
+        {
+          "team": "Benevento",
+          "rating": 1420.87,
+          "rank": 124
+        },
+        {
+          "team": "Leicester City FC",
+          "rating": 1420.78,
+          "rank": 125
+        },
+        {
+          "team": "Nurnberg",
+          "rating": 1417.8,
+          "rank": 126
+        },
+        {
+          "team": "1. FC Köln",
+          "rating": 1416.09,
+          "rank": 127
+        },
+        {
+          "team": "Le Havre AC",
+          "rating": 1414.45,
+          "rank": 128
+        },
+        {
+          "team": "UD Almería",
+          "rating": 1412.41,
+          "rank": 129
+        },
+        {
+          "team": "Crotone",
+          "rating": 1410.63,
+          "rank": 130
+        },
+        {
+          "team": "US Sassuolo Calcio",
+          "rating": 1408.65,
+          "rank": 131
+        },
+        {
+          "team": "VfL Bochum 1848",
+          "rating": 1407.79,
+          "rank": 132
+        },
+        {
+          "team": "Venezia FC",
+          "rating": 1405.47,
+          "rank": 133
+        },
+        {
+          "team": "Empoli FC",
+          "rating": 1403.05,
+          "rank": 134
+        },
+        {
+          "team": "FC Girondins de Bordeaux",
+          "rating": 1402.52,
+          "rank": 135
+        },
+        {
+          "team": "FC Lorient",
+          "rating": 1400.33,
+          "rank": 136
+        },
+        {
+          "team": "AS Saint-Étienne",
+          "rating": 1398.36,
+          "rank": 137
+        },
+        {
+          "team": "Brescia",
+          "rating": 1398,
+          "rank": 138
+        },
+        {
+          "team": "Paderborn",
+          "rating": 1397.26,
+          "rank": 139
+        },
+        {
+          "team": "Stade de Reims",
+          "rating": 1396.6,
+          "rank": 140
+        },
+        {
+          "team": "Angers SCO",
+          "rating": 1392.5,
+          "rank": 141
+        },
+        {
+          "team": "Greuther Furth",
+          "rating": 1392.47,
+          "rank": 142
+        },
+        {
+          "team": "Holstein Kiel",
+          "rating": 1392.42,
+          "rank": 143
+        },
+        {
+          "team": "Ipswich Town FC",
+          "rating": 1390.02,
+          "rank": 144
+        },
+        {
+          "team": "FC Metz",
+          "rating": 1381.27,
+          "rank": 145
+        },
+        {
+          "team": "UC Sampdoria",
+          "rating": 1374.31,
+          "rank": 146
+        },
+        {
+          "team": "Spal",
+          "rating": 1371.56,
+          "rank": 147
+        },
+        {
+          "team": "Clermont Foot 63",
+          "rating": 1369.6,
+          "rank": 148
+        },
+        {
+          "team": "Sheffield United FC",
+          "rating": 1366.17,
+          "rank": 149
+        },
+        {
+          "team": "Dijon",
+          "rating": 1361.95,
+          "rank": 150
+        },
+        {
+          "team": "Granada CF",
+          "rating": 1359.45,
+          "rank": 151
+        },
+        {
+          "team": "UD Las Palmas",
+          "rating": 1348.44,
+          "rank": 152
+        },
+        {
+          "team": "Ajaccio",
+          "rating": 1346.18,
+          "rank": 153
+        },
+        {
+          "team": "Southampton FC",
+          "rating": 1341.99,
+          "rank": 154
+        },
+        {
+          "team": "ES Troyes AC",
+          "rating": 1326.36,
+          "rank": 155
+        },
+        {
+          "team": "US Salernitana 1919",
+          "rating": 1305.93,
+          "rank": 156
+        },
+        {
+          "team": "SV Darmstadt 98",
+          "rating": 1296.45,
+          "rank": 157
+        },
+        {
+          "team": "AC Monza",
+          "rating": 1273.72,
+          "rank": 158
+        },
+        {
+          "team": "Montpellier HSC",
+          "rating": 1254.89,
+          "rank": 159
+        },
+        {
+          "team": "Real Valladolid CF",
+          "rating": 1207.17,
+          "rank": 160
+        }
+      ]
+    }
+  }
+}

@@ -7,6 +7,7 @@ import {
   getTeamsRegistry,
   getMSILive,
   getMSILiveDaily,
+  getMultiLayerDaily,
   clubEloReference,
   NAME_TO_CLUBELO,
   LEAGUE_LABELS,
@@ -40,6 +41,7 @@ export default async function TeamPage({ params }: PageProps) {
   const allMatches = getMatches();
   const liveData = getMSILive();
   const liveDailyData = getMSILiveDaily();
+  const multiLayerDaily = getMultiLayerDaily();
 
   const teamIdx = ratings.teams.findIndex((t) => t.team === teamName);
   if (teamIdx === -1) notFound();
@@ -257,7 +259,10 @@ export default async function TeamPage({ params }: PageProps) {
         </div>
       )}
 
-      <RatingChart data={chartData} />
+      <RatingChart
+        data={chartData}
+        multiLayerData={multiLayerDaily?.[teamName] ?? undefined}
+      />
 
       <StatsCards
         peakRating={peakRating}
