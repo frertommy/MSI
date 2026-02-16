@@ -29,6 +29,12 @@ export interface RatingsFile {
   teams: TeamRating[];
 }
 
+export interface MatchOdds {
+  avgHome: number;
+  avgDraw: number;
+  avgAway: number;
+}
+
 export interface Match {
   id: number;
   date: string;
@@ -39,6 +45,7 @@ export interface Match {
   homeGoals: number;
   awayGoals: number;
   matchday: number;
+  odds: MatchOdds | null;
 }
 
 export interface TeamRegistryEntry {
@@ -114,6 +121,59 @@ export function getMSILive(): MSILiveFile | null {
 export function getMSILiveDaily(): MSILiveDaily | null {
   try {
     return readJSON<MSILiveDaily>("msi_live_daily.json");
+  } catch {
+    return null;
+  }
+}
+
+export interface MultiLayerSnapshot {
+  date: string;
+  baseElo: number;
+  eloOdds: number;
+  eloOddsInjuries: number;
+  eloOddsInjuriesNews: number;
+}
+
+export type MultiLayerDaily = Record<string, MultiLayerSnapshot[]>;
+
+export interface LayerTeamEntry {
+  team: string;
+  rating: number;
+  rank: number;
+}
+
+export interface LayerMeta {
+  label: string;
+  description: string;
+  color: string;
+  teams: LayerTeamEntry[];
+}
+
+export interface MultiLayerValidation {
+  baseElo: { correctPct: number; avgBrier: number; count: number };
+  eloOdds: { correctPct: number; avgBrier: number; count: number };
+  improvement: { correctPctDelta: number; brierDelta: number };
+}
+
+export interface MultiLayerCurrent {
+  computedAt: string;
+  matchesProcessed: number;
+  matchesWithOdds: number;
+  validation: MultiLayerValidation;
+  layers: Record<string, LayerMeta>;
+}
+
+export function getMultiLayerDaily(): MultiLayerDaily | null {
+  try {
+    return readJSON<MultiLayerDaily>("msi_multilayer_daily.json");
+  } catch {
+    return null;
+  }
+}
+
+export function getMultiLayerCurrent(): MultiLayerCurrent | null {
+  try {
+    return readJSON<MultiLayerCurrent>("msi_multilayer_current.json");
   } catch {
     return null;
   }

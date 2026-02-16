@@ -25,6 +25,12 @@ const LEAGUES = [
 const BASE_URL = "https://www.football-data.co.uk/mmz4281";
 const DELAY_MS = 2000;
 
+interface MatchOdds {
+  avgHome: number;
+  avgDraw: number;
+  avgAway: number;
+}
+
 interface Match {
   id: number;
   date: string;
@@ -35,6 +41,7 @@ interface Match {
   homeGoals: number;
   awayGoals: number;
   matchday: number;
+  odds: MatchOdds | null;
 }
 
 function sleep(ms: number): void {
@@ -150,6 +157,7 @@ function main() {
       const rows = parseCSV(content);
 
       let matchCount = 0;
+      let oddsCount = 0;
       for (const row of rows) {
         const dateStr = row["Date"];
         const homeTeam = row["HomeTeam"];
@@ -166,6 +174,26 @@ function main() {
         const isoDate = parseDate(dateStr);
         if (!isoDate) continue;
 
+        // Extract odds: prefer AvgH/AvgD/AvgA (newer), then BbAvH/BbAvD/BbAvA (older), then B365
+        let odds: MatchOdds | null = null;
+        const avgH = parseFloat(row["AvgH"] || row["BbAvH"] || "");
+        const avgD = parseFloat(row["AvgD"] || row["BbAvD"] || "");
+        const avgA = parseFloat(row["AvgA"] || row["BbAvA"] || "");
+
+        if (avgH > 0 && avgD > 0 && avgA > 0) {
+          odds = { avgHome: avgH, avgDraw: avgD, avgAway: avgA };
+        } else {
+          // Fallback to Bet365
+          const b365H = parseFloat(row["B365H"] || "");
+          const b365D = parseFloat(row["B365D"] || "");
+          const b365A = parseFloat(row["B365A"] || "");
+          if (b365H > 0 && b365D > 0 && b365A > 0) {
+            odds = { avgHome: b365H, avgDraw: b365D, avgAway: b365A };
+          }
+        }
+
+        if (odds) oddsCount++;
+
         allMatches.push({
           id: idCounter++,
           date: isoDate,
@@ -176,11 +204,12 @@ function main() {
           homeGoals,
           awayGoals,
           matchday: 0,
+          odds,
         });
         matchCount++;
       }
 
-      console.log(`  Parsed ${matchCount} matches`);
+      console.log(`  Parsed ${matchCount} matches (${oddsCount} with odds)`);
     }
   }
 
@@ -220,13 +249,16 @@ function main() {
     );
   }
 
-  // Count unique teams
+  // Count unique teams and odds
   const teams = new Set<string>();
+  let totalOdds = 0;
   for (const m of allMatches) {
     teams.add(m.homeTeam);
     teams.add(m.awayTeam);
+    if (m.odds) totalOdds++;
   }
   console.log(`Unique teams: ${teams.size}`);
+  console.log(`Matches with odds: ${totalOdds} (${((totalOdds / allMatches.length) * 100).toFixed(1)}%)`);
 }
 
 main();

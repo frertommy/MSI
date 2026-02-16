@@ -22,6 +22,12 @@ const LEAGUE_COUNTRY: Record<string, string> = {
   FL1: "FRA",
 };
 
+interface MatchOdds {
+  avgHome: number;
+  avgDraw: number;
+  avgAway: number;
+}
+
 interface Match {
   id: number;
   date: string;
@@ -32,6 +38,7 @@ interface Match {
   homeGoals: number;
   awayGoals: number;
   matchday: number;
+  odds: MatchOdds | null;
 }
 
 function sleep(ms: number): void {
@@ -78,6 +85,7 @@ function parseRawFile(filePath: string, league: string, season: number): Match[]
         homeGoals,
         awayGoals,
         matchday: m.matchday ?? 0,
+        odds: null,
       });
     }
   }
@@ -150,10 +158,21 @@ function main() {
   // For the overlap (2023-2024, 2024-2025), prefer API data.
   // Dedup key: date (YYYY-MM-DD) + homeTeam + awayTeam
 
+  // Build lookup of historical odds by key so we can preserve them
+  const historicalOdds: Record<string, MatchOdds | null> = {};
+  for (const m of historicalMatches) {
+    const key = `${m.date.substring(0, 10)}|${m.homeTeam}|${m.awayTeam}`;
+    if (m.odds) historicalOdds[key] = m.odds;
+  }
+
   const apiKeys = new Set<string>();
   for (const m of apiMatches) {
     const key = `${m.date.substring(0, 10)}|${m.homeTeam}|${m.awayTeam}`;
     apiKeys.add(key);
+    // Carry over odds from historical data if API match doesn't have any
+    if (!m.odds && historicalOdds[key]) {
+      m.odds = historicalOdds[key];
+    }
   }
 
   // Filter historical: keep matches that DON'T have an API equivalent
@@ -215,6 +234,9 @@ function main() {
     console.log(`Date range: ${allMatches[0].date.substring(0, 10)} to ${allMatches[allMatches.length - 1].date.substring(0, 10)}`);
   }
   console.log(`Unique teams: ${Object.keys(teamRegistry).length}`);
+
+  const withOdds = allMatches.filter((m) => m.odds).length;
+  console.log(`Matches with odds: ${withOdds} / ${allMatches.length} (${((withOdds / allMatches.length) * 100).toFixed(1)}%)`);
 }
 
 main();

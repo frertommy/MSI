@@ -1,4 +1,4 @@
-import { getRatings, getTeamsRegistry, getMSILive, LEAGUE_COUNTRY } from "@/lib/data";
+import { getRatings, getTeamsRegistry, getMSILive, getMultiLayerCurrent, LEAGUE_COUNTRY } from "@/lib/data";
 import StatsBar from "./components/StatsBar";
 import RankingsTable from "./components/RankingsTable";
 
@@ -6,6 +6,7 @@ export default function Home() {
   const ratings = getRatings();
   const registry = getTeamsRegistry();
   const liveData = getMSILive();
+  const multiLayer = getMultiLayerCurrent();
 
   // Build lookup for live ratings
   const liveLookup: Record<string, { msiLive: number; oddsAdj: number }> = {};
@@ -36,6 +37,18 @@ export default function Home() {
       lastUpdated: baseTeam?.lastUpdated ?? "",
     };
   });
+
+  // Build layer teams for multi-layer toggle
+  const layerTeams = multiLayer
+    ? Object.fromEntries(
+        Object.entries(multiLayer.layers).map(([key, meta]) => [
+          key,
+          meta.teams,
+        ])
+      )
+    : undefined;
+
+  const validation = multiLayer?.validation ?? undefined;
 
   const leagueSet = new Set(
     Object.values(registry).map((r) => r.league)
@@ -106,7 +119,12 @@ export default function Home() {
       />
 
       {/* Rankings Table */}
-      <RankingsTable teams={teams} hasOdds={!!hasOdds} />
+      <RankingsTable
+        teams={teams}
+        hasOdds={!!hasOdds}
+        layerTeams={layerTeams}
+        validation={validation}
+      />
 
       {/* League Averages */}
       <div className="mt-8 border-t border-[var(--color-border)] pt-4">
