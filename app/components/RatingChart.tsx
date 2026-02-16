@@ -4,11 +4,13 @@ import { useState, useMemo } from "react";
 import {
   ComposedChart,
   Line,
+  Area,
   XAxis,
   YAxis,
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
+  ReferenceLine,
 } from "recharts";
 
 interface SingleDataPoint {
@@ -27,6 +29,7 @@ interface MultiLayerDataPoint {
 interface RatingChartProps {
   data: SingleDataPoint[];
   multiLayerData?: MultiLayerDataPoint[];
+  matchDates?: Set<string>;
 }
 
 const RANGES = [
@@ -75,14 +78,53 @@ const LAYERS = [
   },
 ];
 
-export default function RatingChart({ data, multiLayerData }: RatingChartProps) {
+// Delta mode layer definitions (no baseElo line since it's always 0)
+const DELTA_LAYERS = [
+  {
+    key: "eloOdds" as const,
+    label: "Odds vs Base",
+    color: "#eab308",
+    strokeWidth: 2,
+    dash: undefined,
+    defaultVisible: true,
+    comingSoon: false,
+  },
+  {
+    key: "eloOddsInjuries" as const,
+    label: "+ Injuries vs Base",
+    color: "#f97316",
+    strokeWidth: 1.5,
+    dash: "6 3",
+    defaultVisible: false,
+    comingSoon: true,
+  },
+  {
+    key: "eloOddsInjuriesNews" as const,
+    label: "Full vs Base",
+    color: "#ef4444",
+    strokeWidth: 1.5,
+    dash: "6 3",
+    defaultVisible: false,
+    comingSoon: true,
+  },
+];
+
+type ViewMode = "absolute" | "delta";
+
+export default function RatingChart({
+  data,
+  multiLayerData,
+  matchDates,
+}: RatingChartProps) {
   const [range, setRange] = useState("All");
   const [visibleLayers, setVisibleLayers] = useState<Set<string>>(
     () => new Set(LAYERS.filter((l) => l.defaultVisible).map((l) => l.key))
   );
+  const [viewMode, setViewMode] = useState<ViewMode>("absolute");
 
   const isMultiLayer = multiLayerData && multiLayerData.length > 0;
   const chartSource = isMultiLayer ? multiLayerData : data;
+  const isDelta = viewMode === "delta" && isMultiLayer;
 
   const filtered = useMemo(() => {
     if (range === "All" || chartSource.length === 0) return chartSource;
@@ -94,26 +136,55 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
     return chartSource.filter((d) => d.date >= cutoffStr);
   }, [chartSource, range]);
 
+  // Transform data for delta mode
+  const displayData = useMemo(() => {
+    if (!isDelta || !isMultiLayer) return filtered;
+    return (filtered as MultiLayerDataPoint[]).map((point) => ({
+      date: point.date,
+      baseElo: 0,
+      eloOdds: point.eloOdds - point.baseElo,
+      eloOddsInjuries: point.eloOddsInjuries - point.baseElo,
+      eloOddsInjuriesNews: point.eloOddsInjuriesNews - point.baseElo,
+    }));
+  }, [filtered, isDelta, isMultiLayer]);
+
+  // Match day markers — only for 3M and 6M ranges
+  const showMatchMarkers =
+    matchDates && (range === "3M" || range === "6M");
+  const matchMarkerDates = useMemo(() => {
+    if (!showMatchMarkers || !matchDates) return [];
+    return (displayData as { date: string }[])
+      .filter((d) => matchDates.has(d.date))
+      .map((d) => d.date);
+  }, [showMatchMarkers, matchDates, displayData]);
+
   if (chartSource.length === 0) return null;
 
   // Compute Y axis domain from all visible data
   const allValues: number[] = [];
-  for (const d of filtered) {
+  const activeLayers = isDelta ? DELTA_LAYERS : LAYERS;
+
+  for (const d of displayData) {
     if (isMultiLayer) {
       const ml = d as MultiLayerDataPoint;
-      for (const layer of LAYERS) {
+      for (const layer of activeLayers) {
         if (visibleLayers.has(layer.key)) {
           allValues.push(ml[layer.key]);
         }
       }
+      if (isDelta) allValues.push(0); // Always include zero line
     } else {
       allValues.push((d as SingleDataPoint).rating);
     }
   }
   if (allValues.length === 0) return null;
 
-  const minR = Math.floor(Math.min(...allValues) / 10) * 10 - 20;
-  const maxR = Math.ceil(Math.max(...allValues) / 10) * 10 + 20;
+  const minR = isDelta
+    ? Math.floor(Math.min(...allValues) / 5) * 5 - 10
+    : Math.floor(Math.min(...allValues) / 10) * 10 - 20;
+  const maxR = isDelta
+    ? Math.ceil(Math.max(...allValues) / 5) * 5 + 10
+    : Math.ceil(Math.max(...allValues) / 10) * 10 + 20;
 
   function toggleLayer(key: string) {
     setVisibleLayers((prev) => {
@@ -127,13 +198,43 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
     });
   }
 
+  const chartTitle = isDelta
+    ? "Signal Divergence from Base Elo"
+    : "Rating History";
+
   return (
     <div className="mb-8">
       <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
         <div className="text-[10px] uppercase tracking-wider text-[var(--color-text-dim)]">
-          Rating History
+          {chartTitle}
         </div>
         <div className="flex gap-1">
+          {/* View mode toggle */}
+          {isMultiLayer && (
+            <>
+              <button
+                onClick={() => setViewMode("absolute")}
+                className={`px-2 py-0.5 text-[10px] rounded border transition-colors cursor-pointer ${
+                  viewMode === "absolute"
+                    ? "border-[var(--color-green)] text-[var(--color-green)] bg-[var(--color-green)]/10"
+                    : "border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-[var(--color-text)]"
+                }`}
+              >
+                Absolute
+              </button>
+              <button
+                onClick={() => setViewMode("delta")}
+                className={`px-2 py-0.5 text-[10px] rounded border transition-colors cursor-pointer ${
+                  viewMode === "delta"
+                    ? "border-[var(--color-yellow)] text-[var(--color-yellow)] bg-[var(--color-yellow)]/10"
+                    : "border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-[var(--color-text)]"
+                }`}
+              >
+                Delta
+              </button>
+              <span className="w-px bg-[var(--color-border)] mx-1" />
+            </>
+          )}
           {RANGES.map((r) => (
             <button
               key={r.label}
@@ -153,7 +254,7 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
       {/* Multi-layer legend with toggles */}
       {isMultiLayer && (
         <div className="flex flex-wrap gap-2 mb-3">
-          {LAYERS.map((layer) => {
+          {(isDelta ? DELTA_LAYERS : LAYERS).map((layer) => {
             const active = visibleLayers.has(layer.key);
             return (
               <button
@@ -181,12 +282,18 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
               </button>
             );
           })}
+          {isDelta && (
+            <span className="flex items-center gap-1.5 px-2 py-1 text-[10px] text-[var(--color-text-dim)]">
+              <span className="inline-block w-3 h-px bg-[var(--color-text-dim)]" style={{ borderTop: "1px dashed #888898" }} />
+              Base = 0
+            </span>
+          )}
         </div>
       )}
 
       <div className="border border-[var(--color-border)] rounded-md bg-[var(--color-bg-card)] p-4">
         <ResponsiveContainer width="100%" height={300}>
-          <ComposedChart data={filtered}>
+          <ComposedChart data={displayData}>
             <CartesianGrid
               strokeDasharray="3 3"
               stroke="#2a2a3a"
@@ -210,6 +317,7 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
               tickLine={false}
               axisLine={{ stroke: "#2a2a3a" }}
               width={45}
+              tickFormatter={isDelta ? (v: number) => (v > 0 ? `+${v}` : String(v)) : undefined}
             />
             <Tooltip
               contentStyle={{
@@ -221,27 +329,93 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
               }}
               labelStyle={{ color: "#888898" }}
               formatter={(value: number | undefined, name?: string) => {
-                const layer = LAYERS.find((l) => l.key === name);
-                return [
-                  value != null ? Math.round(value) : 0,
-                  layer?.label || name || "",
-                ];
+                const layers = isDelta ? DELTA_LAYERS : LAYERS;
+                const layer = layers.find((l) => l.key === name);
+                if (isDelta && name === "baseElo") {
+                  return [0, "Base (ref)"];
+                }
+                const formatted = value != null
+                  ? isDelta
+                    ? `${value >= 0 ? "+" : ""}${value.toFixed(1)}`
+                    : String(Math.round(value))
+                  : "0";
+                return [formatted, layer?.label || name || ""];
               }}
             />
+
+            {/* Zero reference line for delta mode */}
+            {isDelta && (
+              <ReferenceLine
+                y={0}
+                stroke="#888898"
+                strokeDasharray="4 4"
+                strokeWidth={1}
+              />
+            )}
+
+            {/* Match day markers for 3M/6M zoom */}
+            {showMatchMarkers &&
+              matchMarkerDates.map((date) => (
+                <ReferenceLine
+                  key={date}
+                  x={date}
+                  stroke="#2a2a3a"
+                  strokeDasharray="2 4"
+                  strokeWidth={0.5}
+                />
+              ))}
+
             {isMultiLayer ? (
-              LAYERS.map((layer) =>
-                visibleLayers.has(layer.key) ? (
-                  <Line
-                    key={layer.key}
-                    type="monotone"
-                    dataKey={layer.key}
-                    stroke={layer.color}
-                    strokeWidth={layer.strokeWidth}
-                    strokeDasharray={layer.dash}
-                    dot={false}
-                    activeDot={{ r: 3, fill: layer.color }}
-                  />
-                ) : null
+              isDelta ? (
+                // Delta mode: area fills + lines
+                <>
+                  {DELTA_LAYERS.map((layer) =>
+                    visibleLayers.has(layer.key) ? (
+                      <Area
+                        key={`area-${layer.key}`}
+                        type="monotone"
+                        dataKey={layer.key}
+                        stroke="none"
+                        fill={layer.color}
+                        fillOpacity={0.08}
+                        baseLine={0}
+                        animationDuration={0}
+                      />
+                    ) : null
+                  )}
+                  {DELTA_LAYERS.map((layer) =>
+                    visibleLayers.has(layer.key) ? (
+                      <Line
+                        key={layer.key}
+                        type="monotone"
+                        dataKey={layer.key}
+                        stroke={layer.color}
+                        strokeWidth={layer.strokeWidth}
+                        strokeDasharray={layer.dash}
+                        dot={false}
+                        activeDot={{ r: 3, fill: layer.color }}
+                        animationDuration={0}
+                      />
+                    ) : null
+                  )}
+                </>
+              ) : (
+                // Absolute mode
+                LAYERS.map((layer) =>
+                  visibleLayers.has(layer.key) ? (
+                    <Line
+                      key={layer.key}
+                      type="monotone"
+                      dataKey={layer.key}
+                      stroke={layer.color}
+                      strokeWidth={layer.strokeWidth}
+                      strokeDasharray={layer.dash}
+                      dot={false}
+                      activeDot={{ r: 3, fill: layer.color }}
+                      animationDuration={0}
+                    />
+                  ) : null
+                )
               )
             ) : (
               <Line
@@ -251,6 +425,7 @@ export default function RatingChart({ data, multiLayerData }: RatingChartProps) 
                 strokeWidth={2}
                 dot={false}
                 activeDot={{ r: 4, fill: "#22c55e" }}
+                animationDuration={0}
               />
             )}
           </ComposedChart>
