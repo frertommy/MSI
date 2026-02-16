@@ -5,6 +5,8 @@ import {
   getMatches,
   getDailyData,
   getTeamsRegistry,
+  getMSILive,
+  getMSILiveDaily,
   clubEloReference,
   NAME_TO_CLUBELO,
   LEAGUE_LABELS,
@@ -15,6 +17,7 @@ import StatsCards from "@/app/components/StatsCards";
 import RatingChart from "@/app/components/RatingChart";
 import RecentForm from "@/app/components/RecentForm";
 import ComparisonCard from "@/app/components/ComparisonCard";
+import MarketView from "@/app/components/MarketView";
 
 interface PageProps {
   params: Promise<{ name: string }>;
@@ -23,7 +26,7 @@ interface PageProps {
 export async function generateStaticParams() {
   const ratings = getRatings();
   return ratings.teams.map((t) => ({
-    name: encodeURIComponent(t.team),
+    name: t.team,
   }));
 }
 
@@ -35,18 +38,46 @@ export default async function TeamPage({ params }: PageProps) {
   const registry = getTeamsRegistry();
   const dailyData = getDailyData();
   const allMatches = getMatches();
+  const liveData = getMSILive();
+  const liveDailyData = getMSILiveDaily();
 
   const teamIdx = ratings.teams.findIndex((t) => t.team === teamName);
   if (teamIdx === -1) notFound();
 
   const team = ratings.teams[teamIdx];
-  const rank = teamIdx + 1;
   const reg = registry[teamName];
   const leagueLabel = reg ? LEAGUE_LABELS[reg.league] || reg.league : "Unknown";
   const country = reg?.country || "???";
 
-  // Daily history for chart
-  const daily = dailyData[teamName] || [];
+  // Live data for this team
+  const liveRating = liveData?.ratings.find((r) => r.team === teamName);
+  const liveRank = liveRating?.msiLiveRank ?? teamIdx + 1;
+  const msiLive = liveRating?.msiLive ?? null;
+  const oddsAdj = liveRating?.oddsAdjustment ?? null;
+  const stale = liveData?.stale ?? false;
+
+  // Build chart data — merge base daily with MSI Live daily
+  const baseDaily = dailyData[teamName] || [];
+  let chartData = baseDaily;
+
+  if (liveDailyData) {
+    // Append MSI Live daily snapshots after the last base daily entry
+    const lastBaseDate = baseDaily.length > 0 ? baseDaily[baseDaily.length - 1].date : "";
+    const liveDays = Object.entries(liveDailyData)
+      .filter(([date]) => date > lastBaseDate)
+      .sort(([a], [b]) => a.localeCompare(b));
+
+    if (liveDays.length > 0) {
+      const livePoints = liveDays
+        .map(([date, teams]) => {
+          const t = teams[teamName];
+          return t ? { date, rating: t.msiLive } : null;
+        })
+        .filter((p): p is { date: string; rating: number } => p !== null);
+
+      chartData = [...baseDaily, ...livePoints];
+    }
+  }
 
   // Stats
   const historyRatings = team.ratingHistory.map((h) => h.rating);
@@ -115,6 +146,47 @@ export default async function TeamPage({ params }: PageProps) {
     };
   });
 
+  // Market view fixtures from MSI Live data
+  const marketFixtures: {
+    opponent: string;
+    date: string;
+    marketWinProb: number;
+    predictedWinProb: number;
+    isHome: boolean;
+  }[] = [];
+
+  if (liveData) {
+    // Collect all fixtures for this team from all live ratings
+    // The live data stores nextFixture per team — but a team may appear in multiple fixtures
+    // So also check opponent teams' nextFixture to find additional matches
+    if (liveRating?.nextFixture) {
+      marketFixtures.push(liveRating.nextFixture);
+    }
+
+    // Also check if other teams have this team as their nextFixture opponent
+    for (const r of liveData.ratings) {
+      if (
+        r.nextFixture &&
+        r.nextFixture.opponent === teamName &&
+        r.team !== teamName
+      ) {
+        // This team is the opponent — add the inverse fixture
+        const alreadyAdded = marketFixtures.some(
+          (f) => f.opponent === r.team && f.date === r.nextFixture!.date
+        );
+        if (!alreadyAdded) {
+          marketFixtures.push({
+            opponent: r.team,
+            date: r.nextFixture.date,
+            marketWinProb: 1 - r.nextFixture.marketWinProb,
+            predictedWinProb: 1 - r.nextFixture.predictedWinProb,
+            isHome: !r.nextFixture.isHome,
+          });
+        }
+      }
+    }
+  }
+
   // ClubElo comparison
   const clubEloName = NAME_TO_CLUBELO[teamName];
   const ceRef = clubEloName
@@ -135,37 +207,84 @@ export default async function TeamPage({ params }: PageProps) {
         league={leagueLabel}
         country={country}
         rating={team.rating}
-        rank={rank}
+        msiLive={msiLive}
+        oddsAdj={oddsAdj}
+        rank={liveRank}
         wins={team.wins}
         draws={team.draws}
         losses={team.losses}
+        stale={stale}
       />
 
-      <RatingChart data={daily} />
+      {/* Odds Breakdown Card */}
+      {oddsAdj !== null && oddsAdj !== 0 && (
+        <div className="border border-[var(--color-border)] rounded-md px-4 py-3 bg-[var(--color-bg-card)] mb-8">
+          <div className="text-[10px] uppercase tracking-wider text-[var(--color-text-dim)] mb-2">
+            Rating Breakdown
+          </div>
+          <div className="flex flex-wrap gap-6 text-xs">
+            <div>
+              <span className="text-[var(--color-text-dim)]">Base Elo:</span>{" "}
+              <span className="font-bold tabular-nums">{Math.round(team.rating)}</span>
+            </div>
+            <div>
+              <span className="text-[var(--color-text-dim)]">Odds Adj:</span>{" "}
+              <span
+                className={`font-bold tabular-nums ${
+                  oddsAdj > 0 ? "text-[var(--color-green)]" : "text-[var(--color-red)]"
+                }`}
+              >
+                {oddsAdj > 0 ? "+" : ""}
+                {oddsAdj.toFixed(1)}
+              </span>
+            </div>
+            <div>
+              <span className="text-[var(--color-text-dim)]">MSI Live:</span>{" "}
+              <span className="font-bold text-[var(--color-green)] tabular-nums">
+                {Math.round(msiLive!)}
+              </span>
+            </div>
+          </div>
+          {liveRating?.nextFixture && (
+            <div className="mt-2 pt-2 border-t border-[var(--color-border)] text-xs text-[var(--color-text-dim)]">
+              Next: vs {liveRating.nextFixture.opponent}{" "}
+              ({liveRating.nextFixture.isHome ? "H" : "A"}) — Market:{" "}
+              <span className="text-[var(--color-text)] font-medium">
+                {(liveRating.nextFixture.marketWinProb * 100).toFixed(0)}% win
+              </span>
+            </div>
+          )}
+        </div>
+      )}
+
+      <RatingChart data={chartData} />
 
       <StatsCards
         peakRating={peakRating}
         peakDate={peakDate}
         lowestRating={lowestRating}
         lowestDate={lowestDate}
-        currentRank={rank}
+        currentRank={liveRank}
         totalMatches={team.matches}
         winRate={winRate}
       />
 
       <RecentForm matches={recentForm} />
 
+      {/* Market View */}
+      <MarketView fixtures={marketFixtures} stale={stale} />
+
       {ceRef && (
         <ComparisonCard
-          msiRating={team.rating}
-          msiRank={rank}
+          msiRating={msiLive ?? team.rating}
+          msiRank={liveRank}
           clubEloRating={ceRef.elo}
           clubEloRank={ceRef.rank}
         />
       )}
 
       <footer className="mt-12 border-t border-[var(--color-border)] pt-4 text-[10px] text-[var(--color-text-dim)]">
-        MSI v1.0 &middot; Elo Engine: K={ratings.config.kFactor}, Home
+        MSI v2.0 &middot; Elo Engine: K={ratings.config.kFactor}, Home
         Advantage={ratings.config.homeAdvantage}, Goal Margin Multiplier=ln(|GD|+1)
       </footer>
     </main>

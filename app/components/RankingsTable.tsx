@@ -10,6 +10,8 @@ interface TeamRow {
   league: string;
   country: string;
   rating: number;
+  msiLive: number;
+  oddsAdj: number;
   wins: number;
   draws: number;
   losses: number;
@@ -18,6 +20,7 @@ interface TeamRow {
 
 interface RankingsTableProps {
   teams: TeamRow[];
+  hasOdds: boolean;
 }
 
 const COUNTRY_SHORT: Record<string, string> = {
@@ -36,7 +39,7 @@ const COUNTRY_TO_LEAGUE: Record<string, string> = {
   FRA: "FL1",
 };
 
-export default function RankingsTable({ teams }: RankingsTableProps) {
+export default function RankingsTable({ teams, hasOdds }: RankingsTableProps) {
   const [league, setLeague] = useState("ALL");
   const [showAll, setShowAll] = useState(false);
 
@@ -57,7 +60,7 @@ export default function RankingsTable({ teams }: RankingsTableProps) {
               <th className="text-left py-2 px-2 w-10">#</th>
               <th className="text-left py-2 px-2">Team</th>
               <th className="text-left py-2 px-2 w-16">League</th>
-              <th className="text-right py-2 px-2 w-20">MSI Rating</th>
+              <th className="text-right py-2 px-2 w-24">MSI Live</th>
               <th className="text-right py-2 px-2 w-24">W-D-L</th>
               <th className="text-right py-2 px-2 w-24 hidden sm:table-cell">
                 Updated
@@ -79,8 +82,22 @@ export default function RankingsTable({ teams }: RankingsTableProps) {
                   <td className="py-2 px-2 text-[var(--color-text-dim)]">
                     {COUNTRY_SHORT[t.country] || t.country}
                   </td>
-                  <td className="py-2 px-2 text-right font-bold text-[var(--color-green)] tabular-nums">
-                    {Math.round(t.rating)}
+                  <td className="py-2 px-2 text-right tabular-nums">
+                    <span className="font-bold text-[var(--color-green)]">
+                      {Math.round(t.msiLive)}
+                    </span>
+                    {hasOdds && t.oddsAdj !== 0 && (
+                      <span
+                        className={`ml-1 text-[10px] ${
+                          t.oddsAdj > 0
+                            ? "text-[var(--color-green)]"
+                            : "text-[var(--color-red)]"
+                        }`}
+                      >
+                        {t.oddsAdj > 0 ? "\u25B2" : "\u25BC"}
+                        {Math.abs(t.oddsAdj).toFixed(0)}
+                      </span>
+                    )}
                   </td>
                   <td className="py-2 px-2 text-right text-[var(--color-text-dim)] tabular-nums">
                     {t.wins}-{t.draws}-{t.losses}

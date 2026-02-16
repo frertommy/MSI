@@ -10,11 +10,15 @@
     "lint": "next lint",
     "fetch:historical": "tsx src/fetchHistorical.ts",
     "fetch:api": "tsx src/fetchMatches.ts",
+    "fetch:odds": "tsx src/fetchOdds.ts",
     "fetch": "npm run fetch:historical && npm run fetch:api",
     "compute": "tsx src/computeRatings.ts",
+    "compute:live": "tsx src/computeLive.ts",
     "validate": "tsx src/validate.ts",
     "rankings": "tsx src/printRankings.ts",
-    "pipeline": "npm run fetch && npm run compute && npm run validate && npm run rankings"
+    "pipeline": "npm run fetch && npm run compute && npm run validate && npm run rankings",
+    "pipeline:live": "npm run fetch:odds && npm run compute:live && npm run rankings",
+    "update": "npm run pipeline:live && npm run build"
   },
   "repository": {
     "type": "git",
