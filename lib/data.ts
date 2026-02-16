@@ -65,13 +65,21 @@ export interface NextFixture {
   isHome: boolean;
 }
 
+export interface InjuryInfo {
+  count: number;
+  keyPlayers: string[];
+  totalImpact: number;
+}
+
 export interface MSILiveRating {
   team: string;
   league: string;
   baseElo: number;
   oddsAdjustment: number;
+  injuryAdjustment?: number;
   msiLive: number;
   msiLiveRank: number;
+  injuries?: InjuryInfo | null;
   nextFixture: NextFixture | null;
   lastUpdated: string;
 }
@@ -253,6 +261,34 @@ export interface SignalAnalysisData {
     };
     preMatchDirectionAccuracy: { totalPredictions: number; correctDirection: number; accuracy: number };
   }>;
+}
+
+export interface InjuryPlayerData {
+  playerName: string;
+  position: string;
+  reason: string;
+}
+
+export interface TeamInjuryData {
+  team: string;
+  league: string;
+  injuries: InjuryPlayerData[];
+}
+
+export interface CurrentInjuries {
+  fetchedAt: string;
+  teams: Record<string, TeamInjuryData>;
+  totalInjuries: number;
+}
+
+export function getCurrentInjuries(): CurrentInjuries | null {
+  try {
+    const data = readJSON<CurrentInjuries>("injuries/current.json");
+    if (!data.fetchedAt || Object.keys(data.teams).length === 0) return null;
+    return data;
+  } catch {
+    return null;
+  }
 }
 
 export function getSignalAnalysis(): SignalAnalysisData | null {

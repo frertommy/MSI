@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { computeElo, regressTowardMean, DEFAULT_CONFIG, EloConfig } from "./elo";
+import { getPlayerImportance, injuryToEloAdjustment } from "./playerImportance";
 
 interface MatchOdds {
   avgHome: number;
@@ -91,13 +92,49 @@ function preMatchOddsAdjustment(
   return { homeAdj, awayAdj };
 }
 
-// ── Placeholder adjustment functions ──
-function injuryAdjustment(_team: string, _date: string): number {
-  return 0; // No adjustment yet — will be replaced in Session 8c
+// ── Injury data loading ──
+interface InjuryEntry {
+  playerName: string;
+  position: string;
+  reason: string;
+}
+
+interface InjuryDataFile {
+  fetchedAt: string;
+  teams: Record<string, { injuries: InjuryEntry[] }>;
+}
+
+function loadInjuryData(dataDir: string): InjuryDataFile | null {
+  const injuryFile = path.join(dataDir, "injuries", "current.json");
+  if (!fs.existsSync(injuryFile)) return null;
+  try {
+    const data: InjuryDataFile = JSON.parse(fs.readFileSync(injuryFile, "utf-8"));
+    // Only use if actually fetched (non-empty fetchedAt)
+    if (!data.fetchedAt || Object.keys(data.teams).length === 0) return null;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+function injuryAdjustment(
+  team: string,
+  _date: string,
+  injuryData: InjuryDataFile | null
+): number {
+  if (!injuryData) return 0;
+  const teamData = injuryData.teams[team];
+  if (!teamData || teamData.injuries.length === 0) return 0;
+
+  const totalImpact = teamData.injuries.reduce((sum, inj) => {
+    return sum + getPlayerImportance(inj.playerName, inj.position);
+  }, 0);
+
+  return injuryToEloAdjustment(totalImpact);
 }
 
 function newsAdjustment(_team: string, _date: string): number {
-  return 0; // No adjustment yet — will be replaced in Session 8d
+  return 0; // No adjustment yet — will be replaced in future session
 }
 
 // ── Brier score ──
@@ -144,6 +181,19 @@ function main() {
 
   const withOdds = matches.filter((m) => m.odds).length;
   console.log(`Matches with odds: ${withOdds}`);
+
+  // Load injury data (only applies to current/future — not historical)
+  const injuryData = loadInjuryData(dataDir);
+  if (injuryData) {
+    const injuredTeams = Object.keys(injuryData.teams).length;
+    const totalInj = Object.values(injuryData.teams).reduce(
+      (s, t) => s + t.injuries.length,
+      0
+    );
+    console.log(`Injury data loaded: ${totalInj} injuries across ${injuredTeams} teams`);
+  } else {
+    console.log("No injury data available — Layer 3 = Layer 2");
+  }
 
   const registryFile = path.join(dataDir, "teams_registry.json");
   const teamRegistry: Record<
@@ -238,9 +288,12 @@ function main() {
       awayOddsAdj = adj.awayAdj;
     }
 
-    // Placeholder adjustments (currently 0)
-    const homeInjAdj = injuryAdjustment(match.homeTeam, dateStr);
-    const awayInjAdj = injuryAdjustment(match.awayTeam, dateStr);
+    // Injury adjustments: only apply to the most recent matches
+    // (injury data reflects current state, not historical)
+    const isRecentMatch = matches.indexOf(match) >= matches.length - 200;
+    const activeInjuryData = isRecentMatch ? injuryData : null;
+    const homeInjAdj = injuryAdjustment(match.homeTeam, dateStr, activeInjuryData);
+    const awayInjAdj = injuryAdjustment(match.awayTeam, dateStr, activeInjuryData);
     const homeNewsAdj = newsAdjustment(match.homeTeam, dateStr);
     const awayNewsAdj = newsAdjustment(match.awayTeam, dateStr);
 
@@ -434,7 +487,7 @@ function main() {
       eloOddsInjuries: buildLayer(
         eloOddsInjuries,
         "Match + Odds + Injuries",
-        "Coming soon — placeholder",
+        "Elo adjusted by odds and current injury data",
         "#f97316"
       ),
       eloOddsInjuriesNews: buildLayer(
