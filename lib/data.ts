@@ -226,6 +226,43 @@ export const clubEloReference: { team: string; elo: number; rank: number }[] = [
   { team: "Marseille", elo: 1800, rank: 20 },
 ];
 
+export interface SignalAnalysisData {
+  computedAt: string;
+  aggregate: {
+    totalTeams: number;
+    totalMatches: number;
+    avgMatchDayVolatility: { baseElo: number; eloOdds: number; injuries: number; news: number };
+    avgBetweenMatchVolatility: { baseElo: number; eloOdds: number; injuries: number; news: number };
+    avgMovementDaysPerMonth: { baseElo: number; eloOdds: number; injuries: number; news: number };
+    avgPreMatchDirectionAccuracy: number;
+    totalMovement: { baseElo: number; eloOdds: number; injuries: number; news: number };
+    movementMultiplier: { eloOdds: number; injuries: number; news: number };
+  };
+  perTeam: Record<string, {
+    team: string;
+    league: string;
+    totalMatches: number;
+    totalDataPoints: number;
+    matchDayVolatility: { baseElo: number; eloOdds: number; eloOddsInjuries: number; eloOddsInjuriesNews: number };
+    betweenMatchVolatility: { baseElo: number; eloOdds: number; eloOddsInjuries: number; eloOddsInjuriesNews: number };
+    movementDays: { baseElo: number; eloOdds: number; eloOddsInjuries: number; eloOddsInjuriesNews: number };
+    deltaFromBase: {
+      odds: { mean: number; stdDev: number; maxPositive: number; maxNegative: number; correlation: number };
+      injuries: { mean: number; stdDev: number; maxPositive: number; maxNegative: number; correlation: number };
+      news: { mean: number; stdDev: number; maxPositive: number; maxNegative: number; correlation: number };
+    };
+    preMatchDirectionAccuracy: { totalPredictions: number; correctDirection: number; accuracy: number };
+  }>;
+}
+
+export function getSignalAnalysis(): SignalAnalysisData | null {
+  try {
+    return readJSON<SignalAnalysisData>("msi_signal_analysis.json");
+  } catch {
+    return null;
+  }
+}
+
 export const NAME_TO_CLUBELO: Record<string, string> = {
   "Arsenal FC": "Arsenal",
   "FC Bayern München": "Bayern Munich",

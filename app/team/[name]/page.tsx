@@ -8,6 +8,7 @@ import {
   getMSILive,
   getMSILiveDaily,
   getMultiLayerDaily,
+  getSignalAnalysis,
   clubEloReference,
   NAME_TO_CLUBELO,
   LEAGUE_LABELS,
@@ -19,6 +20,7 @@ import RatingChart from "@/app/components/RatingChart";
 import RecentForm from "@/app/components/RecentForm";
 import ComparisonCard from "@/app/components/ComparisonCard";
 import MarketView from "@/app/components/MarketView";
+import SignalAnalysis from "@/app/components/SignalAnalysis";
 
 interface PageProps {
   params: Promise<{ name: string }>;
@@ -42,6 +44,7 @@ export default async function TeamPage({ params }: PageProps) {
   const liveData = getMSILive();
   const liveDailyData = getMSILiveDaily();
   const multiLayerDaily = getMultiLayerDaily();
+  const signalAnalysis = getSignalAnalysis();
 
   const teamIdx = ratings.teams.findIndex((t) => t.team === teamName);
   if (teamIdx === -1) notFound();
@@ -189,6 +192,15 @@ export default async function TeamPage({ params }: PageProps) {
     }
   }
 
+  // Match dates for this team (for chart markers)
+  const teamMatchDateSet = new Set(
+    teamMatches.map((m) => m.date.substring(0, 10))
+  );
+
+  // Signal analysis data for this team
+  const teamSignalMetrics = signalAnalysis?.perTeam[teamName] ?? null;
+  const signalAggregate = signalAnalysis?.aggregate ?? null;
+
   // ClubElo comparison
   const clubEloName = NAME_TO_CLUBELO[teamName];
   const ceRef = clubEloName
@@ -262,7 +274,15 @@ export default async function TeamPage({ params }: PageProps) {
       <RatingChart
         data={chartData}
         multiLayerData={multiLayerDaily?.[teamName] ?? undefined}
+        matchDates={teamMatchDateSet}
       />
+
+      {teamSignalMetrics && signalAggregate && (
+        <SignalAnalysis
+          teamMetrics={teamSignalMetrics}
+          aggregate={signalAggregate}
+        />
+      )}
 
       <StatsCards
         peakRating={peakRating}

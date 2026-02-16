@@ -17,7 +17,8 @@
     "compute:live": "tsx src/computeLive.ts",
     "validate": "tsx src/validate.ts",
     "rankings": "tsx src/printRankings.ts",
-    "pipeline": "npm run fetch && npm run compute && npm run compute:multilayer && npm run validate && npm run rankings",
+    "analyze": "tsx src/analyzeSignals.ts",
+    "pipeline": "npm run fetch && npm run compute && npm run compute:multilayer && npm run analyze && npm run validate && npm run rankings",
     "pipeline:live": "npm run fetch:odds && npm run compute:live && npm run rankings",
     "update": "npm run pipeline:live && npm run build"
   },

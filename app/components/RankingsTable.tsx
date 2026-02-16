@@ -30,11 +30,18 @@ interface ValidationData {
   improvement: { correctPctDelta: number; brierDelta: number };
 }
 
+interface SignalAggregateData {
+  avgMatchDayVolatility: { baseElo: number; eloOdds: number };
+  avgPreMatchDirectionAccuracy: number;
+  movementMultiplier: { eloOdds: number };
+}
+
 interface RankingsTableProps {
   teams: TeamRow[];
   hasOdds: boolean;
   layerTeams?: Record<string, LayerTeamEntry[]>;
   validation?: ValidationData;
+  signalAggregate?: SignalAggregateData;
 }
 
 const COUNTRY_SHORT: Record<string, string> = {
@@ -65,6 +72,7 @@ export default function RankingsTable({
   hasOdds,
   layerTeams,
   validation,
+  signalAggregate,
 }: RankingsTableProps) {
   const [league, setLeague] = useState("ALL");
   const [showAll, setShowAll] = useState(false);
@@ -158,7 +166,7 @@ export default function RankingsTable({
           {validation && (
             <div className="text-[10px] text-[var(--color-text-dim)] bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded px-3 py-1.5 inline-flex flex-wrap gap-x-3 gap-y-0.5">
               <span>
-                Accuracy: Base{" "}
+                Prediction: Base{" "}
                 <span className="text-[var(--color-text)]">
                   {validation.baseElo.correctPct}%
                 </span>
@@ -166,25 +174,43 @@ export default function RankingsTable({
                 <span className="text-[var(--color-green)]">
                   {validation.eloOdds.correctPct}%
                 </span>
-                <span className="text-[var(--color-green)]">
-                  {" "}(+{validation.improvement.correctPctDelta}%)
-                </span>
               </span>
               <span className="text-[var(--color-border)]">|</span>
               <span>
                 Brier:{" "}
                 <span className="text-[var(--color-text)]">
-                  {validation.baseElo.avgBrier.toFixed(4)}
+                  {validation.baseElo.avgBrier.toFixed(3)}
                 </span>
                 {" → "}
                 <span className="text-[var(--color-green)]">
-                  {validation.eloOdds.avgBrier.toFixed(4)}
+                  {validation.eloOdds.avgBrier.toFixed(3)}
                 </span>
               </span>
-              <span className="text-[var(--color-border)]">|</span>
-              <span>
-                {validation.baseElo.count.toLocaleString()} matches
-              </span>
+              {signalAggregate && (
+                <>
+                  <span className="text-[var(--color-border)]">|</span>
+                  <span>
+                    Movement:{" "}
+                    <span className="text-[var(--color-yellow)]">
+                      +{Math.round((signalAggregate.movementMultiplier.eloOdds - 1) * 100)}%
+                    </span>
+                    {" more trading days"}
+                  </span>
+                </>
+              )}
+            </div>
+          )}
+
+          {/* Signal Analysis Summary */}
+          {signalAggregate && (
+            <div className="text-[10px] text-[var(--color-text-dim)] mt-1.5 font-mono">
+              <span className="uppercase tracking-wider">Signal Analysis</span>
+              {"  ·  Match-day vol: "}
+              <span className="text-[var(--color-text)]">{signalAggregate.avgMatchDayVolatility.baseElo} pts</span>
+              {"  ·  +Odds vol: "}
+              <span className="text-[var(--color-yellow)]">{signalAggregate.avgMatchDayVolatility.eloOdds} pts</span>
+              {"  ·  Direction: "}
+              <span className="text-[var(--color-yellow)]">{signalAggregate.avgPreMatchDirectionAccuracy}%</span>
             </div>
           )}
         </div>

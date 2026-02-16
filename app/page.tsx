@@ -1,4 +1,4 @@
-import { getRatings, getTeamsRegistry, getMSILive, getMultiLayerCurrent, LEAGUE_COUNTRY } from "@/lib/data";
+import { getRatings, getTeamsRegistry, getMSILive, getMultiLayerCurrent, getSignalAnalysis, LEAGUE_COUNTRY } from "@/lib/data";
 import StatsBar from "./components/StatsBar";
 import RankingsTable from "./components/RankingsTable";
 
@@ -7,6 +7,7 @@ export default function Home() {
   const registry = getTeamsRegistry();
   const liveData = getMSILive();
   const multiLayer = getMultiLayerCurrent();
+  const signalAnalysis = getSignalAnalysis();
 
   // Build lookup for live ratings
   const liveLookup: Record<string, { msiLive: number; oddsAdj: number }> = {};
@@ -124,6 +125,7 @@ export default function Home() {
         hasOdds={!!hasOdds}
         layerTeams={layerTeams}
         validation={validation}
+        signalAggregate={signalAnalysis?.aggregate ?? undefined}
       />
 
       {/* League Averages */}
