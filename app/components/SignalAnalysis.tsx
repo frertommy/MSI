@@ -94,7 +94,7 @@ export default function SignalAnalysis({
   const volData = [
     { name: "Base Elo", value: vol.baseElo, color: LAYER_COLORS.baseElo, dimmed: false },
     { name: "+ Odds", value: vol.eloOdds, color: LAYER_COLORS.eloOdds, dimmed: false },
-    { name: "+ Injuries", value: vol.eloOddsInjuries, color: LAYER_COLORS.injuries, dimmed: true },
+    { name: "+ Injuries", value: vol.eloOddsInjuries, color: LAYER_COLORS.injuries, dimmed: false },
     { name: "Full Signal", value: vol.eloOddsInjuriesNews, color: LAYER_COLORS.news, dimmed: true },
   ];
 
@@ -157,7 +157,7 @@ export default function SignalAnalysis({
           {/* Coming soon labels */}
           <div className="flex gap-4 mt-1 ml-[70px]">
             <span className="text-[9px] text-[var(--color-text-dim)] opacity-50">
-              Injuries & News layers coming soon
+              News layer coming soon
             </span>
           </div>
         </div>
@@ -182,9 +182,11 @@ export default function SignalAnalysis({
                   {movDays.eloOdds}
                 </span>
               </div>
-              <div className="flex justify-between text-[11px] opacity-40">
+              <div className="flex justify-between text-[11px]">
                 <span className="text-[var(--color-text-dim)]">+Inj:</span>
-                <span className="tabular-nums">{movDays.eloOddsInjuries} <span className="text-[9px]">(soon)</span></span>
+                <span className="tabular-nums font-medium" style={{ color: LAYER_COLORS.injuries }}>
+                  {movDays.eloOddsInjuries}
+                </span>
               </div>
             </div>
           </div>

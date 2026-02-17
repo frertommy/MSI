@@ -5,6 +5,7 @@ import {
   normalizeH2H,
   predictedWinProb,
 } from "./oddsToElo";
+import { calculateTeamInjuryImpact } from "./playerImportance";
 
 interface TeamRating {
   team: string;
@@ -57,15 +58,34 @@ interface NextFixture {
   isHome: boolean;
 }
 
+interface InjuryInfo {
+  count: number;
+  keyPlayers: string[];
+  totalImpact: number;
+}
+
 interface MSILiveRating {
   team: string;
   league: string;
   baseElo: number;
   oddsAdjustment: number;
+  injuryAdjustment: number;
   msiLive: number;
   msiLiveRank: number;
+  injuries: InjuryInfo | null;
   nextFixture: NextFixture | null;
   lastUpdated: string;
+}
+
+interface InjuryDataEntry {
+  playerName: string;
+  position: string;
+  reason: string;
+}
+
+interface InjuryDataFile {
+  fetchedAt: string;
+  teams: Record<string, { injuries: InjuryDataEntry[] }>;
 }
 
 interface MSILiveFile {
@@ -127,6 +147,28 @@ function main() {
     console.log(
       "No odds data found. MSI Live = base Elo for all teams."
     );
+  }
+
+  // Load injury data
+  const injuryFile = path.join(dataDir, "injuries", "current.json");
+  let injuryData: InjuryDataFile | null = null;
+  if (fs.existsSync(injuryFile)) {
+    const raw: InjuryDataFile = JSON.parse(
+      fs.readFileSync(injuryFile, "utf-8")
+    );
+    if (raw.fetchedAt && Object.keys(raw.teams).length > 0) {
+      injuryData = raw;
+      const totalInj = Object.values(raw.teams).reduce(
+        (s, t) => s + t.injuries.length,
+        0
+      );
+      console.log(
+        `Loaded injuries: ${totalInj} across ${Object.keys(raw.teams).length} teams (fetched ${raw.fetchedAt})`
+      );
+    }
+  }
+  if (!injuryData) {
+    console.log("No injury data found. injuryAdjustment = 0 for all teams.");
   }
 
   // Load name mapping
@@ -237,6 +279,31 @@ function main() {
       nextFixture = fixtures[0];
     }
 
+    // Compute injury adjustment
+    let injAdj = 0;
+    let injuryInfo: InjuryInfo | null = null;
+    if (injuryData) {
+      const teamInjData = injuryData.teams[team.team];
+      if (teamInjData && teamInjData.injuries.length > 0) {
+        const impact = calculateTeamInjuryImpact(
+          team.team,
+          teamInjData.injuries.map((i) => ({
+            name: i.playerName,
+            position: i.position,
+            reason: i.reason,
+          }))
+        );
+        injAdj = impact.ratingAdjustment;
+        injuryInfo = {
+          count: impact.injuredPlayers.length,
+          keyPlayers: impact.injuredPlayers
+            .filter((p) => p.importance >= 0.7)
+            .map((p) => p.name),
+          totalImpact: Math.round(impact.totalImpact * 100) / 100,
+        };
+      }
+    }
+
     const reg = registry[team.team];
 
     liveRatings.push({
@@ -244,8 +311,10 @@ function main() {
       league: reg?.league || "?",
       baseElo: team.rating,
       oddsAdjustment: Math.round(avgAdj * 10) / 10,
-      msiLive: team.rating + avgAdj,
+      injuryAdjustment: Math.round(injAdj * 10) / 10,
+      msiLive: team.rating + avgAdj + injAdj,
       msiLiveRank: 0, // filled after sorting
+      injuries: injuryInfo,
       nextFixture,
       lastUpdated: team.lastUpdated,
     });
@@ -297,7 +366,11 @@ function main() {
   const adjustedCount = liveRatings.filter(
     (r) => r.oddsAdjustment !== 0
   ).length;
+  const injuredCount = liveRatings.filter(
+    (r) => r.injuryAdjustment !== 0
+  ).length;
   console.log(`\nTeams with odds adjustments: ${adjustedCount}`);
+  console.log(`Teams with injury adjustments: ${injuredCount}`);
   console.log(
     `Teams without odds data: ${liveRatings.length - adjustedCount}`
   );
@@ -307,13 +380,17 @@ function main() {
     const r = liveRatings[i];
     const adj =
       r.oddsAdjustment !== 0
-        ? ` (${r.oddsAdjustment >= 0 ? "+" : ""}${r.oddsAdjustment.toFixed(1)})`
+        ? ` (odds:${r.oddsAdjustment >= 0 ? "+" : ""}${r.oddsAdjustment.toFixed(1)})`
+        : "";
+    const inj =
+      r.injuryAdjustment !== 0
+        ? ` (inj:${r.injuryAdjustment.toFixed(1)})`
         : "";
     const next = r.nextFixture
       ? ` → vs ${r.nextFixture.opponent.substring(0, 15)} (${r.nextFixture.isHome ? "H" : "A"}, ${(r.nextFixture.marketWinProb * 100).toFixed(0)}%)`
       : "";
     console.log(
-      `${String(i + 1).padStart(2)}.  ${r.team.padEnd(30)} ${Math.round(r.msiLive).toString().padStart(5)}${adj.padEnd(10)}${next}`
+      `${String(i + 1).padStart(2)}.  ${r.team.padEnd(30)} ${Math.round(r.msiLive).toString().padStart(5)}${adj}${inj}${next}`
     );
   }
 }

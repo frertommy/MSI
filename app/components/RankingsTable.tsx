@@ -63,7 +63,7 @@ const COUNTRY_TO_LEAGUE: Record<string, string> = {
 const SIGNAL_LAYERS = [
   { key: "baseElo", label: "Match Data", color: "#22c55e", comingSoon: false },
   { key: "eloOdds", label: "Match + Odds", color: "#eab308", comingSoon: false },
-  { key: "eloOddsInjuries", label: "+ Injuries", color: "#f97316", comingSoon: true },
+  { key: "eloOddsInjuries", label: "+ Injuries", color: "#f97316", comingSoon: false },
   { key: "eloOddsInjuriesNews", label: "Full Signal", color: "#ef4444", comingSoon: true },
 ];
 
