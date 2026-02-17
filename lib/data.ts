@@ -71,15 +71,31 @@ export interface InjuryInfo {
   totalImpact: number;
 }
 
+export interface NewsEventInfo {
+  type: string;
+  label: string;
+  headline: string;
+  daysAgo: number;
+  decayedImpact: number;
+}
+
+export interface NewsInfo {
+  eventCount: number;
+  totalAdjustment: number;
+  topEvents: NewsEventInfo[];
+}
+
 export interface MSILiveRating {
   team: string;
   league: string;
   baseElo: number;
   oddsAdjustment: number;
   injuryAdjustment?: number;
+  newsAdjustment?: number;
   msiLive: number;
   msiLiveRank: number;
   injuries?: InjuryInfo | null;
+  news?: NewsInfo | null;
   nextFixture: NextFixture | null;
   lastUpdated: string;
 }
@@ -294,6 +310,42 @@ export function getCurrentInjuries(): CurrentInjuries | null {
 export function getSignalAnalysis(): SignalAnalysisData | null {
   try {
     return readJSON<SignalAnalysisData>("msi_signal_analysis.json");
+  } catch {
+    return null;
+  }
+}
+
+export interface NewsEventData {
+  type: string;
+  label: string;
+  headline: string;
+  url: string;
+  source: string;
+  publishedAt: string;
+  rawImpact: number;
+  decayedImpact: number;
+  daysAgo: number;
+}
+
+export interface TeamNewsData {
+  events: NewsEventData[];
+  totalRawImpact: number;
+  totalDecayedImpact: number;
+  newsAdjustment: number;
+}
+
+export interface CurrentNews {
+  computedAt: string;
+  dampeningFactor: number;
+  capElo: number;
+  teams: Record<string, TeamNewsData>;
+}
+
+export function getCurrentNews(): CurrentNews | null {
+  try {
+    const data = readJSON<CurrentNews>("news/current.json");
+    if (!data.computedAt || Object.keys(data.teams).length === 0) return null;
+    return data;
   } catch {
     return null;
   }

@@ -95,7 +95,7 @@ export default function SignalAnalysis({
     { name: "Base Elo", value: vol.baseElo, color: LAYER_COLORS.baseElo, dimmed: false },
     { name: "+ Odds", value: vol.eloOdds, color: LAYER_COLORS.eloOdds, dimmed: false },
     { name: "+ Injuries", value: vol.eloOddsInjuries, color: LAYER_COLORS.injuries, dimmed: false },
-    { name: "Full Signal", value: vol.eloOddsInjuriesNews, color: LAYER_COLORS.news, dimmed: true },
+    { name: "Full Signal", value: vol.eloOddsInjuriesNews, color: LAYER_COLORS.news, dimmed: false },
   ];
 
   return (
@@ -154,10 +154,10 @@ export default function SignalAnalysis({
               </BarChart>
             </ResponsiveContainer>
           </div>
-          {/* Coming soon labels */}
+          {/* Layer labels */}
           <div className="flex gap-4 mt-1 ml-[70px]">
             <span className="text-[9px] text-[var(--color-text-dim)] opacity-50">
-              News layer coming soon
+              4 signal layers active
             </span>
           </div>
         </div>
