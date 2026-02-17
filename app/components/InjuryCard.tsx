@@ -25,8 +25,16 @@ export default function InjuryCard({
 }: InjuryCardProps) {
   if (injuries.length === 0) return null;
 
+  // Deduplicate by player name (safety net — keep first occurrence)
+  const seen = new Set<string>();
+  const unique = injuries.filter((inj) => {
+    if (seen.has(inj.name)) return false;
+    seen.add(inj.name);
+    return true;
+  });
+
   // Sort by importance descending
-  const sorted = [...injuries].sort((a, b) => b.importance - a.importance);
+  const sorted = [...unique].sort((a, b) => b.importance - a.importance);
 
   return (
     <div className="border border-[#f97316]/30 rounded-md px-4 py-3 bg-[var(--color-bg-card)] mb-8">
@@ -78,7 +86,7 @@ export default function InjuryCard({
           {Math.round(ratingEffect)} pts
         </span>
         <span className="text-[var(--color-text-dim)] ml-2 text-[10px]">
-          ({injuries.length} player{injuries.length !== 1 ? "s" : ""} out)
+          ({unique.length} player{unique.length !== 1 ? "s" : ""} out)
         </span>
       </div>
     </div>

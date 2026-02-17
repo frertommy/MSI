@@ -253,6 +253,23 @@ async function main() {
     totalInjuries++;
   }
 
+  // Deduplicate injuries per team by playerId (API returns one record per fixture missed)
+  let deduped = 0;
+  for (const teamData of Object.values(teamInjuries)) {
+    const seen = new Set<number>();
+    const unique: ProcessedInjury[] = [];
+    for (const inj of teamData.injuries) {
+      if (!seen.has(inj.playerId)) {
+        seen.add(inj.playerId);
+        unique.push(inj);
+      }
+    }
+    deduped += teamData.injuries.length - unique.length;
+    teamData.injuries = unique;
+  }
+  totalInjuries -= deduped;
+  console.log(`\nDeduplicated ${deduped} duplicate injury records`);
+
   // Save processed injury data
   const injuryOutput: InjuryData = {
     fetchedAt: new Date().toISOString(),
