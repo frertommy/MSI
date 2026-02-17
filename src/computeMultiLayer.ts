@@ -2,6 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { computeElo, regressTowardMean, DEFAULT_CONFIG, EloConfig } from "./elo";
 import { getPlayerImportance, injuryToEloAdjustment } from "./playerImportance";
+import { classifyArticle, eventDedupId, computeTeamAdjustments, NewsHistoryEntry } from "./newsClassifier";
 
 interface MatchOdds {
   avgHome: number;
@@ -109,12 +110,84 @@ function loadInjuryData(dataDir: string): InjuryDataFile | null {
   if (!fs.existsSync(injuryFile)) return null;
   try {
     const data: InjuryDataFile = JSON.parse(fs.readFileSync(injuryFile, "utf-8"));
-    // Only use if actually fetched (non-empty fetchedAt)
     if (!data.fetchedAt || Object.keys(data.teams).length === 0) return null;
     return data;
   } catch {
     return null;
   }
+}
+
+// Process raw API-Football injury responses into our InjuryDataFile format
+function processRawInjuryArchive(
+  raw: any[],
+  nameMapping: Record<string, string>,
+  registry: Record<string, { league: string }>
+): InjuryDataFile | null {
+  if (!raw || raw.length === 0) return null;
+
+  const teams: Record<string, { injuries: InjuryEntry[] }> = {};
+  const seenPlayers: Record<string, Set<number>> = {};
+
+  for (const inj of raw) {
+    const apiName = inj.team?.name;
+    if (!apiName) continue;
+
+    // Resolve team name
+    const internalName = registry[apiName]
+      ? apiName
+      : nameMapping[apiName] && registry[nameMapping[apiName]]
+        ? nameMapping[apiName]
+        : null;
+    if (!internalName) continue;
+
+    // Deduplicate by playerId per team
+    if (!seenPlayers[internalName]) seenPlayers[internalName] = new Set();
+    const playerId = inj.player?.id;
+    if (playerId && seenPlayers[internalName].has(playerId)) continue;
+    if (playerId) seenPlayers[internalName].add(playerId);
+
+    if (!teams[internalName]) {
+      teams[internalName] = { injuries: [] };
+    }
+
+    teams[internalName].injuries.push({
+      playerName: inj.player?.name || "Unknown",
+      position: "Unknown",
+      reason: inj.player?.reason || inj.player?.type || "Injury",
+    });
+  }
+
+  if (Object.keys(teams).length === 0) return null;
+  return { fetchedAt: "", teams };
+}
+
+// Cache for archive lookups to avoid re-reading the same file per match
+const injuryArchiveCache: Record<string, InjuryDataFile | null> = {};
+
+function loadInjuryDataForDate(
+  dataDir: string,
+  date: string,
+  nameMapping: Record<string, string>,
+  registry: Record<string, { league: string }>
+): InjuryDataFile | null {
+  if (date in injuryArchiveCache) return injuryArchiveCache[date];
+
+  // Try archive first
+  const archiveFile = path.join(dataDir, "injuries", "archive", `${date}.json`);
+  if (fs.existsSync(archiveFile)) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(archiveFile, "utf-8"));
+      const result = processRawInjuryArchive(raw, nameMapping, registry);
+      injuryArchiveCache[date] = result;
+      return result;
+    } catch {
+      injuryArchiveCache[date] = null;
+      return null;
+    }
+  }
+
+  injuryArchiveCache[date] = null;
+  return null;
 }
 
 function injuryAdjustment(
@@ -157,6 +230,103 @@ function loadNewsData(dataDir: string): NewsDataFile | null {
   } catch {
     return null;
   }
+}
+
+// Process raw NewsAPI articles into our NewsDataFile format
+function processRawNewsArchive(
+  raw: any[],
+  nameMapping: Record<string, string>,
+  registry: Record<string, { league: string }>,
+  asOfDate: Date
+): NewsDataFile | null {
+  if (!raw || raw.length === 0) return null;
+
+  // Build name lookup
+  const shortNameMap: Record<string, string> = {};
+  for (const [short, internal] of Object.entries(nameMapping)) {
+    shortNameMap[short.toLowerCase()] = internal;
+  }
+  for (const name of Object.keys(registry)) {
+    shortNameMap[name.toLowerCase()] = name;
+  }
+
+  // Classify articles
+  const historyEntries: NewsHistoryEntry[] = [];
+  const existingIds = new Set<string>();
+
+  for (const article of raw) {
+    const text = `${article.title || ""} ${article.description || ""}`.toLowerCase();
+
+    for (const [shortName, internalName] of Object.entries(shortNameMap)) {
+      if (shortName.length < 4) continue;
+      if (!text.includes(shortName)) continue;
+
+      const event = classifyArticle(
+        article.title || "",
+        article.description,
+        article.url || "",
+        article.source?.id || "",
+        article.source?.name || "",
+        article.publishedAt || asOfDate.toISOString(),
+        internalName
+      );
+
+      if (event) {
+        const id = eventDedupId(event);
+        if (!existingIds.has(id)) {
+          existingIds.add(id);
+          historyEntries.push({
+            id,
+            type: event.type,
+            label: event.label,
+            eloImpact: event.eloImpact,
+            decayDays: event.decayDays,
+            headline: event.headline,
+            url: event.url,
+            source: event.source,
+            publishedAt: event.publishedAt,
+            team: event.team,
+            confidence: Math.round(event.confidence * 100) / 100,
+            firstSeen: asOfDate.toISOString(),
+          });
+        }
+        break; // One event per article
+      }
+    }
+  }
+
+  if (historyEntries.length === 0) return null;
+
+  return computeTeamAdjustments(historyEntries, asOfDate);
+}
+
+// Cache for news archive lookups
+const newsArchiveCache: Record<string, NewsDataFile | null> = {};
+
+function loadNewsDataForDate(
+  dataDir: string,
+  date: string,
+  nameMapping: Record<string, string>,
+  registry: Record<string, { league: string }>
+): NewsDataFile | null {
+  if (date in newsArchiveCache) return newsArchiveCache[date];
+
+  // Try archive first
+  const archiveFile = path.join(dataDir, "news", "archive", `${date}.json`);
+  if (fs.existsSync(archiveFile)) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(archiveFile, "utf-8"));
+      const result = processRawNewsArchive(raw, nameMapping, registry, new Date(date));
+      newsArchiveCache[date] = result;
+      return result;
+    } catch {
+      newsArchiveCache[date] = null;
+      return null;
+    }
+  }
+
+  newsArchiveCache[date] = null;
+  return null;
 }
 
 function newsAdjustment(
@@ -249,6 +419,33 @@ function main() {
     ? JSON.parse(fs.readFileSync(registryFile, "utf-8"))
     : {};
 
+  // Load name mappings for archive processing
+  const injMappingFile = path.join(dataDir, "name_mapping_injuries.json");
+  const nameMapping: Record<string, string> = fs.existsSync(injMappingFile)
+    ? JSON.parse(fs.readFileSync(injMappingFile, "utf-8"))
+    : {};
+  const oddsMappingFile = path.join(dataDir, "name_mapping_odds.json");
+  const oddsMapping: Record<string, string> = fs.existsSync(oddsMappingFile)
+    ? JSON.parse(fs.readFileSync(oddsMappingFile, "utf-8"))
+    : {};
+  const allNameMapping = { ...oddsMapping, ...nameMapping };
+
+  // Check for archive data availability
+  const injArchiveDir = path.join(dataDir, "injuries", "archive");
+  const newsArchiveDir = path.join(dataDir, "news", "archive");
+  const hasInjArchive = fs.existsSync(injArchiveDir) &&
+    fs.readdirSync(injArchiveDir).filter(f => f.endsWith(".json")).length > 0;
+  const hasNewsArchive = fs.existsSync(newsArchiveDir) &&
+    fs.readdirSync(newsArchiveDir).filter(f => f.endsWith(".json")).length > 0;
+  if (hasInjArchive) {
+    const archiveCount = fs.readdirSync(injArchiveDir).filter(f => f.endsWith(".json")).length;
+    console.log(`Injury archive: ${archiveCount} daily snapshots available`);
+  }
+  if (hasNewsArchive) {
+    const archiveCount = fs.readdirSync(newsArchiveDir).filter(f => f.endsWith(".json")).length;
+    console.log(`News archive: ${archiveCount} daily snapshots available`);
+  }
+
   const config: EloConfig = { ...DEFAULT_CONFIG };
 
   // ── 4 parallel rating layers ──
@@ -334,13 +531,16 @@ function main() {
       awayOddsAdj = adj.awayAdj;
     }
 
-    // Injury adjustments: only apply to the most recent matches
-    // (injury data reflects current state, not historical)
+    // Injury adjustments: use per-date archive if available, fall back to current.json for recent
+    const archiveInjData = loadInjuryDataForDate(dataDir, dateStr, allNameMapping, teamRegistry);
     const isRecentMatch = matches.indexOf(match) >= matches.length - 200;
-    const activeInjuryData = isRecentMatch ? injuryData : null;
+    const activeInjuryData = archiveInjData ?? (isRecentMatch ? injuryData : null);
     const homeInjAdj = injuryAdjustment(match.homeTeam, dateStr, activeInjuryData);
     const awayInjAdj = injuryAdjustment(match.awayTeam, dateStr, activeInjuryData);
-    const activeNewsData = isRecentMatch ? newsData : null;
+
+    // News adjustments: use per-date archive if available, fall back to current.json for recent
+    const archiveNewsData = loadNewsDataForDate(dataDir, dateStr, allNameMapping, teamRegistry);
+    const activeNewsData = archiveNewsData ?? (isRecentMatch ? newsData : null);
     const homeNewsAdj = newsAdjustment(match.homeTeam, dateStr, activeNewsData);
     const awayNewsAdj = newsAdjustment(match.awayTeam, dateStr, activeNewsData);
 

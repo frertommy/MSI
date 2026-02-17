@@ -6,8 +6,54 @@ export default function Home() {
   const ratings = getRatings();
   const registry = getTeamsRegistry();
   const liveData = getMSILive();
-  const multiLayer = getMultiLayerCurrent();
+  let multiLayer = getMultiLayerCurrent();
   const signalAnalysis = getSignalAnalysis();
+
+  // FIX: Build injury and news layers dynamically from live data
+  if (multiLayer && liveData) {
+    const oddsLayer = multiLayer.layers.eloOdds.teams;
+
+    // Layer 3: eloOdds + current injury adjustments
+    const injuryLayer = oddsLayer.map(t => {
+      const live = liveData.ratings.find(r => r.team === t.team);
+      const injAdj = live?.injuryAdjustment ?? 0;
+      return {
+        team: t.team,
+        rating: t.rating + injAdj,
+        rank: 0,
+      };
+    }).sort((a, b) => b.rating - a.rating)
+      .map((t, i) => ({ ...t, rank: i + 1 }));
+
+    // Layer 4: eloOdds + injury + news adjustments
+    const fullLayer = oddsLayer.map(t => {
+      const live = liveData.ratings.find(r => r.team === t.team);
+      const injAdj = live?.injuryAdjustment ?? 0;
+      const newsAdj = live?.newsAdjustment ?? 0;
+      return {
+        team: t.team,
+        rating: t.rating + injAdj + newsAdj,
+        rank: 0,
+      };
+    }).sort((a, b) => b.rating - a.rating)
+      .map((t, i) => ({ ...t, rank: i + 1 }));
+
+    // Replace the layers with our dynamically computed ones
+    multiLayer = {
+      ...multiLayer,
+      layers: {
+        ...multiLayer.layers,
+        eloOddsInjuries: {
+          ...multiLayer.layers.eloOddsInjuries,
+          teams: injuryLayer,
+        },
+        eloOddsInjuriesNews: {
+          ...multiLayer.layers.eloOddsInjuriesNews,
+          teams: fullLayer,
+        },
+      },
+    };
+  }
 
   // Build lookup for live ratings
   const liveLookup: Record<string, { msiLive: number; oddsAdj: number }> = {};
