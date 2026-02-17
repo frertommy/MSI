@@ -26,6 +26,7 @@ import MarketView from "@/app/components/MarketView";
 import SignalAnalysis from "@/app/components/SignalAnalysis";
 import InjuryCard from "@/app/components/InjuryCard";
 import NewsCard from "@/app/components/NewsCard";
+import TeamTabs from "@/app/components/TeamTabs";
 
 interface PageProps {
   params: Promise<{ name: string }>;
@@ -316,20 +317,6 @@ export default async function TeamPage({ params }: PageProps) {
         </div>
       )}
 
-      {injuryPlayers.length > 0 && (
-        <InjuryCard
-          injuries={injuryPlayers}
-          ratingEffect={injuryRatingEffect}
-        />
-      )}
-
-      {newsEvents.length > 0 && (
-        <NewsCard
-          events={newsEvents}
-          ratingEffect={newsRatingEffect}
-        />
-      )}
-
       <RatingChart
         data={chartData}
         multiLayerData={multiLayerDaily?.[teamName] ?? undefined}
@@ -353,10 +340,55 @@ export default async function TeamPage({ params }: PageProps) {
         winRate={winRate}
       />
 
-      <RecentForm matches={recentForm} />
+      {/* Tabbed section: Injuries | News | Market */}
+      <TeamTabs
+        tabs={[
+          ...(injuryPlayers.length > 0
+            ? [
+                {
+                  key: "injuries",
+                  label: "Injuries",
+                  color: "#f97316",
+                  content: (
+                    <InjuryCard
+                      injuries={injuryPlayers}
+                      ratingEffect={injuryRatingEffect}
+                    />
+                  ),
+                },
+              ]
+            : []),
+          ...(newsEvents.length > 0
+            ? [
+                {
+                  key: "news",
+                  label: "News",
+                  color: "#ef4444",
+                  content: (
+                    <NewsCard
+                      events={newsEvents}
+                      ratingEffect={newsRatingEffect}
+                    />
+                  ),
+                },
+              ]
+            : []),
+          ...(marketFixtures.length > 0
+            ? [
+                {
+                  key: "market",
+                  label: "Market",
+                  color: "#22c55e",
+                  content: (
+                    <MarketView fixtures={marketFixtures} stale={stale} />
+                  ),
+                },
+              ]
+            : []),
+        ]}
+      />
 
-      {/* Market View */}
-      <MarketView fixtures={marketFixtures} stale={stale} />
+      <RecentForm matches={recentForm} />
 
       {ceRef && (
         <ComparisonCard
