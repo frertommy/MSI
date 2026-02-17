@@ -1,0 +1,62 @@
+name: Daily MSI Update
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC (before European match days)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual triggers from GitHub Actions UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch odds data
+        run: npm run fetch:odds
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        continue-on-error: true
+
+      - name: Fetch injury data
+        run: npm run fetch:injuries
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        continue-on-error: true
+
+      - name: Fetch news data
+        run: npm run fetch:news
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        continue-on-error: true
+
+      - name: Compute live ratings
+        run: npm run compute:live
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "MSI Bot"
+          git config user.email "msi-bot@users.noreply.github.com"
+          git add data/
+          git add -f data/odds/ data/injuries/ data/news/
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "📊 Daily MSI update $(date -u +%Y-%m-%d)"
+          git push

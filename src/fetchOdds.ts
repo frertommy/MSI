@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import "dotenv/config";
 
-const API_KEY = process.env.ODDS_API_KEY || "";
+const API_KEY = process.env.ODDS_API_KEY || "9775d0d13d151f71081a81127190acf5";
 const BASE_URL = "https://api.the-odds-api.com/v4";
 
 const SPORT_KEYS: Record<string, string> = {

@@ -1,0 +1,62 @@
+name: Weekly Base Elo Update
+
+on:
+  schedule:
+    # Run every Monday at 04:00 UTC (after weekend matches)
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-elo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest match results
+        run: npm run fetch:api
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        continue-on-error: true
+
+      - name: Recompute base Elo
+        run: npm run compute
+
+      - name: Recompute multi-layer ratings
+        run: npm run compute:multilayer
+
+      - name: Run validation
+        run: npm run validate
+
+      - name: Fetch live data
+        run: npm run pipeline:live
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        continue-on-error: true
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Commit and push
+        run: |
+          git config user.name "MSI Bot"
+          git config user.email "msi-bot@users.noreply.github.com"
+          git add data/
+          git add -f data/odds/ data/injuries/ data/news/
+          git diff --staged --quiet || git commit -m "🔄 Weekly Elo recompute $(date -u +%Y-%m-%d)"
+          git push

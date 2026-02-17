@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 
-const API_KEY = "1109c634f7989ac2ca9e96a37e7c7b72";
+const API_KEY = process.env.API_FOOTBALL_KEY || "1109c634f7989ac2ca9e96a37e7c7b72";
 const BASE_URL = "https://v3.football.api-sports.io";
 
 const LEAGUES = [

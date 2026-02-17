@@ -17,7 +17,7 @@ import {
   ClassifiedEvent,
 } from "./newsClassifier";
 
-const API_KEY = process.env.NEWS_API_KEY || "";
+const API_KEY = process.env.NEWS_API_KEY || "6c6fd386c5ac46c8b8bfa1fb0176a433";
 const BASE_URL = "https://newsapi.org/v2";
 
 // ── League search queries ──

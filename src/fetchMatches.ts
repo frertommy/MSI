@@ -3,11 +3,7 @@ import * as fs from "fs";
 import * as path from "path";
 import "dotenv/config";
 
-const API_KEY = process.env.FOOTBALL_DATA_API_KEY;
-if (!API_KEY) {
-  console.error("Missing FOOTBALL_DATA_API_KEY in .env");
-  process.exit(1);
-}
+const API_KEY = process.env.FOOTBALL_DATA_KEY || "51e12efd9432465baf1e0a52db8da290";
 
 const BASE_URL = "https://api.football-data.org/v4";
 const LEAGUES = ["PL", "PD", "BL1", "SA", "FL1"];
