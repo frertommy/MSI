@@ -1,0 +1,77 @@
+name: Auto Merge PRs
+
+on:
+  schedule:
+    # Check every 5 minutes
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Auto-merge eligible PRs
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        #!/bin/bash
+        set -e
+        
+        echo "Checking for mergeable PRs..."
+        
+        # Get list of open PRs
+        prs=$(gh pr list --json number,title,author,mergeStateStatus,reviewDecision,statusCheckRollup --jq '.[] | select(.mergeStateStatus == "CLEAN" or .mergeStateStatus == "UNSTABLE") | @base64')
+        
+        if [ -z "$prs" ]; then
+          echo "No eligible PRs found."
+          exit 0
+        fi
+        
+        for pr_encoded in $prs; do
+          pr=$(echo "$pr_encoded" | base64 -d)
+          pr_number=$(echo "$pr" | jq -r '.number')
+          pr_title=$(echo "$pr" | jq -r '.title')
+          pr_author=$(echo "$pr" | jq -r '.author.login')
+          merge_state=$(echo "$pr" | jq -r '.mergeStateStatus')
+          
+          echo "Checking PR #$pr_number: $pr_title (by $pr_author)"
+          
+          # Check for merge conflicts
+          if [ "$merge_state" == "DIRTY" ]; then
+            echo "  ❌ PR #$pr_number has merge conflicts - skipping"
+            continue
+          fi
+          
+          # Check CI status
+          ci_status=$(echo "$pr" | jq -r '.statusCheckRollup | if . == null then "UNKNOWN" else .state end')
+          
+          if [ "$ci_status" == "FAILURE" ] || [ "$ci_status" == "ERROR" ]; then
+            echo "  ❌ PR #$pr_number has failed CI checks - skipping and notifying"
+            # Create a comment to notify
+            gh pr comment "$pr_number" --body "⚠️ Auto-merge skipped: CI checks failed. Please fix and retry."
+            continue
+          fi
+          
+          if [ "$ci_status" == "PENDING" ] || [ "$ci_status" == "UNKNOWN" ]; then
+            echo "  ⏳ PR #$pr_number CI still pending - skipping for now"
+            continue
+          fi
+          
+          # Merge the PR
+          echo "  ✅ Merging PR #$pr_number..."
+          gh pr merge "$pr_number" --squash --delete-branch --admin || {
+            echo "  ❌ Failed to merge PR #$pr_number"
+            continue
+          }
+          
+          echo "  ✅ Successfully merged PR #$pr_number"
+        done
