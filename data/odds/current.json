@@ -1,5 +1,3174 @@
 {
-  "fetchedAt": "2026-02-15T21:56:54.406Z",
-  "requestsRemaining": null,
-  "fixtures": []
+  "fetchedAt": "2026-02-17T09:02:19.131Z",
+  "requestsRemaining": 480,
+  "fixtures": [
+    {
+      "id": "5b648e6c89d56257cb38abb4a76cee72",
+      "league": "PL",
+      "homeTeam": "Wolverhampton Wanderers",
+      "awayTeam": "Arsenal",
+      "kickoff": "2026-02-18T20:00:00Z",
+      "avgOdds": {
+        "home": 10.87,
+        "draw": 5.59,
+        "away": 1.28
+      },
+      "impliedProb": {
+        "home": 0.087,
+        "draw": 0.17,
+        "away": 0.743
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          8.5,
+          13
+        ],
+        "draw": [
+          4.5,
+          6.2
+        ],
+        "away": [
+          1.22,
+          1.31
+        ]
+      }
+    },
+    {
+      "id": "121455e2f00d446f83bf2939263ff388",
+      "league": "PL",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Leeds United",
+      "kickoff": "2026-02-21T15:00:00Z",
+      "avgOdds": {
+        "home": 1.79,
+        "draw": 3.65,
+        "away": 4.44
+      },
+      "impliedProb": {
+        "home": 0.528,
+        "draw": 0.259,
+        "away": 0.213
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.66,
+          1.88
+        ],
+        "draw": [
+          3.1,
+          3.9
+        ],
+        "away": [
+          4,
+          4.8
+        ]
+      }
+    },
+    {
+      "id": "f38e853e6d4accab249a51501f2806ef",
+      "league": "PL",
+      "homeTeam": "Brentford",
+      "awayTeam": "Brighton and Hove Albion",
+      "kickoff": "2026-02-21T15:00:00Z",
+      "avgOdds": {
+        "home": 1.98,
+        "draw": 3.7,
+        "away": 3.52
+      },
+      "impliedProb": {
+        "home": 0.476,
+        "draw": 0.255,
+        "away": 0.268
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.83,
+          2.07
+        ],
+        "draw": [
+          3,
+          3.95
+        ],
+        "away": [
+          3.3,
+          3.75
+        ]
+      }
+    },
+    {
+      "id": "7b0c7dd2f5e825fc904d669a946e3a74",
+      "league": "PL",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Burnley",
+      "kickoff": "2026-02-21T15:00:00Z",
+      "avgOdds": {
+        "home": 1.21,
+        "draw": 6.73,
+        "away": 12.08
+      },
+      "impliedProb": {
+        "home": 0.781,
+        "draw": 0.141,
+        "away": 0.078
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.15,
+          1.25
+        ],
+        "draw": [
+          5.5,
+          7.6
+        ],
+        "away": [
+          10,
+          15
+        ]
+      }
+    },
+    {
+      "id": "13c335daab252110beaa73f1dbf3ae1f",
+      "league": "PL",
+      "homeTeam": "West Ham United",
+      "awayTeam": "Bournemouth",
+      "kickoff": "2026-02-21T17:30:00Z",
+      "avgOdds": {
+        "home": 2.52,
+        "draw": 3.68,
+        "away": 2.57
+      },
+      "impliedProb": {
+        "home": 0.375,
+        "draw": 0.257,
+        "away": 0.368
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.4,
+          2.7
+        ],
+        "draw": [
+          3.1,
+          3.9
+        ],
+        "away": [
+          2.3,
+          2.78
+        ]
+      }
+    },
+    {
+      "id": "cf641a7ccfddaeccd926ca123d72a4b5",
+      "league": "PL",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Newcastle United",
+      "kickoff": "2026-02-21T20:00:00Z",
+      "avgOdds": {
+        "home": 1.43,
+        "draw": 5.06,
+        "away": 6.18
+      },
+      "impliedProb": {
+        "home": 0.66,
+        "draw": 0.187,
+        "away": 0.153
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.34,
+          1.49
+        ],
+        "draw": [
+          4,
+          5.6
+        ],
+        "away": [
+          5.5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "0674c077e5225c0795ebb7866e06ac4c",
+      "league": "PL",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Wolverhampton Wanderers",
+      "kickoff": "2026-02-22T14:00:00Z",
+      "avgOdds": {
+        "home": 1.59,
+        "draw": 4.04,
+        "away": 5.51
+      },
+      "impliedProb": {
+        "home": 0.595,
+        "draw": 0.234,
+        "away": 0.171
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.48,
+          1.67
+        ],
+        "draw": [
+          3.4,
+          4.3
+        ],
+        "away": [
+          5,
+          6.1
+        ]
+      }
+    },
+    {
+      "id": "9da0932d1255c3f7d4156ec7730ffa75",
+      "league": "PL",
+      "homeTeam": "Sunderland",
+      "awayTeam": "Fulham",
+      "kickoff": "2026-02-22T14:00:00Z",
+      "avgOdds": {
+        "home": 2.61,
+        "draw": 3.31,
+        "away": 2.67
+      },
+      "impliedProb": {
+        "home": 0.361,
+        "draw": 0.285,
+        "away": 0.354
+      },
+      "bookmakerCount": 40,
+      "oddsRange": {
+        "home": [
+          2.48,
+          2.78
+        ],
+        "draw": [
+          2.88,
+          3.55
+        ],
+        "away": [
+          2.4,
+          2.8
+        ]
+      }
+    },
+    {
+      "id": "55754da4f841e3997e766dd7ff5eafe2",
+      "league": "PL",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Liverpool",
+      "kickoff": "2026-02-22T14:00:00Z",
+      "avgOdds": {
+        "home": 4.13,
+        "draw": 3.91,
+        "away": 1.78
+      },
+      "impliedProb": {
+        "home": 0.229,
+        "draw": 0.241,
+        "away": 0.53
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          3.8,
+          4.5
+        ],
+        "draw": [
+          3.25,
+          4.17
+        ],
+        "away": [
+          1.64,
+          1.87
+        ]
+      }
+    },
+    {
+      "id": "ea3c0df9b0c96cc6a4c80022bbf85720",
+      "league": "PL",
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Arsenal",
+      "kickoff": "2026-02-22T16:30:00Z",
+      "avgOdds": {
+        "home": 6.17,
+        "draw": 4.05,
+        "away": 1.54
+      },
+      "impliedProb": {
+        "home": 0.153,
+        "draw": 0.233,
+        "away": 0.613
+      },
+      "bookmakerCount": 39,
+      "oddsRange": {
+        "home": [
+          5.5,
+          6.8
+        ],
+        "draw": [
+          3.7,
+          4.4
+        ],
+        "away": [
+          1.44,
+          1.61
+        ]
+      }
+    },
+    {
+      "id": "b2dfd255beca9618d6796a7e79a4b398",
+      "league": "PL",
+      "homeTeam": "Everton",
+      "awayTeam": "Manchester United",
+      "kickoff": "2026-02-23T20:00:00Z",
+      "avgOdds": {
+        "home": 3.56,
+        "draw": 3.79,
+        "away": 1.95
+      },
+      "impliedProb": {
+        "home": 0.265,
+        "draw": 0.249,
+        "away": 0.485
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          3.3,
+          3.8
+        ],
+        "draw": [
+          3.5,
+          4
+        ],
+        "away": [
+          1.8,
+          2.04
+        ]
+      }
+    },
+    {
+      "id": "b9ade3f715e4c344543f672014bc2188",
+      "league": "PL",
+      "homeTeam": "Wolverhampton Wanderers",
+      "awayTeam": "Aston Villa",
+      "kickoff": "2026-02-27T20:00:00Z",
+      "avgOdds": {
+        "home": 3.87,
+        "draw": 3.64,
+        "away": 1.87
+      },
+      "impliedProb": {
+        "home": 0.242,
+        "draw": 0.257,
+        "away": 0.5
+      },
+      "bookmakerCount": 34,
+      "oddsRange": {
+        "home": [
+          3.55,
+          4.4
+        ],
+        "draw": [
+          3.4,
+          3.85
+        ],
+        "away": [
+          1.74,
+          1.98
+        ]
+      }
+    },
+    {
+      "id": "621cff11a60f850184fc515327f29a11",
+      "league": "PL",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Sunderland",
+      "kickoff": "2026-02-28T12:30:00Z",
+      "avgOdds": {
+        "home": 1.8,
+        "draw": 3.69,
+        "away": 4.15
+      },
+      "impliedProb": {
+        "home": 0.52,
+        "draw": 0.254,
+        "away": 0.226
+      },
+      "bookmakerCount": 33,
+      "oddsRange": {
+        "home": [
+          1.68,
+          1.89
+        ],
+        "draw": [
+          3.4,
+          3.98
+        ],
+        "away": [
+          3.8,
+          4.4
+        ]
+      }
+    },
+    {
+      "id": "c31face07c72bd0418f18dc032764cea",
+      "league": "PL",
+      "homeTeam": "Burnley",
+      "awayTeam": "Brentford",
+      "kickoff": "2026-02-28T15:00:00Z",
+      "avgOdds": {
+        "home": 4.01,
+        "draw": 3.79,
+        "away": 1.8
+      },
+      "impliedProb": {
+        "home": 0.233,
+        "draw": 0.247,
+        "away": 0.519
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          3.75,
+          4.25
+        ],
+        "draw": [
+          3.4,
+          4.2
+        ],
+        "away": [
+          1.69,
+          1.88
+        ]
+      }
+    },
+    {
+      "id": "5eeaa47bfb416d8b2a5f25cf16731cb2",
+      "league": "PL",
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Everton",
+      "kickoff": "2026-02-28T15:00:00Z",
+      "avgOdds": {
+        "home": 1.74,
+        "draw": 3.72,
+        "away": 4.52
+      },
+      "impliedProb": {
+        "home": 0.539,
+        "draw": 0.253,
+        "away": 0.208
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          1.63,
+          1.82
+        ],
+        "draw": [
+          3.5,
+          3.9
+        ],
+        "away": [
+          4,
+          4.9
+        ]
+      }
+    },
+    {
+      "id": "466f3df43a6647947e4fb9cab6657d80",
+      "league": "PL",
+      "homeTeam": "Liverpool",
+      "awayTeam": "West Ham United",
+      "kickoff": "2026-02-28T15:00:00Z",
+      "avgOdds": {
+        "home": 1.35,
+        "draw": 5.33,
+        "away": 7.18
+      },
+      "impliedProb": {
+        "home": 0.694,
+        "draw": 0.176,
+        "away": 0.13
+      },
+      "bookmakerCount": 33,
+      "oddsRange": {
+        "home": [
+          1.26,
+          1.41
+        ],
+        "draw": [
+          4.75,
+          5.75
+        ],
+        "away": [
+          5.3,
+          8
+        ]
+      }
+    },
+    {
+      "id": "300862b165c77b6fe6c3fccf717aba1e",
+      "league": "PL",
+      "homeTeam": "Leeds United",
+      "awayTeam": "Manchester City",
+      "kickoff": "2026-02-28T17:30:00Z",
+      "avgOdds": {
+        "home": 4.93,
+        "draw": 4.25,
+        "away": 1.6
+      },
+      "impliedProb": {
+        "home": 0.19,
+        "draw": 0.221,
+        "away": 0.589
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          4.4,
+          5.3
+        ],
+        "draw": [
+          3.8,
+          4.65
+        ],
+        "away": [
+          1.52,
+          1.67
+        ]
+      }
+    },
+    {
+      "id": "b0e5c780eac6e73974f5d023b9a7f17b",
+      "league": "PL",
+      "homeTeam": "Brighton and Hove Albion",
+      "awayTeam": "Nottingham Forest",
+      "kickoff": "2026-03-01T14:00:00Z",
+      "avgOdds": {
+        "home": 2.06,
+        "draw": 3.55,
+        "away": 3.36
+      },
+      "impliedProb": {
+        "home": 0.456,
+        "draw": 0.264,
+        "away": 0.28
+      },
+      "bookmakerCount": 31,
+      "oddsRange": {
+        "home": [
+          1.91,
+          2.17
+        ],
+        "draw": [
+          3.25,
+          3.8
+        ],
+        "away": [
+          3.05,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "17717f1dec1142342e08b89ec57dafa8",
+      "league": "PL",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Crystal Palace",
+      "kickoff": "2026-03-01T14:00:00Z",
+      "avgOdds": {
+        "home": 1.6,
+        "draw": 4.04,
+        "away": 4.92
+      },
+      "impliedProb": {
+        "home": 0.582,
+        "draw": 0.23,
+        "away": 0.189
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          1.5,
+          1.67
+        ],
+        "draw": [
+          3.35,
+          4.32
+        ],
+        "away": [
+          1.75,
+          5.75
+        ]
+      }
+    },
+    {
+      "id": "c9a6fecd9a75e1db00f4a2aa82e0b69e",
+      "league": "PL",
+      "homeTeam": "Fulham",
+      "awayTeam": "Tottenham Hotspur",
+      "kickoff": "2026-03-01T14:00:00Z",
+      "avgOdds": {
+        "home": 2.3,
+        "draw": 3.4,
+        "away": 2.99
+      },
+      "impliedProb": {
+        "home": 0.409,
+        "draw": 0.277,
+        "away": 0.314
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          2.1,
+          2.46
+        ],
+        "draw": [
+          3.25,
+          3.55
+        ],
+        "away": [
+          2.75,
+          3.2
+        ]
+      }
+    },
+    {
+      "id": "9471be41334d79e0e85fda9feb065bfa",
+      "league": "PL",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "kickoff": "2026-03-01T16:30:00Z",
+      "avgOdds": {
+        "home": 1.65,
+        "draw": 3.85,
+        "away": 5.03
+      },
+      "impliedProb": {
+        "home": 0.569,
+        "draw": 0.244,
+        "away": 0.187
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          1.54,
+          1.73
+        ],
+        "draw": [
+          3.6,
+          4
+        ],
+        "away": [
+          4.5,
+          5.5
+        ]
+      }
+    },
+    {
+      "id": "4c25653c0ba02f04fbf530c66ecc0a57",
+      "league": "PD",
+      "homeTeam": "Levante",
+      "awayTeam": "Villarreal",
+      "kickoff": "2026-02-18T19:00:00Z",
+      "avgOdds": {
+        "home": 3.96,
+        "draw": 3.85,
+        "away": 1.81
+      },
+      "impliedProb": {
+        "home": 0.237,
+        "draw": 0.244,
+        "away": 0.519
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          3.6,
+          4.4
+        ],
+        "draw": [
+          3.3,
+          4.1
+        ],
+        "away": [
+          1.73,
+          1.89
+        ]
+      }
+    },
+    {
+      "id": "e2662ebe62f3a7b3501683765de9d00b",
+      "league": "PD",
+      "homeTeam": "Athletic Bilbao",
+      "awayTeam": "Elche CF",
+      "kickoff": "2026-02-20T20:00:00Z",
+      "avgOdds": {
+        "home": 1.62,
+        "draw": 3.84,
+        "away": 5.44
+      },
+      "impliedProb": {
+        "home": 0.581,
+        "draw": 0.246,
+        "away": 0.173
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          1.5,
+          1.72
+        ],
+        "draw": [
+          3.3,
+          4.1
+        ],
+        "away": [
+          4.95,
+          6.1
+        ]
+      }
+    },
+    {
+      "id": "8b4aea0990424b25c81e75a1a70058ba",
+      "league": "PD",
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Oviedo",
+      "kickoff": "2026-02-21T13:00:00Z",
+      "avgOdds": {
+        "home": 1.53,
+        "draw": 3.88,
+        "away": 6.79
+      },
+      "impliedProb": {
+        "home": 0.618,
+        "draw": 0.243,
+        "away": 0.139
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          1.45,
+          1.59
+        ],
+        "draw": [
+          3.5,
+          4.2
+        ],
+        "away": [
+          6,
+          7.97
+        ]
+      }
+    },
+    {
+      "id": "bec8ac5dbb8413877b1b707f10d3552e",
+      "league": "PD",
+      "homeTeam": "Real Betis",
+      "awayTeam": "Rayo Vallecano",
+      "kickoff": "2026-02-21T15:15:00Z",
+      "avgOdds": {
+        "home": 1.87,
+        "draw": 3.5,
+        "away": 4.15
+      },
+      "impliedProb": {
+        "home": 0.504,
+        "draw": 0.269,
+        "away": 0.227
+      },
+      "bookmakerCount": 36,
+      "oddsRange": {
+        "home": [
+          1.74,
+          2
+        ],
+        "draw": [
+          3.2,
+          3.7
+        ],
+        "away": [
+          3.75,
+          4.5
+        ]
+      }
+    },
+    {
+      "id": "ab6d9add47b5ff1a48e801d59a5dc32b",
+      "league": "PD",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Madrid",
+      "kickoff": "2026-02-21T17:30:00Z",
+      "avgOdds": {
+        "home": 4.77,
+        "draw": 4,
+        "away": 1.66
+      },
+      "impliedProb": {
+        "home": 0.198,
+        "draw": 0.236,
+        "away": 0.567
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          4,
+          5.3
+        ],
+        "draw": [
+          3.6,
+          4.26
+        ],
+        "away": [
+          1.55,
+          1.77
+        ]
+      }
+    },
+    {
+      "id": "eb20861615b18b9121ed8f1924d73d1d",
+      "league": "PD",
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Espanyol",
+      "kickoff": "2026-02-21T20:00:00Z",
+      "avgOdds": {
+        "home": 1.46,
+        "draw": 4.26,
+        "away": 7.21
+      },
+      "impliedProb": {
+        "home": 0.647,
+        "draw": 0.222,
+        "away": 0.131
+      },
+      "bookmakerCount": 37,
+      "oddsRange": {
+        "home": [
+          1.37,
+          1.53
+        ],
+        "draw": [
+          3.75,
+          4.5
+        ],
+        "away": [
+          6,
+          8.5
+        ]
+      }
+    },
+    {
+      "id": "c7be8a213c6ec0a7de9334770652a868",
+      "league": "PD",
+      "homeTeam": "Getafe",
+      "awayTeam": "Sevilla",
+      "kickoff": "2026-02-22T13:00:00Z",
+      "avgOdds": {
+        "home": 2.42,
+        "draw": 2.89,
+        "away": 3.28
+      },
+      "impliedProb": {
+        "home": 0.388,
+        "draw": 0.325,
+        "away": 0.287
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          2.25,
+          2.56
+        ],
+        "draw": [
+          2.6,
+          3.05
+        ],
+        "away": [
+          3,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "4e541f90c0569a790c4cd2603b2e6597",
+      "league": "PD",
+      "homeTeam": "Barcelona",
+      "awayTeam": "Levante",
+      "kickoff": "2026-02-22T15:15:00Z",
+      "avgOdds": {
+        "home": 1.1,
+        "draw": 10.22,
+        "away": 17.99
+      },
+      "impliedProb": {
+        "home": 0.855,
+        "draw": 0.092,
+        "away": 0.052
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          1.05,
+          1.15
+        ],
+        "draw": [
+          7,
+          12.6
+        ],
+        "away": [
+          13,
+          23
+        ]
+      }
+    },
+    {
+      "id": "118eea2269b7b7809563d36a2a1441cc",
+      "league": "PD",
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Mallorca",
+      "kickoff": "2026-02-22T17:30:00Z",
+      "avgOdds": {
+        "home": 1.81,
+        "draw": 3.38,
+        "away": 4.59
+      },
+      "impliedProb": {
+        "home": 0.518,
+        "draw": 0.278,
+        "away": 0.204
+      },
+      "bookmakerCount": 37,
+      "oddsRange": {
+        "home": [
+          1.7,
+          1.88
+        ],
+        "draw": [
+          2.88,
+          3.55
+        ],
+        "away": [
+          4,
+          4.98
+        ]
+      }
+    },
+    {
+      "id": "a0b6c2518eeb71097ffccd5560297748",
+      "league": "PD",
+      "homeTeam": "Villarreal",
+      "awayTeam": "Valencia",
+      "kickoff": "2026-02-22T20:00:00Z",
+      "avgOdds": {
+        "home": 1.69,
+        "draw": 3.89,
+        "away": 4.69
+      },
+      "impliedProb": {
+        "home": 0.558,
+        "draw": 0.242,
+        "away": 0.201
+      },
+      "bookmakerCount": 37,
+      "oddsRange": {
+        "home": [
+          1.58,
+          1.77
+        ],
+        "draw": [
+          3.6,
+          4.15
+        ],
+        "away": [
+          4,
+          5.1
+        ]
+      }
+    },
+    {
+      "id": "9097a0f152f61b59e12205c9d59fbbf0",
+      "league": "PD",
+      "homeTeam": "Alavés",
+      "awayTeam": "Girona",
+      "kickoff": "2026-02-23T20:00:00Z",
+      "avgOdds": {
+        "home": 2.36,
+        "draw": 2.93,
+        "away": 3.31
+      },
+      "impliedProb": {
+        "home": 0.397,
+        "draw": 0.32,
+        "away": 0.283
+      },
+      "bookmakerCount": 36,
+      "oddsRange": {
+        "home": [
+          2.2,
+          2.49
+        ],
+        "draw": [
+          2.8,
+          3.05
+        ],
+        "away": [
+          2.95,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "4ddb575bb8f6c3fc923a8dd4d4d589e3",
+      "league": "PD",
+      "homeTeam": "Levante",
+      "awayTeam": "Alavés",
+      "kickoff": "2026-02-27T20:00:00Z",
+      "avgOdds": {
+        "home": 2.55,
+        "draw": 3.11,
+        "away": 2.74
+      },
+      "impliedProb": {
+        "home": 0.364,
+        "draw": 0.298,
+        "away": 0.339
+      },
+      "bookmakerCount": 18,
+      "oddsRange": {
+        "home": [
+          2.35,
+          2.7
+        ],
+        "draw": [
+          2.95,
+          3.35
+        ],
+        "away": [
+          2.6,
+          2.88
+        ]
+      }
+    },
+    {
+      "id": "0fcde674ecb2f5c2afb404aa795b420c",
+      "league": "PD",
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Athletic Bilbao",
+      "kickoff": "2026-02-28T13:00:00Z",
+      "avgOdds": {
+        "home": 2.51,
+        "draw": 2.99,
+        "away": 2.89
+      },
+      "impliedProb": {
+        "home": 0.369,
+        "draw": 0.31,
+        "away": 0.321
+      },
+      "bookmakerCount": 18,
+      "oddsRange": {
+        "home": [
+          2.35,
+          2.69
+        ],
+        "draw": [
+          2.85,
+          3.12
+        ],
+        "away": [
+          2.75,
+          3.08
+        ]
+      }
+    },
+    {
+      "id": "d10fec8e548e16b82cc15a3045e5d78e",
+      "league": "PD",
+      "homeTeam": "Barcelona",
+      "awayTeam": "Villarreal",
+      "kickoff": "2026-02-28T15:15:00Z",
+      "avgOdds": {
+        "home": 1.3,
+        "draw": 5.94,
+        "away": 7.08
+      },
+      "impliedProb": {
+        "home": 0.713,
+        "draw": 0.156,
+        "away": 0.131
+      },
+      "bookmakerCount": 18,
+      "oddsRange": {
+        "home": [
+          1.22,
+          1.36
+        ],
+        "draw": [
+          5.15,
+          6.8
+        ],
+        "away": [
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "id": "282ba94e32f3c25eba80783e539aeba4",
+      "league": "PD",
+      "homeTeam": "Mallorca",
+      "awayTeam": "Real Sociedad",
+      "kickoff": "2026-02-28T17:30:00Z",
+      "avgOdds": {
+        "home": 2.88,
+        "draw": 3.16,
+        "away": 2.41
+      },
+      "impliedProb": {
+        "home": 0.322,
+        "draw": 0.293,
+        "away": 0.385
+      },
+      "bookmakerCount": 18,
+      "oddsRange": {
+        "home": [
+          2.7,
+          3.1
+        ],
+        "draw": [
+          2.95,
+          3.33
+        ],
+        "away": [
+          2.25,
+          2.55
+        ]
+      }
+    },
+    {
+      "id": "fd3ae36fd3fb354f938f590a05a88a4a",
+      "league": "PD",
+      "homeTeam": "Oviedo",
+      "awayTeam": "Atlético Madrid",
+      "kickoff": "2026-02-28T20:00:00Z",
+      "avgOdds": {
+        "home": 6.51,
+        "draw": 4.16,
+        "away": 1.47
+      },
+      "impliedProb": {
+        "home": 0.143,
+        "draw": 0.224,
+        "away": 0.633
+      },
+      "bookmakerCount": 16,
+      "oddsRange": {
+        "home": [
+          5.8,
+          7
+        ],
+        "draw": [
+          3.8,
+          4.47
+        ],
+        "away": [
+          1.4,
+          1.56
+        ]
+      }
+    },
+    {
+      "id": "c7ee80d393226bca42d44b515ab389d2",
+      "league": "PD",
+      "homeTeam": "Elche CF",
+      "awayTeam": "Espanyol",
+      "kickoff": "2026-03-01T13:00:00Z",
+      "avgOdds": {
+        "home": 2.32,
+        "draw": 3.2,
+        "away": 3.02
+      },
+      "impliedProb": {
+        "home": 0.401,
+        "draw": 0.291,
+        "away": 0.308
+      },
+      "bookmakerCount": 17,
+      "oddsRange": {
+        "home": [
+          2.15,
+          2.45
+        ],
+        "draw": [
+          3.05,
+          3.33
+        ],
+        "away": [
+          2.8,
+          3.25
+        ]
+      }
+    },
+    {
+      "id": "4572b3ecf6129e2d1258f19f9e582513",
+      "league": "PD",
+      "homeTeam": "Valencia",
+      "awayTeam": "CA Osasuna",
+      "kickoff": "2026-03-01T15:15:00Z",
+      "avgOdds": {
+        "home": 2.1,
+        "draw": 3.31,
+        "away": 3.36
+      },
+      "impliedProb": {
+        "home": 0.442,
+        "draw": 0.281,
+        "away": 0.277
+      },
+      "bookmakerCount": 17,
+      "oddsRange": {
+        "home": [
+          1.96,
+          2.21
+        ],
+        "draw": [
+          3.05,
+          3.54
+        ],
+        "away": [
+          3.15,
+          3.58
+        ]
+      }
+    },
+    {
+      "id": "9f99b0651c79184ea471389aa02dcb2b",
+      "league": "PD",
+      "homeTeam": "Real Betis",
+      "awayTeam": "Sevilla",
+      "kickoff": "2026-03-01T17:30:00Z",
+      "avgOdds": {
+        "home": 1.87,
+        "draw": 3.56,
+        "away": 3.86
+      },
+      "impliedProb": {
+        "home": 0.498,
+        "draw": 0.261,
+        "away": 0.241
+      },
+      "bookmakerCount": 16,
+      "oddsRange": {
+        "home": [
+          1.74,
+          1.95
+        ],
+        "draw": [
+          3.25,
+          3.91
+        ],
+        "away": [
+          3.6,
+          4.04
+        ]
+      }
+    },
+    {
+      "id": "b0bd795f41f7e38066c384fc06c0d2c9",
+      "league": "PD",
+      "homeTeam": "Girona",
+      "awayTeam": "Celta Vigo",
+      "kickoff": "2026-03-01T20:00:00Z",
+      "avgOdds": {
+        "home": 2.55,
+        "draw": 3.19,
+        "away": 2.7
+      },
+      "impliedProb": {
+        "home": 0.365,
+        "draw": 0.291,
+        "away": 0.344
+      },
+      "bookmakerCount": 16,
+      "oddsRange": {
+        "home": [
+          2.35,
+          2.7
+        ],
+        "draw": [
+          2.95,
+          3.39
+        ],
+        "away": [
+          2.55,
+          2.85
+        ]
+      }
+    },
+    {
+      "id": "7a8e8e30174af5cd99d1a3977365674e",
+      "league": "PD",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Getafe",
+      "kickoff": "2026-03-02T20:00:00Z",
+      "avgOdds": {
+        "home": 1.31,
+        "draw": 4.81,
+        "away": 9.23
+      },
+      "impliedProb": {
+        "home": 0.706,
+        "draw": 0.193,
+        "away": 0.101
+      },
+      "bookmakerCount": 17,
+      "oddsRange": {
+        "home": [
+          1.23,
+          1.37
+        ],
+        "draw": [
+          4.2,
+          5.2
+        ],
+        "away": [
+          7.25,
+          11.1
+        ]
+      }
+    },
+    {
+      "id": "0f21378f96bf08eb9dfcc103aaceb14e",
+      "league": "BL1",
+      "homeTeam": "FSV Mainz 05",
+      "awayTeam": "Hamburger SV",
+      "kickoff": "2026-02-20T19:30:00Z",
+      "avgOdds": {
+        "home": 2.07,
+        "draw": 3.28,
+        "away": 3.64
+      },
+      "impliedProb": {
+        "home": 0.455,
+        "draw": 0.287,
+        "away": 0.258
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.95,
+          2.17
+        ],
+        "draw": [
+          3,
+          3.5
+        ],
+        "away": [
+          3.1,
+          4.02
+        ]
+      }
+    },
+    {
+      "id": "24218df1523d0e4f1d04c1a0c83625db",
+      "league": "BL1",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "TSG Hoffenheim",
+      "kickoff": "2026-02-21T14:30:00Z",
+      "avgOdds": {
+        "home": 3.11,
+        "draw": 3.66,
+        "away": 2.13
+      },
+      "impliedProb": {
+        "home": 0.302,
+        "draw": 0.257,
+        "away": 0.441
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.8,
+          3.4
+        ],
+        "draw": [
+          3.1,
+          3.9
+        ],
+        "away": [
+          2,
+          2.3
+        ]
+      }
+    },
+    {
+      "id": "8fd26b3e8f957f563b639a0215f3014c",
+      "league": "BL1",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "Augsburg",
+      "kickoff": "2026-02-21T14:30:00Z",
+      "avgOdds": {
+        "home": 2.04,
+        "draw": 3.38,
+        "away": 3.6
+      },
+      "impliedProb": {
+        "home": 0.46,
+        "draw": 0.278,
+        "away": 0.261
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.91,
+          2.15
+        ],
+        "draw": [
+          3.1,
+          3.6
+        ],
+        "away": [
+          3.2,
+          4.02
+        ]
+      }
+    },
+    {
+      "id": "f2e43bd491e3c658d6e503b9df8c2134",
+      "league": "BL1",
+      "homeTeam": "Union Berlin",
+      "awayTeam": "Bayer Leverkusen",
+      "kickoff": "2026-02-21T14:30:00Z",
+      "avgOdds": {
+        "home": 2.82,
+        "draw": 3.34,
+        "away": 2.44
+      },
+      "impliedProb": {
+        "home": 0.334,
+        "draw": 0.281,
+        "away": 0.385
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.62,
+          3
+        ],
+        "draw": [
+          2.88,
+          3.5
+        ],
+        "away": [
+          2.25,
+          2.62
+        ]
+      }
+    },
+    {
+      "id": "ac72453779184c0c6e7ef4ebc744eeda",
+      "league": "BL1",
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Eintracht Frankfurt",
+      "kickoff": "2026-02-21T14:30:00Z",
+      "avgOdds": {
+        "home": 1.15,
+        "draw": 8.59,
+        "away": 13.64
+      },
+      "impliedProb": {
+        "home": 0.821,
+        "draw": 0.11,
+        "away": 0.069
+      },
+      "bookmakerCount": 40,
+      "oddsRange": {
+        "home": [
+          1.1,
+          1.2
+        ],
+        "draw": [
+          7,
+          10
+        ],
+        "away": [
+          11,
+          16.5
+        ]
+      }
+    },
+    {
+      "id": "b525bfb94a7e90857cc26c2c77d4b3c2",
+      "league": "BL1",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Borussia Dortmund",
+      "kickoff": "2026-02-21T17:30:00Z",
+      "avgOdds": {
+        "home": 2.21,
+        "draw": 3.83,
+        "away": 2.86
+      },
+      "impliedProb": {
+        "home": 0.426,
+        "draw": 0.245,
+        "away": 0.329
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.05,
+          2.32
+        ],
+        "draw": [
+          3.3,
+          4
+        ],
+        "away": [
+          2.6,
+          3.1
+        ]
+      }
+    },
+    {
+      "id": "8c1d506c08f740edce7fe50153c9658c",
+      "league": "BL1",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "Borussia Monchengladbach",
+      "kickoff": "2026-02-22T14:30:00Z",
+      "avgOdds": {
+        "home": 2.01,
+        "draw": 3.25,
+        "away": 3.86
+      },
+      "impliedProb": {
+        "home": 0.468,
+        "draw": 0.289,
+        "away": 0.243
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.85,
+          2.12
+        ],
+        "draw": [
+          3,
+          3.4
+        ],
+        "away": [
+          3.3,
+          4.45
+        ]
+      }
+    },
+    {
+      "id": "785fc35a610e4866ede7353ef50dbfb8",
+      "league": "BL1",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "Werder Bremen",
+      "kickoff": "2026-02-22T16:30:00Z",
+      "avgOdds": {
+        "home": 2.75,
+        "draw": 3.05,
+        "away": 2.67
+      },
+      "impliedProb": {
+        "home": 0.341,
+        "draw": 0.307,
+        "away": 0.352
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.55,
+          2.9
+        ],
+        "draw": [
+          2.75,
+          3.2
+        ],
+        "away": [
+          2.4,
+          2.84
+        ]
+      }
+    },
+    {
+      "id": "f4e8c1055e346f16977dd0be892e66cf",
+      "league": "BL1",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "VfB Stuttgart",
+      "kickoff": "2026-02-22T18:30:00Z",
+      "avgOdds": {
+        "home": 4.49,
+        "draw": 4.07,
+        "away": 1.68
+      },
+      "impliedProb": {
+        "home": 0.209,
+        "draw": 0.231,
+        "away": 0.56
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          4,
+          5
+        ],
+        "draw": [
+          3.4,
+          4.32
+        ],
+        "away": [
+          1.57,
+          1.75
+        ]
+      }
+    },
+    {
+      "id": "d9b3ed22927b274eb15f772fc4739572",
+      "league": "BL1",
+      "homeTeam": "Augsburg",
+      "awayTeam": "1. FC Köln",
+      "kickoff": "2026-02-27T19:30:00Z",
+      "avgOdds": {
+        "home": 2.29,
+        "draw": 3.25,
+        "away": 3.05
+      },
+      "impliedProb": {
+        "home": 0.407,
+        "draw": 0.287,
+        "away": 0.306
+      },
+      "bookmakerCount": 34,
+      "oddsRange": {
+        "home": [
+          2.08,
+          2.48
+        ],
+        "draw": [
+          2.9,
+          3.5
+        ],
+        "away": [
+          2.75,
+          3.42
+        ]
+      }
+    },
+    {
+      "id": "d9df5eb265d106ecc1c55222ab74835a",
+      "league": "BL1",
+      "homeTeam": "Werder Bremen",
+      "awayTeam": "1. FC Heidenheim",
+      "kickoff": "2026-02-28T14:30:00Z",
+      "avgOdds": {
+        "home": 1.72,
+        "draw": 3.79,
+        "away": 4.31
+      },
+      "impliedProb": {
+        "home": 0.539,
+        "draw": 0.245,
+        "away": 0.216
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          1.6,
+          1.81
+        ],
+        "draw": [
+          3.5,
+          3.98
+        ],
+        "away": [
+          3.95,
+          4.72
+        ]
+      }
+    },
+    {
+      "id": "0983639c88c17dc404f40493856de2f3",
+      "league": "BL1",
+      "homeTeam": "Bayer Leverkusen",
+      "awayTeam": "FSV Mainz 05",
+      "kickoff": "2026-02-28T14:30:00Z",
+      "avgOdds": {
+        "home": 1.61,
+        "draw": 4.07,
+        "away": 4.79
+      },
+      "impliedProb": {
+        "home": 0.578,
+        "draw": 0.229,
+        "away": 0.194
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          1.5,
+          1.68
+        ],
+        "draw": [
+          3.3,
+          4.37
+        ],
+        "away": [
+          4.3,
+          5.28
+        ]
+      }
+    },
+    {
+      "id": "21bb5e33c98fe8ef48239ed92ac437f3",
+      "league": "BL1",
+      "homeTeam": "Borussia Monchengladbach",
+      "awayTeam": "Union Berlin",
+      "kickoff": "2026-02-28T14:30:00Z",
+      "avgOdds": {
+        "home": 2.38,
+        "draw": 3.33,
+        "away": 2.83
+      },
+      "impliedProb": {
+        "home": 0.391,
+        "draw": 0.28,
+        "away": 0.329
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          2.14,
+          2.54
+        ],
+        "draw": [
+          3.05,
+          3.58
+        ],
+        "away": [
+          2.65,
+          3.1
+        ]
+      }
+    },
+    {
+      "id": "749c8e0f5836e6ffa8ab1b8e0507f4ad",
+      "league": "BL1",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "FC St. Pauli",
+      "kickoff": "2026-02-28T14:30:00Z",
+      "avgOdds": {
+        "home": 1.54,
+        "draw": 4.25,
+        "away": 5.39
+      },
+      "impliedProb": {
+        "home": 0.607,
+        "draw": 0.22,
+        "away": 0.173
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          1.45,
+          1.6
+        ],
+        "draw": [
+          3.9,
+          4.83
+        ],
+        "away": [
+          4.8,
+          6.1
+        ]
+      }
+    },
+    {
+      "id": "70d22dc01e0961848d24e1c4b6273cd5",
+      "league": "BL1",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Bayern Munich",
+      "kickoff": "2026-02-28T17:30:00Z",
+      "avgOdds": {
+        "home": 3.97,
+        "draw": 4.28,
+        "away": 1.7
+      },
+      "impliedProb": {
+        "home": 0.234,
+        "draw": 0.217,
+        "away": 0.548
+      },
+      "bookmakerCount": 32,
+      "oddsRange": {
+        "home": [
+          3.5,
+          4.47
+        ],
+        "draw": [
+          3.9,
+          4.5
+        ],
+        "away": [
+          1.58,
+          1.77
+        ]
+      }
+    },
+    {
+      "id": "31f34af2bfc41270df30ca86fe4b5be5",
+      "league": "BL1",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "VfL Wolfsburg",
+      "kickoff": "2026-03-01T14:30:00Z",
+      "avgOdds": {
+        "home": 1.52,
+        "draw": 4.49,
+        "away": 5.27
+      },
+      "impliedProb": {
+        "home": 0.616,
+        "draw": 0.208,
+        "away": 0.177
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          1.4,
+          1.59
+        ],
+        "draw": [
+          4.2,
+          4.8
+        ],
+        "away": [
+          4.7,
+          5.69
+        ]
+      }
+    },
+    {
+      "id": "2c9fea6f93167b0899ba0610d1f7baf5",
+      "league": "BL1",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "SC Freiburg",
+      "kickoff": "2026-03-01T16:30:00Z",
+      "avgOdds": {
+        "home": 2.1,
+        "draw": 3.48,
+        "away": 3.25
+      },
+      "impliedProb": {
+        "home": 0.444,
+        "draw": 0.268,
+        "away": 0.288
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          2,
+          2.2
+        ],
+        "draw": [
+          3.25,
+          3.7
+        ],
+        "away": [
+          3,
+          3.45
+        ]
+      }
+    },
+    {
+      "id": "cffd15b39852f0ac374672ebca6f3442",
+      "league": "BL1",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "RB Leipzig",
+      "kickoff": "2026-03-01T18:30:00Z",
+      "avgOdds": {
+        "home": 3.18,
+        "draw": 3.66,
+        "away": 2.06
+      },
+      "impliedProb": {
+        "home": 0.293,
+        "draw": 0.255,
+        "away": 0.452
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          2.9,
+          3.46
+        ],
+        "draw": [
+          3.45,
+          3.9
+        ],
+        "away": [
+          1.9,
+          2.16
+        ]
+      }
+    },
+    {
+      "id": "b0759fedb5a0c7208e4609add8f40a3e",
+      "league": "SA",
+      "homeTeam": "AC Milan",
+      "awayTeam": "Como",
+      "kickoff": "2026-02-18T19:45:00Z",
+      "avgOdds": {
+        "home": 2.26,
+        "draw": 3.29,
+        "away": 3.19
+      },
+      "impliedProb": {
+        "home": 0.418,
+        "draw": 0.287,
+        "away": 0.296
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.15,
+          2.36
+        ],
+        "draw": [
+          3,
+          3.45
+        ],
+        "away": [
+          2.88,
+          3.5
+        ]
+      }
+    },
+    {
+      "id": "b3ead2624bcb7542fc1dfe4b9f8a74d0",
+      "league": "SA",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Hellas Verona",
+      "kickoff": "2026-02-20T19:45:00Z",
+      "avgOdds": {
+        "home": 1.83,
+        "draw": 3.27,
+        "away": 4.8
+      },
+      "impliedProb": {
+        "home": 0.516,
+        "draw": 0.288,
+        "away": 0.196
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.73,
+          1.92
+        ],
+        "draw": [
+          3,
+          3.4
+        ],
+        "away": [
+          4.33,
+          5.3
+        ]
+      }
+    },
+    {
+      "id": "bda3b46e2de11f37bd238683779150ee",
+      "league": "SA",
+      "homeTeam": "Juventus",
+      "awayTeam": "Como",
+      "kickoff": "2026-02-21T14:00:00Z",
+      "avgOdds": {
+        "home": 2.02,
+        "draw": 3.44,
+        "away": 3.6
+      },
+      "impliedProb": {
+        "home": 0.465,
+        "draw": 0.273,
+        "away": 0.261
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.91,
+          2.12
+        ],
+        "draw": [
+          3,
+          3.73
+        ],
+        "away": [
+          3.28,
+          3.95
+        ]
+      }
+    },
+    {
+      "id": "e22102caca23e00b15a82a2f83fc943a",
+      "league": "SA",
+      "homeTeam": "Lecce",
+      "awayTeam": "Inter Milan",
+      "kickoff": "2026-02-21T17:00:00Z",
+      "avgOdds": {
+        "home": 8.58,
+        "draw": 4.5,
+        "away": 1.39
+      },
+      "impliedProb": {
+        "home": 0.11,
+        "draw": 0.21,
+        "away": 0.68
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          7.25,
+          10
+        ],
+        "draw": [
+          4,
+          4.9
+        ],
+        "away": [
+          1.32,
+          1.46
+        ]
+      }
+    },
+    {
+      "id": "1786db94c290d2acd9a16e7d6374ed40",
+      "league": "SA",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Lazio",
+      "kickoff": "2026-02-21T19:45:00Z",
+      "avgOdds": {
+        "home": 3.11,
+        "draw": 3.06,
+        "away": 2.42
+      },
+      "impliedProb": {
+        "home": 0.303,
+        "draw": 0.308,
+        "away": 0.389
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.9,
+          3.3
+        ],
+        "draw": [
+          2.8,
+          3.25
+        ],
+        "away": [
+          2.2,
+          2.57
+        ]
+      }
+    },
+    {
+      "id": "d1aaa8dcce6e511af9c79c1b0c780ca3",
+      "league": "SA",
+      "homeTeam": "Genoa",
+      "awayTeam": "Torino",
+      "kickoff": "2026-02-22T11:30:00Z",
+      "avgOdds": {
+        "home": 2.26,
+        "draw": 3.03,
+        "away": 3.43
+      },
+      "impliedProb": {
+        "home": 0.416,
+        "draw": 0.31,
+        "away": 0.274
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.1,
+          2.36
+        ],
+        "draw": [
+          2.8,
+          3.15
+        ],
+        "away": [
+          3,
+          3.8
+        ]
+      }
+    },
+    {
+      "id": "945ceafe73da002fa0f144dc1e45730b",
+      "league": "SA",
+      "homeTeam": "Atalanta BC",
+      "awayTeam": "Napoli",
+      "kickoff": "2026-02-22T14:00:00Z",
+      "avgOdds": {
+        "home": 2.39,
+        "draw": 3.13,
+        "away": 3.06
+      },
+      "impliedProb": {
+        "home": 0.393,
+        "draw": 0.3,
+        "away": 0.307
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.2,
+          2.56
+        ],
+        "draw": [
+          2.8,
+          3.35
+        ],
+        "away": [
+          2.8,
+          3.22
+        ]
+      }
+    },
+    {
+      "id": "d114309ad5d5b202acbde1fb58f02b12",
+      "league": "SA",
+      "homeTeam": "AC Milan",
+      "awayTeam": "Parma",
+      "kickoff": "2026-02-22T17:00:00Z",
+      "avgOdds": {
+        "home": 1.33,
+        "draw": 4.99,
+        "away": 9.17
+      },
+      "impliedProb": {
+        "home": 0.709,
+        "draw": 0.188,
+        "away": 0.103
+      },
+      "bookmakerCount": 40,
+      "oddsRange": {
+        "home": [
+          1.26,
+          1.39
+        ],
+        "draw": [
+          4,
+          5.4
+        ],
+        "away": [
+          8,
+          11
+        ]
+      }
+    },
+    {
+      "id": "a3218d0df388e01ef98db3c1e38a0a35",
+      "league": "SA",
+      "homeTeam": "AS Roma",
+      "awayTeam": "Cremonese",
+      "kickoff": "2026-02-22T19:45:00Z",
+      "avgOdds": {
+        "home": 1.35,
+        "draw": 4.67,
+        "away": 9.32
+      },
+      "impliedProb": {
+        "home": 0.698,
+        "draw": 0.201,
+        "away": 0.101
+      },
+      "bookmakerCount": 40,
+      "oddsRange": {
+        "home": [
+          1.26,
+          1.42
+        ],
+        "draw": [
+          3.75,
+          5
+        ],
+        "away": [
+          8,
+          11
+        ]
+      }
+    },
+    {
+      "id": "e8771285712107ffede5eec187ec5cb9",
+      "league": "SA",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Pisa",
+      "kickoff": "2026-02-23T17:30:00Z",
+      "avgOdds": {
+        "home": 1.64,
+        "draw": 3.86,
+        "away": 5.05
+      },
+      "impliedProb": {
+        "home": 0.572,
+        "draw": 0.243,
+        "away": 0.186
+      },
+      "bookmakerCount": 39,
+      "oddsRange": {
+        "home": [
+          1.54,
+          1.73
+        ],
+        "draw": [
+          3.6,
+          4.15
+        ],
+        "away": [
+          4.5,
+          5.4
+        ]
+      }
+    },
+    {
+      "id": "1d1f8018be08d8fab122e83a9985428d",
+      "league": "SA",
+      "homeTeam": "Bologna",
+      "awayTeam": "Udinese",
+      "kickoff": "2026-02-23T19:45:00Z",
+      "avgOdds": {
+        "home": 1.93,
+        "draw": 3.35,
+        "away": 4
+      },
+      "impliedProb": {
+        "home": 0.486,
+        "draw": 0.28,
+        "away": 0.234
+      },
+      "bookmakerCount": 38,
+      "oddsRange": {
+        "home": [
+          1.8,
+          2.06
+        ],
+        "draw": [
+          3.1,
+          3.58
+        ],
+        "away": [
+          3.7,
+          4.3
+        ]
+      }
+    },
+    {
+      "id": "fe9cd96f1d17ed487447bd9db20fa722",
+      "league": "SA",
+      "homeTeam": "Parma",
+      "awayTeam": "Cagliari",
+      "kickoff": "2026-02-27T19:45:00Z",
+      "avgOdds": {
+        "home": 2.53,
+        "draw": 2.93,
+        "away": 2.97
+      },
+      "impliedProb": {
+        "home": 0.368,
+        "draw": 0.318,
+        "away": 0.314
+      },
+      "bookmakerCount": 29,
+      "oddsRange": {
+        "home": [
+          2.31,
+          2.71
+        ],
+        "draw": [
+          2.8,
+          3.1
+        ],
+        "away": [
+          2.75,
+          3.19
+        ]
+      }
+    },
+    {
+      "id": "e54612bb8dd4852d1f2ec47f03e463a0",
+      "league": "SA",
+      "homeTeam": "Como",
+      "awayTeam": "Lecce",
+      "kickoff": "2026-02-28T14:00:00Z",
+      "avgOdds": {
+        "home": 1.39,
+        "draw": 4.43,
+        "away": 7.73
+      },
+      "impliedProb": {
+        "home": 0.669,
+        "draw": 0.21,
+        "away": 0.12
+      },
+      "bookmakerCount": 29,
+      "oddsRange": {
+        "home": [
+          1.32,
+          1.46
+        ],
+        "draw": [
+          4,
+          4.8
+        ],
+        "away": [
+          6.25,
+          9
+        ]
+      }
+    },
+    {
+      "id": "e97afd7d8628369b4d3f86ecd8f742a9",
+      "league": "SA",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Napoli",
+      "kickoff": "2026-02-28T17:00:00Z",
+      "avgOdds": {
+        "home": 6.15,
+        "draw": 3.68,
+        "away": 1.56
+      },
+      "impliedProb": {
+        "home": 0.151,
+        "draw": 0.253,
+        "away": 0.596
+      },
+      "bookmakerCount": 29,
+      "oddsRange": {
+        "home": [
+          5.6,
+          7
+        ],
+        "draw": [
+          3.4,
+          3.99
+        ],
+        "away": [
+          1.46,
+          1.64
+        ]
+      }
+    },
+    {
+      "id": "00a3e05beb516bb7fcb3ab33dbf26df6",
+      "league": "SA",
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Genoa",
+      "kickoff": "2026-02-28T19:45:00Z",
+      "avgOdds": {
+        "home": 1.26,
+        "draw": 5.52,
+        "away": 10.07
+      },
+      "impliedProb": {
+        "home": 0.739,
+        "draw": 0.169,
+        "away": 0.092
+      },
+      "bookmakerCount": 29,
+      "oddsRange": {
+        "home": [
+          1.17,
+          1.33
+        ],
+        "draw": [
+          5,
+          6.2
+        ],
+        "away": [
+          8,
+          11.5
+        ]
+      }
+    },
+    {
+      "id": "2a6d88b49e4fddc1e4c8a1b59a0ba314",
+      "league": "SA",
+      "homeTeam": "Cremonese",
+      "awayTeam": "AC Milan",
+      "kickoff": "2026-03-01T11:30:00Z",
+      "avgOdds": {
+        "home": 6.52,
+        "draw": 4.17,
+        "away": 1.47
+      },
+      "impliedProb": {
+        "home": 0.143,
+        "draw": 0.224,
+        "away": 0.633
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          5.7,
+          7.5
+        ],
+        "draw": [
+          3.9,
+          4.45
+        ],
+        "away": [
+          1.4,
+          1.56
+        ]
+      }
+    },
+    {
+      "id": "1b4ac51d5175f966f00ce3763fd74217",
+      "league": "SA",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Atalanta BC",
+      "kickoff": "2026-03-01T14:00:00Z",
+      "avgOdds": {
+        "home": 3.75,
+        "draw": 3.55,
+        "away": 1.9
+      },
+      "impliedProb": {
+        "home": 0.248,
+        "draw": 0.262,
+        "away": 0.489
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          3.5,
+          3.98
+        ],
+        "draw": [
+          3.25,
+          3.8
+        ],
+        "away": [
+          1.8,
+          2
+        ]
+      }
+    },
+    {
+      "id": "5e01a088ad9df492f8ebce7c6c381bcc",
+      "league": "SA",
+      "homeTeam": "Torino",
+      "awayTeam": "Lazio",
+      "kickoff": "2026-03-01T17:00:00Z",
+      "avgOdds": {
+        "home": 2.77,
+        "draw": 2.84,
+        "away": 2.79
+      },
+      "impliedProb": {
+        "home": 0.337,
+        "draw": 0.329,
+        "away": 0.334
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          2.6,
+          3.05
+        ],
+        "draw": [
+          2.62,
+          3
+        ],
+        "away": [
+          2.55,
+          3.04
+        ]
+      }
+    },
+    {
+      "id": "6418e6d889c87bfb146ff959d151a5ed",
+      "league": "SA",
+      "homeTeam": "AS Roma",
+      "awayTeam": "Juventus",
+      "kickoff": "2026-03-01T19:45:00Z",
+      "avgOdds": {
+        "home": 2.69,
+        "draw": 3.11,
+        "away": 2.65
+      },
+      "impliedProb": {
+        "home": 0.347,
+        "draw": 0.3,
+        "away": 0.353
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          2.55,
+          2.84
+        ],
+        "draw": [
+          2.85,
+          3.32
+        ],
+        "away": [
+          2.45,
+          2.85
+        ]
+      }
+    },
+    {
+      "id": "0af2377098db74c6fed12ba38c0a5b07",
+      "league": "SA",
+      "homeTeam": "Pisa",
+      "awayTeam": "Bologna",
+      "kickoff": "2026-03-02T17:30:00Z",
+      "avgOdds": {
+        "home": 3.74,
+        "draw": 3.35,
+        "away": 1.97
+      },
+      "impliedProb": {
+        "home": 0.249,
+        "draw": 0.278,
+        "away": 0.473
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          3.3,
+          4
+        ],
+        "draw": [
+          3,
+          3.55
+        ],
+        "away": [
+          1.82,
+          2.1
+        ]
+      }
+    },
+    {
+      "id": "5f57fcb3b100f74da86f4e00f9747782",
+      "league": "SA",
+      "homeTeam": "Udinese",
+      "awayTeam": "Fiorentina",
+      "kickoff": "2026-03-02T19:45:00Z",
+      "avgOdds": {
+        "home": 3.04,
+        "draw": 3.3,
+        "away": 2.26
+      },
+      "impliedProb": {
+        "home": 0.307,
+        "draw": 0.282,
+        "away": 0.411
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          2.7,
+          3.2
+        ],
+        "draw": [
+          3,
+          3.56
+        ],
+        "away": [
+          2.05,
+          2.38
+        ]
+      }
+    },
+    {
+      "id": "f44d7a7a3b323735e467f2ebb9b81d0d",
+      "league": "FL1",
+      "homeTeam": "Brest",
+      "awayTeam": "Marseille",
+      "kickoff": "2026-02-20T19:45:00Z",
+      "avgOdds": {
+        "home": 3.81,
+        "draw": 3.64,
+        "away": 1.9
+      },
+      "impliedProb": {
+        "home": 0.247,
+        "draw": 0.259,
+        "away": 0.494
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          3.5,
+          4.1
+        ],
+        "draw": [
+          3.2,
+          3.85
+        ],
+        "away": [
+          1.75,
+          2
+        ]
+      }
+    },
+    {
+      "id": "5a0b91c834ffef608f8a6fcaa6c7ac15",
+      "league": "FL1",
+      "homeTeam": "RC Lens",
+      "awayTeam": "AS Monaco",
+      "kickoff": "2026-02-21T16:00:00Z",
+      "avgOdds": {
+        "home": 1.83,
+        "draw": 3.95,
+        "away": 3.75
+      },
+      "impliedProb": {
+        "home": 0.512,
+        "draw": 0.238,
+        "away": 0.25
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.73,
+          1.91
+        ],
+        "draw": [
+          3.4,
+          4.2
+        ],
+        "away": [
+          3.4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "c347a4944285c846c09f5ae28bec04ff",
+      "league": "FL1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "Paris FC",
+      "kickoff": "2026-02-21T18:00:00Z",
+      "avgOdds": {
+        "home": 1.93,
+        "draw": 3.3,
+        "away": 4.12
+      },
+      "impliedProb": {
+        "home": 0.486,
+        "draw": 0.285,
+        "away": 0.228
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.86,
+          2.02
+        ],
+        "draw": [
+          2.88,
+          3.48
+        ],
+        "away": [
+          3.75,
+          4.5
+        ]
+      }
+    },
+    {
+      "id": "d9d29555efc7a85277a73ef62ada3485",
+      "league": "FL1",
+      "homeTeam": "Paris Saint Germain",
+      "awayTeam": "Metz",
+      "kickoff": "2026-02-21T20:05:00Z",
+      "avgOdds": {
+        "home": 1.11,
+        "draw": 9.9,
+        "away": 17.75
+      },
+      "impliedProb": {
+        "home": 0.851,
+        "draw": 0.095,
+        "away": 0.053
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.07,
+          1.15
+        ],
+        "draw": [
+          7,
+          12.5
+        ],
+        "away": [
+          13,
+          22.5
+        ]
+      }
+    },
+    {
+      "id": "ad9041db2d23857e328d4103051c8a50",
+      "league": "FL1",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Rennes",
+      "kickoff": "2026-02-22T14:00:00Z",
+      "avgOdds": {
+        "home": 2.94,
+        "draw": 3.31,
+        "away": 2.36
+      },
+      "impliedProb": {
+        "home": 0.319,
+        "draw": 0.283,
+        "away": 0.398
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.75,
+          3.1
+        ],
+        "draw": [
+          2.88,
+          3.47
+        ],
+        "away": [
+          2.1,
+          2.48
+        ]
+      }
+    },
+    {
+      "id": "dbbddf877962f8edfdfb1cf29a8b4883",
+      "league": "FL1",
+      "homeTeam": "Angers",
+      "awayTeam": "Lille",
+      "kickoff": "2026-02-22T16:15:00Z",
+      "avgOdds": {
+        "home": 4.45,
+        "draw": 3.53,
+        "away": 1.8
+      },
+      "impliedProb": {
+        "home": 0.211,
+        "draw": 0.266,
+        "away": 0.523
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          4,
+          4.9
+        ],
+        "draw": [
+          3.1,
+          3.75
+        ],
+        "away": [
+          1.73,
+          1.87
+        ]
+      }
+    },
+    {
+      "id": "9f459166d94654e0b6e7b41969ab15e7",
+      "league": "FL1",
+      "homeTeam": "Nantes",
+      "awayTeam": "Le Havre",
+      "kickoff": "2026-02-22T16:15:00Z",
+      "avgOdds": {
+        "home": 2.28,
+        "draw": 3.26,
+        "away": 3.11
+      },
+      "impliedProb": {
+        "home": 0.411,
+        "draw": 0.288,
+        "away": 0.301
+      },
+      "bookmakerCount": 39,
+      "oddsRange": {
+        "home": [
+          2.1,
+          2.48
+        ],
+        "draw": [
+          2.88,
+          3.4
+        ],
+        "away": [
+          2.88,
+          3.3
+        ]
+      }
+    },
+    {
+      "id": "882aeff9d961da4004e44404bd1da464",
+      "league": "FL1",
+      "homeTeam": "Nice",
+      "awayTeam": "Lorient",
+      "kickoff": "2026-02-22T16:15:00Z",
+      "avgOdds": {
+        "home": 2.08,
+        "draw": 3.46,
+        "away": 3.36
+      },
+      "impliedProb": {
+        "home": 0.45,
+        "draw": 0.271,
+        "away": 0.279
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          1.91,
+          2.18
+        ],
+        "draw": [
+          3,
+          3.65
+        ],
+        "away": [
+          3.1,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "df4e77e84622fa3c875673bef9ec07d7",
+      "league": "FL1",
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Lyon",
+      "kickoff": "2026-02-22T19:45:00Z",
+      "avgOdds": {
+        "home": 2.33,
+        "draw": 3.51,
+        "away": 2.85
+      },
+      "impliedProb": {
+        "home": 0.403,
+        "draw": 0.268,
+        "away": 0.329
+      },
+      "bookmakerCount": 41,
+      "oddsRange": {
+        "home": [
+          2.1,
+          2.44
+        ],
+        "draw": [
+          3,
+          3.68
+        ],
+        "away": [
+          2.62,
+          3
+        ]
+      }
+    },
+    {
+      "id": "8c070c7f40ca48c29b7d12a167c0f868",
+      "league": "FL1",
+      "homeTeam": "Strasbourg",
+      "awayTeam": "RC Lens",
+      "kickoff": "2026-02-27T19:45:00Z",
+      "avgOdds": {
+        "home": 2.66,
+        "draw": 3.6,
+        "away": 2.37
+      },
+      "impliedProb": {
+        "home": 0.35,
+        "draw": 0.258,
+        "away": 0.393
+      },
+      "bookmakerCount": 30,
+      "oddsRange": {
+        "home": [
+          2.5,
+          2.8
+        ],
+        "draw": [
+          3.42,
+          3.8
+        ],
+        "away": [
+          2.12,
+          2.54
+        ]
+      }
+    },
+    {
+      "id": "08aed1585e915a7a7952346433dc652c",
+      "league": "FL1",
+      "homeTeam": "Rennes",
+      "awayTeam": "Toulouse",
+      "kickoff": "2026-02-28T16:00:00Z",
+      "avgOdds": {
+        "home": 2.17,
+        "draw": 3.38,
+        "away": 3.16
+      },
+      "impliedProb": {
+        "home": 0.429,
+        "draw": 0.276,
+        "away": 0.295
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          2.02,
+          2.35
+        ],
+        "draw": [
+          3.25,
+          3.56
+        ],
+        "away": [
+          2.9,
+          3.45
+        ]
+      }
+    },
+    {
+      "id": "2f70c593f215deb0f2b7268cb324c341",
+      "league": "FL1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Angers",
+      "kickoff": "2026-02-28T18:00:00Z",
+      "avgOdds": {
+        "home": 1.48,
+        "draw": 4.45,
+        "away": 5.86
+      },
+      "impliedProb": {
+        "home": 0.631,
+        "draw": 0.209,
+        "away": 0.159
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          1.4,
+          1.56
+        ],
+        "draw": [
+          4.1,
+          4.75
+        ],
+        "away": [
+          5.15,
+          6.3
+        ]
+      }
+    },
+    {
+      "id": "cf41f75aa4744d16b2faad86717d3578",
+      "league": "FL1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "Paris Saint Germain",
+      "kickoff": "2026-02-28T20:05:00Z",
+      "avgOdds": {
+        "home": 9.3,
+        "draw": 5.9,
+        "away": 1.26
+      },
+      "impliedProb": {
+        "home": 0.101,
+        "draw": 0.158,
+        "away": 0.741
+      },
+      "bookmakerCount": 28,
+      "oddsRange": {
+        "home": [
+          7.9,
+          10.6
+        ],
+        "draw": [
+          5.2,
+          6.5
+        ],
+        "away": [
+          1.21,
+          1.31
+        ]
+      }
+    },
+    {
+      "id": "a35a9181ba08069940280f3196cd9b9e",
+      "league": "FL1",
+      "homeTeam": "Paris FC",
+      "awayTeam": "Nice",
+      "kickoff": "2026-03-01T14:00:00Z",
+      "avgOdds": {
+        "home": 2.37,
+        "draw": 3.1,
+        "away": 3.07
+      },
+      "impliedProb": {
+        "home": 0.394,
+        "draw": 0.302,
+        "away": 0.304
+      },
+      "bookmakerCount": 27,
+      "oddsRange": {
+        "home": [
+          2.19,
+          2.51
+        ],
+        "draw": [
+          2.7,
+          3.3
+        ],
+        "away": [
+          2.8,
+          3.35
+        ]
+      }
+    },
+    {
+      "id": "e97833cccfb2e4af02143db6117efaff",
+      "league": "FL1",
+      "homeTeam": "Lorient",
+      "awayTeam": "Auxerre",
+      "kickoff": "2026-03-01T16:15:00Z",
+      "avgOdds": {
+        "home": 2.07,
+        "draw": 3.17,
+        "away": 3.67
+      },
+      "impliedProb": {
+        "home": 0.452,
+        "draw": 0.294,
+        "away": 0.255
+      },
+      "bookmakerCount": 27,
+      "oddsRange": {
+        "home": [
+          1.94,
+          2.18
+        ],
+        "draw": [
+          3,
+          3.35
+        ],
+        "away": [
+          3.4,
+          3.86
+        ]
+      }
+    },
+    {
+      "id": "fbcc6b169a918655ebaecbb2c5dc05b8",
+      "league": "FL1",
+      "homeTeam": "Metz",
+      "awayTeam": "Brest",
+      "kickoff": "2026-03-01T16:15:00Z",
+      "avgOdds": {
+        "home": 3.09,
+        "draw": 3.35,
+        "away": 2.23
+      },
+      "impliedProb": {
+        "home": 0.303,
+        "draw": 0.279,
+        "away": 0.419
+      },
+      "bookmakerCount": 26,
+      "oddsRange": {
+        "home": [
+          2.85,
+          3.39
+        ],
+        "draw": [
+          3.2,
+          3.54
+        ],
+        "away": [
+          2.1,
+          2.38
+        ]
+      }
+    },
+    {
+      "id": "96eae391138e2cb3256be2d5c586bab8",
+      "league": "FL1",
+      "homeTeam": "Lille",
+      "awayTeam": "Nantes",
+      "kickoff": "2026-03-01T16:15:00Z",
+      "avgOdds": {
+        "home": 1.44,
+        "draw": 4.1,
+        "away": 7.34
+      },
+      "impliedProb": {
+        "home": 0.646,
+        "draw": 0.227,
+        "away": 0.127
+      },
+      "bookmakerCount": 26,
+      "oddsRange": {
+        "home": [
+          1.36,
+          1.53
+        ],
+        "draw": [
+          3.75,
+          4.33
+        ],
+        "away": [
+          6.25,
+          8.69
+        ]
+      }
+    },
+    {
+      "id": "764459bdd187e964c6832c94d510c351",
+      "league": "FL1",
+      "homeTeam": "Marseille",
+      "awayTeam": "Lyon",
+      "kickoff": "2026-03-01T19:45:00Z",
+      "avgOdds": {
+        "home": 1.89,
+        "draw": 3.69,
+        "away": 3.72
+      },
+      "impliedProb": {
+        "home": 0.495,
+        "draw": 0.253,
+        "away": 0.251
+      },
+      "bookmakerCount": 26,
+      "oddsRange": {
+        "home": [
+          1.8,
+          1.96
+        ],
+        "draw": [
+          3.5,
+          3.88
+        ],
+        "away": [
+          3.35,
+          4.03
+        ]
+      }
+    }
+  ]
 }

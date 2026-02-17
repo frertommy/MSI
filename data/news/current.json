@@ -1,6 +1,61 @@
 {
-  "computedAt": "2026-02-17T07:19:23.947Z",
+  "computedAt": "2026-02-17T09:03:09.374Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
-  "teams": {}
+  "teams": {
+    "FC Barcelona": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Real Madrid President Florentino Perez Has 'Dream' Of Signing Barcelona Star",
+          "url": "https://www.foxsports.com/stories/soccer/the-next-luis-figo-real-madrid-president-florentino-perez-targets-dream-signing-from-barcelona",
+          "source": "Fox Sports",
+          "publishedAt": "2026-02-10T19:10:40Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 4.1,
+          "daysAgo": 7
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 4.1,
+      "newsAdjustment": 2.5
+    },
+    "Club Atlético de Madrid": {
+      "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Bayern and Chelsea eye Verbruggen - Thursday's gossip",
+          "url": "https://www.bbc.com/sport/football/articles/c0ljppgp0p7o",
+          "source": "BBC News",
+          "publishedAt": "2026-02-11T22:28:51Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -3.9,
+          "daysAgo": 5
+        }
+      ],
+      "totalRawImpact": -6.3,
+      "totalDecayedImpact": -3.9,
+      "newsAdjustment": -2.3
+    },
+    "Olympique de Marseille": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Official | Ruben Blanco departs Marseille and joins Girona",
+          "url": "https://www.getfootballnewsfrance.com/2026/official-ruben-blanco-departs-marseille-and-joins-girona/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-02-11T08:15:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 4.4,
+          "daysAgo": 6
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 4.4,
+      "newsAdjustment": 2.7
+    }
+  }
 }
