@@ -20,8 +20,9 @@
     "analyze": "tsx src/analyzeSignals.ts",
     "fetch:injuries": "tsx src/fetchInjuries.ts",
     "fetch:squads": "tsx src/fetchSquads.ts",
+    "fetch:news": "tsx src/fetchNews.ts",
     "pipeline": "npm run fetch && npm run compute && npm run compute:multilayer && npm run analyze && npm run validate && npm run rankings",
-    "pipeline:live": "npm run fetch:odds && npm run fetch:injuries && npm run compute:live && npm run rankings",
+    "pipeline:live": "npm run fetch:odds && npm run fetch:injuries && npm run fetch:news && npm run compute:live && npm run rankings",
     "update": "npm run pipeline:live && npm run build"
   },
   "repository": {

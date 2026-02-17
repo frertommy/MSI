@@ -133,8 +133,41 @@ function injuryAdjustment(
   return injuryToEloAdjustment(totalImpact);
 }
 
-function newsAdjustment(_team: string, _date: string): number {
-  return 0; // No adjustment yet — will be replaced in future session
+// ── News data loading ──
+interface NewsTeamData {
+  events: { type: string; label: string; headline: string; decayedImpact: number }[];
+  totalDecayedImpact: number;
+  newsAdjustment: number;
+}
+
+interface NewsDataFile {
+  computedAt: string;
+  dampeningFactor: number;
+  capElo: number;
+  teams: Record<string, NewsTeamData>;
+}
+
+function loadNewsData(dataDir: string): NewsDataFile | null {
+  const newsFile = path.join(dataDir, "news", "current.json");
+  if (!fs.existsSync(newsFile)) return null;
+  try {
+    const data: NewsDataFile = JSON.parse(fs.readFileSync(newsFile, "utf-8"));
+    if (!data.computedAt || Object.keys(data.teams).length === 0) return null;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+function newsAdjustment(
+  team: string,
+  _date: string,
+  newsData: NewsDataFile | null
+): number {
+  if (!newsData) return 0;
+  const teamData = newsData.teams[team];
+  if (!teamData) return 0;
+  return teamData.newsAdjustment;
 }
 
 // ── Brier score ──
@@ -193,6 +226,19 @@ function main() {
     console.log(`Injury data loaded: ${totalInj} injuries across ${injuredTeams} teams`);
   } else {
     console.log("No injury data available — Layer 3 = Layer 2");
+  }
+
+  // Load news data (only applies to current/future — not historical)
+  const newsData = loadNewsData(dataDir);
+  if (newsData) {
+    const newsTeams = Object.keys(newsData.teams).length;
+    const totalEvents = Object.values(newsData.teams).reduce(
+      (s, t) => s + t.events.length,
+      0
+    );
+    console.log(`News data loaded: ${totalEvents} events across ${newsTeams} teams`);
+  } else {
+    console.log("No news data available — Layer 4 = Layer 3");
   }
 
   const registryFile = path.join(dataDir, "teams_registry.json");
@@ -294,8 +340,9 @@ function main() {
     const activeInjuryData = isRecentMatch ? injuryData : null;
     const homeInjAdj = injuryAdjustment(match.homeTeam, dateStr, activeInjuryData);
     const awayInjAdj = injuryAdjustment(match.awayTeam, dateStr, activeInjuryData);
-    const homeNewsAdj = newsAdjustment(match.homeTeam, dateStr);
-    const awayNewsAdj = newsAdjustment(match.awayTeam, dateStr);
+    const activeNewsData = isRecentMatch ? newsData : null;
+    const homeNewsAdj = newsAdjustment(match.homeTeam, dateStr, activeNewsData);
+    const awayNewsAdj = newsAdjustment(match.awayTeam, dateStr, activeNewsData);
 
     // Apply pre-match adjustments to Layer 2
     const l2HomePreMatch = eloOdds[match.homeTeam] + homeOddsAdj;
@@ -493,7 +540,7 @@ function main() {
       eloOddsInjuriesNews: buildLayer(
         eloOddsInjuriesNews,
         "Full Signal",
-        "Coming soon — placeholder",
+        "Elo adjusted by odds, injuries, and news events",
         "#ef4444"
       ),
     },

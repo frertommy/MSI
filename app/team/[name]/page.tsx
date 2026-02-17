@@ -10,6 +10,7 @@ import {
   getMultiLayerDaily,
   getSignalAnalysis,
   getCurrentInjuries,
+  getCurrentNews,
   clubEloReference,
   NAME_TO_CLUBELO,
   LEAGUE_LABELS,
@@ -24,6 +25,7 @@ import ComparisonCard from "@/app/components/ComparisonCard";
 import MarketView from "@/app/components/MarketView";
 import SignalAnalysis from "@/app/components/SignalAnalysis";
 import InjuryCard from "@/app/components/InjuryCard";
+import NewsCard from "@/app/components/NewsCard";
 
 interface PageProps {
   params: Promise<{ name: string }>;
@@ -49,6 +51,7 @@ export default async function TeamPage({ params }: PageProps) {
   const multiLayerDaily = getMultiLayerDaily();
   const signalAnalysis = getSignalAnalysis();
   const currentInjuries = getCurrentInjuries();
+  const currentNews = getCurrentNews();
 
   const teamIdx = ratings.teams.findIndex((t) => t.team === teamName);
   if (teamIdx === -1) notFound();
@@ -217,6 +220,11 @@ export default async function TeamPage({ params }: PageProps) {
     : [];
   const injuryRatingEffect = liveRating?.injuryAdjustment ?? 0;
 
+  // News data for this team
+  const teamNewsData = currentNews?.teams[teamName];
+  const newsEvents = teamNewsData?.events ?? [];
+  const newsRatingEffect = liveRating?.newsAdjustment ?? 0;
+
   // ClubElo comparison
   const clubEloName = NAME_TO_CLUBELO[teamName];
   const ceRef = clubEloName
@@ -246,7 +254,7 @@ export default async function TeamPage({ params }: PageProps) {
         stale={stale}
       />
 
-      {/* Odds Breakdown Card */}
+      {/* Rating Breakdown Card */}
       {oddsAdj !== null && oddsAdj !== 0 && (
         <div className="border border-[var(--color-border)] rounded-md px-4 py-3 bg-[var(--color-bg-card)] mb-8">
           <div className="text-[10px] uppercase tracking-wider text-[var(--color-text-dim)] mb-2">
@@ -268,6 +276,27 @@ export default async function TeamPage({ params }: PageProps) {
                 {oddsAdj.toFixed(1)}
               </span>
             </div>
+            {injuryRatingEffect !== 0 && (
+              <div>
+                <span className="text-[var(--color-text-dim)]">Injury Adj:</span>{" "}
+                <span className="font-bold tabular-nums text-[#f97316]">
+                  {Math.round(injuryRatingEffect)}
+                </span>
+              </div>
+            )}
+            {newsRatingEffect !== 0 && (
+              <div>
+                <span className="text-[var(--color-text-dim)]">News Adj:</span>{" "}
+                <span
+                  className={`font-bold tabular-nums ${
+                    newsRatingEffect > 0 ? "text-[var(--color-green)]" : "text-[#ef4444]"
+                  }`}
+                >
+                  {newsRatingEffect > 0 ? "+" : ""}
+                  {newsRatingEffect.toFixed(1)}
+                </span>
+              </div>
+            )}
             <div>
               <span className="text-[var(--color-text-dim)]">MSI Live:</span>{" "}
               <span className="font-bold text-[var(--color-green)] tabular-nums">
@@ -291,6 +320,13 @@ export default async function TeamPage({ params }: PageProps) {
         <InjuryCard
           injuries={injuryPlayers}
           ratingEffect={injuryRatingEffect}
+        />
+      )}
+
+      {newsEvents.length > 0 && (
+        <NewsCard
+          events={newsEvents}
+          ratingEffect={newsRatingEffect}
         />
       )}
 

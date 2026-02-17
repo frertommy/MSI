@@ -64,15 +64,55 @@ interface InjuryInfo {
   totalImpact: number;
 }
 
+interface NewsEventInfo {
+  type: string;
+  label: string;
+  headline: string;
+  daysAgo: number;
+  decayedImpact: number;
+}
+
+interface NewsInfo {
+  eventCount: number;
+  totalAdjustment: number;
+  topEvents: NewsEventInfo[];
+}
+
+interface NewsTeamData {
+  events: {
+    type: string;
+    label: string;
+    headline: string;
+    url: string;
+    source: string;
+    publishedAt: string;
+    rawImpact: number;
+    decayedImpact: number;
+    daysAgo: number;
+  }[];
+  totalRawImpact: number;
+  totalDecayedImpact: number;
+  newsAdjustment: number;
+}
+
+interface NewsDataFile {
+  computedAt: string;
+  dampeningFactor: number;
+  capElo: number;
+  teams: Record<string, NewsTeamData>;
+}
+
 interface MSILiveRating {
   team: string;
   league: string;
   baseElo: number;
   oddsAdjustment: number;
   injuryAdjustment: number;
+  newsAdjustment: number;
   msiLive: number;
   msiLiveRank: number;
   injuries: InjuryInfo | null;
+  news: NewsInfo | null;
   nextFixture: NextFixture | null;
   lastUpdated: string;
 }
@@ -169,6 +209,28 @@ function main() {
   }
   if (!injuryData) {
     console.log("No injury data found. injuryAdjustment = 0 for all teams.");
+  }
+
+  // Load news data
+  const newsFile = path.join(dataDir, "news", "current.json");
+  let newsData: NewsDataFile | null = null;
+  if (fs.existsSync(newsFile)) {
+    const raw: NewsDataFile = JSON.parse(
+      fs.readFileSync(newsFile, "utf-8")
+    );
+    if (raw.computedAt && Object.keys(raw.teams).length > 0) {
+      newsData = raw;
+      const totalEvents = Object.values(raw.teams).reduce(
+        (s, t) => s + t.events.length,
+        0
+      );
+      console.log(
+        `Loaded news: ${totalEvents} events across ${Object.keys(raw.teams).length} teams (computed ${raw.computedAt})`
+      );
+    }
+  }
+  if (!newsData) {
+    console.log("No news data found. newsAdjustment = 0 for all teams.");
   }
 
   // Load name mapping
@@ -304,6 +366,27 @@ function main() {
       }
     }
 
+    // Compute news adjustment
+    let newsAdj = 0;
+    let newsInfo: NewsInfo | null = null;
+    if (newsData) {
+      const teamNewsData = newsData.teams[team.team];
+      if (teamNewsData && teamNewsData.events.length > 0) {
+        newsAdj = teamNewsData.newsAdjustment;
+        newsInfo = {
+          eventCount: teamNewsData.events.length,
+          totalAdjustment: teamNewsData.newsAdjustment,
+          topEvents: teamNewsData.events.slice(0, 3).map((e) => ({
+            type: e.type,
+            label: e.label,
+            headline: e.headline,
+            daysAgo: e.daysAgo,
+            decayedImpact: e.decayedImpact,
+          })),
+        };
+      }
+    }
+
     const reg = registry[team.team];
 
     liveRatings.push({
@@ -312,9 +395,11 @@ function main() {
       baseElo: team.rating,
       oddsAdjustment: Math.round(avgAdj * 10) / 10,
       injuryAdjustment: Math.round(injAdj * 10) / 10,
-      msiLive: team.rating + avgAdj + injAdj,
+      newsAdjustment: Math.round(newsAdj * 10) / 10,
+      msiLive: team.rating + avgAdj + injAdj + newsAdj,
       msiLiveRank: 0, // filled after sorting
       injuries: injuryInfo,
+      news: newsInfo,
       nextFixture,
       lastUpdated: team.lastUpdated,
     });
@@ -369,8 +454,12 @@ function main() {
   const injuredCount = liveRatings.filter(
     (r) => r.injuryAdjustment !== 0
   ).length;
+  const newsCount = liveRatings.filter(
+    (r) => r.newsAdjustment !== 0
+  ).length;
   console.log(`\nTeams with odds adjustments: ${adjustedCount}`);
   console.log(`Teams with injury adjustments: ${injuredCount}`);
+  console.log(`Teams with news adjustments: ${newsCount}`);
   console.log(
     `Teams without odds data: ${liveRatings.length - adjustedCount}`
   );
@@ -386,11 +475,15 @@ function main() {
       r.injuryAdjustment !== 0
         ? ` (inj:${r.injuryAdjustment.toFixed(1)})`
         : "";
+    const news =
+      r.newsAdjustment !== 0
+        ? ` (news:${r.newsAdjustment >= 0 ? "+" : ""}${r.newsAdjustment.toFixed(1)})`
+        : "";
     const next = r.nextFixture
       ? ` → vs ${r.nextFixture.opponent.substring(0, 15)} (${r.nextFixture.isHome ? "H" : "A"}, ${(r.nextFixture.marketWinProb * 100).toFixed(0)}%)`
       : "";
     console.log(
-      `${String(i + 1).padStart(2)}.  ${r.team.padEnd(30)} ${Math.round(r.msiLive).toString().padStart(5)}${adj}${inj}${next}`
+      `${String(i + 1).padStart(2)}.  ${r.team.padEnd(30)} ${Math.round(r.msiLive).toString().padStart(5)}${adj}${inj}${news}${next}`
     );
   }
 }

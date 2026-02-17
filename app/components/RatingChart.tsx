@@ -71,10 +71,10 @@ const LAYERS = [
     key: "eloOddsInjuriesNews" as const,
     label: "Full Signal",
     color: "#ef4444",
-    strokeWidth: 1.5,
-    dash: "6 3",
-    defaultVisible: false,
-    comingSoon: true,
+    strokeWidth: 2,
+    dash: undefined,
+    defaultVisible: true,
+    comingSoon: false,
   },
 ];
 
@@ -102,10 +102,10 @@ const DELTA_LAYERS = [
     key: "eloOddsInjuriesNews" as const,
     label: "Full vs Base",
     color: "#ef4444",
-    strokeWidth: 1.5,
-    dash: "6 3",
-    defaultVisible: false,
-    comingSoon: true,
+    strokeWidth: 2,
+    dash: undefined,
+    defaultVisible: true,
+    comingSoon: false,
   },
 ];
 

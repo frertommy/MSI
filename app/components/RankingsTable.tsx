@@ -64,7 +64,7 @@ const SIGNAL_LAYERS = [
   { key: "baseElo", label: "Match Data", color: "#22c55e", comingSoon: false },
   { key: "eloOdds", label: "Match + Odds", color: "#eab308", comingSoon: false },
   { key: "eloOddsInjuries", label: "+ Injuries", color: "#f97316", comingSoon: false },
-  { key: "eloOddsInjuriesNews", label: "Full Signal", color: "#ef4444", comingSoon: true },
+  { key: "eloOddsInjuriesNews", label: "Full Signal", color: "#ef4444", comingSoon: false },
 ];
 
 export default function RankingsTable({
