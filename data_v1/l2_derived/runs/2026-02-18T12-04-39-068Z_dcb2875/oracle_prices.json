@@ -1,0 +1,1131 @@
+{
+  "computedAt": "2026-02-18T12:04:39.163Z",
+  "runId": "2026-02-18T12-04-39-068Z_dcb2875",
+  "params": {
+    "P0": 100,
+    "beta": 0.005,
+    "MSI0": 1500
+  },
+  "prices": [
+    {
+      "team": "FC Bayern München",
+      "oraclePrice": 583.84,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1852.89,
+      "msiDelta": 352.8900000000001
+    },
+    {
+      "team": "Arsenal FC",
+      "oraclePrice": 531,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1833.92,
+      "msiDelta": 333.9200000000001
+    },
+    {
+      "team": "Manchester City FC",
+      "oraclePrice": 528.51,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1832.98,
+      "msiDelta": 332.98
+    },
+    {
+      "team": "Liverpool FC",
+      "oraclePrice": 523.99,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1831.26,
+      "msiDelta": 331.26
+    },
+    {
+      "team": "FC Barcelona",
+      "oraclePrice": 491.82,
+      "oracleConfidence": 0.9,
+      "msiFinal": 1818.59,
+      "msiDelta": 318.5899999999999
+    },
+    {
+      "team": "Paris Saint-Germain FC",
+      "oraclePrice": 402.45,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1778.48,
+      "msiDelta": 278.48
+    },
+    {
+      "team": "FC Internazionale Milano",
+      "oraclePrice": 390.83,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1772.62,
+      "msiDelta": 272.6199999999999
+    },
+    {
+      "team": "Real Madrid CF",
+      "oraclePrice": 354.47,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1753.09,
+      "msiDelta": 253.08999999999992
+    },
+    {
+      "team": "Chelsea FC",
+      "oraclePrice": 348.11,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1749.47,
+      "msiDelta": 249.47000000000003
+    },
+    {
+      "team": "Aston Villa FC",
+      "oraclePrice": 301.08,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1720.44,
+      "msiDelta": 220.44000000000005
+    },
+    {
+      "team": "SSC Napoli",
+      "oraclePrice": 292.84,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1714.89,
+      "msiDelta": 214.8900000000001
+    },
+    {
+      "team": "Newcastle United FC",
+      "oraclePrice": 280.43,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1706.23,
+      "msiDelta": 206.23000000000002
+    },
+    {
+      "team": "Brighton & Hove Albion FC",
+      "oraclePrice": 272.64,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1700.6,
+      "msiDelta": 200.5999999999999
+    },
+    {
+      "team": "Bayer 04 Leverkusen",
+      "oraclePrice": 263.99,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1694.15,
+      "msiDelta": 194.1500000000001
+    },
+    {
+      "team": "AS Roma",
+      "oraclePrice": 260.61,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1691.57,
+      "msiDelta": 191.56999999999994
+    },
+    {
+      "team": "Crystal Palace FC",
+      "oraclePrice": 245.79,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1679.86,
+      "msiDelta": 179.8599999999999
+    },
+    {
+      "team": "Atalanta BC",
+      "oraclePrice": 238.89,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1674.17,
+      "msiDelta": 174.17000000000007
+    },
+    {
+      "team": "Brentford FC",
+      "oraclePrice": 229.8,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1666.41,
+      "msiDelta": 166.41000000000008
+    },
+    {
+      "team": "Villarreal CF",
+      "oraclePrice": 228.13,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1664.95,
+      "msiDelta": 164.95000000000005
+    },
+    {
+      "team": "Club Atlético de Madrid",
+      "oraclePrice": 225.32,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1662.47,
+      "msiDelta": 162.47000000000003
+    },
+    {
+      "team": "Juventus FC",
+      "oraclePrice": 220.78,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1658.4,
+      "msiDelta": 158.4000000000001
+    },
+    {
+      "team": "Nottingham Forest FC",
+      "oraclePrice": 212.15,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1650.42,
+      "msiDelta": 150.42000000000007
+    },
+    {
+      "team": "Athletic Club",
+      "oraclePrice": 208.75,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1647.19,
+      "msiDelta": 147.19000000000005
+    },
+    {
+      "team": "Everton FC",
+      "oraclePrice": 208.44,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1646.9,
+      "msiDelta": 146.9000000000001
+    },
+    {
+      "team": "AFC Bournemouth",
+      "oraclePrice": 200.25,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1638.88,
+      "msiDelta": 138.8800000000001
+    },
+    {
+      "team": "Borussia Dortmund",
+      "oraclePrice": 198.15,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1636.77,
+      "msiDelta": 136.76999999999998
+    },
+    {
+      "team": "AC Milan",
+      "oraclePrice": 186.97,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1625.16,
+      "msiDelta": 125.16000000000008
+    },
+    {
+      "team": "1. FSV Mainz 05",
+      "oraclePrice": 165.39,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1600.63,
+      "msiDelta": 100.63000000000011
+    },
+    {
+      "team": "ACF Fiorentina",
+      "oraclePrice": 161.53,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1595.9,
+      "msiDelta": 95.90000000000009
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "oraclePrice": 158.84,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1592.54,
+      "msiDelta": 92.53999999999996
+    },
+    {
+      "team": "SS Lazio",
+      "oraclePrice": 157.89,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1591.35,
+      "msiDelta": 91.34999999999991
+    },
+    {
+      "team": "Olympique de Marseille",
+      "oraclePrice": 156.73,
+      "oracleConfidence": 0.9,
+      "msiFinal": 1589.87,
+      "msiDelta": 89.86999999999989
+    },
+    {
+      "team": "Fulham FC",
+      "oraclePrice": 154.68,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1587.24,
+      "msiDelta": 87.24000000000001
+    },
+    {
+      "team": "Lille OSC",
+      "oraclePrice": 148.42,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1578.98,
+      "msiDelta": 78.98000000000002
+    },
+    {
+      "team": "Racing Club de Lens",
+      "oraclePrice": 146.32,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1576.12,
+      "msiDelta": 76.11999999999989
+    },
+    {
+      "team": "AS Monaco FC",
+      "oraclePrice": 143.89,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1572.77,
+      "msiDelta": 72.76999999999998
+    },
+    {
+      "team": "Manchester United FC",
+      "oraclePrice": 142.72,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1571.14,
+      "msiDelta": 71.1400000000001
+    },
+    {
+      "team": "Real Betis Balompié",
+      "oraclePrice": 141.89,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1569.98,
+      "msiDelta": 69.98000000000002
+    },
+    {
+      "team": "Cardiff",
+      "oraclePrice": 141.41,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1569.3,
+      "msiDelta": 69.29999999999995
+    },
+    {
+      "team": "Olympique Lyonnais",
+      "oraclePrice": 140.08,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1567.41,
+      "msiDelta": 67.41000000000008
+    },
+    {
+      "team": "VfB Stuttgart",
+      "oraclePrice": 138.58,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1565.26,
+      "msiDelta": 65.25999999999999
+    },
+    {
+      "team": "Stoke City FC",
+      "oraclePrice": 138.32,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1564.88,
+      "msiDelta": 64.88000000000011
+    },
+    {
+      "team": "Hull",
+      "oraclePrice": 136.29,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1561.93,
+      "msiDelta": 61.930000000000064
+    },
+    {
+      "team": "Swansea City AFC",
+      "oraclePrice": 135.58,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1560.88,
+      "msiDelta": 60.88000000000011
+    },
+    {
+      "team": "Wolverhampton Wanderers FC",
+      "oraclePrice": 133.62,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1557.97,
+      "msiDelta": 57.97000000000003
+    },
+    {
+      "team": "OGC Nice",
+      "oraclePrice": 133.25,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1557.41,
+      "msiDelta": 57.41000000000008
+    },
+    {
+      "team": "Bologna FC 1909",
+      "oraclePrice": 132.78,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1556.7,
+      "msiDelta": 56.700000000000045
+    },
+    {
+      "team": "Como 1907",
+      "oraclePrice": 131.44,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1554.68,
+      "msiDelta": 54.680000000000064
+    },
+    {
+      "team": "West Ham United FC",
+      "oraclePrice": 129.5,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1551.7,
+      "msiDelta": 51.700000000000045
+    },
+    {
+      "team": "RB Leipzig",
+      "oraclePrice": 127.8,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1549.06,
+      "msiDelta": 49.059999999999945
+    },
+    {
+      "team": "Middlesbrough",
+      "oraclePrice": 127.5,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1548.59,
+      "msiDelta": 48.58999999999992
+    },
+    {
+      "team": "RC Strasbourg Alsace",
+      "oraclePrice": 125.14,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1544.86,
+      "msiDelta": 44.8599999999999
+    },
+    {
+      "team": "Sunderland AFC",
+      "oraclePrice": 123.62,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1542.41,
+      "msiDelta": 42.41000000000008
+    },
+    {
+      "team": "CA Osasuna",
+      "oraclePrice": 118.25,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1533.53,
+      "msiDelta": 33.52999999999997
+    },
+    {
+      "team": "SC Freiburg",
+      "oraclePrice": 117.95,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1533.01,
+      "msiDelta": 33.00999999999999
+    },
+    {
+      "team": "West Bromwich Albion FC",
+      "oraclePrice": 116.48,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1530.51,
+      "msiDelta": 30.50999999999999
+    },
+    {
+      "team": "SV Werder Bremen",
+      "oraclePrice": 115.9,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1529.52,
+      "msiDelta": 29.519999999999982
+    },
+    {
+      "team": "RC Celta de Vigo",
+      "oraclePrice": 113.13,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1524.67,
+      "msiDelta": 24.670000000000073
+    },
+    {
+      "team": "Valencia CF",
+      "oraclePrice": 109.67,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1518.47,
+      "msiDelta": 18.470000000000027
+    },
+    {
+      "team": "Leeds",
+      "oraclePrice": 105.3,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1510.32,
+      "msiDelta": 10.319999999999936
+    },
+    {
+      "team": "Rayo Vallecano de Madrid",
+      "oraclePrice": 105.18,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1510.1,
+      "msiDelta": 10.099999999999909
+    },
+    {
+      "team": "Levante UD",
+      "oraclePrice": 103.04,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1505.98,
+      "msiDelta": 5.980000000000018
+    },
+    {
+      "team": "Huddersfield",
+      "oraclePrice": 99.29,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1498.57,
+      "msiDelta": -1.4300000000000637
+    },
+    {
+      "team": "Carpi FC 1909",
+      "oraclePrice": 94.57,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1488.84,
+      "msiDelta": -11.160000000000082
+    },
+    {
+      "team": "Tottenham Hotspur FC",
+      "oraclePrice": 93.79,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1487.18,
+      "msiDelta": -12.819999999999936
+    },
+    {
+      "team": "Stade Brestois 29",
+      "oraclePrice": 93.7,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1486.99,
+      "msiDelta": -13.009999999999991
+    },
+    {
+      "team": "Real Sporting de Gijón",
+      "oraclePrice": 91.37,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1481.94,
+      "msiDelta": -18.059999999999945
+    },
+    {
+      "team": "Huesca",
+      "oraclePrice": 91.14,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1481.44,
+      "msiDelta": -18.559999999999945
+    },
+    {
+      "team": "Genoa CFC",
+      "oraclePrice": 89.71,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1478.28,
+      "msiDelta": -21.720000000000027
+    },
+    {
+      "team": "FC Ingolstadt 04",
+      "oraclePrice": 88.51,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1475.6,
+      "msiDelta": -24.40000000000009
+    },
+    {
+      "team": "Burnley FC",
+      "oraclePrice": 87.04,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1472.23,
+      "msiDelta": -27.769999999999982
+    },
+    {
+      "team": "Hamburger SV",
+      "oraclePrice": 85.4,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1468.43,
+      "msiDelta": -31.569999999999936
+    },
+    {
+      "team": "Torino FC",
+      "oraclePrice": 84.75,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1466.91,
+      "msiDelta": -33.08999999999992
+    },
+    {
+      "team": "RC Deportivo de La Coruña",
+      "oraclePrice": 84.6,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1466.56,
+      "msiDelta": -33.440000000000055
+    },
+    {
+      "team": "Deportivo Alavés",
+      "oraclePrice": 84.55,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1466.43,
+      "msiDelta": -33.569999999999936
+    },
+    {
+      "team": "Fortuna Dusseldorf",
+      "oraclePrice": 81.87,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1459.99,
+      "msiDelta": -40.00999999999999
+    },
+    {
+      "team": "Stade Rennais FC 1901",
+      "oraclePrice": 81.27,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1458.53,
+      "msiDelta": -41.47000000000003
+    },
+    {
+      "team": "Luton Town FC",
+      "oraclePrice": 81.26,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1458.49,
+      "msiDelta": -41.50999999999999
+    },
+    {
+      "team": "RCD Espanyol de Barcelona",
+      "oraclePrice": 79.69,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1454.6,
+      "msiDelta": -45.40000000000009
+    },
+    {
+      "team": "Toulouse FC",
+      "oraclePrice": 79.65,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1454.49,
+      "msiDelta": -45.50999999999999
+    },
+    {
+      "team": "Watford FC",
+      "oraclePrice": 79.57,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1454.29,
+      "msiDelta": -45.710000000000036
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "oraclePrice": 79.56,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1454.26,
+      "msiDelta": -45.74000000000001
+    },
+    {
+      "team": "Norwich City FC",
+      "oraclePrice": 79.01,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1452.88,
+      "msiDelta": -47.11999999999989
+    },
+    {
+      "team": "TSG 1899 Hoffenheim",
+      "oraclePrice": 78.44,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1451.43,
+      "msiDelta": -48.569999999999936
+    },
+    {
+      "team": "SD Eibar",
+      "oraclePrice": 78.34,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1451.18,
+      "msiDelta": -48.819999999999936
+    },
+    {
+      "team": "US Città di Palermo",
+      "oraclePrice": 78.15,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1450.7,
+      "msiDelta": -49.299999999999955
+    },
+    {
+      "team": "Málaga CF",
+      "oraclePrice": 76.9,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1447.46,
+      "msiDelta": -52.539999999999964
+    },
+    {
+      "team": "GFC Ajaccio",
+      "oraclePrice": 76.15,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1445.51,
+      "msiDelta": -54.49000000000001
+    },
+    {
+      "team": "1. FC Union Berlin",
+      "oraclePrice": 75.78,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1444.52,
+      "msiDelta": -55.48000000000002
+    },
+    {
+      "team": "Elche",
+      "oraclePrice": 75.64,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1444.16,
+      "msiDelta": -55.83999999999992
+    },
+    {
+      "team": "FC Schalke 04",
+      "oraclePrice": 75.18,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1442.93,
+      "msiDelta": -57.069999999999936
+    },
+    {
+      "team": "SC Bastia",
+      "oraclePrice": 74.73,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1441.73,
+      "msiDelta": -58.26999999999998
+    },
+    {
+      "team": "Real Sociedad de Fútbol",
+      "oraclePrice": 73.96,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1439.66,
+      "msiDelta": -60.33999999999992
+    },
+    {
+      "team": "Nancy",
+      "oraclePrice": 73.91,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1439.53,
+      "msiDelta": -60.47000000000003
+    },
+    {
+      "team": "Bielefeld",
+      "oraclePrice": 73.79,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1439.2,
+      "msiDelta": -60.799999999999955
+    },
+    {
+      "team": "Pescara",
+      "oraclePrice": 73.1,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1437.34,
+      "msiDelta": -62.66000000000008
+    },
+    {
+      "team": "Cremonese",
+      "oraclePrice": 73.1,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1437.33,
+      "msiDelta": -62.67000000000007
+    },
+    {
+      "team": "Nimes",
+      "oraclePrice": 71.17,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1431.97,
+      "msiDelta": -68.02999999999997
+    },
+    {
+      "team": "Borussia Mönchengladbach",
+      "oraclePrice": 70.73,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1430.73,
+      "msiDelta": -69.26999999999998
+    },
+    {
+      "team": "FC Lorient",
+      "oraclePrice": 70.58,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1430.32,
+      "msiDelta": -69.68000000000006
+    },
+    {
+      "team": "FC Augsburg",
+      "oraclePrice": 70.55,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1430.23,
+      "msiDelta": -69.76999999999998
+    },
+    {
+      "team": "CD Leganés",
+      "oraclePrice": 70.26,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1429.42,
+      "msiDelta": -70.57999999999993
+    },
+    {
+      "team": "Spezia",
+      "oraclePrice": 69.83,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1428.18,
+      "msiDelta": -71.81999999999994
+    },
+    {
+      "team": "1. FC Köln",
+      "oraclePrice": 69.76,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1427.99,
+      "msiDelta": -72.00999999999999
+    },
+    {
+      "team": "AJ Auxerre",
+      "oraclePrice": 69.37,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1426.85,
+      "msiDelta": -73.15000000000009
+    },
+    {
+      "team": "Hannover 96",
+      "oraclePrice": 69.23,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1426.45,
+      "msiDelta": -73.54999999999995
+    },
+    {
+      "team": "Frosinone Calcio",
+      "oraclePrice": 68.91,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1425.53,
+      "msiDelta": -74.47000000000003
+    },
+    {
+      "team": "1. FC Heidenheim 1846",
+      "oraclePrice": 67.8,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1422.27,
+      "msiDelta": -77.73000000000002
+    },
+    {
+      "team": "Cádiz CF",
+      "oraclePrice": 67.63,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1421.77,
+      "msiDelta": -78.23000000000002
+    },
+    {
+      "team": "SM Caen",
+      "oraclePrice": 67.36,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1420.99,
+      "msiDelta": -79.00999999999999
+    },
+    {
+      "team": "AC Chievo Verona",
+      "oraclePrice": 66.87,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1419.53,
+      "msiDelta": -80.47000000000003
+    },
+    {
+      "team": "Nurnberg",
+      "oraclePrice": 66.86,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1419.48,
+      "msiDelta": -80.51999999999998
+    },
+    {
+      "team": "EA Guingamp",
+      "oraclePrice": 66.69,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1418.98,
+      "msiDelta": -81.01999999999998
+    },
+    {
+      "team": "Sevilla FC",
+      "oraclePrice": 66.55,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1418.55,
+      "msiDelta": -81.45000000000005
+    },
+    {
+      "team": "Benevento",
+      "oraclePrice": 66.53,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1418.5,
+      "msiDelta": -81.5
+    },
+    {
+      "team": "Amiens",
+      "oraclePrice": 66.25,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1417.66,
+      "msiDelta": -82.33999999999992
+    },
+    {
+      "team": "RCD Mallorca",
+      "oraclePrice": 65.65,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1415.84,
+      "msiDelta": -84.16000000000008
+    },
+    {
+      "team": "Hertha BSC",
+      "oraclePrice": 65.61,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1415.71,
+      "msiDelta": -84.28999999999996
+    },
+    {
+      "team": "Crotone",
+      "oraclePrice": 64.91,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1413.56,
+      "msiDelta": -86.44000000000005
+    },
+    {
+      "team": "US Sassuolo Calcio",
+      "oraclePrice": 64.52,
+      "oracleConfidence": 0.7,
+      "msiFinal": 1412.36,
+      "msiDelta": -87.6400000000001
+    },
+    {
+      "team": "Cagliari Calcio",
+      "oraclePrice": 64.33,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1411.77,
+      "msiDelta": -88.23000000000002
+    },
+    {
+      "team": "Getafe CF",
+      "oraclePrice": 64.06,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1410.92,
+      "msiDelta": -89.07999999999993
+    },
+    {
+      "team": "Brescia",
+      "oraclePrice": 63.88,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1410.36,
+      "msiDelta": -89.6400000000001
+    },
+    {
+      "team": "Udinese Calcio",
+      "oraclePrice": 62.1,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1404.7,
+      "msiDelta": -95.29999999999995
+    },
+    {
+      "team": "Paderborn",
+      "oraclePrice": 61.94,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1404.21,
+      "msiDelta": -95.78999999999996
+    },
+    {
+      "team": "Parma Calcio 1913",
+      "oraclePrice": 61.33,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1402.23,
+      "msiDelta": -97.76999999999998
+    },
+    {
+      "team": "Greuther Furth",
+      "oraclePrice": 60.82,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1400.55,
+      "msiDelta": -99.45000000000005
+    },
+    {
+      "team": "FC Girondins de Bordeaux",
+      "oraclePrice": 59.87,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1397.39,
+      "msiDelta": -102.6099999999999
+    },
+    {
+      "team": "Girona FC",
+      "oraclePrice": 59.45,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1395.98,
+      "msiDelta": -104.01999999999998
+    },
+    {
+      "team": "FC St. Pauli 1910",
+      "oraclePrice": 58.97,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1394.37,
+      "msiDelta": -105.63000000000011
+    },
+    {
+      "team": "UD Almería",
+      "oraclePrice": 57.94,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1390.84,
+      "msiDelta": -109.16000000000008
+    },
+    {
+      "team": "Hellas Verona FC",
+      "oraclePrice": 57.42,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1389.05,
+      "msiDelta": -110.95000000000005
+    },
+    {
+      "team": "AS Saint-Étienne",
+      "oraclePrice": 57.41,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1389,
+      "msiDelta": -111
+    },
+    {
+      "team": "VfL Bochum 1848",
+      "oraclePrice": 56.63,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1386.26,
+      "msiDelta": -113.74000000000001
+    },
+    {
+      "team": "Clermont Foot 63",
+      "oraclePrice": 56.59,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1386.14,
+      "msiDelta": -113.8599999999999
+    },
+    {
+      "team": "US Lecce",
+      "oraclePrice": 55.5,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1382.24,
+      "msiDelta": -117.75999999999999
+    },
+    {
+      "team": "FC Nantes",
+      "oraclePrice": 53.75,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1375.83,
+      "msiDelta": -124.17000000000007
+    },
+    {
+      "team": "FC Metz",
+      "oraclePrice": 53.54,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1375.05,
+      "msiDelta": -124.95000000000005
+    },
+    {
+      "team": "Spal",
+      "oraclePrice": 52.96,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1372.87,
+      "msiDelta": -127.13000000000011
+    },
+    {
+      "team": "Leicester City FC",
+      "oraclePrice": 52.34,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1370.5,
+      "msiDelta": -129.5
+    },
+    {
+      "team": "Le Havre AC",
+      "oraclePrice": 52.31,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1370.39,
+      "msiDelta": -129.6099999999999
+    },
+    {
+      "team": "Dijon",
+      "oraclePrice": 51.85,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1368.64,
+      "msiDelta": -131.3599999999999
+    },
+    {
+      "team": "Sheffield United FC",
+      "oraclePrice": 51.43,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1367.02,
+      "msiDelta": -132.98000000000002
+    },
+    {
+      "team": "UC Sampdoria",
+      "oraclePrice": 50.02,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1361.46,
+      "msiDelta": -138.53999999999996
+    },
+    {
+      "team": "Holstein Kiel",
+      "oraclePrice": 48.34,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1354.62,
+      "msiDelta": -145.3800000000001
+    },
+    {
+      "team": "Angers SCO",
+      "oraclePrice": 48.17,
+      "oracleConfidence": 0.8,
+      "msiFinal": 1353.9,
+      "msiDelta": -146.0999999999999
+    },
+    {
+      "team": "Stade de Reims",
+      "oraclePrice": 47.23,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1349.99,
+      "msiDelta": -150.01
+    },
+    {
+      "team": "Ajaccio",
+      "oraclePrice": 46.13,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1345.28,
+      "msiDelta": -154.72000000000003
+    },
+    {
+      "team": "Ipswich Town FC",
+      "oraclePrice": 46.13,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1345.27,
+      "msiDelta": -154.73000000000002
+    },
+    {
+      "team": "Granada CF",
+      "oraclePrice": 45.85,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1344.04,
+      "msiDelta": -155.96000000000004
+    },
+    {
+      "team": "Venezia FC",
+      "oraclePrice": 45.63,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1343.09,
+      "msiDelta": -156.91000000000008
+    },
+    {
+      "team": "Empoli FC",
+      "oraclePrice": 45.35,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1341.85,
+      "msiDelta": -158.1500000000001
+    },
+    {
+      "team": "ES Troyes AC",
+      "oraclePrice": 43.51,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1333.57,
+      "msiDelta": -166.43000000000006
+    },
+    {
+      "team": "UD Las Palmas",
+      "oraclePrice": 39.96,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1316.54,
+      "msiDelta": -183.46000000000004
+    },
+    {
+      "team": "US Salernitana 1919",
+      "oraclePrice": 38.79,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1310.59,
+      "msiDelta": -189.41000000000008
+    },
+    {
+      "team": "SV Darmstadt 98",
+      "oraclePrice": 37.43,
+      "oracleConfidence": 0.5,
+      "msiFinal": 1303.47,
+      "msiDelta": -196.52999999999997
+    },
+    {
+      "team": "Southampton FC",
+      "oraclePrice": 30.65,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1263.52,
+      "msiDelta": -236.48000000000002
+    },
+    {
+      "team": "AC Monza",
+      "oraclePrice": 26.19,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1232.07,
+      "msiDelta": -267.93000000000006
+    },
+    {
+      "team": "Montpellier HSC",
+      "oraclePrice": 23.52,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1210.52,
+      "msiDelta": -289.48
+    },
+    {
+      "team": "Real Valladolid CF",
+      "oraclePrice": 19.61,
+      "oracleConfidence": 0.6,
+      "msiFinal": 1174.22,
+      "msiDelta": -325.78
+    }
+  ]
+}
