@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavMenu from "./components/NavMenu";
 
 export const metadata: Metadata = {
   title: "MSI — Match Strength Index",
@@ -20,7 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        <div className="max-w-5xl mx-auto px-4 pt-4">
+          <NavMenu />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
