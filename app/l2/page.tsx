@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { l2Source } from "@/lib/dataSources/l2";
+import L2TeamsTable from "@/app/components/L2TeamsTable";
 
 export default function L2TeamsPage() {
   const summary = l2Source.getSummary();
@@ -31,69 +31,7 @@ export default function L2TeamsPage() {
       </div>
 
       {ratings.length > 0 ? (
-        <div className="border border-[var(--color-border)] rounded-md bg-[var(--color-bg-card)] overflow-hidden">
-          <table className="w-full text-xs">
-            <thead>
-              <tr className="border-b border-[var(--color-border)] text-[10px] uppercase tracking-wider text-[var(--color-text-dim)]">
-                <th className="text-left py-2 px-3">#</th>
-                <th className="text-left py-2 px-3">Team</th>
-                <th className="text-left py-2 px-3">League</th>
-                <th className="text-right py-2 px-3">MSI Base</th>
-                <th className="text-right py-2 px-3">Odds Adj</th>
-                <th className="text-right py-2 px-3">MSI Final</th>
-                <th className="text-right py-2 px-3">Conf</th>
-                <th className="text-right py-2 px-3">Oracle $</th>
-              </tr>
-            </thead>
-            <tbody>
-              {ratings.map((r, idx) => (
-                <tr
-                  key={r.team}
-                  className="border-b border-[var(--color-border)]/50 hover:bg-[var(--color-bg-hover)] transition-colors"
-                >
-                  <td className="py-2 px-3 tabular-nums text-[var(--color-text-dim)]">
-                    {idx + 1}
-                  </td>
-                  <td className="py-2 px-3">
-                    <Link
-                      href={`/l2/team/${encodeURIComponent(r.team)}`}
-                      className="hover:text-[var(--color-green)] transition-colors font-medium"
-                    >
-                      {r.team}
-                    </Link>
-                  </td>
-                  <td className="py-2 px-3 text-[var(--color-text-dim)]">
-                    {r.league}
-                  </td>
-                  <td className="py-2 px-3 text-right tabular-nums">
-                    {Math.round(r.msiBase)}
-                  </td>
-                  <td
-                    className={`py-2 px-3 text-right tabular-nums ${
-                      r.oddsAdjustment > 0
-                        ? "text-[var(--color-green)]"
-                        : r.oddsAdjustment < 0
-                          ? "text-[var(--color-red)]"
-                          : "text-[var(--color-text-dim)]"
-                    }`}
-                  >
-                    {r.oddsAdjustment > 0 ? "+" : ""}
-                    {r.oddsAdjustment.toFixed(1)}
-                  </td>
-                  <td className="py-2 px-3 text-right tabular-nums font-bold text-[var(--color-green)]">
-                    {Math.round(r.msiFinal)}
-                  </td>
-                  <td className="py-2 px-3 text-right tabular-nums text-[var(--color-text-dim)]">
-                    {(r.confidence * 100).toFixed(0)}%
-                  </td>
-                  <td className="py-2 px-3 text-right tabular-nums text-[var(--color-yellow)]">
-                    {r.oraclePrice ? `$${r.oraclePrice.toFixed(2)}` : "—"}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <L2TeamsTable ratings={ratings} />
       ) : (
         <div className="border border-[var(--color-border)] rounded-md p-8 bg-[var(--color-bg-card)] text-center">
           <div className="text-sm text-[var(--color-text-dim)]">
