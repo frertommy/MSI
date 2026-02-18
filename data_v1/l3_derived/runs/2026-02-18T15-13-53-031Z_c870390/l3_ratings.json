@@ -1,0 +1,2897 @@
+{
+  "runId": "2026-02-18T15-13-53-031Z_c870390",
+  "computedAt": "2026-02-18T15:13:53.009Z",
+  "teamCount": 160,
+  "ratings": [
+    {
+      "team": "FC Bayern München",
+      "league": "BL1",
+      "l3Rating": 1848.93,
+      "baseElo": 1833.09,
+      "marketConsensus": 1852.89,
+      "premium": 15.84,
+      "oraclePrice": 572.39,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Manchester City FC",
+      "league": "PL",
+      "l3Rating": 1843.09,
+      "baseElo": 1883.54,
+      "marketConsensus": 1832.98,
+      "premium": -40.45,
+      "oraclePrice": 555.92,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Liverpool FC",
+      "league": "PL",
+      "l3Rating": 1840.97,
+      "baseElo": 1879.81,
+      "marketConsensus": 1831.26,
+      "premium": -38.84,
+      "oraclePrice": 550.06,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Arsenal FC",
+      "league": "PL",
+      "l3Rating": 1840.9,
+      "baseElo": 1868.8,
+      "marketConsensus": 1833.92,
+      "premium": -27.9,
+      "oraclePrice": 549.85,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Barcelona",
+      "league": "PD",
+      "l3Rating": 1824.61,
+      "baseElo": 1848.7,
+      "marketConsensus": 1818.59,
+      "premium": -24.09,
+      "oraclePrice": 506.86,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Paris Saint-Germain FC",
+      "league": "FL1",
+      "l3Rating": 1788.36,
+      "baseElo": 1827.89,
+      "marketConsensus": 1778.48,
+      "premium": -39.53,
+      "oraclePrice": 422.83,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Internazionale Milano",
+      "league": "SA",
+      "l3Rating": 1781.79,
+      "baseElo": 1818.48,
+      "marketConsensus": 1772.62,
+      "premium": -36.69,
+      "oraclePrice": 409.17,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Real Madrid CF",
+      "league": "PD",
+      "l3Rating": 1762.8,
+      "baseElo": 1801.65,
+      "marketConsensus": 1753.09,
+      "premium": -38.85,
+      "oraclePrice": 372.11,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Chelsea FC",
+      "league": "PL",
+      "l3Rating": 1759.17,
+      "baseElo": 1797.96,
+      "marketConsensus": 1749.47,
+      "premium": -38.79,
+      "oraclePrice": 365.41,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Aston Villa FC",
+      "league": "PL",
+      "l3Rating": 1732.18,
+      "baseElo": 1779.14,
+      "marketConsensus": 1720.44,
+      "premium": -46.96,
+      "oraclePrice": 319.28,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SSC Napoli",
+      "league": "SA",
+      "l3Rating": 1724.18,
+      "baseElo": 1761.34,
+      "marketConsensus": 1714.89,
+      "premium": -37.16,
+      "oraclePrice": 306.76,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Newcastle United FC",
+      "league": "PL",
+      "l3Rating": 1715.37,
+      "baseElo": 1751.95,
+      "marketConsensus": 1706.23,
+      "premium": -36.58,
+      "oraclePrice": 293.55,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Brighton & Hove Albion FC",
+      "league": "PL",
+      "l3Rating": 1711.51,
+      "baseElo": 1755.15,
+      "marketConsensus": 1700.6,
+      "premium": -43.64,
+      "oraclePrice": 287.93,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "l3Rating": 1709.61,
+      "baseElo": 1771.43,
+      "marketConsensus": 1694.15,
+      "premium": -61.82,
+      "oraclePrice": 285.2,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Crystal Palace FC",
+      "league": "PL",
+      "l3Rating": 1693.27,
+      "baseElo": 1746.92,
+      "marketConsensus": 1679.86,
+      "premium": -53.65,
+      "oraclePrice": 262.84,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Atalanta BC",
+      "league": "SA",
+      "l3Rating": 1685.5,
+      "baseElo": 1730.8,
+      "marketConsensus": 1674.17,
+      "premium": -45.3,
+      "oraclePrice": 252.81,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Villarreal CF",
+      "league": "PD",
+      "l3Rating": 1675.62,
+      "baseElo": 1718.32,
+      "marketConsensus": 1664.95,
+      "premium": -42.7,
+      "oraclePrice": 240.64,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Brentford FC",
+      "league": "PL",
+      "l3Rating": 1674.68,
+      "baseElo": 1707.77,
+      "marketConsensus": 1666.41,
+      "premium": -33.09,
+      "oraclePrice": 239.51,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Club Atlético de Madrid",
+      "league": "PD",
+      "l3Rating": 1671.89,
+      "baseElo": 1709.57,
+      "marketConsensus": 1662.47,
+      "premium": -37.68,
+      "oraclePrice": 236.19,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Juventus FC",
+      "league": "SA",
+      "l3Rating": 1667.28,
+      "baseElo": 1702.81,
+      "marketConsensus": 1658.4,
+      "premium": -35.53,
+      "oraclePrice": 230.81,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Everton FC",
+      "league": "PL",
+      "l3Rating": 1661.62,
+      "baseElo": 1720.48,
+      "marketConsensus": 1646.9,
+      "premium": -58.86,
+      "oraclePrice": 224.36,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Athletic Club",
+      "league": "PD",
+      "l3Rating": 1659.89,
+      "baseElo": 1710.7,
+      "marketConsensus": 1647.19,
+      "premium": -50.81,
+      "oraclePrice": 222.43,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Nottingham Forest FC",
+      "league": "PL",
+      "l3Rating": 1659.13,
+      "baseElo": 1693.99,
+      "marketConsensus": 1650.42,
+      "premium": -34.86,
+      "oraclePrice": 221.59,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AFC Bournemouth",
+      "league": "PL",
+      "l3Rating": 1649.71,
+      "baseElo": 1693.02,
+      "marketConsensus": 1638.88,
+      "premium": -43.31,
+      "oraclePrice": 211.39,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AS Roma",
+      "league": "SA",
+      "l3Rating": 1612.17,
+      "baseElo": 1748.64,
+      "marketConsensus": 1578.05,
+      "premium": -136.47,
+      "oraclePrice": 175.22,
+      "oracleConfidence": 0.85,
+      "confidence": 0.85,
+      "components": {
+        "matchImplied": 1578.05,
+        "matchCount": 1,
+        "avgWinProb": 0.689
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "ACF Fiorentina",
+      "league": "SA",
+      "l3Rating": 1608.16,
+      "baseElo": 1657.19,
+      "marketConsensus": 1595.9,
+      "premium": -49.03,
+      "oraclePrice": 171.74,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SS Lazio",
+      "league": "SA",
+      "l3Rating": 1602.95,
+      "baseElo": 1649.33,
+      "marketConsensus": 1591.35,
+      "premium": -46.38,
+      "oraclePrice": 167.32,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Fulham FC",
+      "league": "PL",
+      "l3Rating": 1600.99,
+      "baseElo": 1655.99,
+      "marketConsensus": 1587.24,
+      "premium": -55,
+      "oraclePrice": 165.69,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "1. FSV Mainz 05",
+      "league": "BL1",
+      "l3Rating": 1600.63,
+      "baseElo": 1600.63,
+      "marketConsensus": 1600.63,
+      "premium": 0,
+      "oraclePrice": 165.39,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Olympique de Marseille",
+      "league": "FL1",
+      "l3Rating": 1596.26,
+      "baseElo": 1621.8,
+      "marketConsensus": 1589.87,
+      "premium": -25.54,
+      "oraclePrice": 161.81,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Lille OSC",
+      "league": "FL1",
+      "l3Rating": 1588.14,
+      "baseElo": 1624.79,
+      "marketConsensus": 1578.98,
+      "premium": -36.65,
+      "oraclePrice": 155.38,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AS Monaco FC",
+      "league": "FL1",
+      "l3Rating": 1585.51,
+      "baseElo": 1636.49,
+      "marketConsensus": 1572.77,
+      "premium": -50.98,
+      "oraclePrice": 153.35,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "VfB Stuttgart",
+      "league": "BL1",
+      "l3Rating": 1582.39,
+      "baseElo": 1603.83,
+      "marketConsensus": 1577.03,
+      "premium": -21.44,
+      "oraclePrice": 150.97,
+      "oracleConfidence": 0.75,
+      "confidence": 0.75,
+      "components": {
+        "matchImplied": 1577.03,
+        "matchCount": 1,
+        "avgWinProb": 0.607
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Real Betis Balompié",
+      "league": "PD",
+      "l3Rating": 1580.67,
+      "baseElo": 1623.45,
+      "marketConsensus": 1569.98,
+      "premium": -42.78,
+      "oraclePrice": 149.69,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Olympique Lyonnais",
+      "league": "FL1",
+      "l3Rating": 1576.75,
+      "baseElo": 1614.13,
+      "marketConsensus": 1567.41,
+      "premium": -37.38,
+      "oraclePrice": 146.78,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "OGC Nice",
+      "league": "FL1",
+      "l3Rating": 1572.55,
+      "baseElo": 1633.1,
+      "marketConsensus": 1557.41,
+      "premium": -60.55,
+      "oraclePrice": 143.73,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "RB Leipzig",
+      "league": "BL1",
+      "l3Rating": 1572.45,
+      "baseElo": 1585.35,
+      "marketConsensus": 1569.23,
+      "premium": -12.9,
+      "oraclePrice": 143.66,
+      "oracleConfidence": 0.85,
+      "confidence": 0.85,
+      "components": {
+        "matchImplied": 1569.23,
+        "matchCount": 2,
+        "avgWinProb": 0.438
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Racing Club de Lens",
+      "league": "FL1",
+      "l3Rating": 1571.52,
+      "baseElo": 1553.11,
+      "marketConsensus": 1576.12,
+      "premium": 18.41,
+      "oraclePrice": 142.99,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Manchester United FC",
+      "league": "PL",
+      "l3Rating": 1570.66,
+      "baseElo": 1568.73,
+      "marketConsensus": 1571.14,
+      "premium": 1.93,
+      "oraclePrice": 142.37,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Bologna FC 1909",
+      "league": "SA",
+      "l3Rating": 1569.37,
+      "baseElo": 1620.07,
+      "marketConsensus": 1556.7,
+      "premium": -50.7,
+      "oraclePrice": 141.46,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Cardiff",
+      "league": "PL",
+      "l3Rating": 1569.3,
+      "baseElo": 1569.3,
+      "marketConsensus": 1569.3,
+      "premium": 0,
+      "oraclePrice": 141.41,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Wolverhampton Wanderers FC",
+      "league": "PL",
+      "l3Rating": 1569.25,
+      "baseElo": 1614.35,
+      "marketConsensus": 1557.97,
+      "premium": -45.1,
+      "oraclePrice": 141.37,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Stoke City FC",
+      "league": "PL",
+      "l3Rating": 1564.88,
+      "baseElo": 1564.88,
+      "marketConsensus": 1564.88,
+      "premium": 0,
+      "oraclePrice": 138.32,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Hull",
+      "league": "PL",
+      "l3Rating": 1561.93,
+      "baseElo": 1561.93,
+      "marketConsensus": 1561.93,
+      "premium": 0,
+      "oraclePrice": 136.29,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Como 1907",
+      "league": "SA",
+      "l3Rating": 1560.89,
+      "baseElo": 1585.71,
+      "marketConsensus": 1554.68,
+      "premium": -24.82,
+      "oraclePrice": 135.59,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Swansea City AFC",
+      "league": "PL",
+      "l3Rating": 1560.88,
+      "baseElo": 1560.88,
+      "marketConsensus": 1560.88,
+      "premium": 0,
+      "oraclePrice": 135.58,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "West Ham United FC",
+      "league": "PL",
+      "l3Rating": 1558.71,
+      "baseElo": 1586.77,
+      "marketConsensus": 1551.7,
+      "premium": -28.06,
+      "oraclePrice": 134.12,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "RC Strasbourg Alsace",
+      "league": "FL1",
+      "l3Rating": 1556.13,
+      "baseElo": 1601.2,
+      "marketConsensus": 1544.86,
+      "premium": -45.07,
+      "oraclePrice": 132.4,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AC Milan",
+      "league": "SA",
+      "l3Rating": 1552.43,
+      "baseElo": 1668.37,
+      "marketConsensus": 1523.44,
+      "premium": -115.94,
+      "oraclePrice": 129.97,
+      "oracleConfidence": 0.75,
+      "confidence": 0.75,
+      "components": {
+        "matchImplied": 1523.44,
+        "matchCount": 1,
+        "avgWinProb": 0.618
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "league": "BL1",
+      "l3Rating": 1551.34,
+      "baseElo": 1658.45,
+      "marketConsensus": 1524.56,
+      "premium": -107.11,
+      "oraclePrice": 129.26,
+      "oracleConfidence": 0.75,
+      "confidence": 0.75,
+      "components": {
+        "matchImplied": 1524.56,
+        "matchCount": 1,
+        "avgWinProb": 0.427
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Middlesbrough",
+      "league": "PL",
+      "l3Rating": 1548.59,
+      "baseElo": 1548.59,
+      "marketConsensus": 1548.59,
+      "premium": 0,
+      "oraclePrice": 127.5,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "CA Osasuna",
+      "league": "PD",
+      "l3Rating": 1543.61,
+      "baseElo": 1583.95,
+      "marketConsensus": 1533.53,
+      "premium": -40.34,
+      "oraclePrice": 124.37,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Sunderland AFC",
+      "league": "PL",
+      "l3Rating": 1542.41,
+      "baseElo": 1542.41,
+      "marketConsensus": 1542.41,
+      "premium": 0,
+      "oraclePrice": 123.62,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SV Werder Bremen",
+      "league": "BL1",
+      "l3Rating": 1541.29,
+      "baseElo": 1588.37,
+      "marketConsensus": 1529.52,
+      "premium": -47.08,
+      "oraclePrice": 122.93,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "RC Celta de Vigo",
+      "league": "PD",
+      "l3Rating": 1535.38,
+      "baseElo": 1578.23,
+      "marketConsensus": 1524.67,
+      "premium": -42.85,
+      "oraclePrice": 119.35,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "West Bromwich Albion FC",
+      "league": "PL",
+      "l3Rating": 1530.51,
+      "baseElo": 1530.51,
+      "marketConsensus": 1530.51,
+      "premium": 0,
+      "oraclePrice": 116.48,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SC Freiburg",
+      "league": "BL1",
+      "l3Rating": 1526.12,
+      "baseElo": 1575.65,
+      "marketConsensus": 1513.73,
+      "premium": -49.53,
+      "oraclePrice": 113.95,
+      "oracleConfidence": 0.75,
+      "confidence": 0.75,
+      "components": {
+        "matchImplied": 1513.73,
+        "matchCount": 1,
+        "avgWinProb": 0.303
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "PD",
+      "l3Rating": 1526.04,
+      "baseElo": 1556.3,
+      "marketConsensus": 1518.47,
+      "premium": -30.26,
+      "oraclePrice": 113.9,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Rayo Vallecano de Madrid",
+      "league": "PD",
+      "l3Rating": 1517.08,
+      "baseElo": 1545.01,
+      "marketConsensus": 1510.1,
+      "premium": -27.93,
+      "oraclePrice": 108.92,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "BL1",
+      "l3Rating": 1506.78,
+      "baseElo": 1694.03,
+      "marketConsensus": 1459.96,
+      "premium": -187.25,
+      "oraclePrice": 103.45,
+      "oracleConfidence": 0.85,
+      "confidence": 0.85,
+      "components": {
+        "matchImplied": 1459.96,
+        "matchCount": 1,
+        "avgWinProb": 0.327
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Levante UD",
+      "league": "PD",
+      "l3Rating": 1506.78,
+      "baseElo": 1510,
+      "marketConsensus": 1505.98,
+      "premium": -3.22,
+      "oraclePrice": 103.45,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Leeds",
+      "league": "PL",
+      "l3Rating": 1505.15,
+      "baseElo": 1484.47,
+      "marketConsensus": 1510.32,
+      "premium": 20.68,
+      "oraclePrice": 102.61,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Huddersfield",
+      "league": "PL",
+      "l3Rating": 1498.57,
+      "baseElo": 1498.57,
+      "marketConsensus": 1498.57,
+      "premium": 0,
+      "oraclePrice": 99.29,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Stade Brestois 29",
+      "league": "FL1",
+      "l3Rating": 1498.15,
+      "baseElo": 1542.8,
+      "marketConsensus": 1486.99,
+      "premium": -44.65,
+      "oraclePrice": 99.08,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Tottenham Hotspur FC",
+      "league": "PL",
+      "l3Rating": 1493.1,
+      "baseElo": 1516.78,
+      "marketConsensus": 1487.18,
+      "premium": -23.68,
+      "oraclePrice": 96.61,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Carpi FC 1909",
+      "league": "SA",
+      "l3Rating": 1488.84,
+      "baseElo": 1488.84,
+      "marketConsensus": 1488.84,
+      "premium": 0,
+      "oraclePrice": 94.57,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Genoa CFC",
+      "league": "SA",
+      "l3Rating": 1487.39,
+      "baseElo": 1523.82,
+      "marketConsensus": 1478.28,
+      "premium": -36.43,
+      "oraclePrice": 93.89,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Real Sporting de Gijón",
+      "league": "PD",
+      "l3Rating": 1481.94,
+      "baseElo": 1481.94,
+      "marketConsensus": 1481.94,
+      "premium": 0,
+      "oraclePrice": 91.37,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Huesca",
+      "league": "PD",
+      "l3Rating": 1481.44,
+      "baseElo": 1481.44,
+      "marketConsensus": 1481.44,
+      "premium": 0,
+      "oraclePrice": 91.14,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Ingolstadt 04",
+      "league": "BL1",
+      "l3Rating": 1475.6,
+      "baseElo": 1475.6,
+      "marketConsensus": 1475.6,
+      "premium": 0,
+      "oraclePrice": 88.51,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Deportivo Alavés",
+      "league": "PD",
+      "l3Rating": 1475.43,
+      "baseElo": 1511.43,
+      "marketConsensus": 1466.43,
+      "premium": -36,
+      "oraclePrice": 88.44,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Torino FC",
+      "league": "SA",
+      "l3Rating": 1474.61,
+      "baseElo": 1505.43,
+      "marketConsensus": 1466.91,
+      "premium": -30.82,
+      "oraclePrice": 88.08,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Burnley FC",
+      "league": "PL",
+      "l3Rating": 1471.85,
+      "baseElo": 1470.33,
+      "marketConsensus": 1472.23,
+      "premium": 1.52,
+      "oraclePrice": 86.87,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "RC Deportivo de La Coruña",
+      "league": "PD",
+      "l3Rating": 1466.56,
+      "baseElo": 1466.56,
+      "marketConsensus": 1466.56,
+      "premium": 0,
+      "oraclePrice": 84.6,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Stade Rennais FC 1901",
+      "league": "FL1",
+      "l3Rating": 1466.22,
+      "baseElo": 1496.97,
+      "marketConsensus": 1458.53,
+      "premium": -30.75,
+      "oraclePrice": 84.46,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "RCD Espanyol de Barcelona",
+      "league": "PD",
+      "l3Rating": 1463.6,
+      "baseElo": 1499.6,
+      "marketConsensus": 1454.6,
+      "premium": -36,
+      "oraclePrice": 83.36,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Toulouse FC",
+      "league": "FL1",
+      "l3Rating": 1463.42,
+      "baseElo": 1499.13,
+      "marketConsensus": 1454.49,
+      "premium": -35.71,
+      "oraclePrice": 83.28,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Fortuna Dusseldorf",
+      "league": "BL1",
+      "l3Rating": 1459.99,
+      "baseElo": 1459.99,
+      "marketConsensus": 1459.99,
+      "premium": 0,
+      "oraclePrice": 81.87,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Luton Town FC",
+      "league": "PL",
+      "l3Rating": 1458.49,
+      "baseElo": 1458.49,
+      "marketConsensus": 1458.49,
+      "premium": 0,
+      "oraclePrice": 81.26,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Watford FC",
+      "league": "PL",
+      "l3Rating": 1454.29,
+      "baseElo": 1454.29,
+      "marketConsensus": 1454.29,
+      "premium": 0,
+      "oraclePrice": 79.57,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Norwich City FC",
+      "league": "PL",
+      "l3Rating": 1452.88,
+      "baseElo": 1452.88,
+      "marketConsensus": 1452.88,
+      "premium": 0,
+      "oraclePrice": 79.01,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "TSG 1899 Hoffenheim",
+      "league": "BL1",
+      "l3Rating": 1451.43,
+      "baseElo": 1451.43,
+      "marketConsensus": 1451.43,
+      "premium": 0,
+      "oraclePrice": 78.44,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SD Eibar",
+      "league": "PD",
+      "l3Rating": 1451.18,
+      "baseElo": 1451.18,
+      "marketConsensus": 1451.18,
+      "premium": 0,
+      "oraclePrice": 78.34,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "US Città di Palermo",
+      "league": "SA",
+      "l3Rating": 1450.7,
+      "baseElo": 1450.7,
+      "marketConsensus": 1450.7,
+      "premium": 0,
+      "oraclePrice": 78.15,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "1. FC Union Berlin",
+      "league": "BL1",
+      "l3Rating": 1449.69,
+      "baseElo": 1470.39,
+      "marketConsensus": 1444.52,
+      "premium": -20.7,
+      "oraclePrice": 77.76,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Málaga CF",
+      "league": "PD",
+      "l3Rating": 1447.46,
+      "baseElo": 1447.46,
+      "marketConsensus": 1447.46,
+      "premium": 0,
+      "oraclePrice": 76.9,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "GFC Ajaccio",
+      "league": "FL1",
+      "l3Rating": 1445.51,
+      "baseElo": 1445.51,
+      "marketConsensus": 1445.51,
+      "premium": 0,
+      "oraclePrice": 76.15,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Real Sociedad de Fútbol",
+      "league": "PD",
+      "l3Rating": 1445.36,
+      "baseElo": 1468.17,
+      "marketConsensus": 1439.66,
+      "premium": -22.81,
+      "oraclePrice": 76.09,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Elche",
+      "league": "PD",
+      "l3Rating": 1444.16,
+      "baseElo": 1444.16,
+      "marketConsensus": 1444.16,
+      "premium": 0,
+      "oraclePrice": 75.64,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Schalke 04",
+      "league": "BL1",
+      "l3Rating": 1442.93,
+      "baseElo": 1442.93,
+      "marketConsensus": 1442.93,
+      "premium": 0,
+      "oraclePrice": 75.18,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SC Bastia",
+      "league": "FL1",
+      "l3Rating": 1441.73,
+      "baseElo": 1441.73,
+      "marketConsensus": 1441.73,
+      "premium": 0,
+      "oraclePrice": 74.73,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Augsburg",
+      "league": "BL1",
+      "l3Rating": 1440.71,
+      "baseElo": 1482.63,
+      "marketConsensus": 1430.23,
+      "premium": -41.92,
+      "oraclePrice": 74.35,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Hamburger SV",
+      "league": "BL1",
+      "l3Rating": 1440.33,
+      "baseElo": 1472.35,
+      "marketConsensus": 1432.33,
+      "premium": -32.02,
+      "oraclePrice": 74.21,
+      "oracleConfidence": 0.75,
+      "confidence": 0.75,
+      "components": {
+        "matchImplied": 1432.33,
+        "matchCount": 1,
+        "avgWinProb": 0.293
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Nancy",
+      "league": "FL1",
+      "l3Rating": 1439.53,
+      "baseElo": 1439.53,
+      "marketConsensus": 1439.53,
+      "premium": 0,
+      "oraclePrice": 73.91,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "l3Rating": 1439.48,
+      "baseElo": 1474.47,
+      "marketConsensus": 1430.73,
+      "premium": -34.99,
+      "oraclePrice": 73.89,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Bielefeld",
+      "league": "BL1",
+      "l3Rating": 1439.2,
+      "baseElo": 1439.2,
+      "marketConsensus": 1439.2,
+      "premium": 0,
+      "oraclePrice": 73.79,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AJ Auxerre",
+      "league": "FL1",
+      "l3Rating": 1438.87,
+      "baseElo": 1486.93,
+      "marketConsensus": 1426.85,
+      "premium": -48.06,
+      "oraclePrice": 73.66,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "CD Leganés",
+      "league": "PD",
+      "l3Rating": 1438.42,
+      "baseElo": 1474.42,
+      "marketConsensus": 1429.42,
+      "premium": -36,
+      "oraclePrice": 73.5,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Pescara",
+      "league": "SA",
+      "l3Rating": 1437.34,
+      "baseElo": 1437.34,
+      "marketConsensus": 1437.34,
+      "premium": 0,
+      "oraclePrice": 73.1,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Nimes",
+      "league": "FL1",
+      "l3Rating": 1431.97,
+      "baseElo": 1431.97,
+      "marketConsensus": 1431.97,
+      "premium": 0,
+      "oraclePrice": 71.17,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Spezia",
+      "league": "SA",
+      "l3Rating": 1428.18,
+      "baseElo": 1428.18,
+      "marketConsensus": 1428.18,
+      "premium": 0,
+      "oraclePrice": 69.83,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Hannover 96",
+      "league": "BL1",
+      "l3Rating": 1426.45,
+      "baseElo": 1426.45,
+      "marketConsensus": 1426.45,
+      "premium": 0,
+      "oraclePrice": 69.23,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "RCD Mallorca",
+      "league": "PD",
+      "l3Rating": 1426.24,
+      "baseElo": 1467.86,
+      "marketConsensus": 1415.84,
+      "premium": -41.62,
+      "oraclePrice": 69.16,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "PD",
+      "l3Rating": 1425.98,
+      "baseElo": 1455.71,
+      "marketConsensus": 1418.55,
+      "premium": -29.73,
+      "oraclePrice": 69.07,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Lorient",
+      "league": "FL1",
+      "l3Rating": 1425.58,
+      "baseElo": 1406.63,
+      "marketConsensus": 1430.32,
+      "premium": 18.95,
+      "oraclePrice": 68.93,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Frosinone Calcio",
+      "league": "SA",
+      "l3Rating": 1425.53,
+      "baseElo": 1425.53,
+      "marketConsensus": 1425.53,
+      "premium": 0,
+      "oraclePrice": 68.91,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "1. FC Köln",
+      "league": "BL1",
+      "l3Rating": 1425.42,
+      "baseElo": 1415.13,
+      "marketConsensus": 1427.99,
+      "premium": 10.29,
+      "oraclePrice": 68.87,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "1. FC Heidenheim 1846",
+      "league": "BL1",
+      "l3Rating": 1422.27,
+      "baseElo": 1422.27,
+      "marketConsensus": 1422.27,
+      "premium": 0,
+      "oraclePrice": 67.8,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Cádiz CF",
+      "league": "PD",
+      "l3Rating": 1421.77,
+      "baseElo": 1421.77,
+      "marketConsensus": 1421.77,
+      "premium": 0,
+      "oraclePrice": 67.63,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SM Caen",
+      "league": "FL1",
+      "l3Rating": 1420.99,
+      "baseElo": 1420.99,
+      "marketConsensus": 1420.99,
+      "premium": 0,
+      "oraclePrice": 67.36,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AC Chievo Verona",
+      "league": "SA",
+      "l3Rating": 1419.53,
+      "baseElo": 1419.53,
+      "marketConsensus": 1419.53,
+      "premium": 0,
+      "oraclePrice": 66.87,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Nurnberg",
+      "league": "BL1",
+      "l3Rating": 1419.48,
+      "baseElo": 1419.48,
+      "marketConsensus": 1419.48,
+      "premium": 0,
+      "oraclePrice": 66.86,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "EA Guingamp",
+      "league": "FL1",
+      "l3Rating": 1418.98,
+      "baseElo": 1418.98,
+      "marketConsensus": 1418.98,
+      "premium": 0,
+      "oraclePrice": 66.69,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Getafe CF",
+      "league": "PD",
+      "l3Rating": 1418.82,
+      "baseElo": 1450.43,
+      "marketConsensus": 1410.92,
+      "premium": -31.61,
+      "oraclePrice": 66.64,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Cagliari Calcio",
+      "league": "SA",
+      "l3Rating": 1418.66,
+      "baseElo": 1446.24,
+      "marketConsensus": 1411.77,
+      "premium": -27.58,
+      "oraclePrice": 66.59,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Benevento",
+      "league": "SA",
+      "l3Rating": 1418.5,
+      "baseElo": 1418.5,
+      "marketConsensus": 1418.5,
+      "premium": 0,
+      "oraclePrice": 66.53,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Amiens",
+      "league": "FL1",
+      "l3Rating": 1417.66,
+      "baseElo": 1417.66,
+      "marketConsensus": 1417.66,
+      "premium": 0,
+      "oraclePrice": 66.25,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Hertha BSC",
+      "league": "BL1",
+      "l3Rating": 1415.71,
+      "baseElo": 1415.71,
+      "marketConsensus": 1415.71,
+      "premium": 0,
+      "oraclePrice": 65.61,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Crotone",
+      "league": "SA",
+      "l3Rating": 1413.56,
+      "baseElo": 1413.56,
+      "marketConsensus": 1413.56,
+      "premium": 0,
+      "oraclePrice": 64.91,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Parma Calcio 1913",
+      "league": "SA",
+      "l3Rating": 1412.66,
+      "baseElo": 1454.37,
+      "marketConsensus": 1402.23,
+      "premium": -41.71,
+      "oraclePrice": 64.62,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Brescia",
+      "league": "SA",
+      "l3Rating": 1410.36,
+      "baseElo": 1410.36,
+      "marketConsensus": 1410.36,
+      "premium": 0,
+      "oraclePrice": 63.88,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Udinese Calcio",
+      "league": "SA",
+      "l3Rating": 1410.24,
+      "baseElo": 1432.38,
+      "marketConsensus": 1404.7,
+      "premium": -22.14,
+      "oraclePrice": 63.84,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "US Sassuolo Calcio",
+      "league": "SA",
+      "l3Rating": 1407.43,
+      "baseElo": 1387.69,
+      "marketConsensus": 1412.36,
+      "premium": 19.74,
+      "oraclePrice": 62.95,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Paderborn",
+      "league": "BL1",
+      "l3Rating": 1404.21,
+      "baseElo": 1404.21,
+      "marketConsensus": 1404.21,
+      "premium": 0,
+      "oraclePrice": 61.94,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Girona FC",
+      "league": "PD",
+      "l3Rating": 1402.05,
+      "baseElo": 1426.33,
+      "marketConsensus": 1395.98,
+      "premium": -24.28,
+      "oraclePrice": 61.28,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC St. Pauli 1910",
+      "league": "BL1",
+      "l3Rating": 1400.6,
+      "baseElo": 1425.52,
+      "marketConsensus": 1394.37,
+      "premium": -24.92,
+      "oraclePrice": 60.84,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Greuther Furth",
+      "league": "BL1",
+      "l3Rating": 1400.55,
+      "baseElo": 1400.55,
+      "marketConsensus": 1400.55,
+      "premium": 0,
+      "oraclePrice": 60.82,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Hellas Verona FC",
+      "league": "SA",
+      "l3Rating": 1400.37,
+      "baseElo": 1445.65,
+      "marketConsensus": 1389.05,
+      "premium": -45.28,
+      "oraclePrice": 60.77,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Girondins de Bordeaux",
+      "league": "FL1",
+      "l3Rating": 1397.39,
+      "baseElo": 1397.39,
+      "marketConsensus": 1397.39,
+      "premium": 0,
+      "oraclePrice": 59.87,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "US Lecce",
+      "league": "SA",
+      "l3Rating": 1392.26,
+      "baseElo": 1432.36,
+      "marketConsensus": 1382.24,
+      "premium": -40.1,
+      "oraclePrice": 58.35,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "UD Almería",
+      "league": "PD",
+      "l3Rating": 1390.84,
+      "baseElo": 1390.84,
+      "marketConsensus": 1390.84,
+      "premium": 0,
+      "oraclePrice": 57.94,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AS Saint-Étienne",
+      "league": "FL1",
+      "l3Rating": 1389,
+      "baseElo": 1389,
+      "marketConsensus": 1389,
+      "premium": 0,
+      "oraclePrice": 57.41,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Cremonese",
+      "league": "SA",
+      "l3Rating": 1387.11,
+      "baseElo": 1439.87,
+      "marketConsensus": 1373.92,
+      "premium": -52.76,
+      "oraclePrice": 56.87,
+      "oracleConfidence": 0.85,
+      "confidence": 0.85,
+      "components": {
+        "matchImplied": 1373.92,
+        "matchCount": 2,
+        "avgWinProb": 0.128
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "VfL Bochum 1848",
+      "league": "BL1",
+      "l3Rating": 1386.26,
+      "baseElo": 1386.26,
+      "marketConsensus": 1386.26,
+      "premium": 0,
+      "oraclePrice": 56.63,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Clermont Foot 63",
+      "league": "FL1",
+      "l3Rating": 1386.14,
+      "baseElo": 1386.14,
+      "marketConsensus": 1386.14,
+      "premium": 0,
+      "oraclePrice": 56.59,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Nantes",
+      "league": "FL1",
+      "l3Rating": 1385.46,
+      "baseElo": 1423.97,
+      "marketConsensus": 1375.83,
+      "premium": -38.51,
+      "oraclePrice": 56.4,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Leicester City FC",
+      "league": "PL",
+      "l3Rating": 1379.5,
+      "baseElo": 1415.5,
+      "marketConsensus": 1370.5,
+      "premium": -36,
+      "oraclePrice": 54.74,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Le Havre AC",
+      "league": "FL1",
+      "l3Rating": 1378.52,
+      "baseElo": 1411.02,
+      "marketConsensus": 1370.39,
+      "premium": -32.5,
+      "oraclePrice": 54.48,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "FC Metz",
+      "league": "FL1",
+      "l3Rating": 1376.18,
+      "baseElo": 1380.7,
+      "marketConsensus": 1375.05,
+      "premium": -4.52,
+      "oraclePrice": 53.84,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "league": "BL1",
+      "l3Rating": 1373.57,
+      "baseElo": 1501.51,
+      "marketConsensus": 1341.59,
+      "premium": -127.94,
+      "oraclePrice": 53.15,
+      "oracleConfidence": 0.75,
+      "confidence": 0.75,
+      "components": {
+        "matchImplied": 1341.59,
+        "matchCount": 1,
+        "avgWinProb": 0.181
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "current"
+    },
+    {
+      "team": "Spal",
+      "league": "SA",
+      "l3Rating": 1372.87,
+      "baseElo": 1372.87,
+      "marketConsensus": 1372.87,
+      "premium": 0,
+      "oraclePrice": 52.96,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Dijon",
+      "league": "FL1",
+      "l3Rating": 1368.64,
+      "baseElo": 1368.64,
+      "marketConsensus": 1368.64,
+      "premium": 0,
+      "oraclePrice": 51.85,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Sheffield United FC",
+      "league": "PL",
+      "l3Rating": 1367.02,
+      "baseElo": 1367.02,
+      "marketConsensus": 1367.02,
+      "premium": 0,
+      "oraclePrice": 51.43,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Holstein Kiel",
+      "league": "BL1",
+      "l3Rating": 1363.62,
+      "baseElo": 1399.62,
+      "marketConsensus": 1354.62,
+      "premium": -36,
+      "oraclePrice": 50.57,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Angers SCO",
+      "league": "FL1",
+      "l3Rating": 1361.61,
+      "baseElo": 1392.46,
+      "marketConsensus": 1353.9,
+      "premium": -30.85,
+      "oraclePrice": 50.06,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "UC Sampdoria",
+      "league": "SA",
+      "l3Rating": 1361.46,
+      "baseElo": 1361.46,
+      "marketConsensus": 1361.46,
+      "premium": 0,
+      "oraclePrice": 50.02,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Stade de Reims",
+      "league": "FL1",
+      "l3Rating": 1358.99,
+      "baseElo": 1394.99,
+      "marketConsensus": 1349.99,
+      "premium": -36,
+      "oraclePrice": 49.41,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Ipswich Town FC",
+      "league": "PL",
+      "l3Rating": 1354.27,
+      "baseElo": 1390.27,
+      "marketConsensus": 1345.27,
+      "premium": -36,
+      "oraclePrice": 48.26,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Venezia FC",
+      "league": "SA",
+      "l3Rating": 1352.09,
+      "baseElo": 1388.09,
+      "marketConsensus": 1343.09,
+      "premium": -36,
+      "oraclePrice": 47.73,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Empoli FC",
+      "league": "SA",
+      "l3Rating": 1350.85,
+      "baseElo": 1386.85,
+      "marketConsensus": 1341.85,
+      "premium": -36,
+      "oraclePrice": 47.44,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Ajaccio",
+      "league": "FL1",
+      "l3Rating": 1345.28,
+      "baseElo": 1345.28,
+      "marketConsensus": 1345.28,
+      "premium": 0,
+      "oraclePrice": 46.13,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Granada CF",
+      "league": "PD",
+      "l3Rating": 1344.04,
+      "baseElo": 1344.04,
+      "marketConsensus": 1344.04,
+      "premium": 0,
+      "oraclePrice": 45.85,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "ES Troyes AC",
+      "league": "FL1",
+      "l3Rating": 1333.57,
+      "baseElo": 1333.57,
+      "marketConsensus": 1333.57,
+      "premium": 0,
+      "oraclePrice": 43.51,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "UD Las Palmas",
+      "league": "PD",
+      "l3Rating": 1325.54,
+      "baseElo": 1361.54,
+      "marketConsensus": 1316.54,
+      "premium": -36,
+      "oraclePrice": 41.8,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "US Salernitana 1919",
+      "league": "SA",
+      "l3Rating": 1310.59,
+      "baseElo": 1310.59,
+      "marketConsensus": 1310.59,
+      "premium": 0,
+      "oraclePrice": 38.79,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "SV Darmstadt 98",
+      "league": "BL1",
+      "l3Rating": 1303.47,
+      "baseElo": 1303.47,
+      "marketConsensus": 1303.47,
+      "premium": 0,
+      "oraclePrice": 37.43,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Southampton FC",
+      "league": "PL",
+      "l3Rating": 1272.52,
+      "baseElo": 1308.52,
+      "marketConsensus": 1263.52,
+      "premium": -36,
+      "oraclePrice": 32.07,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "AC Monza",
+      "league": "SA",
+      "l3Rating": 1241.07,
+      "baseElo": 1277.07,
+      "marketConsensus": 1232.07,
+      "premium": -36,
+      "oraclePrice": 27.4,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Montpellier HSC",
+      "league": "FL1",
+      "l3Rating": 1219.52,
+      "baseElo": 1255.52,
+      "marketConsensus": 1210.52,
+      "premium": -36,
+      "oraclePrice": 24.6,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    },
+    {
+      "team": "Real Valladolid CF",
+      "league": "PD",
+      "l3Rating": 1183.22,
+      "baseElo": 1219.22,
+      "marketConsensus": 1174.22,
+      "premium": -36,
+      "oraclePrice": 20.52,
+      "oracleConfidence": 0.4,
+      "confidence": 0.4,
+      "components": {
+        "matchImplied": 0,
+        "matchCount": 0,
+        "avgWinProb": 0
+      },
+      "timestamp": "2026-02-18T15:13:53.009Z",
+      "dataFreshness": "stale"
+    }
+  ],
+  "params": {
+    "marketWeight": 0.8,
+    "baseEloWeight": 0.2,
+    "oracle": {
+      "P0": 100,
+      "beta": 0.005,
+      "MSI0": 1500
+    },
+    "matchDecayDays": 7
+  }
+}

@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { href: "/", label: "v0", description: "Legacy" },
   { href: "/l1", label: "L1", description: "Facts" },
   { href: "/l2", label: "L2", description: "Derived" },
+  { href: "/l3", label: "L3", description: "Market" },
 ];
 
 export default function NavMenu() {
