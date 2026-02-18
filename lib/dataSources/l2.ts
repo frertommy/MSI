@@ -22,6 +22,40 @@ function readRunFile<T>(runId: string, filename: string): T | null {
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
+export interface TeamDerived {
+  team: string;
+  league: string;
+  msiBase: number;
+  msiOdds: number;
+  msiFinal: number;
+  confidence: number;
+  oddsAdjustment: number;
+  injuryAdjustment: number;
+  newsAdjustment: number;
+  oraclePrice: number | undefined;
+  oracleConfidence: number | undefined;
+  nextFixture: {
+    opponent: string;
+    date: string;
+    marketWinProb: number;
+    predictedWinProb: number;
+    isHome: boolean;
+  } | null;
+  explainJson: Record<string, unknown>;
+  timeseries: { date: string; baseElo: number; eloOdds?: number }[];
+}
+
+export interface ModelParams {
+  K: number;
+  homeAdvantage: number;
+  goalMarginFactor: boolean;
+  seasonRegression: number;
+  oddsBlendWeight: number;
+  oddsLiveWeight: number;
+  oracle: { P0: number; beta: number; MSI0: number };
+  [key: string]: unknown;
+}
+
 class L2Source implements L2DataSource {
   getLatestRun(): RunInfo | null {
     const latestFile = path.join(L2_DIR, "latest_run.json");
@@ -90,7 +124,6 @@ class L2Source implements L2DataSource {
     const ratingsFile = readRunFile<{ ratings: any[] }>(rid, "msi_ratings.json");
     if (!ratingsFile) return [];
 
-    // Load oracle prices if available
     const oracleFile = readRunFile<{ prices: any[] }>(rid, "oracle_prices.json");
     const priceMap = new Map<string, number>();
     if (oracleFile) {
@@ -113,13 +146,49 @@ class L2Source implements L2DataSource {
     }));
   }
 
-  /** L2-specific: summary stats for the stub page */
-  getSummary(): {
-    latestRunId: string | null;
-    createdAt: string | null;
-    teamCount: number;
-    totalRuns: number;
-  } {
+  /** Full derived data for a single team */
+  getTeamDerived(teamName: string, runId?: string): TeamDerived | null {
+    const rid = this.resolveRunId(runId);
+    if (!rid) return null;
+
+    const ratingsFile = readRunFile<{ ratings: any[] }>(rid, "msi_ratings.json");
+    if (!ratingsFile) return null;
+
+    const rating = ratingsFile.ratings.find((r: any) => r.team === teamName);
+    if (!rating) return null;
+
+    const oracleFile = readRunFile<{ prices: any[] }>(rid, "oracle_prices.json");
+    const oracleEntry = oracleFile?.prices?.find((p: any) => p.team === teamName);
+
+    const timeseries = this.getTeamTimeseries(teamName, rid);
+
+    return {
+      team: rating.team,
+      league: rating.league,
+      msiBase: rating.msiBase,
+      msiOdds: rating.msiOdds,
+      msiFinal: rating.msiFinal,
+      confidence: rating.confidence,
+      oddsAdjustment: rating.oddsAdjustment,
+      injuryAdjustment: rating.injuryAdjustment,
+      newsAdjustment: rating.newsAdjustment,
+      oraclePrice: oracleEntry?.oraclePrice,
+      oracleConfidence: oracleEntry?.oracleConfidence,
+      nextFixture: rating.nextFixture ?? null,
+      explainJson: rating.explainJson ?? {},
+      timeseries,
+    };
+  }
+
+  /** Model params for a run */
+  getModelParams(runId?: string): ModelParams | null {
+    const rid = this.resolveRunId(runId);
+    if (!rid) return null;
+    const mv = readRunFile<{ paramsJson: any }>(rid, "model_version.json");
+    return mv?.paramsJson ?? null;
+  }
+
+  getSummary() {
     const latest = this.getLatestRun();
     const runs = this.listRuns();
     let teamCount = 0;
