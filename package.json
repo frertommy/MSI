@@ -26,7 +26,10 @@
     "backfill:30days": "npm run fetch:injuries:historical && npm run fetch:news:historical && npm run compute:multilayer",
     "pipeline": "npm run fetch && npm run compute && npm run compute:multilayer && npm run analyze && npm run validate && npm run rankings",
     "pipeline:live": "npm run fetch:odds && npm run fetch:injuries && npm run fetch:news && npm run compute:live && npm run rankings",
-    "update": "npm run pipeline:live && npm run build"
+    "update": "npm run pipeline:live && npm run build",
+    "ingest:v1": "tsx src/ingest/runIngest.ts",
+    "process:v1": "tsx src/process/runProcess.ts",
+    "pipeline:v1": "npm run ingest:v1 && npm run process:v1"
   },
   "repository": {
     "type": "git",
