@@ -4,6 +4,7 @@ import { l2Source } from "@/lib/dataSources/l2";
 import TeamTabs from "@/app/components/TeamTabs";
 import L2MSIChart from "@/app/components/L2MSIChart";
 import L2DiffView from "@/app/components/L2DiffView";
+import L2MSIOracleOverlayChart from "@/app/components/L2MSIOracleOverlayChart";
 
 interface PageProps {
   params: Promise<{ name: string }>;
@@ -152,6 +153,18 @@ export default async function L2TeamPage({ params }: PageProps) {
             color: "#22c55e",
             content: (
               <L2MSIChart data={derived.timeseries} />
+            ),
+          },
+          {
+            key: "overlay",
+            label: "MSI + Oracle",
+            color: "#a78bfa",
+            content: (
+              <L2MSIOracleOverlayChart
+                data={derived.timeseries}
+                oracleParams={modelParams?.oracle}
+                currentOraclePrice={derived.oraclePrice}
+              />
             ),
           },
           {

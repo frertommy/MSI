@@ -29,7 +29,9 @@
     "update": "npm run pipeline:live && npm run build",
     "ingest:v1": "tsx src/ingest/runIngest.ts",
     "process:v1": "tsx src/process/runProcess.ts",
-    "pipeline:v1": "npm run ingest:v1 && npm run process:v1"
+    "pipeline:v1": "npm run ingest:v1 && npm run process:v1",
+    "pipeline:l3": "tsx src/process/runL3.ts",
+    "pipeline:all": "npm run pipeline:v1 && npm run pipeline:l3"
   },
   "repository": {
     "type": "git",
