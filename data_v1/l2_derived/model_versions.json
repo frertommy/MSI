@@ -1,0 +1,36 @@
+[
+  {
+    "modelVersionId": 1,
+    "name": "msi_v1",
+    "gitCommit": "dcb2875e249d89c6bb834dc658af9c188dac5b81",
+    "createdAt": "2026-02-18T12:04:39.120Z",
+    "runId": "2026-02-18T12-04-39-068Z_dcb2875",
+    "paramsJson": {
+      "K": 24,
+      "homeAdvantage": 65,
+      "goalMarginFactor": true,
+      "seasonRegression": 0.15,
+      "leagueStrength": {
+        "PL": 1.15,
+        "PD": 1.05,
+        "BL1": 1,
+        "SA": 1,
+        "FL1": 0.85
+      },
+      "leagueBaseline": {
+        "PL": 1600,
+        "PD": 1515,
+        "BL1": 1500,
+        "SA": 1500,
+        "FL1": 1470
+      },
+      "oddsBlendWeight": 0.08,
+      "oddsLiveWeight": 0.15,
+      "oracle": {
+        "P0": 100,
+        "beta": 0.005,
+        "MSI0": 1500
+      }
+    }
+  }
+]
