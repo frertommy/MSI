@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-02-18T08:05:02.267Z",
+  "computedAt": "2026-02-19T08:04:16.434Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Fox Sports",
           "publishedAt": "2026-02-10T19:10:40Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.6,
-          "daysAgo": 8
+          "decayedImpact": 3,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.6,
-      "newsAdjustment": 2.2
+      "totalDecayedImpact": 3,
+      "newsAdjustment": 1.8
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -31,13 +31,13 @@
           "source": "BBC News",
           "publishedAt": "2026-02-11T22:28:51Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.4,
-          "daysAgo": 6
+          "decayedImpact": -3,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -3.4,
-      "newsAdjustment": -2.1
+      "totalDecayedImpact": -3,
+      "newsAdjustment": -1.8
     },
     "Olympique de Marseille": {
       "events": [
@@ -49,13 +49,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-02-11T08:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.9,
-          "daysAgo": 7
+          "decayedImpact": 3.3,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.3
+      "totalDecayedImpact": 3.3,
+      "newsAdjustment": 2
     }
   }
 }
