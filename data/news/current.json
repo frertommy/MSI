@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-02-19T08:04:16.434Z",
+  "computedAt": "2026-02-20T08:02:23.488Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Fox Sports",
           "publishedAt": "2026-02-10T19:10:40Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.5,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3,
-      "newsAdjustment": 1.8
+      "totalDecayedImpact": 2.5,
+      "newsAdjustment": 1.5
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -31,16 +31,27 @@
           "source": "BBC News",
           "publishedAt": "2026-02-11T22:28:51Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3,
-          "daysAgo": 7
+          "decayedImpact": -2.5,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -3,
-      "newsAdjustment": -1.8
+      "totalDecayedImpact": -2.5,
+      "newsAdjustment": -1.5
     },
     "Olympique de Marseille": {
       "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Official | Habib Beye replaces Roberto De Zerbi as Olympique de Marseille head coach",
+          "url": "https://www.getfootballnewsfrance.com/2026/official-habib-beye-replaces-roberto-de-zerbi-as-olympique-de-marseille-head-coach/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-02-18T21:50:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.9,
+          "daysAgo": 1
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -49,13 +60,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-02-11T08:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 2.8,
+          "daysAgo": 9
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
+      "totalRawImpact": 12,
+      "totalDecayedImpact": 6.7,
+      "newsAdjustment": 4
     }
   }
 }
