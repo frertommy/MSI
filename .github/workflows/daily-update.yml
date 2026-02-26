@@ -30,13 +30,13 @@ jobs:
       - name: Fetch odds data
         run: npm run fetch:odds
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS2_API_KEY }}
         continue-on-error: true
 
       - name: Fetch injury data
         run: npm run fetch:injuries
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API2_FOOTBALL_KEY }}
         continue-on-error: true
 
       - name: Fetch news data

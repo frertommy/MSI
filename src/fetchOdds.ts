@@ -2,7 +2,11 @@ import * as fs from "fs";
 import * as path from "path";
 import "dotenv/config";
 
-const API_KEY = process.env.ODDS_API_KEY || "9775d0d13d151f71081a81127190acf5";
+const API_KEY = process.env.ODDS_API_KEY || process.env.ODDS2_API_KEY;
+if (!API_KEY) {
+  console.error("ODDS_API_KEY or ODDS2_API_KEY must be set");
+  process.exit(1);
+}
 const BASE_URL = "https://api.the-odds-api.com/v4";
 
 const SPORT_KEYS: Record<string, string> = {
@@ -177,11 +181,6 @@ function processEvents(events: OddsEvent[]): ProcessedFixture[] {
 }
 
 async function main() {
-  if (!API_KEY) {
-    console.error("ODDS_API_KEY not set in environment");
-    process.exit(1);
-  }
-
   const dataDir = path.join(__dirname, "..", "data");
   const oddsDir = path.join(dataDir, "odds");
   const rawDir = path.join(oddsDir, "raw");

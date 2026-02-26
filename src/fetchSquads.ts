@@ -1,7 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
 
-const API_KEY = "1109c634f7989ac2ca9e96a37e7c7b72";
+const API_KEY = process.env.API_FOOTBALL_KEY || process.env.API2_FOOTBALL_KEY;
+if (!API_KEY) {
+  console.error("API_FOOTBALL_KEY or API2_FOOTBALL_KEY must be set");
+  process.exit(1);
+}
 const BASE_URL = "https://v3.football.api-sports.io";
 
 // Max age before refetching a squad (30 days)
