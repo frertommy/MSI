@@ -31,7 +31,10 @@
     "process:v1": "tsx src/process/runProcess.ts",
     "pipeline:v1": "npm run ingest:v1 && npm run process:v1",
     "pipeline:l3": "tsx src/process/runL3.ts",
-    "pipeline:all": "npm run pipeline:v1 && npm run pipeline:l3"
+    "pipeline:all": "npm run pipeline:v1 && npm run pipeline:l3",
+    "backfill:odds-injuries": "tsx src/backfillOddsInjuries.ts",
+    "backfill:odds-injuries:dry-run": "tsx src/backfillOddsInjuries.ts --dry-run",
+    "backfill:odds-injuries:process": "tsx src/backfillOddsInjuries.ts --process-only"
   },
   "repository": {
     "type": "git",
