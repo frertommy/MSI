@@ -7,7 +7,7 @@ const API_KEY = process.env.FOOTBALL_DATA_KEY || "51e12efd9432465baf1e0a52db8da2
 
 const BASE_URL = "https://api.football-data.org/v4";
 const LEAGUES = ["PL", "PD", "BL1", "SA", "FL1"];
-const API_SEASONS = [2020, 2021, 2022, 2023, 2024];
+const API_SEASONS = [2020, 2021, 2022, 2023, 2024, 2025];
 const DELAY_MS = 7000;
 
 const LEAGUE_COUNTRY: Record<string, string> = {
