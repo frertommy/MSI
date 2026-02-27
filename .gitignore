@@ -4,3 +4,7 @@ dist/
 *.log
 .next/
 next-env.d.ts
+
+# v1 data — only ignore raw snapshots and cache (canonical + derived are committed)
+data_v1/l1_facts/raw/
+data_v1/cache/
