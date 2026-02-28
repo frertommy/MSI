@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-02-27T08:01:52.997Z",
+  "computedAt": "2026-02-28T07:17:41.176Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-02-24T13:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.3,
-          "daysAgo": 3
+          "decayedImpact": 5.7,
+          "daysAgo": 4
         },
         {
           "type": "star_signing",
@@ -24,13 +24,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-02-21T18:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.7,
-          "daysAgo": 6
+          "decayedImpact": 4.2,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 11,
-      "newsAdjustment": 6.6
+      "totalDecayedImpact": 9.9,
+      "newsAdjustment": 5.9
     },
     "Olympique de Marseille": {
       "events": [
@@ -42,8 +42,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-02-19T14:40:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.7,
-          "daysAgo": 8
+          "decayedImpact": 2.5,
+          "daysAgo": 9
         },
         {
           "type": "manager_appointed",
@@ -53,13 +53,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-02-18T21:50:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.5,
-          "daysAgo": 8
+          "decayedImpact": 2.3,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 8.4,
-      "totalDecayedImpact": 5.2,
-      "newsAdjustment": 3.1
+      "totalDecayedImpact": 4.8,
+      "newsAdjustment": 2.9
     },
     "VfB Stuttgart": {
       "events": [
@@ -71,13 +71,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-02-19T22:34:00Z",
           "rawImpact": -1.3,
-          "decayedImpact": -0.3,
-          "daysAgo": 7
+          "decayedImpact": -0.2,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -1.3,
-      "totalDecayedImpact": -0.3,
-      "newsAdjustment": -0.2
+      "totalDecayedImpact": -0.2,
+      "newsAdjustment": -0.1
     },
     "AC Milan": {
       "events": [
@@ -89,8 +89,8 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-02-25T13:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.8,
-          "daysAgo": 2
+          "decayedImpact": 6.3,
+          "daysAgo": 3
         },
         {
           "type": "star_departure",
@@ -100,8 +100,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-02-21T18:00:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.8,
-          "daysAgo": 6
+          "decayedImpact": -3.4,
+          "daysAgo": 7
         },
         {
           "type": "player_scandal",
@@ -111,13 +111,13 @@
           "source": "JuveFC",
           "publishedAt": "2026-02-17T10:30:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1,
-          "daysAgo": 10
+          "decayedImpact": -0.8,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -1.9,
-      "totalDecayedImpact": 2,
-      "newsAdjustment": 1.2
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "Borussia Dortmund": {
       "events": [
@@ -129,13 +129,31 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-02-25T09:10:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -5.4,
-          "daysAgo": 2
+          "decayedImpact": -5,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -5.4,
-      "newsAdjustment": -3.3
+      "totalDecayedImpact": -5,
+      "newsAdjustment": -3
+    },
+    "UD Almería": {
+      "events": [
+        {
+          "type": "ownership_change",
+          "label": "Ownership Change",
+          "headline": "Cristiano Ronaldo invests in UD Almería, taking 25% stake as club targets La Liga promotion",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_220535ab-463f-4dde-87e6-1e3f30b09aa7",
+          "source": "Yahoo Entertainment",
+          "publishedAt": "2026-02-26T09:45:00Z",
+          "rawImpact": 2.6,
+          "decayedImpact": 2.4,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 2.6,
+      "totalDecayedImpact": 2.4,
+      "newsAdjustment": 1.5
     }
   }
 }
