@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-03-09T07:11:45.482Z",
+  "computedAt": "2026-03-10T07:00:27.839Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "SempreInter",
           "publishedAt": "2026-02-24T13:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.7,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.7,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.1,
+      "newsAdjustment": 0.1
     },
     "Olympique de Marseille": {
       "events": [
@@ -31,8 +31,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-02-19T14:40:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.7,
-          "daysAgo": 18
+          "decayedImpact": 0.5,
+          "daysAgo": 19
         },
         {
           "type": "manager_appointed",
@@ -42,13 +42,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-02-18T21:50:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.5,
-          "daysAgo": 18
+          "decayedImpact": 0.3,
+          "daysAgo": 19
         }
       ],
       "totalRawImpact": 8.4,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "AC Milan": {
       "events": [
@@ -60,8 +60,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-02T12:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4,
-          "daysAgo": 7
+          "decayedImpact": 3.5,
+          "daysAgo": 8
         },
         {
           "type": "star_signing",
@@ -71,13 +71,13 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-02-25T13:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.3,
-          "daysAgo": 12
+          "decayedImpact": 0.7,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 5.3,
-      "newsAdjustment": 3.2
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     },
     "Borussia Dortmund": {
       "events": [
@@ -89,13 +89,13 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-02-25T09:10:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.9,
-          "daysAgo": 12
+          "decayedImpact": -0.5,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.9,
-      "newsAdjustment": -0.6
+      "totalDecayedImpact": -0.5,
+      "newsAdjustment": -0.3
     },
     "UD Almería": {
       "events": [
@@ -107,13 +107,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-02-26T09:45:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.6,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.6,
+      "newsAdjustment": 0.9
     },
     "Spal": {
       "events": [
@@ -125,13 +125,13 @@
           "source": "JuveFC",
           "publishedAt": "2026-03-04T13:30:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 4.2,
-          "daysAgo": 5
+          "decayedImpact": 3.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.7,
+      "newsAdjustment": 2.2
     }
   }
 }
