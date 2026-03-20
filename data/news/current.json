@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-03-19T07:06:26.079Z",
+  "computedAt": "2026-03-20T07:04:57.564Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-13T10:45:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2,
-          "daysAgo": 6
+          "decayedImpact": -1.7,
+          "daysAgo": 7
         },
         {
           "type": "player_scandal",
@@ -24,13 +24,13 @@
           "source": "Football Espana",
           "publishedAt": "2026-03-12T00:00:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.6,
-          "daysAgo": 7
+          "decayedImpact": -1.4,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -6.7,
-      "totalDecayedImpact": -3.6,
-      "newsAdjustment": -2.1
+      "totalDecayedImpact": -3.1,
+      "newsAdjustment": -1.9
     },
     "UD Almería": {
       "events": [
@@ -42,13 +42,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-02-26T09:45:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.8,
-          "daysAgo": 21
+          "decayedImpact": 0.7,
+          "daysAgo": 22
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
+      "totalDecayedImpact": 0.7,
+      "newsAdjustment": 0.4
     }
   }
 }
