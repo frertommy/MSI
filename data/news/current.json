@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-03-27T07:18:28.123Z",
+  "computedAt": "2026-03-28T07:06:51.695Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -8,29 +8,29 @@
         {
           "type": "star_signing",
           "label": "Star Signing",
+          "headline": "Report: Liverpool set to battle Barcelona in the race to sign world-class Serie A star",
+          "url": "https://eplindex.com/144524/report-liverpool-set-to-battle-barcelona-in-the-race-to-sign-world-class-serie-a-star.html",
+          "source": "English Premier League Index - Opta Stats",
+          "publishedAt": "2026-03-26T08:50:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.7,
+          "daysAgo": 2
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
           "headline": "Barcelona sporting director identify former La Masia star as a priority target",
           "url": "https://barcauniversal.com/barcelona-sporting-director-identify-former-la-masia-star-as-a-priority-target/",
           "source": "Barcauniversal.com",
           "publishedAt": "2026-03-22T17:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.3,
-          "daysAgo": 5
-        },
-        {
-          "type": "player_scandal",
-          "label": "Player Scandal",
-          "headline": "Report: ‘Hostile Climate’ Could Hand Barcelona Boost In Pursuit Of Inter Milan & Italy Star",
-          "url": "https://sempreinter.com/2026/03/13/boos-inter-bastoni-door-barcelona/",
-          "source": "SempreInter",
-          "publishedAt": "2026-03-13T10:45:00Z",
-          "rawImpact": -3.4,
-          "decayedImpact": 0,
-          "daysAgo": 14
+          "decayedImpact": 4.7,
+          "daysAgo": 6
         }
       ],
-      "totalRawImpact": 4.4,
-      "totalDecayedImpact": 5.2,
-      "newsAdjustment": 3.1
+      "totalRawImpact": 15.6,
+      "totalDecayedImpact": 11.4,
+      "newsAdjustment": 6.9
     },
     "AC Milan": {
       "events": [
@@ -42,8 +42,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-25T10:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.8,
-          "daysAgo": 2
+          "decayedImpact": 6.2,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -53,13 +53,13 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-24T11:40:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.6,
-          "daysAgo": 3
+          "decayedImpact": 3.4,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 10.4,
-      "newsAdjustment": 6.2
+      "totalDecayedImpact": 9.7,
+      "newsAdjustment": 5.8
     },
     "UD Almería": {
       "events": [
@@ -71,13 +71,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-02-26T09:45:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.1,
-          "daysAgo": 29
+          "decayedImpact": 0,
+          "daysAgo": 30
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": 0,
+      "newsAdjustment": 0
     },
     "AS Roma": {
       "events": [
@@ -89,13 +89,31 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-03-20T18:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.6,
+      "newsAdjustment": 2.2
+    },
+    "Arsenal FC": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Journalist: Arsenal plotting major move to sign world-class PSG star",
+          "url": "https://eplindex.com/144526/journalist-arsenal-plotting-major-move-to-sign-world-class-psg-star.html",
+          "source": "English Premier League Index - Opta Stats",
+          "publishedAt": "2026-03-26T07:50:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.7,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.7,
+      "newsAdjustment": 4
     }
   }
 }
