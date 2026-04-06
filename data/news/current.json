@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-04-06T05:58:19.138Z",
+  "computedAt": "2026-04-06T07:54:55.934Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -37,7 +37,7 @@
       ],
       "totalRawImpact": -7.8,
       "totalDecayedImpact": -5.1,
-      "newsAdjustment": -3.1
+      "newsAdjustment": -3
     },
     "AC Milan": {
       "events": [
@@ -76,7 +76,7 @@
         }
       ],
       "totalRawImpact": 5.7,
-      "totalDecayedImpact": 0.1,
+      "totalDecayedImpact": 0,
       "newsAdjustment": 0
     },
     "Arsenal FC": {
@@ -107,12 +107,12 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-03-28T14:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3,
+          "decayedImpact": 2.9,
           "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3,
+      "totalDecayedImpact": 2.9,
       "newsAdjustment": 1.8
     },
     "RB Leipzig": {
@@ -125,13 +125,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-03-31T19:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.8,
-          "daysAgo": 5
+          "decayedImpact": 4.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.8,
-      "newsAdjustment": 2.9
+      "totalDecayedImpact": 4.7,
+      "newsAdjustment": 2.8
     }
   }
 }
