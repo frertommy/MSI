@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-04-06T07:54:55.934Z",
+  "computedAt": "2026-04-07T07:41:49.008Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-03-26T08:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.1,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.1,
+      "newsAdjustment": 0.7
     },
     "Olympique de Marseille": {
       "events": [
@@ -31,13 +31,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-04-01T09:35:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -5.1,
-          "daysAgo": 5
+          "decayedImpact": -4.5,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -5.1,
-      "newsAdjustment": -3
+      "totalDecayedImpact": -4.5,
+      "newsAdjustment": -2.7
     },
     "AC Milan": {
       "events": [
@@ -49,8 +49,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-29T12:10:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.8,
-          "daysAgo": 8
+          "decayedImpact": -2.3,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -60,8 +60,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-25T10:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.6,
+          "daysAgo": 13
         },
         {
           "type": "manager_appointed",
@@ -71,13 +71,13 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-24T11:40:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.6,
-          "daysAgo": 13
+          "decayedImpact": 1.4,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 5.7,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
+      "totalDecayedImpact": -0.3,
+      "newsAdjustment": -0.2
     },
     "Arsenal FC": {
       "events": [
@@ -89,13 +89,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-03-26T07:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.1,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.1,
+      "newsAdjustment": 0.7
     },
     "Liverpool FC": {
       "events": [
@@ -107,13 +107,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-03-28T14:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.9,
-          "daysAgo": 9
+          "decayedImpact": 2.4,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.8
+      "totalDecayedImpact": 2.4,
+      "newsAdjustment": 1.4
     },
     "RB Leipzig": {
       "events": [
@@ -125,13 +125,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-03-31T19:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.7,
-          "daysAgo": 6
+          "decayedImpact": 4.2,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.7,
-      "newsAdjustment": 2.8
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     }
   }
 }
