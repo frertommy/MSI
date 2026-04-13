@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-04-13T06:12:36.194Z",
+  "computedAt": "2026-04-13T08:14:06.020Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,12 +13,12 @@
           "source": "Get French Football News",
           "publishedAt": "2026-04-01T09:35:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -1.2,
+          "decayedImpact": -1.1,
           "daysAgo": 12
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -1.2,
+      "totalDecayedImpact": -1.1,
       "newsAdjustment": -0.7
     },
     "AC Milan": {
@@ -31,7 +31,7 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-10T03:26:04Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.1,
+          "decayedImpact": 6,
           "daysAgo": 3
         },
         {
@@ -47,8 +47,8 @@
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
+      "totalDecayedImpact": 6.2,
+      "newsAdjustment": 3.7
     },
     "FC Barcelona": {
       "events": [
@@ -60,13 +60,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-04-07T19:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.8,
-          "daysAgo": 5
+          "decayedImpact": 4.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.8,
-      "newsAdjustment": 2.9
+      "totalDecayedImpact": 4.7,
+      "newsAdjustment": 2.8
     },
     "AS Roma": {
       "events": [
@@ -84,7 +84,7 @@
       ],
       "totalRawImpact": 7.8,
       "totalDecayedImpact": 6.9,
-      "newsAdjustment": 4.2
+      "newsAdjustment": 4.1
     },
     "RB Leipzig": {
       "events": [
@@ -96,12 +96,12 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-03-31T19:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.9,
-          "daysAgo": 12
+          "decayedImpact": 0.8,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.9,
+      "totalDecayedImpact": 0.8,
       "newsAdjustment": 0.5
     },
     "RC Lens": {
@@ -127,6 +127,17 @@
         {
           "type": "manager_appointed",
           "label": "Manager Appointed",
+          "headline": "Union Berlin make history with first female head coach",
+          "url": "https://www.bbc.com/sport/football/articles/cq59yvy6v0eo",
+          "source": "BBC News",
+          "publishedAt": "2026-04-12T07:37:10Z",
+          "rawImpact": 5.2,
+          "decayedImpact": 4.9,
+          "daysAgo": 1
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
           "headline": "Woman named Union Berlin coach in historic first: Marie-Louise Eta guides Bundesliga outfit till end season",
           "url": "https://www.cbssports.com/soccer/news/marie-louise-eta-first-womans-coach-bundesliga-soccer/",
           "source": "CBS Sports",
@@ -136,9 +147,9 @@
           "daysAgo": 1
         }
       ],
-      "totalRawImpact": 5.2,
-      "totalDecayedImpact": 4.9,
-      "newsAdjustment": 2.9
+      "totalRawImpact": 10.4,
+      "totalDecayedImpact": 9.8,
+      "newsAdjustment": 5.9
     }
   }
 }
