@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-04-13T08:14:06.020Z",
+  "computedAt": "2026-04-14T07:57:41.041Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-04-01T09:35:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -1.1,
-          "daysAgo": 12
+          "decayedImpact": -0.6,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -1.1,
-      "newsAdjustment": -0.7
+      "totalDecayedImpact": -0.6,
+      "newsAdjustment": -0.4
     },
     "AC Milan": {
       "events": [
@@ -31,8 +31,8 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-10T03:26:04Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6,
-          "daysAgo": 3
+          "decayedImpact": 5.5,
+          "daysAgo": 4
         },
         {
           "type": "manager_appointed",
@@ -42,13 +42,13 @@
           "source": "SempreInter",
           "publishedAt": "2026-03-24T11:40:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.2,
-          "daysAgo": 20
+          "decayedImpact": 0,
+          "daysAgo": 21
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 6.2,
-      "newsAdjustment": 3.7
+      "totalDecayedImpact": 5.5,
+      "newsAdjustment": 3.3
     },
     "FC Barcelona": {
       "events": [
@@ -60,13 +60,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-04-07T19:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.7,
-          "daysAgo": 6
+          "decayedImpact": 4.2,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.7,
-      "newsAdjustment": 2.8
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     },
     "AS Roma": {
       "events": [
@@ -78,13 +78,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-04-11T16:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.9,
-          "daysAgo": 2
+          "decayedImpact": 6.3,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.9,
-      "newsAdjustment": 4.1
+      "totalDecayedImpact": 6.3,
+      "newsAdjustment": 3.8
     },
     "RB Leipzig": {
       "events": [
@@ -96,13 +96,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-03-31T19:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.8,
-          "daysAgo": 13
+          "decayedImpact": 0.3,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
+      "totalDecayedImpact": 0.3,
+      "newsAdjustment": 0.2
     },
     "RC Lens": {
       "events": [
@@ -114,16 +114,38 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-08T11:35:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2.2,
-          "daysAgo": 5
+          "decayedImpact": -2,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": -3.4,
-      "totalDecayedImpact": -2.2,
-      "newsAdjustment": -1.3
+      "totalDecayedImpact": -2,
+      "newsAdjustment": -1.2
     },
     "1. FC Union Berlin": {
       "events": [
+        {
+          "type": "manager_sacked",
+          "label": "Manager Sacked",
+          "headline": "Union Berlin hire Marie-Louise Eta, first female head coach in Bundesliga, 'top five' European leagues",
+          "url": "https://www.nbcsports.com/soccer/news/union-berlin-hire-marie-louise-eta-first-female-head-coach-in-bundesliga-history",
+          "source": "NBCSports.com",
+          "publishedAt": "2026-04-12T12:52:28Z",
+          "rawImpact": -13,
+          "decayedImpact": -12.2,
+          "daysAgo": 2
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Bundesliga gets first woman manager in Europe’s top flight ",
+          "url": "https://onefootball.com/en/news/bundesliga-gets-first-woman-manager-in-europes-top-flight-42699637",
+          "source": "Onefootball.com",
+          "publishedAt": "2026-04-12T11:31:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.8,
+          "daysAgo": 2
+        },
         {
           "type": "manager_appointed",
           "label": "Manager Appointed",
@@ -132,8 +154,8 @@
           "source": "BBC News",
           "publishedAt": "2026-04-12T07:37:10Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.9,
-          "daysAgo": 1
+          "decayedImpact": 4.7,
+          "daysAgo": 2
         },
         {
           "type": "manager_appointed",
@@ -143,13 +165,13 @@
           "source": "CBS Sports",
           "publishedAt": "2026-04-12T00:54:21Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.9,
-          "daysAgo": 1
+          "decayedImpact": 4.6,
+          "daysAgo": 2
         }
       ],
-      "totalRawImpact": 10.4,
-      "totalDecayedImpact": 9.8,
-      "newsAdjustment": 5.9
+      "totalRawImpact": 1.6,
+      "totalDecayedImpact": 0.9,
+      "newsAdjustment": 0.6
     }
   }
 }
