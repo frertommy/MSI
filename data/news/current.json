@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-04-14T07:57:41.041Z",
+  "computedAt": "2026-04-15T07:58:43.279Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-04-01T09:35:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -0.6,
-          "daysAgo": 13
+          "decayedImpact": 0,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -0.6,
-      "newsAdjustment": -0.4
+      "totalDecayedImpact": 0,
+      "newsAdjustment": 0
     },
     "AC Milan": {
       "events": [
@@ -31,24 +31,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-10T03:26:04Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.5,
-          "daysAgo": 4
-        },
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Inter Milan Legend Hails Nerazzurri Impressive Serie A Season: “Being At The Top Almost A Miracle”",
-          "url": "https://sempreinter.com/2026/03/24/beppe-bergomi-deems-inter-milan-being-top-miracle/",
-          "source": "SempreInter",
-          "publishedAt": "2026-03-24T11:40:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 0,
-          "daysAgo": 21
+          "decayedImpact": 4.9,
+          "daysAgo": 5
         }
       ],
-      "totalRawImpact": 12,
-      "totalDecayedImpact": 5.5,
-      "newsAdjustment": 3.3
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 4.9,
+      "newsAdjustment": 2.9
     },
     "FC Barcelona": {
       "events": [
@@ -60,13 +49,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-04-07T19:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.6,
+      "newsAdjustment": 2.2
     },
     "AS Roma": {
       "events": [
@@ -78,31 +67,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-04-11T16:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.3,
-          "daysAgo": 3
+          "decayedImpact": 5.8,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
-    },
-    "RB Leipzig": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Liverpool given green-light to complete £56.7m transfer ahead of the summer window",
-          "url": "https://www.empireofthekop.com/2026/03/31/liverpool-given-green-light-to-complete-56-7m-transfer-ahead-of-the-summer-window/",
-          "source": "Empire of The Kop",
-          "publishedAt": "2026-03-31T19:40:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.3,
-      "newsAdjustment": 0.2
+      "totalDecayedImpact": 5.8,
+      "newsAdjustment": 3.5
     },
     "RC Lens": {
       "events": [
@@ -114,13 +85,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-08T11:35:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2,
-          "daysAgo": 6
+          "decayedImpact": -1.7,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": -3.4,
-      "totalDecayedImpact": -2,
-      "newsAdjustment": -1.2
+      "totalDecayedImpact": -1.7,
+      "newsAdjustment": -1
     },
     "1. FC Union Berlin": {
       "events": [
@@ -132,8 +103,8 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-04-12T12:52:28Z",
           "rawImpact": -13,
-          "decayedImpact": -12.2,
-          "daysAgo": 2
+          "decayedImpact": -11.8,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -143,8 +114,8 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-04-12T11:31:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.8,
-          "daysAgo": 2
+          "decayedImpact": 3.6,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -154,8 +125,8 @@
           "source": "BBC News",
           "publishedAt": "2026-04-12T07:37:10Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.7,
-          "daysAgo": 2
+          "decayedImpact": 4.5,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -165,13 +136,13 @@
           "source": "CBS Sports",
           "publishedAt": "2026-04-12T00:54:21Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.6,
-          "daysAgo": 2
+          "decayedImpact": 4.4,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 1.6,
-      "totalDecayedImpact": 0.9,
-      "newsAdjustment": 0.6
+      "totalDecayedImpact": 0.7,
+      "newsAdjustment": 0.4
     }
   }
 }
