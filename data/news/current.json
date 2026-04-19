@@ -1,26 +1,8 @@
 {
-  "computedAt": "2026-04-18T07:19:04.999Z",
+  "computedAt": "2026-04-19T07:39:56.452Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "AC Milan": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Former Japan and AC Milan star Honda laces up boots again at 39",
-          "url": "https://sports.yahoo.com/articles/former-japan-ac-milan-star-032604415.html",
-          "source": "Yahoo Entertainment",
-          "publishedAt": "2026-04-10T03:26:04Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
-    },
     "FC Barcelona": {
       "events": [
         {
@@ -31,13 +13,31 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-04-07T19:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2,
-          "daysAgo": 10
+          "decayedImpact": 1.4,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2,
-      "newsAdjustment": 1.2
+      "totalDecayedImpact": 1.4,
+      "newsAdjustment": 0.8
+    },
+    "AC Milan": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Former Japan and AC Milan star Honda laces up boots again at 39",
+          "url": "https://sports.yahoo.com/articles/former-japan-ac-milan-star-032604415.html",
+          "source": "Yahoo Entertainment",
+          "publishedAt": "2026-04-10T03:26:04Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 2.7,
+          "daysAgo": 9
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "Borussia Dortmund": {
       "events": [
@@ -49,13 +49,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-04-14T09:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.6,
-          "daysAgo": 4
+          "decayedImpact": 5.1,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.6,
-      "newsAdjustment": 3.4
+      "totalDecayedImpact": 5.1,
+      "newsAdjustment": 3
     },
     "AS Roma": {
       "events": [
@@ -67,13 +67,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-04-11T16:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.1,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.1,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.6,
+      "newsAdjustment": 2.1
     },
     "RC Lens": {
       "events": [
@@ -85,13 +85,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-08T11:35:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1,
-          "daysAgo": 10
+          "decayedImpact": -0.8,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -3.4,
-      "totalDecayedImpact": -1,
-      "newsAdjustment": -0.6
+      "totalDecayedImpact": -0.8,
+      "newsAdjustment": -0.5
     },
     "1. FC Union Berlin": {
       "events": [
@@ -103,8 +103,8 @@
           "source": "BBC News",
           "publishedAt": "2026-04-14T08:35:24Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.4,
-          "daysAgo": 4
+          "decayedImpact": 3.2,
+          "daysAgo": 5
         },
         {
           "type": "manager_sacked",
@@ -114,8 +114,8 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-04-12T12:52:28Z",
           "rawImpact": -13,
-          "decayedImpact": -10.5,
-          "daysAgo": 6
+          "decayedImpact": -10.1,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -125,8 +125,8 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-04-12T11:31:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3,
-          "daysAgo": 6
+          "decayedImpact": 2.8,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -136,8 +136,8 @@
           "source": "BBC News",
           "publishedAt": "2026-04-12T07:37:10Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.7,
-          "daysAgo": 6
+          "decayedImpact": 3.5,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -147,13 +147,13 @@
           "source": "CBS Sports",
           "publishedAt": "2026-04-12T00:54:21Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.6,
-          "daysAgo": 6
+          "decayedImpact": 3.4,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 5.8,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 2.8,
+      "newsAdjustment": 1.7
     }
   }
 }
