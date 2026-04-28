@@ -1,8 +1,26 @@
 {
-  "computedAt": "2026-04-27T08:35:48.750Z",
+  "computedAt": "2026-04-28T08:34:06.240Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
+    "AC Milan": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Real Madrid Notify Como Of Intent To Sign Argentina Starlet, Putting An End To Inter Milan Links",
+          "url": "https://sempreinter.com/2026/04/26/real-madrid-nico-paz-como-inter-links/",
+          "source": "SempreInter",
+          "publishedAt": "2026-04-26T11:05:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.7,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.7,
+      "newsAdjustment": 4
+    },
     "FC Barcelona": {
       "events": [
         {
@@ -13,13 +31,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-04-19T07:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 2.7,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "AS Roma": {
       "events": [
@@ -31,13 +49,13 @@
           "source": "SempreInter",
           "publishedAt": "2026-04-19T12:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.4,
-          "daysAgo": 8
+          "decayedImpact": 2.9,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.4,
-      "newsAdjustment": 2.1
+      "totalDecayedImpact": 2.9,
+      "newsAdjustment": 1.7
     },
     "RB Leipzig": {
       "events": [
@@ -49,13 +67,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-04-23T09:00:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.4,
-          "daysAgo": 4
+          "decayedImpact": 3.2,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 3.4,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 3.2,
+      "newsAdjustment": 1.9
     },
     "RC Lens": {
       "events": [
@@ -67,13 +85,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-04-21T21:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.8,
-          "daysAgo": 5
+          "decayedImpact": 4.2,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.8,
-      "newsAdjustment": 2.9
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     },
     "1. FC Union Berlin": {
       "events": [
@@ -85,8 +103,8 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-17T12:01:05Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2.8,
-          "daysAgo": 10
+          "decayedImpact": 2.5,
+          "daysAgo": 11
         },
         {
           "type": "manager_appointed",
@@ -96,8 +114,8 @@
           "source": "BBC News",
           "publishedAt": "2026-04-14T08:35:24Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.6,
-          "daysAgo": 13
+          "decayedImpact": 1.4,
+          "daysAgo": 14
         },
         {
           "type": "manager_sacked",
@@ -107,8 +125,8 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-04-12T12:52:28Z",
           "rawImpact": -13,
-          "decayedImpact": -6.6,
-          "daysAgo": 15
+          "decayedImpact": -6.1,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -118,8 +136,8 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-04-12T11:31:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.2,
-          "daysAgo": 15
+          "decayedImpact": 1,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -129,8 +147,8 @@
           "source": "BBC News",
           "publishedAt": "2026-04-12T07:37:10Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.5,
-          "daysAgo": 15
+          "decayedImpact": 1.2,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -140,16 +158,27 @@
           "source": "CBS Sports",
           "publishedAt": "2026-04-12T00:54:21Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.4,
-          "daysAgo": 15
+          "decayedImpact": 1.2,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 11,
-      "totalDecayedImpact": 1.9,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 1.2,
+      "newsAdjustment": 0.7
     },
     "Borussia Dortmund": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Karim Adeyemi: Man United’s transfer plan for Dortmund star unveiled",
+          "url": "https://thepeoplesperson.com/2026/04/25/karim-adeyemi-man-uniteds-transfer-plan-for-dortmund-star-unveiled-309255/",
+          "source": "The Peoples Person",
+          "publishedAt": "2026-04-25T06:05:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.1,
+          "daysAgo": 3
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -158,13 +187,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-04-14T09:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
+          "decayedImpact": 0,
+          "daysAgo": 14
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.3
+      "totalRawImpact": 15.6,
+      "totalDecayedImpact": 6.1,
+      "newsAdjustment": 3.7
     },
     "Chelsea FC": {
       "events": [
@@ -176,13 +205,13 @@
           "source": "The Punch",
           "publishedAt": "2026-04-22T16:51:49Z",
           "rawImpact": -13,
-          "decayedImpact": -11,
-          "daysAgo": 5
+          "decayedImpact": -10.5,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -11,
-      "newsAdjustment": -6.6
+      "totalDecayedImpact": -10.5,
+      "newsAdjustment": -6.3
     },
     "Paris FC": {
       "events": [
@@ -194,13 +223,13 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-04-23T17:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.8,
-          "daysAgo": 4
+          "decayedImpact": 5.2,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.8,
-      "newsAdjustment": 3.5
+      "totalDecayedImpact": 5.2,
+      "newsAdjustment": 3.1
     }
   }
 }
