@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-05-08T07:50:19.876Z",
+  "computedAt": "2026-05-09T08:04:26.044Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-04-28T19:55:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.1,
-          "daysAgo": 9
+          "decayedImpact": -0.8,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -3.4,
-      "totalDecayedImpact": -1.1,
-      "newsAdjustment": -0.6
+      "totalDecayedImpact": -0.8,
+      "newsAdjustment": -0.5
     },
     "AC Milan": {
       "events": [
@@ -31,8 +31,8 @@
           "source": "JuveFC",
           "publishedAt": "2026-05-01T12:30:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.7,
-          "daysAgo": 7
+          "decayedImpact": -1.5,
+          "daysAgo": 8
         },
         {
           "type": "player_scandal",
@@ -42,8 +42,8 @@
           "source": "The Punch",
           "publishedAt": "2026-04-30T09:07:25Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.5,
-          "daysAgo": 8
+          "decayedImpact": -1.2,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -53,12 +53,12 @@
           "source": "SempreInter",
           "publishedAt": "2026-04-26T11:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.6,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 1.1,
-      "totalDecayedImpact": -2,
+      "totalDecayedImpact": -2.1,
       "newsAdjustment": -1.2
     },
     "RB Leipzig": {
@@ -71,27 +71,16 @@
           "source": "Sky Sports",
           "publishedAt": "2026-04-23T09:00:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.2,
-          "daysAgo": 15
+          "decayedImpact": 1,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 1,
+      "newsAdjustment": 0.6
     },
     "1. FC Union Berlin": {
       "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Union Berlin rule out Marie-Louise Eta permanent appointment: ‘A disservice to women’s football’",
-          "url": "https://sports.yahoo.com/articles/union-berlin-rule-marie-louise-120105030.html",
-          "source": "Yahoo Entertainment",
-          "publishedAt": "2026-04-17T12:01:05Z",
-          "rawImpact": 5.2,
-          "decayedImpact": 0,
-          "daysAgo": 21
-        },
         {
           "type": "manager_sacked",
           "label": "Manager Sacked",
@@ -100,13 +89,13 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-04-12T12:52:28Z",
           "rawImpact": -13,
-          "decayedImpact": -1.8,
-          "daysAgo": 26
+          "decayedImpact": -1.4,
+          "daysAgo": 27
         }
       ],
-      "totalRawImpact": -7.8,
-      "totalDecayedImpact": -1.8,
-      "newsAdjustment": -1.1
+      "totalRawImpact": -13,
+      "totalDecayedImpact": -1.4,
+      "newsAdjustment": -0.8
     },
     "Borussia Dortmund": {
       "events": [
@@ -118,24 +107,13 @@
           "source": "Www.bvb.de",
           "publishedAt": "2026-05-05T18:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.4,
-          "daysAgo": 3
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Karim Adeyemi: Man United’s transfer plan for Dortmund star unveiled",
-          "url": "https://thepeoplesperson.com/2026/04/25/karim-adeyemi-man-uniteds-transfer-plan-for-dortmund-star-unveiled-309255/",
-          "source": "The Peoples Person",
-          "publishedAt": "2026-04-25T06:05:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.5,
-          "daysAgo": 13
+          "decayedImpact": 5.8,
+          "daysAgo": 4
         }
       ],
-      "totalRawImpact": 15.6,
-      "totalDecayedImpact": 6.9,
-      "newsAdjustment": 4.1
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 5.8,
+      "newsAdjustment": 3.5
     },
     "Chelsea FC": {
       "events": [
@@ -147,13 +125,13 @@
           "source": "The Punch",
           "publishedAt": "2026-04-22T16:51:49Z",
           "rawImpact": -13,
-          "decayedImpact": -6.2,
-          "daysAgo": 16
+          "decayedImpact": -5.8,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -6.2,
-      "newsAdjustment": -3.7
+      "totalDecayedImpact": -5.8,
+      "newsAdjustment": -3.5
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -165,13 +143,13 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-04-29T12:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.9,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.3,
+      "newsAdjustment": 1.4
     }
   }
 }
