@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-05-22T09:39:46.173Z",
+  "computedAt": "2026-05-23T08:27:30.542Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-05-13T07:25:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.2,
-          "daysAgo": 9
+          "decayedImpact": -0.9,
+          "daysAgo": 10
         },
         {
           "type": "star_signing",
@@ -24,13 +24,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-05-11T13:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.8,
-          "daysAgo": 11
+          "decayedImpact": 1.2,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 4.4,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.3,
+      "newsAdjustment": 0.2
     },
     "Olympique de Marseille": {
       "events": [
@@ -42,31 +42,13 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-10T06:10:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.4,
-          "daysAgo": 12
+          "decayedImpact": -0.2,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": -3.4,
-      "totalDecayedImpact": -0.4,
-      "newsAdjustment": -0.3
-    },
-    "Borussia Dortmund": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Report: Brentford star could join European giants in £50m deal",
-          "url": "https://eplindex.com/146184/report-brentford-star-could-join-european-giants-in-50m-deal.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-05-08T14:50:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": -0.2,
+      "newsAdjustment": -0.1
     },
     "Chelsea FC": {
       "events": [
@@ -78,23 +60,12 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.2,
-          "daysAgo": 5
-        },
-        {
-          "type": "manager_sacked",
-          "label": "Manager Sacked",
-          "headline": "Chelsea sack Liam Rosenior after poor run, name interim coach",
-          "url": "https://punchng.com/chelsea-sack-liam-rosenior-after-poor-run-name-interim-coach/",
-          "source": "The Punch",
-          "publishedAt": "2026-04-22T16:51:49Z",
-          "rawImpact": -13,
-          "decayedImpact": -0.1,
-          "daysAgo": 30
+          "decayedImpact": 3,
+          "daysAgo": 6
         }
       ],
-      "totalRawImpact": -8.8,
-      "totalDecayedImpact": 3.1,
+      "totalRawImpact": 4.2,
+      "totalDecayedImpact": 3,
       "newsAdjustment": 1.8
     },
     "Club Atlético de Madrid": {
@@ -107,13 +78,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-05-09T10:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.5,
-          "daysAgo": 13
+          "decayedImpact": 0,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.5,
-      "newsAdjustment": -0.3
+      "totalDecayedImpact": 0,
+      "newsAdjustment": 0
     },
     "SSC Napoli": {
       "events": [
@@ -125,8 +96,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-05-18T09:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.5,
-          "daysAgo": 4
+          "decayedImpact": -4.1,
+          "daysAgo": 5
         },
         {
           "type": "star_departure",
@@ -136,8 +107,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-17T17:35:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.2,
-          "daysAgo": 5
+          "decayedImpact": -3.8,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -147,13 +118,13 @@
           "source": "Playmakerstats.com",
           "publishedAt": "2026-05-11T10:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.2,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": -4.8,
-      "totalDecayedImpact": -7,
-      "newsAdjustment": -4.2
+      "totalDecayedImpact": -6.7,
+      "newsAdjustment": -4
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -165,8 +136,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4,
-          "daysAgo": 5
+          "decayedImpact": 3.7,
+          "daysAgo": 6
         },
         {
           "type": "manager_sacked",
@@ -176,13 +147,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -9.1,
-          "daysAgo": 9
+          "decayedImpact": -8.7,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -5.1,
-      "newsAdjustment": -3.1
+      "totalDecayedImpact": -4.9,
+      "newsAdjustment": -3
     },
     "Leeds": {
       "events": [
@@ -194,13 +165,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-18T16:54:01Z",
           "rawImpact": -1.6,
-          "decayedImpact": -1,
-          "daysAgo": 4
+          "decayedImpact": -0.8,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -1.6,
-      "totalDecayedImpact": -1,
-      "newsAdjustment": -0.6
+      "totalDecayedImpact": -0.8,
+      "newsAdjustment": -0.5
     }
   }
 }
