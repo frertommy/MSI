@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-05-23T08:27:30.542Z",
+  "computedAt": "2026-05-24T08:38:44.154Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-05-13T07:25:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.9,
-          "daysAgo": 10
+          "decayedImpact": -0.7,
+          "daysAgo": 11
         },
         {
           "type": "star_signing",
@@ -24,31 +24,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-05-11T13:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
-        }
-      ],
-      "totalRawImpact": 4.4,
-      "totalDecayedImpact": 0.3,
-      "newsAdjustment": 0.2
-    },
-    "Olympique de Marseille": {
-      "events": [
-        {
-          "type": "player_scandal",
-          "label": "Player Scandal",
-          "headline": "A week of chaotic DRAMA at Real Madrid, Marseille, Prague and Southampton",
-          "url": "https://thefootballfaithful.com/chaotic-drama-real-madrid-marseille-prague-southampton/",
-          "source": "The Football Faithful",
-          "publishedAt": "2026-05-10T06:10:00Z",
-          "rawImpact": -3.4,
-          "decayedImpact": -0.2,
+          "decayedImpact": 0.7,
           "daysAgo": 13
         }
       ],
-      "totalRawImpact": -3.4,
-      "totalDecayedImpact": -0.2,
-      "newsAdjustment": -0.1
+      "totalRawImpact": 4.4,
+      "totalDecayedImpact": 0,
+      "newsAdjustment": 0
     },
     "Chelsea FC": {
       "events": [
@@ -60,31 +42,13 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3,
-          "daysAgo": 6
+          "decayedImpact": 2.8,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 3,
-      "newsAdjustment": 1.8
-    },
-    "Club Atlético de Madrid": {
-      "events": [
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Report: Wolves star set to leave in £39m deal",
-          "url": "https://eplindex.com/146214/report-wolves-star-set-to-leave-in-39m-deal.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-05-09T10:50:00Z",
-          "rawImpact": -6.3,
-          "decayedImpact": 0,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": -6.3,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
+      "totalDecayedImpact": 2.8,
+      "newsAdjustment": 1.7
     },
     "SSC Napoli": {
       "events": [
@@ -96,8 +60,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-05-18T09:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.1,
-          "daysAgo": 5
+          "decayedImpact": -3.6,
+          "daysAgo": 6
         },
         {
           "type": "star_departure",
@@ -107,8 +71,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-17T17:35:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.8,
-          "daysAgo": 6
+          "decayedImpact": -3.3,
+          "daysAgo": 7
         },
         {
           "type": "star_signing",
@@ -118,13 +82,13 @@
           "source": "Playmakerstats.com",
           "publishedAt": "2026-05-11T10:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.6,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": -4.8,
-      "totalDecayedImpact": -6.7,
-      "newsAdjustment": -4
+      "totalDecayedImpact": -6.3,
+      "newsAdjustment": -3.8
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -136,8 +100,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.7,
-          "daysAgo": 6
+          "decayedImpact": 3.5,
+          "daysAgo": 7
         },
         {
           "type": "manager_sacked",
@@ -147,13 +111,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -8.7,
-          "daysAgo": 10
+          "decayedImpact": -8.2,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -4.9,
-      "newsAdjustment": -3
+      "totalDecayedImpact": -4.7,
+      "newsAdjustment": -2.8
     },
     "Leeds": {
       "events": [
@@ -165,13 +129,31 @@
           "source": "BBC News",
           "publishedAt": "2026-05-18T16:54:01Z",
           "rawImpact": -1.6,
-          "decayedImpact": -0.8,
-          "daysAgo": 5
+          "decayedImpact": -0.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": -1.6,
-      "totalDecayedImpact": -0.8,
-      "newsAdjustment": -0.5
+      "totalDecayedImpact": -0.7,
+      "newsAdjustment": -0.4
+    },
+    "SS Lazio": {
+      "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
+          "url": "https://thelaziali.com/2026/05/22/marseille-lazio-mattia-zaccagni-mason-greenwood/",
+          "source": "Thelaziali.com",
+          "publishedAt": "2026-05-22T17:25:00Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -5.6,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": -6.3,
+      "totalDecayedImpact": -5.6,
+      "newsAdjustment": -3.3
     }
   }
 }
