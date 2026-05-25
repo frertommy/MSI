@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-05-25T08:16:26.811Z",
+  "computedAt": "2026-05-25T10:21:23.536Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -29,7 +29,7 @@
         }
       ],
       "totalRawImpact": 4.4,
-      "totalDecayedImpact": -0.3,
+      "totalDecayedImpact": -0.4,
       "newsAdjustment": -0.2
     },
     "Chelsea FC": {
@@ -60,7 +60,7 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-05-18T09:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.2,
+          "decayedImpact": -3.1,
           "daysAgo": 7
         },
         {
@@ -71,22 +71,11 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-17T17:35:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.9,
+          "decayedImpact": -2.8,
           "daysAgo": 8
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "From European champion to relegation: Lorenzo Insignes dramatic decline",
-          "url": "https://www.playmakerstats.com/news/from-european-champion-to-relegation-lorenzo-insigne-s-dramatic-decline/1122792",
-          "source": "Playmakerstats.com",
-          "publishedAt": "2026-05-11T10:20:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0,
-          "daysAgo": 14
         }
       ],
-      "totalRawImpact": -4.8,
+      "totalRawImpact": -12.6,
       "totalDecayedImpact": -6,
       "newsAdjustment": -3.6
     },
@@ -138,8 +127,8 @@
         }
       ],
       "totalRawImpact": 1.6,
-      "totalDecayedImpact": 2.8,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "Leeds": {
       "events": [
@@ -175,7 +164,7 @@
       ],
       "totalRawImpact": -6.3,
       "totalDecayedImpact": -5.1,
-      "newsAdjustment": -3.1
+      "newsAdjustment": -3
     }
   }
 }
