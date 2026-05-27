@@ -1,25 +1,47 @@
 {
-  "computedAt": "2026-05-26T10:08:36.542Z",
+  "computedAt": "2026-05-27T10:06:30.228Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "FC Barcelona": {
+    "AC Milan": {
       "events": [
         {
-          "type": "player_scandal",
-          "label": "Player Scandal",
-          "headline": "La Liga take action after ugly chants aimed at Vinicius and Real Madrid during El Clasico",
-          "url": "https://madriduniversal.com/la-liga-take-action-after-ugly-chants-aimed-at-vinicius-and-real-madrid-during-el-clasico/",
-          "source": "Madriduniversal.com",
-          "publishedAt": "2026-05-13T07:25:00Z",
-          "rawImpact": -3.4,
-          "decayedImpact": -0.2,
-          "daysAgo": 13
+          "type": "manager_sacked",
+          "label": "Manager Sacked",
+          "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
+          "url": "https://www.foxsports.com/stories/soccer/ac-milan-fires-allegri-and-ceo-furlani-for-unequivocal-failure-of-a-season",
+          "source": "Fox Sports",
+          "publishedAt": "2026-05-25T21:48:25Z",
+          "rawImpact": -13,
+          "decayedImpact": -12.3,
+          "daysAgo": 2
+        },
+        {
+          "type": "manager_sacked",
+          "label": "Manager Sacked",
+          "headline": "Allegri fired by AC Milan as club misses out on Champions League",
+          "url": "https://www.channelnewsasia.com/sport/allegri-fired-ac-milan-club-misses-out-champions-league-6140921",
+          "source": "CNA",
+          "publishedAt": "2026-05-25T16:39:50Z",
+          "rawImpact": -13,
+          "decayedImpact": -12.3,
+          "daysAgo": 2
+        },
+        {
+          "type": "ownership_change",
+          "label": "Ownership Change",
+          "headline": "Earthquake at San Siro: AC Milan make big boardroom changes",
+          "url": "https://onefootball.com/en/news/earthquake-at-san-siro-ac-milan-make-big-boardroom-changes-42921382",
+          "source": "Onefootball.com",
+          "publishedAt": "2026-05-25T16:26:00Z",
+          "rawImpact": 2.6,
+          "decayedImpact": 2.4,
+          "daysAgo": 2
         }
       ],
-      "totalRawImpact": -3.4,
-      "totalDecayedImpact": -0.2,
-      "newsAdjustment": -0.1
+      "totalRawImpact": -23.4,
+      "totalDecayedImpact": -22.1,
+      "newsAdjustment": -13.3
     },
     "Chelsea FC": {
       "events": [
@@ -31,13 +53,13 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.4,
-          "daysAgo": 9
+          "decayedImpact": 2.2,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.4,
-      "newsAdjustment": 1.4
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "SSC Napoli": {
       "events": [
@@ -49,8 +71,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-05-18T09:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.7,
-          "daysAgo": 8
+          "decayedImpact": -2.2,
+          "daysAgo": 9
         },
         {
           "type": "star_departure",
@@ -60,13 +82,13 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-17T17:35:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.4,
-          "daysAgo": 9
+          "decayedImpact": -1.9,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": -12.6,
-      "totalDecayedImpact": -5.1,
-      "newsAdjustment": -3.1
+      "totalDecayedImpact": -4.2,
+      "newsAdjustment": -2.5
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -78,8 +100,8 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-05-22T11:03:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.2,
-          "daysAgo": 4
+          "decayedImpact": 4,
+          "daysAgo": 5
         },
         {
           "type": "manager_appointed",
@@ -89,8 +111,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-18T11:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 8
+          "decayedImpact": 2.4,
+          "daysAgo": 9
         },
         {
           "type": "manager_appointed",
@@ -100,8 +122,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.7,
+          "daysAgo": 10
         },
         {
           "type": "manager_sacked",
@@ -111,13 +133,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -7.3,
-          "daysAgo": 13
+          "decayedImpact": -6.9,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 1.6,
-      "totalDecayedImpact": 2.5,
-      "newsAdjustment": 1.5
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "Leeds": {
       "events": [
@@ -129,13 +151,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-18T16:54:01Z",
           "rawImpact": -1.6,
-          "decayedImpact": -0.4,
-          "daysAgo": 8
+          "decayedImpact": -0.2,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": -1.6,
-      "totalDecayedImpact": -0.4,
-      "newsAdjustment": -0.2
+      "totalDecayedImpact": -0.2,
+      "newsAdjustment": -0.1
     },
     "SS Lazio": {
       "events": [
@@ -147,13 +169,13 @@
           "source": "Thelaziali.com",
           "publishedAt": "2026-05-22T17:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.6,
-          "daysAgo": 4
+          "decayedImpact": -4.2,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -4.6,
-      "newsAdjustment": -2.8
+      "totalDecayedImpact": -4.2,
+      "newsAdjustment": -2.5
     }
   }
 }

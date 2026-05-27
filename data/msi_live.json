@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-05-26T10:08:37.099Z",
-  "oddsSource": "2026-05-26T10:07:46.429Z",
+  "computedAt": "2026-05-27T10:06:30.638Z",
+  "oddsSource": "2026-05-27T10:05:40.337Z",
   "stale": false,
   "ratings": [
     {
@@ -65,23 +65,11 @@
       "baseElo": 1856.7055995047353,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -0.1,
-      "msiLive": 1856.6055995047354,
+      "newsAdjustment": 0,
+      "msiLive": 1856.7055995047353,
       "msiLiveRank": 5,
       "injuries": null,
-      "news": {
-        "eventCount": 1,
-        "totalAdjustment": -0.1,
-        "topEvents": [
-          {
-            "type": "player_scandal",
-            "label": "Player Scandal",
-            "headline": "La Liga take action after ugly chants aimed at Vinicius and Real Madrid during El Clasico",
-            "daysAgo": 13,
-            "decayedImpact": -0.2
-          }
-        ]
-      },
+      "news": null,
       "nextFixture": null,
       "lastUpdated": "2026-02-22T15:15:00Z"
     },
@@ -170,39 +158,25 @@
       "lastUpdated": "2026-02-22T14:00:00Z"
     },
     {
-      "team": "AC Milan",
-      "league": "SA",
-      "baseElo": 1745.7377585948946,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1745.7377585948946,
-      "msiLiveRank": 12,
-      "injuries": null,
-      "news": null,
-      "nextFixture": null,
-      "lastUpdated": "2026-02-22T17:00:00Z"
-    },
-    {
       "team": "Chelsea FC",
       "league": "PL",
       "baseElo": 1737.3298956322835,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.4,
-      "msiLive": 1738.7298956322836,
-      "msiLiveRank": 13,
+      "newsAdjustment": 1.3,
+      "msiLive": 1738.6298956322835,
+      "msiLiveRank": 12,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 1.4,
+        "totalAdjustment": 1.3,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Chelsea appoint Xabi Alonso manager on four-year deal",
-            "daysAgo": 9,
-            "decayedImpact": 2.4
+            "daysAgo": 10,
+            "decayedImpact": 2.2
           }
         ]
       },
@@ -215,32 +189,72 @@
       "baseElo": 1739.1781958627882,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -3.1,
-      "msiLive": 1736.0781958627883,
-      "msiLiveRank": 14,
+      "newsAdjustment": -2.5,
+      "msiLive": 1736.6781958627882,
+      "msiLiveRank": 13,
       "injuries": null,
       "news": {
         "eventCount": 2,
-        "totalAdjustment": -3.1,
+        "totalAdjustment": -2.5,
         "topEvents": [
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Manchester United star confirms exit in £38m departure",
-            "daysAgo": 8,
-            "decayedImpact": -2.7
+            "daysAgo": 9,
+            "decayedImpact": -2.2
           },
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Man Utd duo set for permanent summer exits",
-            "daysAgo": 9,
-            "decayedImpact": -2.4
+            "daysAgo": 10,
+            "decayedImpact": -1.9
           }
         ]
       },
       "nextFixture": null,
       "lastUpdated": "2026-02-22T14:00:00Z"
+    },
+    {
+      "team": "AC Milan",
+      "league": "SA",
+      "baseElo": 1745.7377585948946,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": -13.3,
+      "msiLive": 1732.4377585948946,
+      "msiLiveRank": 14,
+      "injuries": null,
+      "news": {
+        "eventCount": 3,
+        "totalAdjustment": -13.3,
+        "topEvents": [
+          {
+            "type": "manager_sacked",
+            "label": "Manager Sacked",
+            "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
+            "daysAgo": 2,
+            "decayedImpact": -12.3
+          },
+          {
+            "type": "manager_sacked",
+            "label": "Manager Sacked",
+            "headline": "Allegri fired by AC Milan as club misses out on Champions League",
+            "daysAgo": 2,
+            "decayedImpact": -12.3
+          },
+          {
+            "type": "ownership_change",
+            "label": "Ownership Change",
+            "headline": "Earthquake at San Siro: AC Milan make big boardroom changes",
+            "daysAgo": 2,
+            "decayedImpact": 2.4
+          }
+        ]
+      },
+      "nextFixture": null,
+      "lastUpdated": "2026-02-22T17:00:00Z"
     },
     {
       "team": "Villarreal CF",
@@ -430,34 +444,34 @@
       "baseElo": 1659.5203361813092,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.5,
-      "msiLive": 1661.0203361813092,
+      "newsAdjustment": 1.3,
+      "msiLive": 1660.8203361813091,
       "msiLiveRank": 28,
       "injuries": null,
       "news": {
         "eventCount": 4,
-        "totalAdjustment": 1.5,
+        "totalAdjustment": 1.3,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Former Leverkusen and Germany star named Bayern U17 head coach",
-            "daysAgo": 4,
-            "decayedImpact": 4.2
+            "daysAgo": 5,
+            "decayedImpact": 4
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Alonso appointment ‘really exciting’ for Chelsea says McFarlane",
-            "daysAgo": 8,
-            "decayedImpact": 2.6
+            "daysAgo": 9,
+            "decayedImpact": 2.4
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Chelsea name Xabi Alonso as head coach on four-year deal",
-            "daysAgo": 9,
-            "decayedImpact": 3
+            "daysAgo": 10,
+            "decayedImpact": 2.7
           }
         ]
       },
@@ -526,20 +540,20 @@
       "baseElo": 1647.2391647401084,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -0.2,
-      "msiLive": 1647.0391647401084,
+      "newsAdjustment": -0.1,
+      "msiLive": 1647.1391647401085,
       "msiLiveRank": 33,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": -0.2,
+        "totalAdjustment": -0.1,
         "topEvents": [
           {
             "type": "stadium_issue",
             "label": "Stadium Issue",
             "headline": "Leeds promise bans over homophobic chants",
-            "daysAgo": 8,
-            "decayedImpact": -0.4
+            "daysAgo": 9,
+            "decayedImpact": -0.2
           }
         ]
       },
@@ -813,6 +827,32 @@
       "lastUpdated": "2026-02-21T14:30:00Z"
     },
     {
+      "team": "SS Lazio",
+      "league": "SA",
+      "baseElo": 1564.4978267268154,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": -2.5,
+      "msiLive": 1561.9978267268154,
+      "msiLiveRank": 53,
+      "injuries": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": -2.5,
+        "topEvents": [
+          {
+            "type": "star_departure",
+            "label": "Star Departure",
+            "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
+            "daysAgo": 5,
+            "decayedImpact": -4.2
+          }
+        ]
+      },
+      "nextFixture": null,
+      "lastUpdated": "2026-02-21T19:45:00Z"
+    },
+    {
       "team": "West Ham United FC",
       "league": "PL",
       "baseElo": 1561.7874077350393,
@@ -820,37 +860,11 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1561.7874077350393,
-      "msiLiveRank": 53,
+      "msiLiveRank": 54,
       "injuries": null,
       "news": null,
       "nextFixture": null,
       "lastUpdated": "2026-02-21T17:30:00Z"
-    },
-    {
-      "team": "SS Lazio",
-      "league": "SA",
-      "baseElo": 1564.4978267268154,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": -2.8,
-      "msiLive": 1561.6978267268155,
-      "msiLiveRank": 54,
-      "injuries": null,
-      "news": {
-        "eventCount": 1,
-        "totalAdjustment": -2.8,
-        "topEvents": [
-          {
-            "type": "star_departure",
-            "label": "Star Departure",
-            "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
-            "daysAgo": 4,
-            "decayedImpact": -4.6
-          }
-        ]
-      },
-      "nextFixture": null,
-      "lastUpdated": "2026-02-21T19:45:00Z"
     },
     {
       "team": "US Sassuolo Calcio",
@@ -1301,6 +1315,26 @@
       "lastUpdated": "2022-05-22T15:00:00Z"
     },
     {
+      "team": "OGC Nice",
+      "league": "FL1",
+      "baseElo": 1476.6498703527343,
+      "oddsAdjustment": -1.1,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1475.542284220468,
+      "msiLiveRank": 87,
+      "injuries": null,
+      "news": null,
+      "nextFixture": {
+        "opponent": "AS Saint-Étienne",
+        "date": "2026-05-29T18:45:00Z",
+        "marketWinProb": 0.6827195467422097,
+        "predictedWinProb": 0.6918544256915435,
+        "isHome": true
+      },
+      "lastUpdated": "2026-02-22T16:15:00Z"
+    },
+    {
       "team": "Norwich City FC",
       "league": "PL",
       "baseElo": 1474.9452557195443,
@@ -1308,7 +1342,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1474.9452557195443,
-      "msiLiveRank": 87,
+      "msiLiveRank": 88,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -1322,7 +1356,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1474.570673418508,
-      "msiLiveRank": 88,
+      "msiLiveRank": 89,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -1336,7 +1370,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1474.2284989798184,
-      "msiLiveRank": 89,
+      "msiLiveRank": 90,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -1350,7 +1384,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1473.8259578235693,
-      "msiLiveRank": 90,
+      "msiLiveRank": 91,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -1364,31 +1398,11 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1473.0166461497708,
-      "msiLiveRank": 91,
+      "msiLiveRank": 92,
       "injuries": null,
       "news": null,
       "nextFixture": null,
       "lastUpdated": "2026-02-21T15:00:00Z"
-    },
-    {
-      "team": "OGC Nice",
-      "league": "FL1",
-      "baseElo": 1476.6498703527343,
-      "oddsAdjustment": -9,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1467.6199459005431,
-      "msiLiveRank": 92,
-      "injuries": null,
-      "news": null,
-      "nextFixture": {
-        "opponent": "AS Saint-Étienne",
-        "date": "2026-05-26T18:45:00Z",
-        "marketWinProb": 0.4289655172413793,
-        "predictedWinProb": 0.5151111705788782,
-        "isHome": false
-      },
-      "lastUpdated": "2026-02-22T16:15:00Z"
     },
     {
       "team": "Fortuna Dusseldorf",
@@ -2035,26 +2049,6 @@
       "lastUpdated": "2026-02-21T14:30:00Z"
     },
     {
-      "team": "AS Saint-Étienne",
-      "league": "FL1",
-      "baseElo": 1401.1463548424178,
-      "oddsAdjustment": 9,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1410.176279294609,
-      "msiLiveRank": 139,
-      "injuries": null,
-      "news": null,
-      "nextFixture": {
-        "opponent": "OGC Nice",
-        "date": "2026-05-26T18:45:00Z",
-        "marketWinProb": 0.5710344827586207,
-        "predictedWinProb": 0.4848888294211219,
-        "isHome": true
-      },
-      "lastUpdated": "2025-05-17T19:00:00Z"
-    },
-    {
       "team": "UD Almería",
       "league": "PD",
       "baseElo": 1409.466721783555,
@@ -2062,7 +2056,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1409.466721783555,
-      "msiLiveRank": 140,
+      "msiLiveRank": 139,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -2076,7 +2070,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1408.2792407680608,
-      "msiLiveRank": 141,
+      "msiLiveRank": 140,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -2090,7 +2084,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1406.243442020727,
-      "msiLiveRank": 142,
+      "msiLiveRank": 141,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -2104,7 +2098,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1405.0074303779218,
-      "msiLiveRank": 143,
+      "msiLiveRank": 142,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -2118,7 +2112,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1404.8753501688188,
-      "msiLiveRank": 144,
+      "msiLiveRank": 143,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -2132,7 +2126,7 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1403.8195909475746,
-      "msiLiveRank": 145,
+      "msiLiveRank": 144,
       "injuries": null,
       "news": null,
       "nextFixture": null,
@@ -2146,11 +2140,31 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1403.3211610415615,
-      "msiLiveRank": 146,
+      "msiLiveRank": 145,
       "injuries": null,
       "news": null,
       "nextFixture": null,
       "lastUpdated": "2025-05-17T13:30:00Z"
+    },
+    {
+      "team": "AS Saint-Étienne",
+      "league": "FL1",
+      "baseElo": 1401.1463548424178,
+      "oddsAdjustment": 1.1,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1402.2539409746842,
+      "msiLiveRank": 146,
+      "injuries": null,
+      "news": null,
+      "nextFixture": {
+        "opponent": "OGC Nice",
+        "date": "2026-05-29T18:45:00Z",
+        "marketWinProb": 0.3172804532577904,
+        "predictedWinProb": 0.30814557430845646,
+        "isHome": false
+      },
+      "lastUpdated": "2025-05-17T19:00:00Z"
     },
     {
       "team": "Sheffield United FC",
