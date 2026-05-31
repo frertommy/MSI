@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-05-30T08:35:11.597Z",
-  "oddsSource": "2026-05-30T08:34:22.719Z",
+  "computedAt": "2026-05-31T08:54:53.888Z",
+  "oddsSource": "2026-05-31T08:54:05.078Z",
   "stale": false,
   "ratings": [
     {
@@ -158,58 +158,32 @@
       "lastUpdated": "2026-02-22T14:00:00Z"
     },
     {
-      "team": "Chelsea FC",
-      "league": "PL",
-      "baseElo": 1737.3298956322835,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 1,
-      "msiLive": 1738.3298956322835,
-      "msiLiveRank": 12,
-      "injuries": null,
-      "news": {
-        "eventCount": 1,
-        "totalAdjustment": 1,
-        "topEvents": [
-          {
-            "type": "manager_appointed",
-            "label": "Manager Appointed",
-            "headline": "Chelsea appoint Xabi Alonso manager on four-year deal",
-            "daysAgo": 13,
-            "decayedImpact": 1.6
-          }
-        ]
-      },
-      "nextFixture": null,
-      "lastUpdated": "2026-02-21T15:00:00Z"
-    },
-    {
       "team": "SSC Napoli",
       "league": "SA",
       "baseElo": 1739.1781958627882,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -0.9,
-      "msiLive": 1738.2781958627882,
-      "msiLiveRank": 13,
+      "newsAdjustment": -0.4,
+      "msiLive": 1738.7781958627882,
+      "msiLiveRank": 12,
       "injuries": null,
       "news": {
         "eventCount": 2,
-        "totalAdjustment": -0.9,
+        "totalAdjustment": -0.4,
         "topEvents": [
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Manchester United star confirms exit in £38m departure",
-            "daysAgo": 12,
-            "decayedImpact": -0.9
+            "daysAgo": 13,
+            "decayedImpact": -0.5
           },
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Man Utd duo set for permanent summer exits",
-            "daysAgo": 13,
-            "decayedImpact": -0.6
+            "daysAgo": 14,
+            "decayedImpact": -0.2
           }
         ]
       },
@@ -217,39 +191,65 @@
       "lastUpdated": "2026-02-22T14:00:00Z"
     },
     {
+      "team": "Chelsea FC",
+      "league": "PL",
+      "baseElo": 1737.3298956322835,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0.8,
+      "msiLive": 1738.1298956322835,
+      "msiLiveRank": 13,
+      "injuries": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": 0.8,
+        "topEvents": [
+          {
+            "type": "manager_appointed",
+            "label": "Manager Appointed",
+            "headline": "Chelsea appoint Xabi Alonso manager on four-year deal",
+            "daysAgo": 14,
+            "decayedImpact": 1.4
+          }
+        ]
+      },
+      "nextFixture": null,
+      "lastUpdated": "2026-02-21T15:00:00Z"
+    },
+    {
       "team": "AC Milan",
       "league": "SA",
       "baseElo": 1745.7377585948946,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -11.9,
-      "msiLive": 1733.8377585948945,
+      "newsAdjustment": -11.4,
+      "msiLive": 1734.3377585948945,
       "msiLiveRank": 14,
       "injuries": null,
       "news": {
         "eventCount": 3,
-        "totalAdjustment": -11.9,
+        "totalAdjustment": -11.4,
         "topEvents": [
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
-            "daysAgo": 4,
-            "decayedImpact": -11.1
+            "daysAgo": 5,
+            "decayedImpact": -10.6
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Allegri fired by AC Milan as club misses out on Champions League",
-            "daysAgo": 5,
-            "decayedImpact": -11
+            "daysAgo": 6,
+            "decayedImpact": -10.5
           },
           {
             "type": "ownership_change",
             "label": "Ownership Change",
             "headline": "Earthquake at San Siro: AC Milan make big boardroom changes",
-            "daysAgo": 5,
-            "decayedImpact": 2.2
+            "daysAgo": 6,
+            "decayedImpact": 2.1
           }
         ]
       },
@@ -444,34 +444,34 @@
       "baseElo": 1659.5203361813092,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 2.9,
-      "msiLive": 1662.4203361813093,
+      "newsAdjustment": 2.6,
+      "msiLive": 1662.120336181309,
       "msiLiveRank": 28,
       "injuries": null,
       "news": {
         "eventCount": 5,
-        "totalAdjustment": 2.9,
+        "totalAdjustment": 2.6,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Sparta Rotterdam bring in former NEC Nijmegen head coach from Bayer Leverkusen",
-            "daysAgo": 4,
-            "decayedImpact": 3.4
-          },
-          {
-            "type": "manager_appointed",
-            "label": "Manager Appointed",
-            "headline": "Former Leverkusen and Germany star named Bayern U17 head coach",
-            "daysAgo": 8,
+            "daysAgo": 5,
             "decayedImpact": 3.2
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
+            "headline": "Former Leverkusen and Germany star named Bayern U17 head coach",
+            "daysAgo": 9,
+            "decayedImpact": 3
+          },
+          {
+            "type": "manager_appointed",
+            "label": "Manager Appointed",
             "headline": "Alonso appointment ‘really exciting’ for Chelsea says McFarlane",
-            "daysAgo": 12,
-            "decayedImpact": 1.8
+            "daysAgo": 13,
+            "decayedImpact": 1.6
           }
         ]
       },
@@ -820,20 +820,20 @@
       "baseElo": 1564.4978267268154,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -1.7,
-      "msiLive": 1562.7978267268154,
+      "newsAdjustment": -1.4,
+      "msiLive": 1563.0978267268154,
       "msiLiveRank": 53,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": -1.7,
+        "totalAdjustment": -1.4,
         "topEvents": [
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
-            "daysAgo": 8,
-            "decayedImpact": -2.9
+            "daysAgo": 9,
+            "decayedImpact": -2.4
           }
         ]
       },
@@ -1112,20 +1112,20 @@
       "baseElo": 1497.9966585627335,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -0.2,
-      "msiLive": 1497.7966585627335,
+      "newsAdjustment": -0.1,
+      "msiLive": 1497.8966585627336,
       "msiLiveRank": 73,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": -0.2,
+        "totalAdjustment": -0.1,
         "topEvents": [
           {
             "type": "stadium_issue",
             "label": "Stadium Issue",
             "headline": "Arsenal keeping tabs on Bundesliga prospect Noahkai Banks",
-            "daysAgo": 8,
-            "decayedImpact": -0.3
+            "daysAgo": 9,
+            "decayedImpact": -0.2
           }
         ]
       },
