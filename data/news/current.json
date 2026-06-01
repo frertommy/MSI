@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-06-01T09:17:58.530Z",
+  "computedAt": "2026-06-01T11:47:43.875Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -10.2,
-          "daysAgo": 6
+          "decayedImpact": -10.1,
+          "daysAgo": 7
         },
         {
           "type": "manager_sacked",
@@ -40,8 +40,8 @@
         }
       ],
       "totalRawImpact": -23.4,
-      "totalDecayedImpact": -18.3,
-      "newsAdjustment": -11
+      "totalDecayedImpact": -18.2,
+      "newsAdjustment": -10.9
     },
     "Chelsea FC": {
       "events": [
@@ -60,24 +60,6 @@
       "totalRawImpact": 4.2,
       "totalDecayedImpact": 1.2,
       "newsAdjustment": 0.7
-    },
-    "SSC Napoli": {
-      "events": [
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Manchester United star confirms exit in £38m departure",
-          "url": "https://eplindex.com/146534/manchester-united-star-confirms-exit-in-38m-departure.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-05-18T09:50:00Z",
-          "rawImpact": -6.3,
-          "decayedImpact": 0,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": -6.3,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -139,7 +121,7 @@
       ],
       "totalRawImpact": 5.8,
       "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.4
+      "newsAdjustment": 2.3
     },
     "SS Lazio": {
       "events": [
@@ -151,31 +133,13 @@
           "source": "Thelaziali.com",
           "publishedAt": "2026-05-22T17:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2,
+          "decayedImpact": -1.9,
           "daysAgo": 10
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -2,
-      "newsAdjustment": -1.2
-    },
-    "FC Augsburg": {
-      "events": [
-        {
-          "type": "stadium_issue",
-          "label": "Stadium Issue",
-          "headline": "Arsenal keeping tabs on Bundesliga prospect Noahkai Banks",
-          "url": "https://sportsview.co.uk/2026/05/arsenal-now-keeping-tabs-on-bundesliga-prospect-noahkai-banks?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=arsenal-now-keeping-tabs-on-bundesliga-prospect-noahkai-banks",
-          "source": "Sportsview.co.uk",
-          "publishedAt": "2026-05-22T11:30:00Z",
-          "rawImpact": -1.6,
-          "decayedImpact": 0,
-          "daysAgo": 10
-        }
-      ],
-      "totalRawImpact": -1.6,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
+      "totalDecayedImpact": -1.9,
+      "newsAdjustment": -1.1
     }
   }
 }
