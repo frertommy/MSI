@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-05-31T08:54:53.329Z",
+  "computedAt": "2026-06-01T09:17:58.530Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -10.6,
-          "daysAgo": 5
+          "decayedImpact": -10.2,
+          "daysAgo": 6
         },
         {
           "type": "manager_sacked",
@@ -24,8 +24,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -10.5,
-          "daysAgo": 6
+          "decayedImpact": -10.1,
+          "daysAgo": 7
         },
         {
           "type": "ownership_change",
@@ -35,13 +35,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 2.1,
-          "daysAgo": 6
+          "decayedImpact": 2,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": -23.4,
-      "totalDecayedImpact": -19.1,
-      "newsAdjustment": -11.4
+      "totalDecayedImpact": -18.3,
+      "newsAdjustment": -11
     },
     "Chelsea FC": {
       "events": [
@@ -53,13 +53,13 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.4,
-          "daysAgo": 14
+          "decayedImpact": 1.2,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.4,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 1.2,
+      "newsAdjustment": 0.7
     },
     "SSC Napoli": {
       "events": [
@@ -71,24 +71,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-05-18T09:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.5,
-          "daysAgo": 13
-        },
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Man Utd duo set for permanent summer exits",
-          "url": "https://hayters.com/man-utd-duo-set-for-permanent-summer-exits/",
-          "source": "Hayters.com",
-          "publishedAt": "2026-05-17T17:35:00Z",
-          "rawImpact": -6.3,
-          "decayedImpact": -0.2,
+          "decayedImpact": 0,
           "daysAgo": 14
         }
       ],
-      "totalRawImpact": -12.6,
-      "totalDecayedImpact": -0.6,
-      "newsAdjustment": -0.4
+      "totalRawImpact": -6.3,
+      "totalDecayedImpact": 0,
+      "newsAdjustment": 0
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -100,8 +89,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-05-26T11:10:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.2,
-          "daysAgo": 5
+          "decayedImpact": 3,
+          "daysAgo": 6
         },
         {
           "type": "manager_appointed",
@@ -111,8 +100,8 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-05-22T11:03:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.7,
+          "daysAgo": 10
         },
         {
           "type": "manager_appointed",
@@ -122,8 +111,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-18T11:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.6,
-          "daysAgo": 13
+          "decayedImpact": 1.4,
+          "daysAgo": 14
         },
         {
           "type": "manager_appointed",
@@ -133,8 +122,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.7,
-          "daysAgo": 14
+          "decayedImpact": 1.5,
+          "daysAgo": 15
         },
         {
           "type": "manager_sacked",
@@ -144,13 +133,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -5.2,
-          "daysAgo": 18
+          "decayedImpact": -4.7,
+          "daysAgo": 19
         }
       ],
       "totalRawImpact": 5.8,
-      "totalDecayedImpact": 4.4,
-      "newsAdjustment": 2.6
+      "totalDecayedImpact": 3.9,
+      "newsAdjustment": 2.4
     },
     "SS Lazio": {
       "events": [
@@ -162,13 +151,13 @@
           "source": "Thelaziali.com",
           "publishedAt": "2026-05-22T17:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.4,
-          "daysAgo": 9
+          "decayedImpact": -2,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -2.4,
-      "newsAdjustment": -1.4
+      "totalDecayedImpact": -2,
+      "newsAdjustment": -1.2
     },
     "FC Augsburg": {
       "events": [
@@ -180,13 +169,13 @@
           "source": "Sportsview.co.uk",
           "publishedAt": "2026-05-22T11:30:00Z",
           "rawImpact": -1.6,
-          "decayedImpact": -0.2,
-          "daysAgo": 9
+          "decayedImpact": 0,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": -1.6,
-      "totalDecayedImpact": -0.2,
-      "newsAdjustment": -0.1
+      "totalDecayedImpact": 0,
+      "newsAdjustment": 0
     }
   }
 }
