@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-06-01T11:47:43.875Z",
+  "computedAt": "2026-06-02T10:47:13.196Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -10.1,
-          "daysAgo": 7
+          "decayedImpact": -9.7,
+          "daysAgo": 8
         },
         {
           "type": "manager_sacked",
@@ -24,8 +24,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -10.1,
-          "daysAgo": 7
+          "decayedImpact": -9.6,
+          "daysAgo": 8
         },
         {
           "type": "ownership_change",
@@ -35,13 +35,31 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 2,
-          "daysAgo": 7
+          "decayedImpact": 1.9,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -23.4,
-      "totalDecayedImpact": -18.2,
-      "newsAdjustment": -10.9
+      "totalDecayedImpact": -17.4,
+      "newsAdjustment": -10.5
+    },
+    "AS Roma": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Aston Villa Eye €40m Serie A Star To Boost Champions League Push: Right Choice For Emery?",
+          "url": "https://the4thofficial.net/2026/05/aston-villa-eye-e40m-serie-a-star-to-boost-champions-league-push-right-choice-for-emery/",
+          "source": "The4thofficial.net",
+          "publishedAt": "2026-05-31T03:45:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.5,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.5,
+      "newsAdjustment": 3.9
     },
     "Chelsea FC": {
       "events": [
@@ -53,13 +71,13 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.2,
-          "daysAgo": 15
+          "decayedImpact": 1,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 1,
+      "newsAdjustment": 0.6
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -71,8 +89,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-05-26T11:10:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3,
-          "daysAgo": 6
+          "decayedImpact": 2.8,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -82,8 +100,8 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-05-22T11:03:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2.7,
-          "daysAgo": 10
+          "decayedImpact": 2.5,
+          "daysAgo": 11
         },
         {
           "type": "manager_appointed",
@@ -93,8 +111,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-18T11:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.4,
-          "daysAgo": 14
+          "decayedImpact": 1.2,
+          "daysAgo": 15
         },
         {
           "type": "manager_appointed",
@@ -104,8 +122,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.5,
-          "daysAgo": 15
+          "decayedImpact": 1.2,
+          "daysAgo": 16
         },
         {
           "type": "manager_sacked",
@@ -115,13 +133,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -4.7,
-          "daysAgo": 19
+          "decayedImpact": -4.3,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 5.8,
-      "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.3
+      "totalDecayedImpact": 3.4,
+      "newsAdjustment": 2.1
     },
     "SS Lazio": {
       "events": [
@@ -133,13 +151,13 @@
           "source": "Thelaziali.com",
           "publishedAt": "2026-05-22T17:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -1.9,
-          "daysAgo": 10
+          "decayedImpact": -1.5,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -1.9,
-      "newsAdjustment": -1.1
+      "totalDecayedImpact": -1.5,
+      "newsAdjustment": -0.9
     }
   }
 }

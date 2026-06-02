@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-06-01T11:47:44.361Z",
-  "oddsSource": "2026-06-01T11:46:54.306Z",
+  "computedAt": "2026-06-02T10:47:13.709Z",
+  "oddsSource": "2026-06-02T10:46:23.236Z",
   "stale": false,
   "ratings": [
     {
@@ -177,20 +177,20 @@
       "baseElo": 1737.3298956322835,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0.7,
-      "msiLive": 1738.0298956322836,
+      "newsAdjustment": 0.6,
+      "msiLive": 1737.9298956322834,
       "msiLiveRank": 13,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 0.7,
+        "totalAdjustment": 0.6,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Chelsea appoint Xabi Alonso manager on four-year deal",
-            "daysAgo": 15,
-            "decayedImpact": 1.2
+            "daysAgo": 16,
+            "decayedImpact": 1
           }
         ]
       },
@@ -203,34 +203,34 @@
       "baseElo": 1745.7377585948946,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -10.9,
-      "msiLive": 1734.8377585948945,
+      "newsAdjustment": -10.5,
+      "msiLive": 1735.2377585948946,
       "msiLiveRank": 14,
       "injuries": null,
       "news": {
         "eventCount": 3,
-        "totalAdjustment": -10.9,
+        "totalAdjustment": -10.5,
         "topEvents": [
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
-            "daysAgo": 7,
-            "decayedImpact": -10.1
+            "daysAgo": 8,
+            "decayedImpact": -9.7
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Allegri fired by AC Milan as club misses out on Champions League",
-            "daysAgo": 7,
-            "decayedImpact": -10.1
+            "daysAgo": 8,
+            "decayedImpact": -9.6
           },
           {
             "type": "ownership_change",
             "label": "Ownership Change",
             "headline": "Earthquake at San Siro: AC Milan make big boardroom changes",
-            "daysAgo": 7,
-            "decayedImpact": 2
+            "daysAgo": 8,
+            "decayedImpact": 1.9
           }
         ]
       },
@@ -252,6 +252,32 @@
       "lastUpdated": "2026-02-22T20:00:00Z"
     },
     {
+      "team": "AS Roma",
+      "league": "SA",
+      "baseElo": 1716.8441565869186,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 3.9,
+      "msiLive": 1720.7441565869187,
+      "msiLiveRank": 16,
+      "injuries": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": 3.9,
+        "topEvents": [
+          {
+            "type": "star_signing",
+            "label": "Star Signing",
+            "headline": "Aston Villa Eye €40m Serie A Star To Boost Champions League Push: Right Choice For Emery?",
+            "daysAgo": 2,
+            "decayedImpact": 6.5
+          }
+        ]
+      },
+      "nextFixture": null,
+      "lastUpdated": "2026-02-22T19:45:00Z"
+    },
+    {
       "team": "Atalanta BC",
       "league": "SA",
       "baseElo": 1717.984667492003,
@@ -259,25 +285,11 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1717.984667492003,
-      "msiLiveRank": 16,
-      "injuries": null,
-      "news": null,
-      "nextFixture": null,
-      "lastUpdated": "2026-02-22T14:00:00Z"
-    },
-    {
-      "team": "AS Roma",
-      "league": "SA",
-      "baseElo": 1716.8441565869186,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1716.8441565869186,
       "msiLiveRank": 17,
       "injuries": null,
       "news": null,
       "nextFixture": null,
-      "lastUpdated": "2026-02-22T19:45:00Z"
+      "lastUpdated": "2026-02-22T14:00:00Z"
     },
     {
       "team": "Juventus FC",
@@ -425,34 +437,34 @@
       "baseElo": 1659.5203361813092,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 2.3,
-      "msiLive": 1661.8203361813091,
+      "newsAdjustment": 2.1,
+      "msiLive": 1661.620336181309,
       "msiLiveRank": 28,
       "injuries": null,
       "news": {
         "eventCount": 5,
-        "totalAdjustment": 2.3,
+        "totalAdjustment": 2.1,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Sparta Rotterdam bring in former NEC Nijmegen head coach from Bayer Leverkusen",
-            "daysAgo": 6,
-            "decayedImpact": 3
+            "daysAgo": 7,
+            "decayedImpact": 2.8
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Former Leverkusen and Germany star named Bayern U17 head coach",
-            "daysAgo": 10,
-            "decayedImpact": 2.7
+            "daysAgo": 11,
+            "decayedImpact": 2.5
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Alonso appointment ‘really exciting’ for Chelsea says McFarlane",
-            "daysAgo": 14,
-            "decayedImpact": 1.4
+            "daysAgo": 15,
+            "decayedImpact": 1.2
           }
         ]
       },
@@ -801,20 +813,20 @@
       "baseElo": 1564.4978267268154,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -1.1,
-      "msiLive": 1563.3978267268155,
+      "newsAdjustment": -0.9,
+      "msiLive": 1563.5978267268154,
       "msiLiveRank": 53,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": -1.1,
+        "totalAdjustment": -0.9,
         "topEvents": [
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
-            "daysAgo": 10,
-            "decayedImpact": -1.9
+            "daysAgo": 11,
+            "decayedImpact": -1.5
           }
         ]
       },
