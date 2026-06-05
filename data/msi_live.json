@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-06-04T10:05:23.520Z",
-  "oddsSource": "2026-06-04T10:04:34.625Z",
+  "computedAt": "2026-06-05T10:02:57.481Z",
+  "oddsSource": "2026-06-05T10:02:08.540Z",
   "stale": false,
   "ratings": [
     {
@@ -65,11 +65,23 @@
       "baseElo": 1856.7055995047353,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1856.7055995047353,
+      "newsAdjustment": -4.3,
+      "msiLive": 1852.4055995047354,
       "msiLiveRank": 5,
       "injuries": null,
-      "news": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": -4.3,
+        "topEvents": [
+          {
+            "type": "star_departure",
+            "label": "Star Departure",
+            "headline": "Barcelona starlet leaves Haaland and Mbappe behind in global valuation ranking",
+            "daysAgo": 1,
+            "decayedImpact": -7.2
+          }
+        ]
+      },
       "nextFixture": null,
       "lastUpdated": "2026-02-22T15:15:00Z"
     },
@@ -177,20 +189,20 @@
       "baseElo": 1737.3298956322835,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0.4,
-      "msiLive": 1737.7298956322836,
+      "newsAdjustment": 0.2,
+      "msiLive": 1737.5298956322836,
       "msiLiveRank": 13,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 0.4,
+        "totalAdjustment": 0.2,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Chelsea appoint Xabi Alonso manager on four-year deal",
-            "daysAgo": 18,
-            "decayedImpact": 0.6
+            "daysAgo": 19,
+            "decayedImpact": 0.4
           }
         ]
       },
@@ -203,34 +215,34 @@
       "baseElo": 1745.7377585948946,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -9.5,
-      "msiLive": 1736.2377585948946,
+      "newsAdjustment": -9.1,
+      "msiLive": 1736.6377585948946,
       "msiLiveRank": 14,
       "injuries": null,
       "news": {
         "eventCount": 3,
-        "totalAdjustment": -9.5,
+        "totalAdjustment": -9.1,
         "topEvents": [
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
-            "daysAgo": 10,
-            "decayedImpact": -8.9
+            "daysAgo": 11,
+            "decayedImpact": -8.4
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Allegri fired by AC Milan as club misses out on Champions League",
-            "daysAgo": 10,
-            "decayedImpact": -8.8
+            "daysAgo": 11,
+            "decayedImpact": -8.4
           },
           {
             "type": "ownership_change",
             "label": "Ownership Change",
             "headline": "Earthquake at San Siro: AC Milan make big boardroom changes",
-            "daysAgo": 10,
-            "decayedImpact": 1.8
+            "daysAgo": 11,
+            "decayedImpact": 1.7
           }
         ]
       },
@@ -257,20 +269,20 @@
       "baseElo": 1716.8441565869186,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 3.3,
-      "msiLive": 1720.1441565869186,
+      "newsAdjustment": 2.9,
+      "msiLive": 1719.7441565869187,
       "msiLiveRank": 16,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 3.3,
+        "totalAdjustment": 2.9,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Aston Villa Eye €40m Serie A Star To Boost Champions League Push: Right Choice For Emery?",
-            "daysAgo": 4,
-            "decayedImpact": 5.4
+            "daysAgo": 5,
+            "decayedImpact": 4.9
           }
         ]
       },
@@ -437,34 +449,34 @@
       "baseElo": 1659.5203361813092,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.5,
-      "msiLive": 1661.0203361813092,
+      "newsAdjustment": 1.2,
+      "msiLive": 1660.7203361813092,
       "msiLiveRank": 28,
       "injuries": null,
       "news": {
         "eventCount": 5,
-        "totalAdjustment": 1.5,
+        "totalAdjustment": 1.2,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Sparta Rotterdam bring in former NEC Nijmegen head coach from Bayer Leverkusen",
-            "daysAgo": 9,
-            "decayedImpact": 2.4
+            "daysAgo": 10,
+            "decayedImpact": 2.2
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Former Leverkusen and Germany star named Bayern U17 head coach",
-            "daysAgo": 13,
-            "decayedImpact": 2
+            "daysAgo": 14,
+            "decayedImpact": 1.7
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Alonso appointment ‘really exciting’ for Chelsea says McFarlane",
-            "daysAgo": 17,
-            "decayedImpact": 0.8
+            "daysAgo": 18,
+            "decayedImpact": 0.6
           }
         ]
       },
@@ -556,20 +568,6 @@
       "lastUpdated": "2026-02-22T19:45:00Z"
     },
     {
-      "team": "Olympique de Marseille",
-      "league": "FL1",
-      "baseElo": 1616.342558617863,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1616.342558617863,
-      "msiLiveRank": 35,
-      "injuries": null,
-      "news": null,
-      "nextFixture": null,
-      "lastUpdated": "2026-02-20T19:45:00Z"
-    },
-    {
       "team": "RB Leipzig",
       "league": "BL1",
       "baseElo": 1615.1688706304344,
@@ -577,11 +575,37 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1615.1688706304344,
-      "msiLiveRank": 36,
+      "msiLiveRank": 35,
       "injuries": null,
       "news": null,
       "nextFixture": null,
       "lastUpdated": "2026-02-21T17:30:00Z"
+    },
+    {
+      "team": "Olympique de Marseille",
+      "league": "FL1",
+      "baseElo": 1616.342558617863,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": -3.6,
+      "msiLive": 1612.742558617863,
+      "msiLiveRank": 36,
+      "injuries": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": -3.6,
+        "topEvents": [
+          {
+            "type": "financial_crisis",
+            "label": "Financial Crisis",
+            "headline": "Who would benefit from a potential Marseille exclusion from Europa League?",
+            "daysAgo": 2,
+            "decayedImpact": -6
+          }
+        ]
+      },
+      "nextFixture": null,
+      "lastUpdated": "2026-02-20T19:45:00Z"
     },
     {
       "team": "CA Osasuna",
@@ -813,20 +837,20 @@
       "baseElo": 1564.4978267268154,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -0.4,
-      "msiLive": 1564.0978267268154,
+      "newsAdjustment": -0.1,
+      "msiLive": 1564.3978267268155,
       "msiLiveRank": 53,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": -0.4,
+        "totalAdjustment": -0.1,
         "topEvents": [
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
-            "daysAgo": 13,
-            "decayedImpact": -0.6
+            "daysAgo": 14,
+            "decayedImpact": -0.1
           }
         ]
       },

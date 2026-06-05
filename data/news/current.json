@@ -1,8 +1,26 @@
 {
-  "computedAt": "2026-06-04T10:05:22.985Z",
+  "computedAt": "2026-06-05T10:02:56.968Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
+    "FC Barcelona": {
+      "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Barcelona starlet leaves Haaland and Mbappe behind in global valuation ranking",
+          "url": "https://barcauniversal.com/barcelona-starlet-leaves-haaland-and-mbappe-behind-in-global-valuation-ranking/",
+          "source": "Barcauniversal.com",
+          "publishedAt": "2026-06-04T07:20:00Z",
+          "rawImpact": -7.8,
+          "decayedImpact": -7.2,
+          "daysAgo": 1
+        }
+      ],
+      "totalRawImpact": -7.8,
+      "totalDecayedImpact": -7.2,
+      "newsAdjustment": -4.3
+    },
     "AC Milan": {
       "events": [
         {
@@ -13,8 +31,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -8.9,
-          "daysAgo": 10
+          "decayedImpact": -8.4,
+          "daysAgo": 11
         },
         {
           "type": "manager_sacked",
@@ -24,8 +42,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -8.8,
-          "daysAgo": 10
+          "decayedImpact": -8.4,
+          "daysAgo": 11
         },
         {
           "type": "ownership_change",
@@ -35,13 +53,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.8,
-          "daysAgo": 10
+          "decayedImpact": 1.7,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -23.4,
-      "totalDecayedImpact": -15.9,
-      "newsAdjustment": -9.5
+      "totalDecayedImpact": -15.1,
+      "newsAdjustment": -9.1
     },
     "AS Roma": {
       "events": [
@@ -53,13 +71,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-05-31T03:45:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.4,
-          "daysAgo": 4
+          "decayedImpact": 4.9,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.4,
-      "newsAdjustment": 3.3
+      "totalDecayedImpact": 4.9,
+      "newsAdjustment": 2.9
     },
     "Chelsea FC": {
       "events": [
@@ -71,13 +89,31 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.6,
-          "daysAgo": 18
+          "decayedImpact": 0.4,
+          "daysAgo": 19
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.4,
+      "newsAdjustment": 0.2
+    },
+    "Olympique de Marseille": {
+      "events": [
+        {
+          "type": "financial_crisis",
+          "label": "Financial Crisis",
+          "headline": "Who would benefit from a potential Marseille exclusion from Europa League?",
+          "url": "https://www.getfootballnewsfrance.com/2026/who-would-benefit-from-a-potential-marseille-exclusion-from-europa-league/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-06-03T10:30:00Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -6,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": -6.3,
+      "totalDecayedImpact": -6,
+      "newsAdjustment": -3.6
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -89,8 +125,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-05-26T11:10:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.4,
-          "daysAgo": 9
+          "decayedImpact": 2.2,
+          "daysAgo": 10
         },
         {
           "type": "manager_appointed",
@@ -100,8 +136,8 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-05-22T11:03:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2,
-          "daysAgo": 13
+          "decayedImpact": 1.7,
+          "daysAgo": 14
         },
         {
           "type": "manager_appointed",
@@ -111,8 +147,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-18T11:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.8,
-          "daysAgo": 17
+          "decayedImpact": 0.6,
+          "daysAgo": 18
         },
         {
           "type": "manager_appointed",
@@ -122,8 +158,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 0.7,
-          "daysAgo": 18
+          "decayedImpact": 0.5,
+          "daysAgo": 19
         },
         {
           "type": "manager_sacked",
@@ -133,13 +169,13 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -3.4,
-          "daysAgo": 22
+          "decayedImpact": -3,
+          "daysAgo": 23
         }
       ],
       "totalRawImpact": 5.8,
-      "totalDecayedImpact": 2.5,
-      "newsAdjustment": 1.5
+      "totalDecayedImpact": 2.1,
+      "newsAdjustment": 1.2
     },
     "SS Lazio": {
       "events": [
@@ -151,13 +187,13 @@
           "source": "Thelaziali.com",
           "publishedAt": "2026-05-22T17:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.6,
-          "daysAgo": 13
+          "decayedImpact": -0.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.6,
-      "newsAdjustment": -0.4
+      "totalDecayedImpact": -0.1,
+      "newsAdjustment": -0.1
     }
   }
 }
