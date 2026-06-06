@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-06-05T10:02:56.968Z",
+  "computedAt": "2026-06-06T08:41:34.696Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-04T07:20:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -7.2,
-          "daysAgo": 1
+          "decayedImpact": -6.7,
+          "daysAgo": 2
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -7.2,
-      "newsAdjustment": -4.3
+      "totalDecayedImpact": -6.7,
+      "newsAdjustment": -4
     },
     "AC Milan": {
       "events": [
@@ -31,7 +31,7 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -8.4,
+          "decayedImpact": -8,
           "daysAgo": 11
         },
         {
@@ -42,8 +42,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -8.4,
-          "daysAgo": 11
+          "decayedImpact": -7.9,
+          "daysAgo": 12
         },
         {
           "type": "ownership_change",
@@ -53,13 +53,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.6,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": -23.4,
-      "totalDecayedImpact": -15.1,
-      "newsAdjustment": -9.1
+      "totalDecayedImpact": -14.4,
+      "newsAdjustment": -8.6
     },
     "AS Roma": {
       "events": [
@@ -71,13 +71,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-05-31T03:45:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.9,
-          "daysAgo": 5
+          "decayedImpact": 4.3,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.9,
-      "newsAdjustment": 2.9
+      "totalDecayedImpact": 4.3,
+      "newsAdjustment": 2.6
     },
     "Chelsea FC": {
       "events": [
@@ -89,13 +89,13 @@
           "source": "The Punch",
           "publishedAt": "2026-05-17T08:35:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.4,
-          "daysAgo": 19
+          "decayedImpact": 0.2,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.4,
-      "newsAdjustment": 0.2
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     },
     "Olympique de Marseille": {
       "events": [
@@ -107,16 +107,27 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -6,
-          "daysAgo": 2
+          "decayedImpact": -5.9,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -6,
-      "newsAdjustment": -3.6
+      "totalDecayedImpact": -5.9,
+      "newsAdjustment": -3.5
     },
     "Bayer 04 Leverkusen": {
       "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": " New Bundesliga boss, Carles Martínez takes over at Leverkusen",
+          "url": "https://onefootball.com/en/news/new-bundesliga-boss-carles-martinez-takes-over-at-leverkusen-42964679",
+          "source": "Onefootball.com",
+          "publishedAt": "2026-06-04T11:11:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.8,
+          "daysAgo": 2
+        },
         {
           "type": "manager_appointed",
           "label": "Manager Appointed",
@@ -125,8 +136,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-05-26T11:10:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.2,
-          "daysAgo": 10
+          "decayedImpact": 2,
+          "daysAgo": 11
         },
         {
           "type": "manager_appointed",
@@ -136,8 +147,8 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-05-22T11:03:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.7,
-          "daysAgo": 14
+          "decayedImpact": 1.5,
+          "daysAgo": 15
         },
         {
           "type": "manager_appointed",
@@ -147,8 +158,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-05-18T11:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.6,
-          "daysAgo": 18
+          "decayedImpact": 0.4,
+          "daysAgo": 19
         },
         {
           "type": "manager_appointed",
@@ -158,8 +169,8 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-05-17T09:30:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 0.5,
-          "daysAgo": 19
+          "decayedImpact": 0.3,
+          "daysAgo": 20
         },
         {
           "type": "manager_sacked",
@@ -169,31 +180,31 @@
           "source": "BBC News",
           "publishedAt": "2026-05-13T07:38:22Z",
           "rawImpact": -13,
-          "decayedImpact": -3,
-          "daysAgo": 23
+          "decayedImpact": -2.6,
+          "daysAgo": 24
         }
       ],
-      "totalRawImpact": 5.8,
-      "totalDecayedImpact": 2.1,
-      "newsAdjustment": 1.2
+      "totalRawImpact": 10,
+      "totalDecayedImpact": 5.4,
+      "newsAdjustment": 3.3
     },
-    "SS Lazio": {
+    "AFC Bournemouth": {
       "events": [
         {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Marseille Identify Lazio Winger as Mason Greenwood Replacement",
-          "url": "https://thelaziali.com/2026/05/22/marseille-lazio-mattia-zaccagni-mason-greenwood/",
-          "source": "Thelaziali.com",
-          "publishedAt": "2026-05-22T17:25:00Z",
-          "rawImpact": -6.3,
-          "decayedImpact": -0.1,
-          "daysAgo": 14
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Liverpool appoint Spaniard Iraola as new manager in place of Slot",
+          "url": "https://www.aljazeera.com/sports/2026/6/4/liverpool-appoint-spaniard-iraola-as-new-manager-in-place-of-slot",
+          "source": "Al Jazeera English",
+          "publishedAt": "2026-06-04T19:01:41Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.9,
+          "daysAgo": 2
         }
       ],
-      "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.1,
-      "newsAdjustment": -0.1
+      "totalRawImpact": 4.2,
+      "totalDecayedImpact": 3.9,
+      "newsAdjustment": 2.3
     }
   }
 }
