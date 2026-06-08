@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-06-08T08:50:38.850Z",
-  "oddsSource": "2026-06-08T08:49:48.501Z",
+  "computedAt": "2026-06-08T11:09:10.903Z",
+  "oddsSource": "2026-06-08T11:08:20.454Z",
   "stale": false,
   "ratings": [
     {
@@ -65,14 +65,21 @@
       "baseElo": 1856.7055995047353,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -3.3,
-      "msiLive": 1853.4055995047354,
+      "newsAdjustment": 1,
+      "msiLive": 1857.7055995047353,
       "msiLiveRank": 5,
       "injuries": null,
       "news": {
-        "eventCount": 1,
-        "totalAdjustment": -3.3,
+        "eventCount": 2,
+        "totalAdjustment": 1,
         "topEvents": [
+          {
+            "type": "star_signing",
+            "label": "Star Signing",
+            "headline": "La Liga giants set to make huge move for Chelsea star",
+            "daysAgo": 1,
+            "decayedImpact": 7.2
+          },
           {
             "type": "star_departure",
             "label": "Star Departure",
@@ -188,21 +195,21 @@
             "label": "Star Signing",
             "headline": "Report: AC Milan eyeing move to sign West Ham United star",
             "daysAgo": 4,
-            "decayedImpact": 5.6
+            "decayedImpact": 5.5
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
-            "daysAgo": 13,
-            "decayedImpact": -7.2
+            "daysAgo": 14,
+            "decayedImpact": -7.1
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Allegri fired by AC Milan as club misses out on Champions League",
             "daysAgo": 14,
-            "decayedImpact": -7.1
+            "decayedImpact": -7
           }
         ]
       },
@@ -586,7 +593,7 @@
             "label": "Star Signing",
             "headline": "Marseille join Adams race",
             "daysAgo": 2,
-            "decayedImpact": 6.5
+            "decayedImpact": 6.4
           },
           {
             "type": "financial_crisis",
