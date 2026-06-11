@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-06-10T10:13:38.737Z",
-  "oddsSource": "2026-06-10T10:12:47.822Z",
+  "computedAt": "2026-06-11T10:48:41.513Z",
+  "oddsSource": "2026-06-11T10:47:51.649Z",
   "stale": false,
   "ratings": [
     {
@@ -65,34 +65,34 @@
       "baseElo": 1856.7055995047353,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -0.8,
-      "msiLive": 1855.9055995047354,
+      "newsAdjustment": -3.9,
+      "msiLive": 1852.8055995047353,
       "msiLiveRank": 5,
       "injuries": null,
       "news": {
-        "eventCount": 3,
-        "totalAdjustment": -0.8,
+        "eventCount": 4,
+        "totalAdjustment": -3.9,
         "topEvents": [
+          {
+            "type": "star_departure",
+            "label": "Star Departure",
+            "headline": "Milan target free transfer for Christensen but Barcelona agreement complicates deal",
+            "daysAgo": 2,
+            "decayedImpact": -5.5
+          },
           {
             "type": "player_scandal",
             "label": "Player Scandal",
             "headline": "Real Madrid Asks UEFA To Strip Barcelona Of Titles Over Corruption Scandal",
-            "daysAgo": 1,
-            "decayedImpact": -3
+            "daysAgo": 2,
+            "decayedImpact": -2.8
           },
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "La Liga giants set to make huge move for Chelsea star",
-            "daysAgo": 3,
-            "decayedImpact": 6.1
-          },
-          {
-            "type": "star_departure",
-            "label": "Star Departure",
-            "headline": "Barcelona starlet leaves Haaland and Mbappe behind in global valuation ranking",
-            "daysAgo": 6,
-            "decayedImpact": -4.4
+            "daysAgo": 4,
+            "decayedImpact": 5.5
           }
         ]
       },
@@ -161,11 +161,23 @@
       "baseElo": 1782.46768121937,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1782.46768121937,
+      "newsAdjustment": 3.3,
+      "msiLive": 1785.76768121937,
       "msiLiveRank": 10,
       "injuries": null,
-      "news": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": 3.3,
+        "topEvents": [
+          {
+            "type": "star_signing",
+            "label": "Star Signing",
+            "headline": "“I belong to Dortmund just as much as BVB does!” – An interview with new signing Lena Ostermeier",
+            "daysAgo": 2,
+            "decayedImpact": 5.5
+          }
+        ]
+      },
       "nextFixture": null,
       "lastUpdated": "2026-02-21T17:30:00Z"
     },
@@ -175,20 +187,20 @@
       "baseElo": 1771.1300464921312,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.7,
-      "msiLive": 1772.8300464921313,
+      "newsAdjustment": 1.5,
+      "msiLive": 1772.6300464921312,
       "msiLiveRank": 11,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 1.7,
+        "totalAdjustment": 1.5,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "When will Liverpool officially unveil Andoni Iraola as new head coach after striking ‘agreement’",
-            "daysAgo": 7,
-            "decayedImpact": 2.8
+            "daysAgo": 8,
+            "decayedImpact": 2.6
           }
         ]
       },
@@ -201,34 +213,34 @@
       "baseElo": 1745.7377585948946,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -4.1,
-      "msiLive": 1741.6377585948946,
+      "newsAdjustment": -3.9,
+      "msiLive": 1741.8377585948945,
       "msiLiveRank": 12,
       "injuries": null,
       "news": {
         "eventCount": 4,
-        "totalAdjustment": -4.1,
+        "totalAdjustment": -3.9,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Report: AC Milan eyeing move to sign West Ham United star",
-            "daysAgo": 6,
-            "decayedImpact": 4.4
+            "daysAgo": 7,
+            "decayedImpact": 3.9
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "AC Milan Fires Allegri, CEO Furlani For 'Unequivocal Failure' Of A Season",
-            "daysAgo": 16,
-            "decayedImpact": -6.3
+            "daysAgo": 17,
+            "decayedImpact": -5.8
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Allegri fired by AC Milan as club misses out on Champions League",
-            "daysAgo": 16,
-            "decayedImpact": -6.2
+            "daysAgo": 17,
+            "decayedImpact": -5.7
           }
         ]
       },
@@ -283,20 +295,27 @@
       "baseElo": 1716.8441565869186,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.2,
-      "msiLive": 1718.0441565869187,
+      "newsAdjustment": 3.2,
+      "msiLive": 1720.0441565869187,
       "msiLiveRank": 16,
       "injuries": null,
       "news": {
-        "eventCount": 1,
-        "totalAdjustment": 1.2,
+        "eventCount": 2,
+        "totalAdjustment": 3.2,
         "topEvents": [
+          {
+            "type": "manager_appointed",
+            "label": "Manager Appointed",
+            "headline": "Pierre Sage set to be named Crystal Palace manager; Lens set to receive up to €5m",
+            "daysAgo": 2,
+            "decayedImpact": 3.8
+          },
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Aston Villa Eye €40m Serie A Star To Boost Champions League Push: Right Choice For Emery?",
-            "daysAgo": 10,
-            "decayedImpact": 2.1
+            "daysAgo": 11,
+            "decayedImpact": 1.5
           }
         ]
       },
@@ -337,20 +356,20 @@
       "baseElo": 1710.5126839116374,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.8,
-      "msiLive": 1712.3126839116374,
+      "newsAdjustment": 1.7,
+      "msiLive": 1712.2126839116374,
       "msiLiveRank": 19,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 1.8,
+        "totalAdjustment": 1.7,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Liverpool appoint Spaniard Iraola as new manager in place of Slot",
-            "daysAgo": 6,
-            "decayedImpact": 3.1
+            "daysAgo": 7,
+            "decayedImpact": 2.9
           }
         ]
       },
@@ -475,34 +494,34 @@
       "baseElo": 1659.5203361813092,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 2.3,
-      "msiLive": 1661.8203361813091,
+      "newsAdjustment": 2.2,
+      "msiLive": 1661.7203361813092,
       "msiLiveRank": 28,
       "injuries": null,
       "news": {
         "eventCount": 4,
-        "totalAdjustment": 2.3,
+        "totalAdjustment": 2.2,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": " New Bundesliga boss, Carles Martínez takes over at Leverkusen",
-            "daysAgo": 6,
-            "decayedImpact": 3
+            "daysAgo": 7,
+            "decayedImpact": 2.8
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Sparta Rotterdam bring in former NEC Nijmegen head coach from Bayer Leverkusen",
-            "daysAgo": 15,
-            "decayedImpact": 1.2
+            "daysAgo": 16,
+            "decayedImpact": 1
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Former Leverkusen and Germany star named Bayern U17 head coach",
-            "daysAgo": 19,
-            "decayedImpact": 0.5
+            "daysAgo": 20,
+            "decayedImpact": 0.3
           }
         ]
       },
@@ -599,27 +618,27 @@
       "baseElo": 1616.342558617863,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1616.342558617863,
+      "newsAdjustment": -0.3,
+      "msiLive": 1616.042558617863,
       "msiLiveRank": 35,
       "injuries": null,
       "news": {
         "eventCount": 2,
-        "totalAdjustment": 0,
+        "totalAdjustment": -0.3,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Marseille join Adams race",
-            "daysAgo": 4,
-            "decayedImpact": 5.3
+            "daysAgo": 5,
+            "decayedImpact": 4.7
           },
           {
             "type": "financial_crisis",
             "label": "Financial Crisis",
             "headline": "Who would benefit from a potential Marseille exclusion from Europa League?",
-            "daysAgo": 7,
-            "decayedImpact": -5.3
+            "daysAgo": 8,
+            "decayedImpact": -5.2
           }
         ]
       },
