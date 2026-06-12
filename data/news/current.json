@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-06-11T10:48:41.034Z",
+  "computedAt": "2026-06-12T10:23:39.201Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Www.bvb.de",
           "publishedAt": "2026-06-09T15:35:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 5.5,
-          "daysAgo": 2
+          "decayedImpact": 5,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 5.5,
-      "newsAdjustment": 3.3
+      "totalDecayedImpact": 5,
+      "newsAdjustment": 3
     },
     "FC Barcelona": {
       "events": [
@@ -31,8 +31,8 @@
           "source": "Football Italia",
           "publishedAt": "2026-06-09T16:55:49Z",
           "rawImpact": -6.3,
-          "decayedImpact": -5.5,
-          "daysAgo": 2
+          "decayedImpact": -5.1,
+          "daysAgo": 3
         },
         {
           "type": "player_scandal",
@@ -42,8 +42,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-06-09T00:51:01Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2.8,
-          "daysAgo": 2
+          "decayedImpact": -2.5,
+          "daysAgo": 3
         },
         {
           "type": "star_signing",
@@ -53,8 +53,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-07T09:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.5,
-          "daysAgo": 4
+          "decayedImpact": 5,
+          "daysAgo": 5
         },
         {
           "type": "star_departure",
@@ -64,13 +64,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-04T07:20:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -3.8,
-          "daysAgo": 7
+          "decayedImpact": -3.3,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -9.7,
-      "totalDecayedImpact": -6.6,
-      "newsAdjustment": -3.9
+      "totalDecayedImpact": -5.9,
+      "newsAdjustment": -3.5
     },
     "AS Roma": {
       "events": [
@@ -82,8 +82,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-09T14:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.8,
-          "daysAgo": 2
+          "decayedImpact": 3.6,
+          "daysAgo": 3
         },
         {
           "type": "star_signing",
@@ -93,16 +93,27 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-05-31T03:45:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.5,
-          "daysAgo": 11
+          "decayedImpact": 1,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 5.3,
-      "newsAdjustment": 3.2
+      "totalDecayedImpact": 4.6,
+      "newsAdjustment": 2.8
     },
     "RC Lens": {
       "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Patrick Videira set to stay at Le Mans despite Lens interest",
+          "url": "https://www.getfootballnewsfrance.com/2026/patrick-videira-set-to-stay-at-le-mans-despite-lens-interest/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-06-10T15:45:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.8,
+          "daysAgo": 2
+        },
         {
           "type": "manager_appointed",
           "label": "Manager Appointed",
@@ -111,13 +122,13 @@
           "source": "Fromthespot.co.uk",
           "publishedAt": "2026-06-09T17:35:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.8,
-          "daysAgo": 2
+          "decayedImpact": 4.5,
+          "daysAgo": 3
         }
       ],
-      "totalRawImpact": 5.2,
-      "totalDecayedImpact": 4.8,
-      "newsAdjustment": 2.9
+      "totalRawImpact": 9.4,
+      "totalDecayedImpact": 8.4,
+      "newsAdjustment": 5
     },
     "AC Milan": {
       "events": [
@@ -129,8 +140,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-04T09:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.9,
-          "daysAgo": 7
+          "decayedImpact": 3.3,
+          "daysAgo": 8
         },
         {
           "type": "manager_sacked",
@@ -140,8 +151,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -5.8,
-          "daysAgo": 17
+          "decayedImpact": -5.4,
+          "daysAgo": 18
         },
         {
           "type": "manager_sacked",
@@ -151,8 +162,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -5.7,
-          "daysAgo": 17
+          "decayedImpact": -5.3,
+          "daysAgo": 18
         },
         {
           "type": "ownership_change",
@@ -163,12 +174,12 @@
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
           "decayedImpact": 1.1,
-          "daysAgo": 17
+          "daysAgo": 18
         }
       ],
       "totalRawImpact": -15.6,
-      "totalDecayedImpact": -6.5,
-      "newsAdjustment": -3.9
+      "totalDecayedImpact": -6.3,
+      "newsAdjustment": -3.8
     },
     "Olympique de Marseille": {
       "events": [
@@ -180,8 +191,8 @@
           "source": "The Punch",
           "publishedAt": "2026-06-05T23:20:06Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.7,
-          "daysAgo": 5
+          "decayedImpact": 4.2,
+          "daysAgo": 6
         },
         {
           "type": "financial_crisis",
@@ -191,13 +202,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -5.2,
-          "daysAgo": 8
+          "decayedImpact": -5,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 1.5,
-      "totalDecayedImpact": -0.4,
-      "newsAdjustment": -0.3
+      "totalDecayedImpact": -0.8,
+      "newsAdjustment": -0.5
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -209,8 +220,8 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-06-04T11:11:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.8,
-          "daysAgo": 7
+          "decayedImpact": 2.6,
+          "daysAgo": 8
         },
         {
           "type": "manager_appointed",
@@ -220,8 +231,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-05-26T11:10:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1,
-          "daysAgo": 16
+          "decayedImpact": 0.8,
+          "daysAgo": 17
         },
         {
           "type": "manager_appointed",
@@ -231,24 +242,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-05-22T11:03:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 0.3,
-          "daysAgo": 20
-        },
-        {
-          "type": "manager_sacked",
-          "label": "Manager Sacked",
-          "headline": "Leverkusen next German club to be linked with Rohl - gossip",
-          "url": "https://www.bbc.com/sport/articles/cd6pnqydd1lo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
-          "source": "BBC News",
-          "publishedAt": "2026-05-13T07:38:22Z",
-          "rawImpact": -13,
-          "decayedImpact": -0.4,
-          "daysAgo": 29
+          "decayedImpact": 0,
+          "daysAgo": 21
         }
       ],
-      "totalRawImpact": 0.6,
-      "totalDecayedImpact": 3.7,
-      "newsAdjustment": 2.2
+      "totalRawImpact": 13.6,
+      "totalDecayedImpact": 3.4,
+      "newsAdjustment": 2.1
     },
     "AFC Bournemouth": {
       "events": [
@@ -260,13 +260,13 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-06-04T19:01:41Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.9,
-          "daysAgo": 7
+          "decayedImpact": 2.7,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "Liverpool FC": {
       "events": [
@@ -278,13 +278,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-06-03T06:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 8
+          "decayedImpact": 2.4,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.6,
-      "newsAdjustment": 1.5
+      "totalDecayedImpact": 2.4,
+      "newsAdjustment": 1.4
     }
   }
 }
