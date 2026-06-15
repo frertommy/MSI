@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-06-15T09:57:05.969Z",
-  "oddsSource": "2026-06-15T09:56:16.064Z",
+  "computedAt": "2026-06-15T12:29:39.505Z",
+  "oddsSource": "2026-06-15T12:28:48.651Z",
   "stale": false,
   "ratings": [
     {
@@ -187,20 +187,20 @@
       "baseElo": 1771.1300464921312,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.1,
-      "msiLive": 1772.2300464921311,
+      "newsAdjustment": 1,
+      "msiLive": 1772.1300464921312,
       "msiLiveRank": 11,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 1.1,
+        "totalAdjustment": 1,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "When will Liverpool officially unveil Andoni Iraola as new head coach after striking ‘agreement’",
             "daysAgo": 12,
-            "decayedImpact": 1.8
+            "decayedImpact": 1.7
           }
         ]
       },
@@ -226,7 +226,7 @@
             "label": "Star Signing",
             "headline": "Report: AC Milan eyeing move to sign West Ham United star",
             "daysAgo": 11,
-            "decayedImpact": 1.7
+            "decayedImpact": 1.6
           },
           {
             "type": "manager_sacked",
@@ -617,13 +617,13 @@
             "label": "Star Signing",
             "headline": "Senegalese star Iliman Ndiaye opens the door to future Marseille return",
             "daysAgo": 2,
-            "decayedImpact": 6.8
+            "decayedImpact": 6.7
           },
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Marseille join Adams race",
-            "daysAgo": 9,
+            "daysAgo": 10,
             "decayedImpact": 2.5
           },
           {
