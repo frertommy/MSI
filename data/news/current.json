@@ -1,59 +1,8 @@
 {
-  "computedAt": "2026-06-17T11:07:54.077Z",
+  "computedAt": "2026-06-18T10:40:01.325Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "FC Barcelona": {
-      "events": [
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Milan target free transfer for Christensen but Barcelona agreement complicates deal",
-          "url": "https://football-italia.net/report-milan-eye-free-transfer-christensen/",
-          "source": "Football Italia",
-          "publishedAt": "2026-06-09T16:55:49Z",
-          "rawImpact": -6.3,
-          "decayedImpact": -2.8,
-          "daysAgo": 8
-        },
-        {
-          "type": "player_scandal",
-          "label": "Player Scandal",
-          "headline": "Real Madrid Asks UEFA To Strip Barcelona Of Titles Over Corruption Scandal",
-          "url": "https://www.foxsports.com/stories/soccer/real-madrid-ask-uefa-to-strip-barcelona-of-titles-explosive-dossier-posted-out-of-santiago-bernabeu-following-negreira-case-corruption-scandal",
-          "source": "Fox Sports",
-          "publishedAt": "2026-06-09T00:51:01Z",
-          "rawImpact": -3.4,
-          "decayedImpact": -1.3,
-          "daysAgo": 8
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "La Liga giants set to make huge move for Chelsea star",
-          "url": "https://eplindex.com/147158/la-liga-giants-set-to-make-huge-move-for-chelsea-star.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-06-07T09:50:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 2.2,
-          "daysAgo": 10
-        },
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Barcelona starlet leaves Haaland and Mbappe behind in global valuation ranking",
-          "url": "https://barcauniversal.com/barcelona-starlet-leaves-haaland-and-mbappe-behind-in-global-valuation-ranking/",
-          "source": "Barcauniversal.com",
-          "publishedAt": "2026-06-04T07:20:00Z",
-          "rawImpact": -7.8,
-          "decayedImpact": -0.5,
-          "daysAgo": 13
-        }
-      ],
-      "totalRawImpact": -9.7,
-      "totalDecayedImpact": -2.4,
-      "newsAdjustment": -1.4
-    },
     "AS Roma": {
       "events": [
         {
@@ -64,16 +13,27 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-09T14:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 8
+          "decayedImpact": 2.4,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.6,
-      "newsAdjustment": 1.6
+      "totalDecayedImpact": 2.4,
+      "newsAdjustment": 1.5
     },
     "RC Lens": {
       "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Lens appoint Toppmoller as manager to replace Sage",
+          "url": "https://www.channelnewsasia.com/sport/lens-appoint-toppmoller-manager-replace-sage-6187526",
+          "source": "CNA",
+          "publishedAt": "2026-06-16T13:42:13Z",
+          "rawImpact": 5.2,
+          "decayedImpact": 4.7,
+          "daysAgo": 2
+        },
         {
           "type": "manager_appointed",
           "label": "Manager Appointed",
@@ -82,7 +42,7 @@
           "source": "BBC News",
           "publishedAt": "2026-06-12T22:49:57Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.3,
+          "decayedImpact": 3.1,
           "daysAgo": 5
         },
         {
@@ -93,8 +53,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-10T15:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.8,
-          "daysAgo": 7
+          "decayedImpact": 2.6,
+          "daysAgo": 8
         },
         {
           "type": "manager_appointed",
@@ -104,26 +64,37 @@
           "source": "Fromthespot.co.uk",
           "publishedAt": "2026-06-09T17:35:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 3,
+          "daysAgo": 9
         }
       ],
-      "totalRawImpact": 13.6,
-      "totalDecayedImpact": 9.4,
-      "newsAdjustment": 5.7
+      "totalRawImpact": 18.8,
+      "totalDecayedImpact": 13.5,
+      "newsAdjustment": 8.1
     },
     "AC Milan": {
       "events": [
         {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Report: AC Milan eyeing move to sign West Ham United star",
-          "url": "https://eplindex.com/147083/report-ac-milan-eyeing-move-to-sign-west-ham-united-star.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-06-04T09:50:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.5,
-          "daysAgo": 13
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Amorim appointed AC Milan boss",
+          "url": "https://www.skysports.com/football/news/11095/13553981/ruben-amorim-ac-milan-appoint-former-manchester-united-boss-as-head-coach",
+          "source": "Sky Sports",
+          "publishedAt": "2026-06-16T16:27:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.8,
+          "daysAgo": 2
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "AC Milan set to hire Ruben Amorim as new head coach despite talks with USMNT manager Mauricio Pochettino",
+          "url": "https://www.cbssports.com/soccer/news/ac-milan-ruben-amorim-head-coach-usmnt-manager-mauricio-pochettino/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-16T13:39:19Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 3.8,
+          "daysAgo": 2
         },
         {
           "type": "manager_sacked",
@@ -133,8 +104,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -3.2,
-          "daysAgo": 23
+          "decayedImpact": -2.8,
+          "daysAgo": 24
         },
         {
           "type": "manager_sacked",
@@ -144,8 +115,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -3.1,
-          "daysAgo": 23
+          "decayedImpact": -2.7,
+          "daysAgo": 24
         },
         {
           "type": "ownership_change",
@@ -155,13 +126,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.6,
-          "daysAgo": 23
+          "decayedImpact": 0.5,
+          "daysAgo": 24
         }
       ],
-      "totalRawImpact": -15.6,
-      "totalDecayedImpact": -5.2,
-      "newsAdjustment": -3.1
+      "totalRawImpact": -15,
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "Borussia Dortmund": {
       "events": [
@@ -173,8 +144,8 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-16T07:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7.2,
-          "daysAgo": 1
+          "decayedImpact": 6.6,
+          "daysAgo": 2
         },
         {
           "type": "star_signing",
@@ -184,13 +155,13 @@
           "source": "Www.bvb.de",
           "publishedAt": "2026-06-09T15:35:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 2.8,
-          "daysAgo": 8
+          "decayedImpact": 2.3,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 14.1,
-      "totalDecayedImpact": 9.9,
-      "newsAdjustment": 6
+      "totalDecayedImpact": 9,
+      "newsAdjustment": 5.4
     },
     "Olympique de Marseille": {
       "events": [
@@ -202,8 +173,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-13T14:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.6,
-          "daysAgo": 4
+          "decayedImpact": 5.1,
+          "daysAgo": 5
         },
         {
           "type": "star_signing",
@@ -213,8 +184,8 @@
           "source": "The Punch",
           "publishedAt": "2026-06-05T23:20:06Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.4,
-          "daysAgo": 11
+          "decayedImpact": 0.9,
+          "daysAgo": 12
         },
         {
           "type": "financial_crisis",
@@ -224,13 +195,53 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.3,
-          "daysAgo": 14
+          "decayedImpact": -4.2,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 9.3,
-      "totalDecayedImpact": 2.7,
-      "newsAdjustment": 1.6
+      "totalDecayedImpact": 1.8,
+      "newsAdjustment": 1.1
+    },
+    "FC Barcelona": {
+      "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Milan target free transfer for Christensen but Barcelona agreement complicates deal",
+          "url": "https://football-italia.net/report-milan-eye-free-transfer-christensen/",
+          "source": "Football Italia",
+          "publishedAt": "2026-06-09T16:55:49Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -2.4,
+          "daysAgo": 9
+        },
+        {
+          "type": "player_scandal",
+          "label": "Player Scandal",
+          "headline": "Real Madrid Asks UEFA To Strip Barcelona Of Titles Over Corruption Scandal",
+          "url": "https://www.foxsports.com/stories/soccer/real-madrid-ask-uefa-to-strip-barcelona-of-titles-explosive-dossier-posted-out-of-santiago-bernabeu-following-negreira-case-corruption-scandal",
+          "source": "Fox Sports",
+          "publishedAt": "2026-06-09T00:51:01Z",
+          "rawImpact": -3.4,
+          "decayedImpact": -1.1,
+          "daysAgo": 9
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "La Liga giants set to make huge move for Chelsea star",
+          "url": "https://eplindex.com/147158/la-liga-giants-set-to-make-huge-move-for-chelsea-star.html",
+          "source": "English Premier League Index - Opta Stats",
+          "publishedAt": "2026-06-07T09:50:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 1.7,
+          "daysAgo": 11
+        }
+      ],
+      "totalRawImpact": -1.9,
+      "totalDecayedImpact": -1.8,
+      "newsAdjustment": -1.1
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -242,13 +253,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-06-04T11:11:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.6,
-          "daysAgo": 13
+          "decayedImpact": 1.4,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.6,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.4,
+      "newsAdjustment": 0.8
     },
     "AFC Bournemouth": {
       "events": [
@@ -260,13 +271,13 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-06-04T19:01:41Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.7,
-          "daysAgo": 13
+          "decayedImpact": 1.5,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.5,
+      "newsAdjustment": 0.9
     },
     "Liverpool FC": {
       "events": [
@@ -278,13 +289,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-06-03T06:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.4,
-          "daysAgo": 14
+          "decayedImpact": 1.2,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.4,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 1.2,
+      "newsAdjustment": 0.7
     },
     "Elche": {
       "events": [
@@ -296,13 +307,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.5,
-          "daysAgo": 4
+          "decayedImpact": 3.3,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 3.5,
-      "newsAdjustment": 2.1
+      "totalDecayedImpact": 3.3,
+      "newsAdjustment": 2
     },
     "Spal": {
       "events": [
@@ -314,13 +325,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-11T13:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.5,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.5,
-      "newsAdjustment": 2.7
+      "totalDecayedImpact": 4,
+      "newsAdjustment": 2.4
     }
   }
 }
