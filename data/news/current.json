@@ -1,26 +1,8 @@
 {
-  "computedAt": "2026-06-18T10:40:01.325Z",
+  "computedAt": "2026-06-19T10:47:35.866Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "AS Roma": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Pierre Sage set to be named Crystal Palace manager; Lens set to receive up to €5m",
-          "url": "https://www.getfootballnewsfrance.com/2026/pierre-sage-set-to-be-named-crystal-palace-manger-lens-set-to-receive-up-to-e5m/",
-          "source": "Get French Football News",
-          "publishedAt": "2026-06-09T14:30:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 2.4,
-          "daysAgo": 9
-        }
-      ],
-      "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.4,
-      "newsAdjustment": 1.5
-    },
     "RC Lens": {
       "events": [
         {
@@ -31,8 +13,8 @@
           "source": "CNA",
           "publishedAt": "2026-06-16T13:42:13Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.7,
-          "daysAgo": 2
+          "decayedImpact": 4.5,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -42,8 +24,8 @@
           "source": "BBC News",
           "publishedAt": "2026-06-12T22:49:57Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.1,
-          "daysAgo": 5
+          "decayedImpact": 2.9,
+          "daysAgo": 6
         },
         {
           "type": "manager_appointed",
@@ -53,8 +35,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-10T15:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 8
+          "decayedImpact": 2.4,
+          "daysAgo": 9
         },
         {
           "type": "manager_appointed",
@@ -64,13 +46,31 @@
           "source": "Fromthespot.co.uk",
           "publishedAt": "2026-06-09T17:35:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.8,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 18.8,
-      "totalDecayedImpact": 13.5,
-      "newsAdjustment": 8.1
+      "totalDecayedImpact": 12.6,
+      "newsAdjustment": 7.6
+    },
+    "RB Leipzig": {
+      "events": [
+        {
+          "type": "manager_sacked",
+          "label": "Manager Sacked",
+          "headline": "RB Leipzig part ways with coach Werner despite successful season",
+          "url": "https://dpa-international.com/sports/urn:newsml:dpa.com:20090101:260617-99-771926/",
+          "source": "Dpa-international.com",
+          "publishedAt": "2026-06-17T21:11:34Z",
+          "rawImpact": -13,
+          "decayedImpact": -12.3,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": -13,
+      "totalDecayedImpact": -12.3,
+      "newsAdjustment": -7.4
     },
     "AC Milan": {
       "events": [
@@ -82,8 +82,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-06-16T16:27:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.8,
-          "daysAgo": 2
+          "decayedImpact": 3.6,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -93,8 +93,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-16T13:39:19Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.8,
-          "daysAgo": 2
+          "decayedImpact": 3.6,
+          "daysAgo": 3
         },
         {
           "type": "manager_sacked",
@@ -104,8 +104,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -2.8,
-          "daysAgo": 24
+          "decayedImpact": -2.4,
+          "daysAgo": 25
         },
         {
           "type": "manager_sacked",
@@ -115,8 +115,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -2.7,
-          "daysAgo": 24
+          "decayedImpact": -2.3,
+          "daysAgo": 25
         },
         {
           "type": "ownership_change",
@@ -127,12 +127,12 @@
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
           "decayedImpact": 0.5,
-          "daysAgo": 24
+          "daysAgo": 25
         }
       ],
       "totalRawImpact": -15,
-      "totalDecayedImpact": 2.7,
-      "newsAdjustment": 1.6
+      "totalDecayedImpact": 3.1,
+      "newsAdjustment": 1.9
     },
     "Borussia Dortmund": {
       "events": [
@@ -144,8 +144,8 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-16T07:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.6,
-          "daysAgo": 2
+          "decayedImpact": 6,
+          "daysAgo": 3
         },
         {
           "type": "star_signing",
@@ -155,13 +155,31 @@
           "source": "Www.bvb.de",
           "publishedAt": "2026-06-09T15:35:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 2.3,
-          "daysAgo": 9
+          "decayedImpact": 1.9,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 14.1,
-      "totalDecayedImpact": 9,
-      "newsAdjustment": 5.4
+      "totalDecayedImpact": 7.9,
+      "newsAdjustment": 4.8
+    },
+    "AS Roma": {
+      "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Pierre Sage set to be named Crystal Palace manager; Lens set to receive up to €5m",
+          "url": "https://www.getfootballnewsfrance.com/2026/pierre-sage-set-to-be-named-crystal-palace-manger-lens-set-to-receive-up-to-e5m/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-06-09T14:30:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.2,
+          "daysAgo": 10
+        }
+      ],
+      "totalRawImpact": 4.2,
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "Olympique de Marseille": {
       "events": [
@@ -173,8 +191,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-13T14:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
+          "decayedImpact": 4.5,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -184,8 +202,8 @@
           "source": "The Punch",
           "publishedAt": "2026-06-05T23:20:06Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.9,
-          "daysAgo": 12
+          "decayedImpact": 0.3,
+          "daysAgo": 13
         },
         {
           "type": "financial_crisis",
@@ -195,16 +213,27 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.2,
-          "daysAgo": 15
+          "decayedImpact": -4.1,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 9.3,
-      "totalDecayedImpact": 1.8,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "FC Barcelona": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Barcelona remain confident of landing La Liga forward as player pushes for Camp Nou move",
+          "url": "https://barcauniversal.com/barcelona-remain-confident-of-landing-la-liga-forward-as-player-pushes-for-camp-nou-move/",
+          "source": "Barcauniversal.com",
+          "publishedAt": "2026-06-18T06:00:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 7.1,
+          "daysAgo": 1
+        },
         {
           "type": "star_departure",
           "label": "Star Departure",
@@ -213,8 +242,8 @@
           "source": "Football Italia",
           "publishedAt": "2026-06-09T16:55:49Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.4,
-          "daysAgo": 9
+          "decayedImpact": -1.9,
+          "daysAgo": 10
         },
         {
           "type": "player_scandal",
@@ -224,8 +253,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-06-09T00:51:01Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.1,
-          "daysAgo": 9
+          "decayedImpact": -0.9,
+          "daysAgo": 10
         },
         {
           "type": "star_signing",
@@ -235,13 +264,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-07T09:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.1,
+          "daysAgo": 12
         }
       ],
-      "totalRawImpact": -1.9,
-      "totalDecayedImpact": -1.8,
-      "newsAdjustment": -1.1
+      "totalRawImpact": 5.9,
+      "totalDecayedImpact": 5.4,
+      "newsAdjustment": 3.3
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -253,13 +282,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-06-04T11:11:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.4,
-          "daysAgo": 14
+          "decayedImpact": 1.2,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.4,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 1.2,
+      "newsAdjustment": 0.7
     },
     "AFC Bournemouth": {
       "events": [
@@ -271,13 +300,13 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-06-04T19:01:41Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.5,
-          "daysAgo": 14
+          "decayedImpact": 1.3,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.5,
-      "newsAdjustment": 0.9
+      "totalDecayedImpact": 1.3,
+      "newsAdjustment": 0.8
     },
     "Liverpool FC": {
       "events": [
@@ -289,13 +318,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-06-03T06:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.2,
-          "daysAgo": 15
+          "decayedImpact": 1,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 1,
+      "newsAdjustment": 0.6
     },
     "Elche": {
       "events": [
@@ -307,13 +336,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.3,
-          "daysAgo": 5
+          "decayedImpact": 3.1,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 3.1,
+      "newsAdjustment": 1.8
     },
     "Spal": {
       "events": [
@@ -325,13 +354,42 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-11T13:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4,
-          "daysAgo": 7
+          "decayedImpact": 3.4,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4,
-      "newsAdjustment": 2.4
+      "totalDecayedImpact": 3.4,
+      "newsAdjustment": 2
+    },
+    "OGC Nice": {
+      "events": [
+        {
+          "type": "player_scandal",
+          "label": "Player Scandal",
+          "headline": "World Cup 2026: Ivory Coast player arrested for alleged spot-fixing before tournament started, per report",
+          "url": "https://www.cbssports.com/soccer/news/world-cup-2026-ivory-coast-spot-fixing/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-17T16:16:44Z",
+          "rawImpact": -3.4,
+          "decayedImpact": -2.9,
+          "daysAgo": 2
+        },
+        {
+          "type": "player_scandal",
+          "label": "Player Scandal",
+          "headline": "Nice and Ivory Coast international Elye Wahi arrested for alleged match-fixing in Ligue 1",
+          "url": "https://www.getfootballnewsfrance.com/2026/nice-and-ivory-coast-international-elye-wahi-arrested-for-alleged-match-fixing-in-ligue-1/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-06-17T15:40:00Z",
+          "rawImpact": -3.4,
+          "decayedImpact": -2.9,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": -6.7,
+      "totalDecayedImpact": -5.9,
+      "newsAdjustment": -3.5
     }
   }
 }

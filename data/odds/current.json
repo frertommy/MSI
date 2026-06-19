@@ -1,5 +1,646 @@
 {
-  "fetchedAt": "2026-06-18T10:39:11.517Z",
-  "requestsRemaining": 500,
-  "fixtures": []
+  "fetchedAt": "2026-06-19T10:46:47.438Z",
+  "requestsRemaining": 496,
+  "fixtures": [
+    {
+      "id": "eb2553d10d63dc912b99f8fd0d675721",
+      "league": "PL",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Coventry City",
+      "kickoff": "2026-08-21T19:00:00Z",
+      "avgOdds": {
+        "home": 1.16,
+        "draw": 6.23,
+        "away": 13.94
+      },
+      "impliedProb": {
+        "home": 0.788,
+        "draw": 0.146,
+        "away": 0.065
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          1.13,
+          1.18
+        ],
+        "draw": [
+          1.09,
+          8.5
+        ],
+        "away": [
+          1.01,
+          21
+        ]
+      }
+    },
+    {
+      "id": "95bb16d19debff3ec39919f361f072a4",
+      "league": "PL",
+      "homeTeam": "Hull City",
+      "awayTeam": "Manchester United",
+      "kickoff": "2026-08-22T11:30:00Z",
+      "avgOdds": {
+        "home": 6.7,
+        "draw": 3.86,
+        "away": 1.43
+      },
+      "impliedProb": {
+        "home": 0.135,
+        "draw": 0.234,
+        "away": 0.631
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          6,
+          7.42
+        ],
+        "draw": [
+          1.01,
+          4.83
+        ],
+        "away": [
+          1.36,
+          1.49
+        ]
+      }
+    },
+    {
+      "id": "cd1f0173ec061d9b8a8b22ab8f2f8393",
+      "league": "PL",
+      "homeTeam": "Everton",
+      "awayTeam": "Crystal Palace",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "avgOdds": {
+        "home": 2.03,
+        "draw": 3.54,
+        "away": 3.5
+      },
+      "impliedProb": {
+        "home": 0.465,
+        "draw": 0.266,
+        "away": 0.269
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          1.91,
+          2.1
+        ],
+        "draw": [
+          3.1,
+          3.75
+        ],
+        "away": [
+          3.25,
+          3.75
+        ]
+      }
+    },
+    {
+      "id": "01615d9573ef1e5aa8c09eb32a4a983b",
+      "league": "PL",
+      "homeTeam": "Ipswich Town",
+      "awayTeam": "Sunderland",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "avgOdds": {
+        "home": 2.69,
+        "draw": 3.32,
+        "away": 2.55
+      },
+      "impliedProb": {
+        "home": 0.349,
+        "draw": 0.283,
+        "away": 0.368
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          2.5,
+          2.82
+        ],
+        "draw": [
+          3,
+          3.5
+        ],
+        "away": [
+          2.3,
+          2.7
+        ]
+      }
+    },
+    {
+      "id": "ee99154f8db029efcf567c5f7f7a0c0b",
+      "league": "PL",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Leeds United",
+      "kickoff": "2026-08-22T14:00:00Z",
+      "avgOdds": {
+        "home": 2.18,
+        "draw": 3.5,
+        "away": 3.15
+      },
+      "impliedProb": {
+        "home": 0.432,
+        "draw": 0.269,
+        "away": 0.299
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          2,
+          2.27
+        ],
+        "draw": [
+          3,
+          3.67
+        ],
+        "away": [
+          3,
+          3.29
+        ]
+      }
+    },
+    {
+      "id": "8b4b033209bb204516cbd1f523614f25",
+      "league": "PL",
+      "homeTeam": "Brentford",
+      "awayTeam": "Tottenham Hotspur",
+      "kickoff": "2026-08-22T16:30:00Z",
+      "avgOdds": {
+        "home": 2.56,
+        "draw": 3.41,
+        "away": 2.54
+      },
+      "impliedProb": {
+        "home": 0.363,
+        "draw": 0.272,
+        "away": 0.365
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          2.4,
+          2.67
+        ],
+        "draw": [
+          2.7,
+          3.8
+        ],
+        "away": [
+          2.3,
+          2.69
+        ]
+      }
+    },
+    {
+      "id": "f5086c74d4a767e3ad7ea69bd4a66b76",
+      "league": "PL",
+      "homeTeam": "Brighton and Hove Albion",
+      "awayTeam": "Aston Villa",
+      "kickoff": "2026-08-23T13:00:00Z",
+      "avgOdds": {
+        "home": 2.21,
+        "draw": 3.54,
+        "away": 2.93
+      },
+      "impliedProb": {
+        "home": 0.42,
+        "draw": 0.263,
+        "away": 0.317
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          2,
+          2.37
+        ],
+        "draw": [
+          2.88,
+          4
+        ],
+        "away": [
+          2.75,
+          3.11
+        ]
+      }
+    },
+    {
+      "id": "87c7c9bfd5e3072bded20c702f553c63",
+      "league": "PL",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "kickoff": "2026-08-23T13:00:00Z",
+      "avgOdds": {
+        "home": 1.42,
+        "draw": 4.25,
+        "away": 5.17
+      },
+      "impliedProb": {
+        "home": 0.622,
+        "draw": 0.207,
+        "away": 0.17
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          1.33,
+          1.49
+        ],
+        "draw": [
+          1.01,
+          5.4
+        ],
+        "away": [
+          1.01,
+          6.5
+        ]
+      }
+    },
+    {
+      "id": "ea0bacc4c23f813c6af97ec9b306a850",
+      "league": "PL",
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Liverpool",
+      "kickoff": "2026-08-23T15:30:00Z",
+      "avgOdds": {
+        "home": 2.55,
+        "draw": 3.29,
+        "away": 2.03
+      },
+      "impliedProb": {
+        "home": 0.329,
+        "draw": 0.256,
+        "away": 0.415
+      },
+      "bookmakerCount": 10,
+      "oddsRange": {
+        "home": [
+          1.31,
+          3.05
+        ],
+        "draw": [
+          1.01,
+          4.03
+        ],
+        "away": [
+          1.31,
+          2.28
+        ]
+      }
+    },
+    {
+      "id": "4e4a813bf4218cc527e6f8ef2351170d",
+      "league": "PL",
+      "homeTeam": "Fulham",
+      "awayTeam": "Chelsea",
+      "kickoff": "2026-08-24T19:00:00Z",
+      "avgOdds": {
+        "home": 3.31,
+        "draw": 3.74,
+        "away": 2.09
+      },
+      "impliedProb": {
+        "home": 0.288,
+        "draw": 0.255,
+        "away": 0.456
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          3.17,
+          3.5
+        ],
+        "draw": [
+          3.62,
+          3.81
+        ],
+        "away": [
+          2,
+          2.21
+        ]
+      }
+    },
+    {
+      "id": "fbea45a1e53e07faac0027ac5d233587",
+      "league": "SA",
+      "homeTeam": "Torino",
+      "awayTeam": "AC Milan",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 3.44,
+        "draw": 3.36,
+        "away": 1.75
+      },
+      "impliedProb": {
+        "home": 0.251,
+        "draw": 0.257,
+        "away": 0.492
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          1.49,
+          4.4
+        ],
+        "draw": [
+          2.74,
+          3.75
+        ],
+        "away": [
+          1.67,
+          1.8
+        ]
+      }
+    },
+    {
+      "id": "342da6cad58a21d1c6653ef88c05371e",
+      "league": "SA",
+      "homeTeam": "AS Roma",
+      "awayTeam": "Fiorentina",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 1.49,
+        "draw": 3.67,
+        "away": 5.32
+      },
+      "impliedProb": {
+        "home": 0.593,
+        "draw": 0.241,
+        "away": 0.166
+      },
+      "bookmakerCount": 6,
+      "oddsRange": {
+        "home": [
+          1.44,
+          1.53
+        ],
+        "draw": [
+          3.2,
+          4.2
+        ],
+        "away": [
+          4.2,
+          6
+        ]
+      }
+    },
+    {
+      "id": "d44b7b56dadba2e7606cdceec655e62f",
+      "league": "SA",
+      "homeTeam": "Atalanta BC",
+      "awayTeam": "Sassuolo",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 1.47,
+        "draw": 3.91,
+        "away": 4.75
+      },
+      "impliedProb": {
+        "home": 0.593,
+        "draw": 0.223,
+        "away": 0.184
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          1.4,
+          1.52
+        ],
+        "draw": [
+          3.2,
+          4.5
+        ],
+        "away": [
+          1.49,
+          6.5
+        ]
+      }
+    },
+    {
+      "id": "c23c70e25e6253ea30f33add6c73d299",
+      "league": "SA",
+      "homeTeam": "Bologna",
+      "awayTeam": "Lazio",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 2.07,
+        "draw": 3.23,
+        "away": 3.3
+      },
+      "impliedProb": {
+        "home": 0.44,
+        "draw": 0.283,
+        "away": 0.277
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          2,
+          2.15
+        ],
+        "draw": [
+          2.88,
+          3.4
+        ],
+        "away": [
+          3.1,
+          3.5
+        ]
+      }
+    },
+    {
+      "id": "bea9b476bdea2d41a0f4bd53a24c1413",
+      "league": "SA",
+      "homeTeam": "Parma",
+      "awayTeam": "Cagliari",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 2.51,
+        "draw": 3,
+        "away": 2.84
+      },
+      "impliedProb": {
+        "home": 0.367,
+        "draw": 0.308,
+        "away": 0.325
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          2.4,
+          2.6
+        ],
+        "draw": [
+          2.63,
+          3.2
+        ],
+        "away": [
+          2.7,
+          2.88
+        ]
+      }
+    },
+    {
+      "id": "d686959412d07e8e3dc16002e40b2e2c",
+      "league": "SA",
+      "homeTeam": "Udinese",
+      "awayTeam": "Como",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 3.64,
+        "draw": 2.75,
+        "away": 1.51
+      },
+      "impliedProb": {
+        "home": 0.212,
+        "draw": 0.28,
+        "away": 0.508
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          1.01,
+          5
+        ],
+        "draw": [
+          1.01,
+          3.6
+        ],
+        "away": [
+          1.01,
+          1.75
+        ]
+      }
+    },
+    {
+      "id": "be3b0694068c114eda8d252c66210b11",
+      "league": "SA",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Juventus",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 5.36,
+        "draw": 3.29,
+        "away": 1.41
+      },
+      "impliedProb": {
+        "home": 0.155,
+        "draw": 0.253,
+        "away": 0.592
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          1.01,
+          7.5
+        ],
+        "draw": [
+          1.01,
+          4.4
+        ],
+        "away": [
+          1.36,
+          1.44
+        ]
+      }
+    },
+    {
+      "id": "71a416cf5920fef1bddf076ca260421f",
+      "league": "SA",
+      "homeTeam": "Genoa",
+      "awayTeam": "Napoli",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 4.13,
+        "draw": 3.47,
+        "away": 1.65
+      },
+      "impliedProb": {
+        "home": 0.213,
+        "draw": 0.253,
+        "away": 0.534
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          1.09,
+          5.5
+        ],
+        "draw": [
+          3.1,
+          3.6
+        ],
+        "away": [
+          1.57,
+          1.7
+        ]
+      }
+    },
+    {
+      "id": "4a22f8a958a3360b75505a1c432a81dd",
+      "league": "SA",
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Monza",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 1.19,
+        "draw": 5.9,
+        "away": 10.15
+      },
+      "impliedProb": {
+        "home": 0.759,
+        "draw": 0.152,
+        "away": 0.089
+      },
+      "bookmakerCount": 7,
+      "oddsRange": {
+        "home": [
+          1.14,
+          1.22
+        ],
+        "draw": [
+          4.9,
+          6.5
+        ],
+        "away": [
+          1.01,
+          15
+        ]
+      }
+    },
+    {
+      "id": "120c61563f0b7119d87522da76fcaa33",
+      "league": "SA",
+      "homeTeam": "Venezia",
+      "awayTeam": "Lecce",
+      "kickoff": "2026-08-23T16:30:00Z",
+      "avgOdds": {
+        "home": 1.9,
+        "draw": 2.49,
+        "away": 2.35
+      },
+      "impliedProb": {
+        "home": 0.389,
+        "draw": 0.297,
+        "away": 0.314
+      },
+      "bookmakerCount": 6,
+      "oddsRange": {
+        "home": [
+          1.01,
+          2.38
+        ],
+        "draw": [
+          1.01,
+          3.25
+        ],
+        "away": [
+          1.01,
+          3.1
+        ]
+      }
+    }
+  ]
 }
