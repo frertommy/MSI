@@ -1,59 +1,8 @@
 {
-  "computedAt": "2026-06-20T09:28:13.703Z",
+  "computedAt": "2026-06-21T09:58:52.526Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "RC Lens": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Lens appoint Toppmoller as manager to replace Sage",
-          "url": "https://www.channelnewsasia.com/sport/lens-appoint-toppmoller-manager-replace-sage-6187526",
-          "source": "CNA",
-          "publishedAt": "2026-06-16T13:42:13Z",
-          "rawImpact": 5.2,
-          "decayedImpact": 4.3,
-          "daysAgo": 4
-        },
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Crystal Palace close to appointing Sage as manager",
-          "url": "https://www.bbc.com/sport/football/articles/cjdgnmvgv8po",
-          "source": "BBC News",
-          "publishedAt": "2026-06-12T22:49:57Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 2.7,
-          "daysAgo": 7
-        },
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Patrick Videira set to stay at Le Mans despite Lens interest",
-          "url": "https://www.getfootballnewsfrance.com/2026/patrick-videira-set-to-stay-at-le-mans-despite-lens-interest/",
-          "source": "Get French Football News",
-          "publishedAt": "2026-06-10T15:45:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 2.3,
-          "daysAgo": 10
-        },
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Crystal Palace close to appointing Lens boss Sage",
-          "url": "https://wp.fromthespot.co.uk/29490/crystal-palace-close-to-appointing-lens-boss-sage/",
-          "source": "Fromthespot.co.uk",
-          "publishedAt": "2026-06-09T17:35:00Z",
-          "rawImpact": 5.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 11
-        }
-      ],
-      "totalRawImpact": 18.8,
-      "totalDecayedImpact": 11.8,
-      "newsAdjustment": 7.1
-    },
     "RB Leipzig": {
       "events": [
         {
@@ -64,8 +13,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-18T22:26:28Z",
           "rawImpact": -13,
-          "decayedImpact": -12.4,
-          "daysAgo": 1
+          "decayedImpact": -11.9,
+          "daysAgo": 2
         },
         {
           "type": "manager_sacked",
@@ -75,13 +24,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-17T21:11:34Z",
           "rawImpact": -13,
-          "decayedImpact": -11.9,
-          "daysAgo": 3
+          "decayedImpact": -11.5,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": -26,
-      "totalDecayedImpact": -24.3,
-      "newsAdjustment": -14.6
+      "totalDecayedImpact": -23.4,
+      "newsAdjustment": -14
     },
     "AC Milan": {
       "events": [
@@ -93,8 +42,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-06-16T16:27:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.5,
-          "daysAgo": 4
+          "decayedImpact": 3.3,
+          "daysAgo": 5
         },
         {
           "type": "manager_appointed",
@@ -104,8 +53,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-16T13:39:19Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.4,
-          "daysAgo": 4
+          "decayedImpact": 3.2,
+          "daysAgo": 5
         },
         {
           "type": "manager_sacked",
@@ -115,8 +64,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -2,
-          "daysAgo": 25
+          "decayedImpact": -1.5,
+          "daysAgo": 27
         },
         {
           "type": "manager_sacked",
@@ -126,8 +75,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -1.9,
-          "daysAgo": 26
+          "decayedImpact": -1.4,
+          "daysAgo": 27
         },
         {
           "type": "ownership_change",
@@ -137,13 +86,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.4,
-          "daysAgo": 26
+          "decayedImpact": 0.3,
+          "daysAgo": 27
         }
       ],
       "totalRawImpact": -15,
-      "totalDecayedImpact": 3.4,
-      "newsAdjustment": 2.1
+      "totalDecayedImpact": 3.8,
+      "newsAdjustment": 2.3
     },
     "Borussia Dortmund": {
       "events": [
@@ -155,8 +104,8 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-16T07:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.5,
-          "daysAgo": 4
+          "decayedImpact": 5,
+          "daysAgo": 5
         },
         {
           "type": "star_signing",
@@ -166,13 +115,13 @@
           "source": "Www.bvb.de",
           "publishedAt": "2026-06-09T15:35:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 1.5,
-          "daysAgo": 11
+          "decayedImpact": 1,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 14.1,
-      "totalDecayedImpact": 7,
-      "newsAdjustment": 4.2
+      "totalDecayedImpact": 6,
+      "newsAdjustment": 3.6
     },
     "AS Roma": {
       "events": [
@@ -184,13 +133,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-09T14:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2,
-          "daysAgo": 11
+          "decayedImpact": 1.8,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2,
-      "newsAdjustment": 1.2
+      "totalDecayedImpact": 1.8,
+      "newsAdjustment": 1.1
     },
     "Olympique de Marseille": {
       "events": [
@@ -202,8 +151,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-13T14:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4,
-          "daysAgo": 7
+          "decayedImpact": 3.4,
+          "daysAgo": 8
         },
         {
           "type": "financial_crisis",
@@ -213,13 +162,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.9,
-          "daysAgo": 17
+          "decayedImpact": -3.8,
+          "daysAgo": 18
         }
       ],
       "totalRawImpact": 1.5,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": -0.3,
+      "newsAdjustment": -0.2
     },
     "FC Barcelona": {
       "events": [
@@ -231,8 +180,8 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-18T21:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7,
-          "daysAgo": 2
+          "decayedImpact": 6.4,
+          "daysAgo": 3
         },
         {
           "type": "star_signing",
@@ -242,8 +191,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-18T06:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.6,
-          "daysAgo": 2
+          "decayedImpact": 6,
+          "daysAgo": 3
         },
         {
           "type": "star_departure",
@@ -253,8 +202,8 @@
           "source": "Football Italia",
           "publishedAt": "2026-06-09T16:55:49Z",
           "rawImpact": -6.3,
-          "decayedImpact": -1.5,
-          "daysAgo": 11
+          "decayedImpact": -1,
+          "daysAgo": 12
         },
         {
           "type": "player_scandal",
@@ -264,24 +213,13 @@
           "source": "Fox Sports",
           "publishedAt": "2026-06-09T00:51:01Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.6,
-          "daysAgo": 11
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "La Liga giants set to make huge move for Chelsea star",
-          "url": "https://eplindex.com/147158/la-liga-giants-set-to-make-huge-move-for-chelsea-star.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-06-07T09:50:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
+          "decayedImpact": -0.4,
+          "daysAgo": 12
         }
       ],
-      "totalRawImpact": 13.7,
-      "totalDecayedImpact": 12,
-      "newsAdjustment": 7.2
+      "totalRawImpact": 5.9,
+      "totalDecayedImpact": 11,
+      "newsAdjustment": 6.6
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -293,16 +231,27 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-06-04T11:11:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1,
-          "daysAgo": 16
+          "decayedImpact": 0.8,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1,
-      "newsAdjustment": 0.6
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "Leeds": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Leeds United facing tough battle for ex-Dortmund star's signature",
+          "url": "https://www.sportingnews.com/us/soccer/news/leeds-united-facing-tough-battle-ex-dortmund-stars-signature/1703cdecb871db47d43ed737",
+          "source": "Sporting News",
+          "publishedAt": "2026-06-20T03:45:31Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 7.1,
+          "daysAgo": 1
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -311,13 +260,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-06-18T19:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.9,
-          "daysAgo": 2
+          "decayedImpact": 6.3,
+          "daysAgo": 3
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.9,
-      "newsAdjustment": 4.1
+      "totalRawImpact": 15.6,
+      "totalDecayedImpact": 13.4,
+      "newsAdjustment": 8.1
     },
     "AFC Bournemouth": {
       "events": [
@@ -329,13 +278,13 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-06-04T19:01:41Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.1,
-          "daysAgo": 16
+          "decayedImpact": 0.9,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.1,
-      "newsAdjustment": 0.6
+      "totalDecayedImpact": 0.9,
+      "newsAdjustment": 0.5
     },
     "Liverpool FC": {
       "events": [
@@ -347,13 +296,64 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-06-03T06:25:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.8,
-          "daysAgo": 17
+          "decayedImpact": 0.6,
+          "daysAgo": 18
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
+      "totalDecayedImpact": 0.6,
+      "newsAdjustment": 0.3
+    },
+    "RC Lens": {
+      "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Lens appoint Toppmoller as manager to replace Sage",
+          "url": "https://www.channelnewsasia.com/sport/lens-appoint-toppmoller-manager-replace-sage-6187526",
+          "source": "CNA",
+          "publishedAt": "2026-06-16T13:42:13Z",
+          "rawImpact": 5.2,
+          "decayedImpact": 4,
+          "daysAgo": 5
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Crystal Palace close to appointing Sage as manager",
+          "url": "https://www.bbc.com/sport/football/articles/cjdgnmvgv8po",
+          "source": "BBC News",
+          "publishedAt": "2026-06-12T22:49:57Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.5,
+          "daysAgo": 8
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Patrick Videira set to stay at Le Mans despite Lens interest",
+          "url": "https://www.getfootballnewsfrance.com/2026/patrick-videira-set-to-stay-at-le-mans-despite-lens-interest/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-06-10T15:45:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2,
+          "daysAgo": 11
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Crystal Palace close to appointing Lens boss Sage",
+          "url": "https://wp.fromthespot.co.uk/29490/crystal-palace-close-to-appointing-lens-boss-sage/",
+          "source": "Fromthespot.co.uk",
+          "publishedAt": "2026-06-09T17:35:00Z",
+          "rawImpact": 5.2,
+          "decayedImpact": 2.3,
+          "daysAgo": 12
+        }
+      ],
+      "totalRawImpact": 18.8,
+      "totalDecayedImpact": 10.9,
+      "newsAdjustment": 6.5
     },
     "Elche": {
       "events": [
@@ -365,13 +365,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.9,
-          "daysAgo": 7
+          "decayedImpact": 2.7,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "Spal": {
       "events": [
@@ -383,13 +383,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-11T13:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.9,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.3,
+      "newsAdjustment": 1.4
     },
     "OGC Nice": {
       "events": [
@@ -401,8 +401,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-17T16:16:44Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2.7,
-          "daysAgo": 3
+          "decayedImpact": -2.5,
+          "daysAgo": 4
         },
         {
           "type": "player_scandal",
@@ -412,13 +412,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-17T15:40:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2.7,
-          "daysAgo": 3
+          "decayedImpact": -2.5,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": -6.7,
-      "totalDecayedImpact": -5.4,
-      "newsAdjustment": -3.2
+      "totalDecayedImpact": -4.9,
+      "newsAdjustment": -3
     }
   }
 }
