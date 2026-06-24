@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-06-23T09:54:41.837Z",
+  "computedAt": "2026-06-24T09:41:25.383Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-06-16T16:27:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.9,
-          "daysAgo": 7
+          "decayedImpact": 2.7,
+          "daysAgo": 8
         },
         {
           "type": "manager_appointed",
@@ -24,8 +24,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-16T13:39:19Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.8,
-          "daysAgo": 7
+          "decayedImpact": 2.6,
+          "daysAgo": 8
         },
         {
           "type": "manager_sacked",
@@ -35,7 +35,7 @@
           "source": "Fox Sports",
           "publishedAt": "2026-05-25T21:48:25Z",
           "rawImpact": -13,
-          "decayedImpact": -0.6,
+          "decayedImpact": -0.2,
           "daysAgo": 29
         },
         {
@@ -46,8 +46,8 @@
           "source": "CNA",
           "publishedAt": "2026-05-25T16:39:50Z",
           "rawImpact": -13,
-          "decayedImpact": -0.6,
-          "daysAgo": 29
+          "decayedImpact": -0.1,
+          "daysAgo": 30
         },
         {
           "type": "ownership_change",
@@ -57,42 +57,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-05-25T16:26:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.1,
-          "daysAgo": 29
+          "decayedImpact": 0,
+          "daysAgo": 30
         }
       ],
       "totalRawImpact": -15,
-      "totalDecayedImpact": 4.6,
-      "newsAdjustment": 2.8
-    },
-    "Borussia Dortmund": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "German centre-back’s chances of joining Real Madrid rise significantly – report",
-          "url": "https://madriduniversal.com/german-centre-backs-chances-of-joining-real-madrid-rise-significantly-report/",
-          "source": "Madriduniversal.com",
-          "publishedAt": "2026-06-16T07:20:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 3.8,
-          "daysAgo": 7
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "“I belong to Dortmund just as much as BVB does!” – An interview with new signing Lena Ostermeier",
-          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/6/9/I-belong-to-Dortmund-just-as-much-as-BVB-does-An-interview-with-new-signing-Lena-Ostermeier.html",
-          "source": "Www.bvb.de",
-          "publishedAt": "2026-06-09T15:35:00Z",
-          "rawImpact": 6.3,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 14.1,
-      "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.4
+      "totalDecayedImpact": 5,
+      "newsAdjustment": 3
     },
     "AS Roma": {
       "events": [
@@ -104,13 +75,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-09T14:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.4,
-          "daysAgo": 14
+          "decayedImpact": 1.2,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.4,
-      "newsAdjustment": 0.9
+      "totalDecayedImpact": 1.2,
+      "newsAdjustment": 0.7
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -122,13 +93,31 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-22T07:25:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 5.8,
-          "daysAgo": 1
+          "decayedImpact": 5.4,
+          "daysAgo": 2
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 5.8,
-      "newsAdjustment": 3.5
+      "totalDecayedImpact": 5.4,
+      "newsAdjustment": 3.2
+    },
+    "Borussia Dortmund": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "German centre-back’s chances of joining Real Madrid rise significantly – report",
+          "url": "https://madriduniversal.com/german-centre-backs-chances-of-joining-real-madrid-rise-significantly-report/",
+          "source": "Madriduniversal.com",
+          "publishedAt": "2026-06-16T07:20:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 3.3,
+          "daysAgo": 8
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 3.3,
+      "newsAdjustment": 2
     },
     "Olympique de Marseille": {
       "events": [
@@ -140,8 +129,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-13T14:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.3,
-          "daysAgo": 10
+          "decayedImpact": 1.8,
+          "daysAgo": 11
         },
         {
           "type": "financial_crisis",
@@ -151,13 +140,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.5,
-          "daysAgo": 20
+          "decayedImpact": -3.4,
+          "daysAgo": 21
         }
       ],
       "totalRawImpact": 1.5,
-      "totalDecayedImpact": -1.2,
-      "newsAdjustment": -0.7
+      "totalDecayedImpact": -1.6,
+      "newsAdjustment": -1
     },
     "FC Barcelona": {
       "events": [
@@ -169,8 +158,8 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-18T21:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.3,
-          "daysAgo": 5
+          "decayedImpact": 4.7,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -180,24 +169,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-18T06:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.9,
-          "daysAgo": 5
-        },
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Milan target free transfer for Christensen but Barcelona agreement complicates deal",
-          "url": "https://football-italia.net/report-milan-eye-free-transfer-christensen/",
-          "source": "Football Italia",
-          "publishedAt": "2026-06-09T16:55:49Z",
-          "rawImpact": -6.3,
-          "decayedImpact": -0.1,
-          "daysAgo": 14
+          "decayedImpact": 4.4,
+          "daysAgo": 6
         }
       ],
-      "totalRawImpact": 9.3,
-      "totalDecayedImpact": 10.1,
-      "newsAdjustment": 6
+      "totalRawImpact": 15.6,
+      "totalDecayedImpact": 9.1,
+      "newsAdjustment": 5.5
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -209,13 +187,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-06-04T11:11:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.4,
-          "daysAgo": 19
+          "decayedImpact": 0.2,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.4,
-      "newsAdjustment": 0.2
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     },
     "Leeds": {
       "events": [
@@ -227,8 +205,8 @@
           "source": "Sporting News",
           "publishedAt": "2026-06-20T03:45:31Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6,
-          "daysAgo": 3
+          "decayedImpact": 5.4,
+          "daysAgo": 4
         },
         {
           "type": "star_signing",
@@ -238,13 +216,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-06-18T19:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.2,
-          "daysAgo": 5
+          "decayedImpact": 4.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 11.2,
-      "newsAdjustment": 6.7
+      "totalDecayedImpact": 10.1,
+      "newsAdjustment": 6.1
     },
     "AFC Bournemouth": {
       "events": [
@@ -256,31 +234,13 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-06-04T19:01:41Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.5,
-          "daysAgo": 19
-        }
-      ],
-      "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.5,
-      "newsAdjustment": 0.3
-    },
-    "Liverpool FC": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "When will Liverpool officially unveil Andoni Iraola as new head coach after striking ‘agreement’",
-          "url": "https://www.empireofthekop.com/2026/06/03/when-will-liverpool-officially-unveil-iraola-as-new-head-coach/",
-          "source": "Empire of The Kop",
-          "publishedAt": "2026-06-03T06:25:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 0.2,
+          "decayedImpact": 0.3,
           "daysAgo": 20
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.2,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": 0.3,
+      "newsAdjustment": 0.2
     },
     "RC Lens": {
       "events": [
@@ -292,8 +252,8 @@
           "source": "CNA",
           "publishedAt": "2026-06-16T13:42:13Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.5,
-          "daysAgo": 7
+          "decayedImpact": 3.3,
+          "daysAgo": 8
         },
         {
           "type": "manager_appointed",
@@ -303,8 +263,8 @@
           "source": "BBC News",
           "publishedAt": "2026-06-12T22:49:57Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.1,
-          "daysAgo": 10
+          "decayedImpact": 1.9,
+          "daysAgo": 11
         },
         {
           "type": "manager_appointed",
@@ -314,8 +274,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-10T15:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.6,
-          "daysAgo": 13
+          "decayedImpact": 1.5,
+          "daysAgo": 14
         },
         {
           "type": "manager_appointed",
@@ -325,13 +285,13 @@
           "source": "Fromthespot.co.uk",
           "publishedAt": "2026-06-09T17:35:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.8,
-          "daysAgo": 14
+          "decayedImpact": 1.6,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 18.8,
-      "totalDecayedImpact": 9.1,
-      "newsAdjustment": 5.4
+      "totalDecayedImpact": 8.2,
+      "newsAdjustment": 4.9
     },
     "Elche": {
       "events": [
@@ -343,13 +303,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.3,
-          "daysAgo": 10
+          "decayedImpact": 2.1,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.3,
-      "newsAdjustment": 1.4
+      "totalDecayedImpact": 2.1,
+      "newsAdjustment": 1.2
     },
     "Spal": {
       "events": [
@@ -361,13 +321,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-11T13:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.6,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 0.6,
+      "newsAdjustment": 0.4
     },
     "RB Leipzig": {
       "events": [
@@ -379,8 +339,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-18T22:26:28Z",
           "rawImpact": -13,
-          "decayedImpact": -11.1,
-          "daysAgo": 4
+          "decayedImpact": -10.6,
+          "daysAgo": 5
         },
         {
           "type": "manager_sacked",
@@ -390,13 +350,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-17T21:11:34Z",
           "rawImpact": -13,
-          "decayedImpact": -10.6,
-          "daysAgo": 6
+          "decayedImpact": -10.2,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": -26,
-      "totalDecayedImpact": -21.7,
-      "newsAdjustment": -13
+      "totalDecayedImpact": -20.8,
+      "newsAdjustment": -12.5
     },
     "OGC Nice": {
       "events": [
@@ -408,8 +368,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-17T16:16:44Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2,
-          "daysAgo": 6
+          "decayedImpact": -1.7,
+          "daysAgo": 7
         },
         {
           "type": "player_scandal",
@@ -419,13 +379,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-17T15:40:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -2,
-          "daysAgo": 6
+          "decayedImpact": -1.7,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": -6.7,
-      "totalDecayedImpact": -4,
-      "newsAdjustment": -2.4
+      "totalDecayedImpact": -3.5,
+      "newsAdjustment": -2.1
     }
   }
 }
