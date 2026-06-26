@@ -1,37 +1,8 @@
 {
-  "computedAt": "2026-06-25T09:33:55.910Z",
+  "computedAt": "2026-06-26T09:39:00.173Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "AC Milan": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Amorim appointed AC Milan boss",
-          "url": "https://www.skysports.com/football/news/11095/13553981/ruben-amorim-ac-milan-appoint-former-manchester-united-boss-as-head-coach",
-          "source": "Sky Sports",
-          "publishedAt": "2026-06-16T16:27:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 2.5,
-          "daysAgo": 9
-        },
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "AC Milan set to hire Ruben Amorim as new head coach despite talks with USMNT manager Mauricio Pochettino",
-          "url": "https://www.cbssports.com/soccer/news/ac-milan-ruben-amorim-head-coach-usmnt-manager-mauricio-pochettino/",
-          "source": "CBS Sports",
-          "publishedAt": "2026-06-16T13:39:19Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 2.4,
-          "daysAgo": 9
-        }
-      ],
-      "totalRawImpact": 8.4,
-      "totalDecayedImpact": 4.9,
-      "newsAdjustment": 2.9
-    },
     "AS Roma": {
       "events": [
         {
@@ -42,13 +13,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-09T14:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1,
-          "daysAgo": 16
+          "decayedImpact": 0.8,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1,
-      "newsAdjustment": 0.6
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -60,13 +31,53 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-22T07:25:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 4.9,
-          "daysAgo": 3
+          "decayedImpact": 4.5,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 4.9,
-      "newsAdjustment": 2.9
+      "totalDecayedImpact": 4.5,
+      "newsAdjustment": 2.7
+    },
+    "AC Milan": {
+      "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Milan, Betis in Uche race",
+          "url": "https://punchng.com/milan-betis-in-uche-race/",
+          "source": "The Punch",
+          "publishedAt": "2026-06-25T01:00:32Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -5.7,
+          "daysAgo": 1
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Amorim appointed AC Milan boss",
+          "url": "https://www.skysports.com/football/news/11095/13553981/ruben-amorim-ac-milan-appoint-former-manchester-united-boss-as-head-coach",
+          "source": "Sky Sports",
+          "publishedAt": "2026-06-16T16:27:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.3,
+          "daysAgo": 10
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "AC Milan set to hire Ruben Amorim as new head coach despite talks with USMNT manager Mauricio Pochettino",
+          "url": "https://www.cbssports.com/soccer/news/ac-milan-ruben-amorim-head-coach-usmnt-manager-mauricio-pochettino/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-16T13:39:19Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.2,
+          "daysAgo": 10
+        }
+      ],
+      "totalRawImpact": 2.1,
+      "totalDecayedImpact": -1.2,
+      "newsAdjustment": -0.7
     },
     "Borussia Dortmund": {
       "events": [
@@ -78,13 +89,13 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-16T07:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.7,
-          "daysAgo": 9
+          "decayedImpact": 2.2,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.7,
-      "newsAdjustment": 1.6
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "Olympique de Marseille": {
       "events": [
@@ -96,8 +107,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-13T14:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.7,
+          "daysAgo": 13
         },
         {
           "type": "financial_crisis",
@@ -107,13 +118,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.2,
-          "daysAgo": 22
+          "decayedImpact": -3.1,
+          "daysAgo": 23
         }
       ],
       "totalRawImpact": 1.5,
-      "totalDecayedImpact": -2,
-      "newsAdjustment": -1.2
+      "totalDecayedImpact": -2.4,
+      "newsAdjustment": -1.5
     },
     "FC Barcelona": {
       "events": [
@@ -125,8 +136,8 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-18T21:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         },
         {
           "type": "star_signing",
@@ -136,34 +147,27 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-18T06:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.8,
-          "daysAgo": 7
+          "decayedImpact": 3.3,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 8,
-      "newsAdjustment": 4.8
-    },
-    "Bayer 04 Leverkusen": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": " New Bundesliga boss, Carles Martínez takes over at Leverkusen",
-          "url": "https://onefootball.com/en/news/new-bundesliga-boss-carles-martinez-takes-over-at-leverkusen-42964679",
-          "source": "Onefootball.com",
-          "publishedAt": "2026-06-04T11:11:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 0,
-          "daysAgo": 21
-        }
-      ],
-      "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
+      "totalDecayedImpact": 6.9,
+      "newsAdjustment": 4.1
     },
     "Leeds": {
       "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Report: Chelsea star set to leave the club this summer",
+          "url": "https://eplindex.com/147552/report-chelsea-star-set-to-leave-the-club-this-summer.html",
+          "source": "English Premier League Index - Opta Stats",
+          "publishedAt": "2026-06-20T16:30:00Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -3.7,
+          "daysAgo": 6
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -172,8 +176,8 @@
           "source": "Sporting News",
           "publishedAt": "2026-06-20T03:45:31Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.9,
-          "daysAgo": 5
+          "decayedImpact": 4.3,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -183,31 +187,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-06-18T19:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.1,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         }
       ],
-      "totalRawImpact": 15.6,
-      "totalDecayedImpact": 9,
-      "newsAdjustment": 5.4
-    },
-    "AFC Bournemouth": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Liverpool appoint Spaniard Iraola as new manager in place of Slot",
-          "url": "https://www.aljazeera.com/sports/2026/6/4/liverpool-appoint-spaniard-iraola-as-new-manager-in-place-of-slot",
-          "source": "Al Jazeera English",
-          "publishedAt": "2026-06-04T19:01:41Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 0.1,
-          "daysAgo": 21
-        }
-      ],
-      "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0
+      "totalRawImpact": 9.3,
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     },
     "RC Lens": {
       "events": [
@@ -219,8 +205,8 @@
           "source": "CNA",
           "publishedAt": "2026-06-16T13:42:13Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.8,
+          "daysAgo": 10
         },
         {
           "type": "manager_appointed",
@@ -230,8 +216,8 @@
           "source": "BBC News",
           "publishedAt": "2026-06-12T22:49:57Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.7,
-          "daysAgo": 12
+          "decayedImpact": 1.5,
+          "daysAgo": 13
         },
         {
           "type": "manager_appointed",
@@ -241,8 +227,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-10T15:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.3,
-          "daysAgo": 15
+          "decayedImpact": 1.1,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -252,13 +238,13 @@
           "source": "Fromthespot.co.uk",
           "publishedAt": "2026-06-09T17:35:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.3,
-          "daysAgo": 16
+          "decayedImpact": 1.1,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": 18.8,
-      "totalDecayedImpact": 7.3,
-      "newsAdjustment": 4.4
+      "totalDecayedImpact": 6.4,
+      "newsAdjustment": 3.8
     },
     "Elche": {
       "events": [
@@ -270,31 +256,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.9,
-          "daysAgo": 12
+          "decayedImpact": 1.7,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.9,
-      "newsAdjustment": 1.1
-    },
-    "Spal": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Report: European giants in talks to sign Aston Villa star",
-          "url": "https://eplindex.com/147253/report-european-giants-in-talks-to-sign-aston-villa-star.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-06-11T13:30:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": 1.7,
+      "newsAdjustment": 1
     },
     "RB Leipzig": {
       "events": [
@@ -306,8 +274,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-18T22:26:28Z",
           "rawImpact": -13,
-          "decayedImpact": -10.2,
-          "daysAgo": 6
+          "decayedImpact": -9.8,
+          "daysAgo": 7
         },
         {
           "type": "manager_sacked",
@@ -317,13 +285,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-17T21:11:34Z",
           "rawImpact": -13,
-          "decayedImpact": -9.7,
-          "daysAgo": 8
+          "decayedImpact": -9.3,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": -26,
-      "totalDecayedImpact": -19.9,
-      "newsAdjustment": -12
+      "totalDecayedImpact": -19.1,
+      "newsAdjustment": -11.4
     },
     "OGC Nice": {
       "events": [
@@ -335,8 +303,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-17T16:16:44Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.5,
-          "daysAgo": 8
+          "decayedImpact": -1.3,
+          "daysAgo": 9
         },
         {
           "type": "player_scandal",
@@ -346,13 +314,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-17T15:40:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.5,
-          "daysAgo": 8
+          "decayedImpact": -1.3,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": -6.7,
-      "totalDecayedImpact": -3,
-      "newsAdjustment": -1.8
+      "totalDecayedImpact": -2.5,
+      "newsAdjustment": -1.5
     }
   }
 }
