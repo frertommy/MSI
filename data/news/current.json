@@ -1,26 +1,8 @@
 {
-  "computedAt": "2026-06-28T09:20:12.017Z",
+  "computedAt": "2026-06-29T08:54:20.113Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "Club Atlético de Madrid": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Atletico Madrid defender sends playful warning to Real Madrid’s new signing: ‘Will give him a whack’",
-          "url": "https://madriduniversal.com/atletico-madrid-defender-sends-playful-warning-to-real-madrids-new-signing-will-give-him-a-whack/",
-          "source": "Madriduniversal.com",
-          "publishedAt": "2026-06-22T07:25:00Z",
-          "rawImpact": 6.3,
-          "decayedImpact": 3.6,
-          "daysAgo": 6
-        }
-      ],
-      "totalRawImpact": 6.3,
-      "totalDecayedImpact": 3.6,
-      "newsAdjustment": 2.1
-    },
     "AC Milan": {
       "events": [
         {
@@ -31,8 +13,8 @@
           "source": "The Punch",
           "publishedAt": "2026-06-25T01:00:32Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.8,
-          "daysAgo": 3
+          "decayedImpact": -4.4,
+          "daysAgo": 4
         },
         {
           "type": "manager_appointed",
@@ -42,8 +24,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-06-16T16:27:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.9,
-          "daysAgo": 12
+          "decayedImpact": 1.7,
+          "daysAgo": 13
         },
         {
           "type": "manager_appointed",
@@ -53,13 +35,13 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-16T13:39:19Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.8,
-          "daysAgo": 12
+          "decayedImpact": 1.6,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 2.1,
-      "totalDecayedImpact": -1.1,
-      "newsAdjustment": -0.7
+      "totalDecayedImpact": -1,
+      "newsAdjustment": -0.6
     },
     "Borussia Dortmund": {
       "events": [
@@ -71,13 +53,13 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-16T07:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.1,
-          "daysAgo": 12
+          "decayedImpact": 0.5,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.1,
-      "newsAdjustment": 0.6
+      "totalDecayedImpact": 0.5,
+      "newsAdjustment": 0.3
     },
     "Olympique de Marseille": {
       "events": [
@@ -89,13 +71,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.8,
-          "daysAgo": 25
+          "decayedImpact": -2.7,
+          "daysAgo": 26
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -2.8,
-      "newsAdjustment": -1.7
+      "totalDecayedImpact": -2.7,
+      "newsAdjustment": -1.6
     },
     "FC Barcelona": {
       "events": [
@@ -107,7 +89,7 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-18T21:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.5,
+          "decayedImpact": 2,
           "daysAgo": 10
         },
         {
@@ -118,13 +100,31 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-18T06:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.2,
-          "daysAgo": 10
+          "decayedImpact": 1.6,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 4.7,
-      "newsAdjustment": 2.8
+      "totalDecayedImpact": 3.6,
+      "newsAdjustment": 2.1
+    },
+    "Club Atlético de Madrid": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Atletico Madrid defender sends playful warning to Real Madrid’s new signing: ‘Will give him a whack’",
+          "url": "https://madriduniversal.com/atletico-madrid-defender-sends-playful-warning-to-real-madrids-new-signing-will-give-him-a-whack/",
+          "source": "Madriduniversal.com",
+          "publishedAt": "2026-06-22T07:25:00Z",
+          "rawImpact": 6.3,
+          "decayedImpact": 3.1,
+          "daysAgo": 7
+        }
+      ],
+      "totalRawImpact": 6.3,
+      "totalDecayedImpact": 3.1,
+      "newsAdjustment": 1.9
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -136,8 +136,8 @@
           "source": "Bavarian Football Works",
           "publishedAt": "2026-06-26T16:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.8,
-          "daysAgo": 2
+          "decayedImpact": 6.3,
+          "daysAgo": 3
         },
         {
           "type": "star_signing",
@@ -147,13 +147,13 @@
           "source": "Arsenal.com",
           "publishedAt": "2026-06-25T13:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.2,
-          "daysAgo": 3
+          "decayedImpact": 5.7,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 13.1,
-      "newsAdjustment": 7.8
+      "totalDecayedImpact": 12,
+      "newsAdjustment": 7.2
     },
     "Leeds": {
       "events": [
@@ -165,8 +165,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-20T16:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.8,
-          "daysAgo": 8
+          "decayedImpact": -2.4,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -176,8 +176,8 @@
           "source": "Sporting News",
           "publishedAt": "2026-06-20T03:45:31Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.2,
-          "daysAgo": 8
+          "decayedImpact": 2.7,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -187,13 +187,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-06-18T19:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.5,
-          "daysAgo": 10
+          "decayedImpact": 1.9,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 9.3,
-      "totalDecayedImpact": 2.8,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "AS Roma": {
       "events": [
@@ -205,13 +205,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-09T14:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.4,
-          "daysAgo": 19
+          "decayedImpact": 0.2,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.4,
-      "newsAdjustment": 0.3
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     },
     "RC Lens": {
       "events": [
@@ -223,8 +223,8 @@
           "source": "CNA",
           "publishedAt": "2026-06-16T13:42:13Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2.3,
-          "daysAgo": 12
+          "decayedImpact": 2,
+          "daysAgo": 13
         },
         {
           "type": "manager_appointed",
@@ -234,8 +234,8 @@
           "source": "BBC News",
           "publishedAt": "2026-06-12T22:49:57Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.1,
-          "daysAgo": 15
+          "decayedImpact": 0.9,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -245,8 +245,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-10T15:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.7,
-          "daysAgo": 18
+          "decayedImpact": 0.5,
+          "daysAgo": 19
         },
         {
           "type": "manager_appointed",
@@ -256,13 +256,13 @@
           "source": "Fromthespot.co.uk",
           "publishedAt": "2026-06-09T17:35:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 0.6,
-          "daysAgo": 19
+          "decayedImpact": 0.3,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 18.8,
-      "totalDecayedImpact": 4.6,
-      "newsAdjustment": 2.8
+      "totalDecayedImpact": 3.7,
+      "newsAdjustment": 2.2
     },
     "Elche": {
       "events": [
@@ -274,13 +274,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.3,
-          "daysAgo": 15
+          "decayedImpact": 1.1,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.3,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 1.1,
+      "newsAdjustment": 0.6
     },
     "RB Leipzig": {
       "events": [
@@ -292,8 +292,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-18T22:26:28Z",
           "rawImpact": -13,
-          "decayedImpact": -8.9,
-          "daysAgo": 9
+          "decayedImpact": -8.5,
+          "daysAgo": 10
         },
         {
           "type": "manager_sacked",
@@ -303,13 +303,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-17T21:11:34Z",
           "rawImpact": -13,
-          "decayedImpact": -8.4,
+          "decayedImpact": -8,
           "daysAgo": 11
         }
       ],
       "totalRawImpact": -26,
-      "totalDecayedImpact": -17.4,
-      "newsAdjustment": -10.4
+      "totalDecayedImpact": -16.5,
+      "newsAdjustment": -9.9
     },
     "OGC Nice": {
       "events": [
@@ -321,8 +321,8 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-17T16:16:44Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.8,
-          "daysAgo": 11
+          "decayedImpact": -0.6,
+          "daysAgo": 12
         },
         {
           "type": "player_scandal",
@@ -332,13 +332,31 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-17T15:40:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.8,
-          "daysAgo": 11
+          "decayedImpact": -0.5,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": -6.7,
-      "totalDecayedImpact": -1.6,
-      "newsAdjustment": -0.9
+      "totalDecayedImpact": -1.1,
+      "newsAdjustment": -0.7
+    },
+    "RCD Mallorca": {
+      "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Official: Mallorca name new manager",
+          "url": "https://getfootballnewsspain.com/official-mallorca-name-new-manager/",
+          "source": "Getfootballnewsspain.com",
+          "publishedAt": "2026-06-22T21:40:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.9,
+          "daysAgo": 6
+        }
+      ],
+      "totalRawImpact": 4.2,
+      "totalDecayedImpact": 2.9,
+      "newsAdjustment": 1.7
     }
   }
 }
