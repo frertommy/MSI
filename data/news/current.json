@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-07-02T09:23:35.184Z",
+  "computedAt": "2026-07-03T09:28:06.336Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,12 +13,12 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.2,
-          "daysAgo": 29
+          "decayedImpact": -2.1,
+          "daysAgo": 30
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -2.2,
+      "totalDecayedImpact": -2.1,
       "newsAdjustment": -1.3
     },
     "FC Barcelona": {
@@ -31,27 +31,27 @@
           "source": "Fox Sports",
           "publishedAt": "2026-06-29T21:04:18Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.4,
-          "daysAgo": 3
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Barcelona consider move for Tottenham star",
-          "url": "https://getfootballnewsspain.com/barcelona-consider-move-for-tottenham-star/",
-          "source": "Getfootballnewsspain.com",
-          "publishedAt": "2026-06-18T21:15:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 14
+          "decayedImpact": 5.8,
+          "daysAgo": 4
         }
       ],
-      "totalRawImpact": 15.6,
-      "totalDecayedImpact": 6.7,
-      "newsAdjustment": 4
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 5.8,
+      "newsAdjustment": 3.5
     },
     "Club Atlético de Madrid": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Medina joins Manchester United from Atletico Madrid",
+          "url": "https://www.bbc.com/sport/football/articles/cdr42473p4jo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+          "source": "BBC News",
+          "publishedAt": "2026-07-01T13:08:31Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.8,
+          "daysAgo": 2
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -60,8 +60,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-06-24T07:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 2.7,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -71,13 +71,13 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-06-22T07:25:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 1.8,
-          "daysAgo": 10
+          "decayedImpact": 1.3,
+          "daysAgo": 11
         }
       ],
-      "totalRawImpact": 14.1,
-      "totalDecayedImpact": 5.1,
-      "newsAdjustment": 3
+      "totalRawImpact": 21.9,
+      "totalDecayedImpact": 10.8,
+      "newsAdjustment": 6.5
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -89,8 +89,8 @@
           "source": "Bavarian Football Works",
           "publishedAt": "2026-06-26T16:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.6,
-          "daysAgo": 6
+          "decayedImpact": 4.1,
+          "daysAgo": 7
         },
         {
           "type": "star_signing",
@@ -100,13 +100,13 @@
           "source": "Arsenal.com",
           "publishedAt": "2026-06-25T13:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4,
-          "daysAgo": 7
+          "decayedImpact": 3.4,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 8.6,
-      "newsAdjustment": 5.2
+      "totalDecayedImpact": 7.5,
+      "newsAdjustment": 4.5
     },
     "Leeds": {
       "events": [
@@ -118,8 +118,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-06-20T16:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -1,
-          "daysAgo": 12
+          "decayedImpact": -0.6,
+          "daysAgo": 13
         },
         {
           "type": "star_signing",
@@ -129,27 +129,27 @@
           "source": "Sporting News",
           "publishedAt": "2026-06-20T03:45:31Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1,
-          "daysAgo": 12
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Leeds United Plan To Sign 22-Year-Old Rising Star: Should Farke Press For Him?",
-          "url": "https://the4thofficial.net/2026/06/leeds-united-plan-to-sign-22-year-old-rising-star-should-farke-press-for-him/",
-          "source": "The4thofficial.net",
-          "publishedAt": "2026-06-18T19:05:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.2,
-          "daysAgo": 14
+          "decayedImpact": 0.4,
+          "daysAgo": 13
         }
       ],
-      "totalRawImpact": 9.3,
-      "totalDecayedImpact": 0.2,
-      "newsAdjustment": 0.1
+      "totalRawImpact": 1.5,
+      "totalDecayedImpact": -0.2,
+      "newsAdjustment": -0.1
     },
     "AC Milan": {
       "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "801 Appearances Gone: Inter’s Veteran Core Breaks Up as Four Exit",
+          "url": "https://sempreinter.com/2026/07/01/inter-milan-departures-sommer-acerbi-darmian-de-vrij/",
+          "source": "SempreInter",
+          "publishedAt": "2026-07-01T11:45:00Z",
+          "rawImpact": -7.8,
+          "decayedImpact": -6.7,
+          "daysAgo": 2
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -158,8 +158,8 @@
           "source": "Football Italia",
           "publishedAt": "2026-06-30T14:09:56Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.8,
-          "daysAgo": 2
+          "decayedImpact": 6.2,
+          "daysAgo": 3
         },
         {
           "type": "star_departure",
@@ -169,8 +169,8 @@
           "source": "The Punch",
           "publishedAt": "2026-06-25T01:00:32Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3,
-          "daysAgo": 7
+          "decayedImpact": -2.5,
+          "daysAgo": 8
         },
         {
           "type": "manager_appointed",
@@ -180,8 +180,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-06-16T16:27:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.1,
-          "daysAgo": 16
+          "decayedImpact": 0.9,
+          "daysAgo": 17
         },
         {
           "type": "manager_appointed",
@@ -191,13 +191,13 @@
           "source": "CBS Sports",
           "publishedAt": "2026-06-16T13:39:19Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1,
-          "daysAgo": 16
+          "decayedImpact": 0.8,
+          "daysAgo": 17
         }
       ],
-      "totalRawImpact": 9.9,
-      "totalDecayedImpact": 5.9,
-      "newsAdjustment": 3.5
+      "totalRawImpact": 2.1,
+      "totalDecayedImpact": -1.3,
+      "newsAdjustment": -0.8
     },
     "AFC Bournemouth": {
       "events": [
@@ -209,13 +209,13 @@
           "source": "BBC News",
           "publishedAt": "2026-06-30T12:56:23Z",
           "rawImpact": 4,
-          "decayedImpact": 3.8,
-          "daysAgo": 2
+          "decayedImpact": 3.6,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 4,
-      "totalDecayedImpact": 3.8,
-      "newsAdjustment": 2.3
+      "totalDecayedImpact": 3.6,
+      "newsAdjustment": 2.2
     },
     "RC Lens": {
       "events": [
@@ -227,8 +227,8 @@
           "source": "CNA",
           "publishedAt": "2026-06-16T13:42:13Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.3,
-          "daysAgo": 16
+          "decayedImpact": 1,
+          "daysAgo": 17
         },
         {
           "type": "manager_appointed",
@@ -238,13 +238,13 @@
           "source": "BBC News",
           "publishedAt": "2026-06-12T22:49:57Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.3,
-          "daysAgo": 19
+          "decayedImpact": 0.1,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 9.4,
-      "totalDecayedImpact": 1.6,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.1,
+      "newsAdjustment": 0.7
     },
     "Elche": {
       "events": [
@@ -256,13 +256,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-13T17:20:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.5,
-          "daysAgo": 19
+          "decayedImpact": 0.3,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.5,
-      "newsAdjustment": 0.3
+      "totalDecayedImpact": 0.3,
+      "newsAdjustment": 0.2
     },
     "RB Leipzig": {
       "events": [
@@ -274,8 +274,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-18T22:26:28Z",
           "rawImpact": -13,
-          "decayedImpact": -7.2,
-          "daysAgo": 13
+          "decayedImpact": -6.7,
+          "daysAgo": 14
         },
         {
           "type": "manager_sacked",
@@ -285,13 +285,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-17T21:11:34Z",
           "rawImpact": -13,
-          "decayedImpact": -6.7,
-          "daysAgo": 15
+          "decayedImpact": -6.3,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": -26,
-      "totalDecayedImpact": -13.9,
-      "newsAdjustment": -8.3
+      "totalDecayedImpact": -13,
+      "newsAdjustment": -7.8
     },
     "RCD Mallorca": {
       "events": [
@@ -303,13 +303,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-06-22T21:40:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.3,
-          "daysAgo": 9
+          "decayedImpact": 2.1,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.3,
-      "newsAdjustment": 1.4
+      "totalDecayedImpact": 2.1,
+      "newsAdjustment": 1.3
     }
   }
 }
