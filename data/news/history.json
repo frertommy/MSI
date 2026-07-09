@@ -1,19 +1,5 @@
 [
   {
-    "id": "Olympique de Marseille:player_scandal:2026-05-10:aweekofchaoticdramaatrealmadridmarseille",
-    "type": "player_scandal",
-    "label": "Player Scandal",
-    "eloImpact": -8,
-    "decayDays": 14,
-    "headline": "A week of chaotic DRAMA at Real Madrid, Marseille, Prague and Southampton",
-    "url": "https://thefootballfaithful.com/chaotic-drama-real-madrid-marseille-prague-southampton/",
-    "source": "The Football Faithful",
-    "publishedAt": "2026-05-10T06:10:00Z",
-    "team": "Olympique de Marseille",
-    "confidence": 0.42,
-    "firstSeen": "2026-05-11T07:38:42.503Z"
-  },
-  {
     "id": "SSC Napoli:star_signing:2026-05-11:fromeuropeanchampiontorelegationlorenzoi",
     "type": "star_signing",
     "label": "Star Signing",
@@ -52,20 +38,6 @@
     "source": "Madriduniversal.com",
     "publishedAt": "2026-05-13T07:25:00Z",
     "team": "FC Barcelona",
-    "confidence": 0.42,
-    "firstSeen": "2026-05-14T08:45:59.373Z"
-  },
-  {
-    "id": "Club Atlético de Madrid:star_departure:2026-05-09:reportwolvesstarsettoleavein39mdeal",
-    "type": "star_departure",
-    "label": "Star Departure",
-    "eloImpact": -15,
-    "decayDays": 14,
-    "headline": "Report: Wolves star set to leave in £39m deal",
-    "url": "https://eplindex.com/146214/report-wolves-star-set-to-leave-in-39m-deal.html",
-    "source": "English Premier League Index - Opta Stats",
-    "publishedAt": "2026-05-09T10:50:00Z",
-    "team": "Club Atlético de Madrid",
     "confidence": 0.42,
     "firstSeen": "2026-05-14T08:45:59.373Z"
   },
@@ -964,5 +936,61 @@
     "team": "AC Milan",
     "confidence": 0.42,
     "firstSeen": "2026-07-08T08:37:55.079Z"
+  },
+  {
+    "id": "Paris FC:manager_sacked:2026-07-07:formerchelseabossroseniornamedparisfcman",
+    "type": "manager_sacked",
+    "label": "Manager Sacked",
+    "eloImpact": -25,
+    "decayDays": 30,
+    "headline": "Former Chelsea boss Rosenior named Paris FC manager",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c4gy6jm0k65o",
+    "source": "BBC News",
+    "publishedAt": "2026-07-07T08:58:21Z",
+    "team": "Paris FC",
+    "confidence": 0.8,
+    "firstSeen": "2026-07-09T09:50:37.684Z"
+  },
+  {
+    "id": "Paris FC:manager_appointed:2026-07-07:formerchelseabossroseniorappointedparisf",
+    "type": "manager_appointed",
+    "label": "Manager Appointed",
+    "eloImpact": 10,
+    "decayDays": 21,
+    "headline": "Former Chelsea boss Rosenior appointed Paris FC manager",
+    "url": "https://www.channelnewsasia.com/sport/former-chelsea-boss-rosenior-appointed-paris-fc-manager-6237921",
+    "source": "CNA",
+    "publishedAt": "2026-07-07T08:59:46Z",
+    "team": "Paris FC",
+    "confidence": 0.52,
+    "firstSeen": "2026-07-09T09:50:37.684Z"
+  },
+  {
+    "id": "Paris FC:manager_sacked:2026-07-07:formerchelseabossliamroseniorappointedpa",
+    "type": "manager_sacked",
+    "label": "Manager Sacked",
+    "eloImpact": -25,
+    "decayDays": 30,
+    "headline": "Former Chelsea boss Liam Rosenior appointed Paris FC manager",
+    "url": "https://hayters.com/former-chelsea-boss-liam-rosenior-appointed-paris-fc-manager/",
+    "source": "Hayters.com",
+    "publishedAt": "2026-07-07T12:50:00Z",
+    "team": "Paris FC",
+    "confidence": 0.52,
+    "firstSeen": "2026-07-09T09:50:37.684Z"
+  },
+  {
+    "id": "Paris FC:manager_appointed:2026-07-07:roseniorreturnstomanagementwithparisfc",
+    "type": "manager_appointed",
+    "label": "Manager Appointed",
+    "eloImpact": 10,
+    "decayDays": 21,
+    "headline": "Rosenior returns to management with Paris FC",
+    "url": "https://dpa-international.com/sports/urn:newsml:dpa.com:20090101:260707-99-987925/",
+    "source": "Dpa-international.com",
+    "publishedAt": "2026-07-07T10:33:32Z",
+    "team": "Paris FC",
+    "confidence": 0.42,
+    "firstSeen": "2026-07-09T09:50:37.684Z"
   }
 ]
