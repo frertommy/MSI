@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-07-13T09:38:47.179Z",
+  "computedAt": "2026-07-14T08:18:48.263Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -14,7 +14,7 @@
           "publishedAt": "2026-07-10T12:00:00Z",
           "rawImpact": 2.6,
           "decayedImpact": 2.3,
-          "daysAgo": 3
+          "daysAgo": 4
         },
         {
           "type": "star_signing",
@@ -24,8 +24,8 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-07-04T19:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.5,
+          "daysAgo": 10
         },
         {
           "type": "manager_appointed",
@@ -35,13 +35,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-07-03T08:08:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.2,
-          "daysAgo": 10
+          "decayedImpact": 2,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 14.6,
-      "totalDecayedImpact": 7.6,
-      "newsAdjustment": 4.5
+      "totalDecayedImpact": 6.8,
+      "newsAdjustment": 4.1
     },
     "AC Milan": {
       "events": [
@@ -53,8 +53,19 @@
           "source": "Worldsoccertalk.com",
           "publishedAt": "2026-07-08T18:36:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.3,
-          "daysAgo": 5
+          "decayedImpact": 3.1,
+          "daysAgo": 6
+        },
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Enzo Maresca: The European odyssey that created Manchester City’s new manager",
+          "url": "https://cityxtra.co.uk/49592/enzo-maresca-the-european-odyssey-that-created-manchester-citys-new-manager/",
+          "source": "Cityxtra.co.uk",
+          "publishedAt": "2026-07-07T20:30:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.9,
+          "daysAgo": 6
         },
         {
           "type": "manager_appointed",
@@ -64,8 +75,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-07-06T14:34:33Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.8,
-          "daysAgo": 7
+          "decayedImpact": 2.7,
+          "daysAgo": 8
         },
         {
           "type": "manager_appointed",
@@ -75,8 +86,8 @@
           "source": "Footballmuse.com",
           "publishedAt": "2026-07-04T06:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.4,
-          "daysAgo": 9
+          "decayedImpact": 2.2,
+          "daysAgo": 10
         },
         {
           "type": "star_departure",
@@ -86,8 +97,8 @@
           "source": "SempreInter",
           "publishedAt": "2026-07-01T11:45:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -1.2,
-          "daysAgo": 12
+          "decayedImpact": -0.6,
+          "daysAgo": 13
         },
         {
           "type": "star_signing",
@@ -97,13 +108,13 @@
           "source": "Football Italia",
           "publishedAt": "2026-06-30T14:09:56Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.7,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         }
       ],
-      "totalRawImpact": 12.6,
-      "totalDecayedImpact": 8,
-      "newsAdjustment": 4.8
+      "totalRawImpact": 16.8,
+      "totalDecayedImpact": 10.3,
+      "newsAdjustment": 6.2
     },
     "FC Barcelona": {
       "events": [
@@ -115,24 +126,13 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-07-08T18:25:13Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.2,
-          "daysAgo": 5
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Robert Lewandowski Agrees To Joins Chicago Fire From FC Barcelona",
-          "url": "https://www.foxsports.com/stories/soccer/robert-lewandowski-agrees-joins-chicago-fire-from-fc-barcelona",
-          "source": "Fox Sports",
-          "publishedAt": "2026-06-29T21:04:18Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 14
+          "decayedImpact": 4.7,
+          "daysAgo": 6
         }
       ],
-      "totalRawImpact": 15.6,
-      "totalDecayedImpact": 5.5,
-      "newsAdjustment": 3.3
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 4.7,
+      "newsAdjustment": 2.8
     },
     "Olympique de Marseille": {
       "events": [
@@ -144,13 +144,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-06-03T10:30:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.7,
-          "daysAgo": 40
+          "decayedImpact": -0.6,
+          "daysAgo": 41
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.7,
-      "newsAdjustment": -0.4
+      "totalDecayedImpact": -0.6,
+      "newsAdjustment": -0.3
     },
     "AFC Bournemouth": {
       "events": [
@@ -162,13 +162,13 @@
           "source": "BBC News",
           "publishedAt": "2026-06-30T12:56:23Z",
           "rawImpact": 4,
-          "decayedImpact": 2.3,
-          "daysAgo": 13
+          "decayedImpact": 2.2,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 4,
-      "totalDecayedImpact": 2.3,
-      "newsAdjustment": 1.4
+      "totalDecayedImpact": 2.2,
+      "newsAdjustment": 1.3
     },
     "RB Leipzig": {
       "events": [
@@ -180,8 +180,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-18T22:26:28Z",
           "rawImpact": -13,
-          "decayedImpact": -2.4,
-          "daysAgo": 24
+          "decayedImpact": -2,
+          "daysAgo": 25
         },
         {
           "type": "manager_sacked",
@@ -191,13 +191,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-06-17T21:11:34Z",
           "rawImpact": -13,
-          "decayedImpact": -1.9,
+          "decayedImpact": -1.5,
           "daysAgo": 26
         }
       ],
       "totalRawImpact": -26,
-      "totalDecayedImpact": -4.3,
-      "newsAdjustment": -2.6
+      "totalDecayedImpact": -3.5,
+      "newsAdjustment": -2.1
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -209,8 +209,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-07-08T11:45:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
+          "decayedImpact": 4.5,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -220,31 +220,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-01T13:08:31Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.7,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
-    },
-    "RCD Mallorca": {
-      "events": [
-        {
-          "type": "manager_appointed",
-          "label": "Manager Appointed",
-          "headline": "Official: Mallorca name new manager",
-          "url": "https://getfootballnewsspain.com/official-mallorca-name-new-manager/",
-          "source": "Getfootballnewsspain.com",
-          "publishedAt": "2026-06-22T21:40:00Z",
-          "rawImpact": 4.2,
-          "decayedImpact": 0.1,
-          "daysAgo": 20
-        }
-      ],
-      "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": 5.2,
+      "newsAdjustment": 3.1
     },
     "AS Saint-Étienne": {
       "events": [
@@ -256,13 +238,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-07-02T14:45:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.8,
-          "daysAgo": 11
+          "decayedImpact": 1.3,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.8,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 1.3,
+      "newsAdjustment": 0.8
     },
     "VfL Wolfsburg": {
       "events": [
@@ -274,13 +256,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-03T10:02:59Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.2,
-          "daysAgo": 10
+          "decayedImpact": 1.7,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.2,
-      "newsAdjustment": 1.3
+      "totalDecayedImpact": 1.7,
+      "newsAdjustment": 1
     },
     "TSG 1899 Hoffenheim": {
       "events": [
@@ -292,13 +274,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-06T12:47:50Z",
           "rawImpact": 12,
-          "decayedImpact": 6.1,
-          "daysAgo": 7
+          "decayedImpact": 5.3,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 6.1,
-      "newsAdjustment": 3.7
+      "totalDecayedImpact": 5.3,
+      "newsAdjustment": 3.2
     },
     "Paris FC": {
       "events": [
@@ -310,8 +292,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-07-07T12:50:00Z",
           "rawImpact": -13,
-          "decayedImpact": -10.5,
-          "daysAgo": 6
+          "decayedImpact": -10,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -321,8 +303,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-07-07T10:33:32Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3,
-          "daysAgo": 6
+          "decayedImpact": 2.8,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -332,8 +314,8 @@
           "source": "Playmakerstats.com",
           "publishedAt": "2026-07-07T10:15:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.7,
-          "daysAgo": 6
+          "decayedImpact": 3.5,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -343,8 +325,8 @@
           "source": "CNA",
           "publishedAt": "2026-07-07T08:59:46Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.7,
-          "daysAgo": 6
+          "decayedImpact": 3.5,
+          "daysAgo": 7
         },
         {
           "type": "manager_sacked",
@@ -354,13 +336,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-07T08:58:21Z",
           "rawImpact": -20,
-          "decayedImpact": -16,
-          "daysAgo": 6
+          "decayedImpact": -15.4,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": -18.4,
-      "totalDecayedImpact": -16,
-      "newsAdjustment": -9.6
+      "totalDecayedImpact": -15.6,
+      "newsAdjustment": -9.4
     },
     "FC Schalke 04": {
       "events": [
@@ -372,13 +354,31 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-05T16:18:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.8,
-          "daysAgo": 8
+          "decayedImpact": -2.4,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -2.8,
-      "newsAdjustment": -1.7
+      "totalDecayedImpact": -2.4,
+      "newsAdjustment": -1.4
+    },
+    "SV Werder Bremen": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Official: Bremen complete coup of Schlager from RB Salzburg",
+          "url": "https://bulinews.com/official-bremen-complete-coup-schlager-salzburg",
+          "source": "Bulinews.com",
+          "publishedAt": "2026-07-10T17:58:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 5.8,
+          "daysAgo": 4
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 5.8,
+      "newsAdjustment": 3.5
     }
   }
 }
