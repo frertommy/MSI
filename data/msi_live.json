@@ -1,6 +1,6 @@
 {
-  "computedAt": "2026-07-14T08:18:48.804Z",
-  "oddsSource": "2026-07-14T08:17:59.028Z",
+  "computedAt": "2026-07-15T08:24:26.053Z",
+  "oddsSource": "2026-07-15T08:23:36.975Z",
   "stale": false,
   "ratings": [
     {
@@ -21,17 +21,17 @@
       "team": "FC Bayern München",
       "league": "BL1",
       "baseElo": 1886.0303210678917,
-      "oddsAdjustment": 2.3,
+      "oddsAdjustment": 2.5,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1888.3103141262761,
+      "msiLive": 1888.523030972155,
       "msiLiveRank": 2,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "VfB Stuttgart",
         "date": "2026-08-28T18:30:00Z",
-        "marketWinProb": 0.8554641598119859,
+        "marketWinProb": 0.8564705882352941,
         "predictedWinProb": 0.8443055109938394,
         "isHome": true
       },
@@ -58,72 +58,79 @@
       "lastUpdated": "2026-02-21T20:00:00Z"
     },
     {
-      "team": "FC Internazionale Milano",
-      "league": "SA",
-      "baseElo": 1887.6000842956398,
-      "oddsAdjustment": -35.6,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1851.9718745197918,
-      "msiLiveRank": 4,
-      "injuries": null,
-      "news": null,
-      "nextFixture": {
-        "opponent": "AC Monza",
-        "date": "2026-08-22T13:00:00Z",
-        "marketWinProb": 0.911242603550296,
-        "predictedWinProb": 0.9757830028410552,
-        "isHome": true
-      },
-      "lastUpdated": "2026-02-21T17:00:00Z"
-    },
-    {
       "team": "FC Barcelona",
       "league": "PD",
       "baseElo": 1856.7055995047353,
-      "oddsAdjustment": -8,
+      "oddsAdjustment": -7.7,
       "injuryAdjustment": 0,
-      "newsAdjustment": 2.8,
-      "msiLive": 1851.5318970640787,
-      "msiLiveRank": 5,
+      "newsAdjustment": 8.7,
+      "msiLive": 1857.6795519413934,
+      "msiLiveRank": 4,
       "injuries": null,
       "news": {
-        "eventCount": 1,
-        "totalAdjustment": 2.8,
+        "eventCount": 2,
+        "totalAdjustment": 8.7,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
+            "headline": "Spain defender Leon joins London City Lionesses",
+            "daysAgo": 2,
+            "decayedImpact": 10.4
+          },
+          {
+            "type": "star_signing",
+            "label": "Star Signing",
             "headline": "Spanish football legend Alexia Putellas joins London City Lionesses",
-            "daysAgo": 6,
-            "decayedImpact": 4.7
+            "daysAgo": 7,
+            "decayedImpact": 4.1
           }
         ]
       },
       "nextFixture": {
         "opponent": "Athletic Club",
         "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.825062034739454,
+        "marketWinProb": 0.8302122347066168,
         "predictedWinProb": 0.8649503116902006,
         "isHome": true
       },
       "lastUpdated": "2026-02-22T15:15:00Z"
     },
     {
+      "team": "FC Internazionale Milano",
+      "league": "SA",
+      "baseElo": 1887.6000842956398,
+      "oddsAdjustment": -34.8,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1852.7775048408168,
+      "msiLiveRank": 5,
+      "injuries": null,
+      "news": null,
+      "nextFixture": {
+        "opponent": "AC Monza",
+        "date": "2026-08-22T13:00:00Z",
+        "marketWinProb": 0.9137115839243499,
+        "predictedWinProb": 0.9757830028410552,
+        "isHome": true
+      },
+      "lastUpdated": "2026-02-21T17:00:00Z"
+    },
+    {
       "team": "Real Madrid CF",
       "league": "PD",
       "baseElo": 1825.8477265168146,
-      "oddsAdjustment": -7,
+      "oddsAdjustment": -7.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1818.8173810830758,
+      "msiLive": 1818.7756704807962,
       "msiLiveRank": 6,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Real Sociedad de Fútbol",
         "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.830423940149626,
+        "marketWinProb": 0.8404522613065327,
         "predictedWinProb": 0.865114344061892,
         "isHome": true
       },
@@ -147,10 +154,10 @@
       "team": "Paris Saint-Germain FC",
       "league": "FL1",
       "baseElo": 1795.1480389062017,
-      "oddsAdjustment": -3.4,
+      "oddsAdjustment": -2.5,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1791.7833249145979,
+      "msiLive": 1792.6422606123301,
       "msiLiveRank": 8,
       "injuries": null,
       "news": null,
@@ -167,17 +174,17 @@
       "team": "Aston Villa FC",
       "league": "PL",
       "baseElo": 1805.941571009123,
-      "oddsAdjustment": -14.3,
+      "oddsAdjustment": -14.4,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1791.6105107466803,
+      "msiLive": 1791.5480971386037,
       "msiLiveRank": 9,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Brighton & Hove Albion FC",
         "date": "2026-08-23T13:00:00Z",
-        "marketWinProb": 0.43800539083557954,
+        "marketWinProb": 0.43741588156123823,
         "predictedWinProb": 0.5746169829684932,
         "isHome": false
       },
@@ -187,17 +194,17 @@
       "team": "Borussia Dortmund",
       "league": "BL1",
       "baseElo": 1782.46768121937,
-      "oddsAdjustment": -5.1,
+      "oddsAdjustment": -5.4,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1777.3702479077083,
+      "msiLive": 1777.109692791848,
       "msiLiveRank": 10,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Hamburger SV",
         "date": "2026-08-29T13:30:00Z",
-        "marketWinProb": 0.8590522478736331,
+        "marketWinProb": 0.8578371810449574,
         "predictedWinProb": 0.8811181630137666,
         "isHome": true
       },
@@ -207,17 +214,17 @@
       "team": "Liverpool FC",
       "league": "PL",
       "baseElo": 1771.1300464921312,
-      "oddsAdjustment": 0.8,
+      "oddsAdjustment": 0.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1771.9107616889003,
+      "msiLive": 1771.849232335839,
       "msiLiveRank": 11,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Newcastle United FC",
         "date": "2026-08-23T15:30:00Z",
-        "marketWinProb": 0.5615894039735099,
+        "marketWinProb": 0.5610079575596817,
         "predictedWinProb": 0.5541997073493148,
         "isHome": false
       },
@@ -249,34 +256,34 @@
       "baseElo": 1739.1781958627882,
       "oddsAdjustment": -1.9,
       "injuryAdjustment": 0,
-      "newsAdjustment": 4.1,
-      "msiLive": 1741.3643844765088,
+      "newsAdjustment": 3.5,
+      "msiLive": 1740.764384476509,
       "msiLiveRank": 13,
       "injuries": null,
       "news": {
         "eventCount": 3,
-        "totalAdjustment": 4.1,
+        "totalAdjustment": 3.5,
         "topEvents": [
           {
             "type": "ownership_change",
             "label": "Ownership Change",
             "headline": "Inter Set to Complete the Acquisition of Khalaili",
-            "daysAgo": 4,
-            "decayedImpact": 2.3
+            "daysAgo": 5,
+            "decayedImpact": 2.2
           },
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Aston Villa Start Negotiations To Sign €20m Goalkeeper: Good Option For Emery?",
-            "daysAgo": 10,
-            "decayedImpact": 2.5
+            "daysAgo": 11,
+            "decayedImpact": 1.9
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Official: Massimiliano Allegri is Napoli's new manager ",
-            "daysAgo": 11,
-            "decayedImpact": 2
+            "daysAgo": 12,
+            "decayedImpact": 1.8
           }
         ]
       },
@@ -293,36 +300,36 @@
       "team": "AC Milan",
       "league": "SA",
       "baseElo": 1745.7377585948946,
-      "oddsAdjustment": -13,
+      "oddsAdjustment": -12.3,
       "injuryAdjustment": 0,
-      "newsAdjustment": 6.2,
-      "msiLive": 1738.9055639933918,
+      "newsAdjustment": 6,
+      "msiLive": 1739.443682490719,
       "msiLiveRank": 14,
       "injuries": null,
       "news": {
-        "eventCount": 6,
-        "totalAdjustment": 6.2,
+        "eventCount": 5,
+        "totalAdjustment": 6,
         "topEvents": [
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Ruben Amorim addresses Luka Modric and Christian Pulisic’s roles at AC Milan",
-            "daysAgo": 6,
-            "decayedImpact": 3.1
-          },
-          {
-            "type": "manager_appointed",
-            "label": "Manager Appointed",
-            "headline": "Enzo Maresca: The European odyssey that created Manchester City’s new manager",
-            "daysAgo": 6,
+            "daysAgo": 7,
             "decayedImpact": 2.9
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
-            "headline": "Amorim considers AC Milan a bigger challenge than Manchester United",
-            "daysAgo": 8,
+            "headline": "Enzo Maresca: The European odyssey that created Manchester City’s new manager",
+            "daysAgo": 7,
             "decayedImpact": 2.7
+          },
+          {
+            "type": "manager_appointed",
+            "label": "Manager Appointed",
+            "headline": "Amorim considers AC Milan a bigger challenge than Manchester United",
+            "daysAgo": 9,
+            "decayedImpact": 2.5
           }
         ]
       },
@@ -336,30 +343,28 @@
       "lastUpdated": "2026-02-22T17:00:00Z"
     },
     {
-      "team": "Villarreal CF",
-      "league": "PD",
-      "baseElo": 1721.9897041246466,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1721.9897041246466,
-      "msiLiveRank": 15,
-      "injuries": null,
-      "news": null,
-      "nextFixture": null,
-      "lastUpdated": "2026-02-22T20:00:00Z"
-    },
-    {
       "team": "AS Roma",
       "league": "SA",
       "baseElo": 1716.8441565869186,
-      "oddsAdjustment": 2.2,
+      "oddsAdjustment": 2.1,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1719.0542302926976,
-      "msiLiveRank": 16,
+      "newsAdjustment": 4.3,
+      "msiLive": 1723.2501309850052,
+      "msiLiveRank": 15,
       "injuries": null,
-      "news": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": 4.3,
+        "topEvents": [
+          {
+            "type": "star_signing",
+            "label": "Star Signing",
+            "headline": "Manchester United in transfer battle with Liverpool for Serie A star",
+            "daysAgo": 1,
+            "decayedImpact": 7.2
+          }
+        ]
+      },
       "nextFixture": {
         "opponent": "ACF Fiorentina",
         "date": "2026-08-22T13:00:00Z",
@@ -370,13 +375,27 @@
       "lastUpdated": "2026-02-22T19:45:00Z"
     },
     {
+      "team": "Villarreal CF",
+      "league": "PD",
+      "baseElo": 1721.9897041246466,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1721.9897041246466,
+      "msiLiveRank": 16,
+      "injuries": null,
+      "news": null,
+      "nextFixture": null,
+      "lastUpdated": "2026-02-22T20:00:00Z"
+    },
+    {
       "team": "Atalanta BC",
       "league": "SA",
       "baseElo": 1717.984667492003,
-      "oddsAdjustment": -0.1,
+      "oddsAdjustment": -0.2,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1717.8359535491118,
+      "msiLive": 1717.782341201767,
       "msiLiveRank": 17,
       "injuries": null,
       "news": null,
@@ -409,20 +428,20 @@
       "baseElo": 1710.5126839116374,
       "oddsAdjustment": -2.4,
       "injuryAdjustment": 0,
-      "newsAdjustment": 1.3,
-      "msiLive": 1709.3882760920353,
+      "newsAdjustment": 1.2,
+      "msiLive": 1709.2882760920354,
       "msiLiveRank": 19,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 1.3,
+        "totalAdjustment": 1.2,
         "topEvents": [
           {
             "type": "ownership_change",
             "label": "Ownership Change",
             "headline": "Black Knight complete takeover of Exeter Chiefs",
-            "daysAgo": 14,
-            "decayedImpact": 2.2
+            "daysAgo": 15,
+            "decayedImpact": 2
           }
         ]
       },
@@ -459,17 +478,17 @@
       "team": "Brighton & Hove Albion FC",
       "league": "PL",
       "baseElo": 1688.702246857458,
-      "oddsAdjustment": 14.3,
+      "oddsAdjustment": 14.4,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1703.0333071199007,
+      "msiLive": 1703.0957207279773,
       "msiLiveRank": 21,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Aston Villa FC",
         "date": "2026-08-23T13:00:00Z",
-        "marketWinProb": 0.5619946091644205,
+        "marketWinProb": 0.5625841184387618,
         "predictedWinProb": 0.42538301703150694,
         "isHome": true
       },
@@ -481,27 +500,27 @@
       "baseElo": 1683.2776645105162,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 3.1,
-      "msiLive": 1686.377664510516,
+      "newsAdjustment": 2.5,
+      "msiLive": 1685.7776645105162,
       "msiLiveRank": 22,
       "injuries": null,
       "news": {
         "eventCount": 2,
-        "totalAdjustment": 3.1,
+        "totalAdjustment": 2.5,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Barcelona receive major boost as Atletico Madrid relax stance over Julian Alvarez sale",
-            "daysAgo": 6,
-            "decayedImpact": 4.5
+            "daysAgo": 7,
+            "decayedImpact": 4
           },
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Medina joins Manchester United from Atletico Madrid",
-            "daysAgo": 13,
-            "decayedImpact": 0.7
+            "daysAgo": 14,
+            "decayedImpact": 0.1
           }
         ]
       },
@@ -514,20 +533,20 @@
       "baseElo": 1682.6595309797685,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 3.2,
-      "msiLive": 1685.8595309797686,
+      "newsAdjustment": 2.7,
+      "msiLive": 1685.3595309797686,
       "msiLiveRank": 23,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 3.2,
+        "totalAdjustment": 2.7,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Arsenal sign Germany striker Cerci on free",
-            "daysAgo": 8,
-            "decayedImpact": 5.3
+            "daysAgo": 9,
+            "decayedImpact": 4.4
           }
         ]
       },
@@ -538,17 +557,17 @@
       "team": "Brentford FC",
       "league": "PL",
       "baseElo": 1697.9529067809135,
-      "oddsAdjustment": -27,
+      "oddsAdjustment": -26.9,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1670.964208517038,
+      "msiLive": 1671.027686426418,
       "msiLiveRank": 24,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Tottenham Hotspur FC",
         "date": "2026-08-22T16:30:00Z",
-        "marketWinProb": 0.5540540540540541,
+        "marketWinProb": 0.5546558704453441,
         "predictedWinProb": 0.777783154498324,
         "isHome": true
       },
@@ -558,17 +577,17 @@
       "team": "Newcastle United FC",
       "league": "PL",
       "baseElo": 1668.3196693437865,
-      "oddsAdjustment": -0.8,
+      "oddsAdjustment": -0.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1667.5389541470174,
+      "msiLive": 1667.6004835000788,
       "msiLiveRank": 25,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Liverpool FC",
         "date": "2026-08-23T15:30:00Z",
-        "marketWinProb": 0.4384105960264901,
+        "marketWinProb": 0.4389920424403183,
         "predictedWinProb": 0.44580029265068516,
         "isHome": true
       },
@@ -578,17 +597,17 @@
       "team": "Real Betis Balompié",
       "league": "PD",
       "baseElo": 1675.8988702346653,
-      "oddsAdjustment": -13.5,
+      "oddsAdjustment": -13.6,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1662.352910120368,
+      "msiLive": 1662.3152373065495,
       "msiLiveRank": 26,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Valencia CF",
         "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.5021097046413502,
+        "marketWinProb": 0.4992947813822285,
         "predictedWinProb": 0.629082863161267,
         "isHome": false
       },
@@ -626,17 +645,17 @@
       "team": "VfB Stuttgart",
       "league": "BL1",
       "baseElo": 1657.3397676409984,
-      "oddsAdjustment": -2.3,
+      "oddsAdjustment": -2.5,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1655.059774582614,
+      "msiLive": 1654.847057736735,
       "msiLiveRank": 29,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "FC Bayern München",
         "date": "2026-08-28T18:30:00Z",
-        "marketWinProb": 0.1445358401880141,
+        "marketWinProb": 0.14352941176470588,
         "predictedWinProb": 0.15569448900616062,
         "isHome": false
       },
@@ -646,17 +665,17 @@
       "team": "Everton FC",
       "league": "PL",
       "baseElo": 1660.1770830638818,
-      "oddsAdjustment": -7.9,
+      "oddsAdjustment": -8,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1652.3162934183313,
+      "msiLive": 1652.2227289769999,
       "msiLiveRank": 30,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Crystal Palace FC",
         "date": "2026-08-22T14:00:00Z",
-        "marketWinProb": 0.6181318681318682,
+        "marketWinProb": 0.6172839506172839,
         "predictedWinProb": 0.6863899174361445,
         "isHome": true
       },
@@ -686,17 +705,17 @@
       "team": "Racing Club de Lens",
       "league": "FL1",
       "baseElo": 1670.8882485762786,
-      "oddsAdjustment": -21.2,
+      "oddsAdjustment": -21.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1649.6494892261162,
+      "msiLive": 1649.7384233360424,
       "msiLiveRank": 32,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "AJ Auxerre",
         "date": "2026-08-22T15:15:00Z",
-        "marketWinProb": 0.7577720207253885,
+        "marketWinProb": 0.7583979328165374,
         "predictedWinProb": 0.8760528051012522,
         "isHome": true
       },
@@ -726,17 +745,17 @@
       "team": "Olympique Lyonnais",
       "league": "FL1",
       "baseElo": 1630.6839791863042,
-      "oddsAdjustment": 5.9,
+      "oddsAdjustment": 5.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1636.5630692261961,
+      "msiLive": 1636.3566502715294,
       "msiLiveRank": 34,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Toulouse FC",
         "date": "2026-08-22T18:45:00Z",
-        "marketWinProb": 0.6293800539083558,
+        "marketWinProb": 0.6275303643724696,
         "predictedWinProb": 0.5754053358396034,
         "isHome": false
       },
@@ -760,8 +779,8 @@
             "type": "financial_crisis",
             "label": "Financial Crisis",
             "headline": "Who would benefit from a potential Marseille exclusion from Europa League?",
-            "daysAgo": 41,
-            "decayedImpact": -0.6
+            "daysAgo": 42,
+            "decayedImpact": -0.4
           }
         ]
       },
@@ -778,36 +797,36 @@
       "team": "RB Leipzig",
       "league": "BL1",
       "baseElo": 1615.1688706304344,
-      "oddsAdjustment": -3.1,
+      "oddsAdjustment": -3.3,
       "injuryAdjustment": 0,
-      "newsAdjustment": -2.1,
-      "msiLive": 1609.992024385705,
+      "newsAdjustment": -1.6,
+      "msiLive": 1610.3026075146995,
       "msiLiveRank": 36,
       "injuries": null,
       "news": {
         "eventCount": 2,
-        "totalAdjustment": -2.1,
+        "totalAdjustment": -1.6,
         "topEvents": [
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Sacked Leipzig coach Werner: 'It's been an honour'",
-            "daysAgo": 25,
-            "decayedImpact": -2
+            "daysAgo": 26,
+            "decayedImpact": -1.6
           },
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "RB Leipzig part ways with coach Werner despite successful season",
-            "daysAgo": 26,
-            "decayedImpact": -1.5
+            "daysAgo": 27,
+            "decayedImpact": -1.1
           }
         ]
       },
       "nextFixture": {
         "opponent": "Borussia Mönchengladbach",
         "date": "2026-08-29T13:30:00Z",
-        "marketWinProb": 0.7756653992395438,
+        "marketWinProb": 0.7743979721166033,
         "predictedWinProb": 0.795541970765012,
         "isHome": true
       },
@@ -817,17 +836,17 @@
       "team": "Athletic Club",
       "league": "PD",
       "baseElo": 1599.1065701746022,
-      "oddsAdjustment": 8,
+      "oddsAdjustment": 7.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1607.0802726152588,
+      "msiLive": 1606.8326177379442,
       "msiLiveRank": 37,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "FC Barcelona",
         "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.1749379652605459,
+        "marketWinProb": 0.16978776529338327,
         "predictedWinProb": 0.13504968830979924,
         "isHome": false
       },
@@ -837,17 +856,17 @@
       "team": "RC Celta de Vigo",
       "league": "PD",
       "baseElo": 1598.2524370490262,
-      "oddsAdjustment": 7.5,
+      "oddsAdjustment": 7.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1605.731566050128,
+      "msiLive": 1605.311839102041,
       "msiLiveRank": 38,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "CA Osasuna",
-        "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.6471408647140864,
+        "date": "2026-08-16T19:30:00Z",
+        "marketWinProb": 0.6434540389972145,
         "predictedWinProb": 0.5791957838542536,
         "isHome": true
       },
@@ -857,17 +876,17 @@
       "team": "CA Osasuna",
       "league": "PD",
       "baseElo": 1607.754313304748,
-      "oddsAdjustment": -7.5,
+      "oddsAdjustment": -7.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1600.2751843036458,
+      "msiLive": 1600.6949112517332,
       "msiLiveRank": 39,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "RC Celta de Vigo",
-        "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.3528591352859135,
+        "date": "2026-08-16T19:30:00Z",
+        "marketWinProb": 0.3565459610027855,
         "predictedWinProb": 0.42080421614574637,
         "isHome": false
       },
@@ -877,38 +896,18 @@
       "team": "Crystal Palace FC",
       "league": "PL",
       "baseElo": 1589.1047316173044,
-      "oddsAdjustment": 7.9,
+      "oddsAdjustment": 8,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1596.965521262855,
+      "msiLive": 1597.0590857041864,
       "msiLiveRank": 40,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Everton FC",
         "date": "2026-08-22T14:00:00Z",
-        "marketWinProb": 0.3818681318681319,
+        "marketWinProb": 0.38271604938271603,
         "predictedWinProb": 0.3136100825638554,
-        "isHome": false
-      },
-      "lastUpdated": "2026-02-22T14:00:00Z"
-    },
-    {
-      "team": "Stade Rennais FC 1901",
-      "league": "FL1",
-      "baseElo": 1582.353157441051,
-      "oddsAdjustment": 3.4,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1585.7178714326549,
-      "msiLiveRank": 41,
-      "injuries": null,
-      "news": null,
-      "nextFixture": {
-        "opponent": "Paris Saint-Germain FC",
-        "date": "2026-08-22T19:00:00Z",
-        "marketWinProb": 0.1809290953545232,
-        "predictedWinProb": 0.16810521876532047,
         "isHome": false
       },
       "lastUpdated": "2026-02-22T14:00:00Z"
@@ -920,8 +919,8 @@
       "oddsAdjustment": 18.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1584.9623020859976,
-      "msiLiveRank": 42,
+      "msiLive": 1584.9386777196753,
+      "msiLiveRank": 41,
       "injuries": null,
       "news": null,
       "nextFixture": {
@@ -932,6 +931,26 @@
         "isHome": false
       },
       "lastUpdated": "2026-02-22T16:15:00Z"
+    },
+    {
+      "team": "Stade Rennais FC 1901",
+      "league": "FL1",
+      "baseElo": 1582.353157441051,
+      "oddsAdjustment": 2.5,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1584.8589357349226,
+      "msiLiveRank": 42,
+      "injuries": null,
+      "news": null,
+      "nextFixture": {
+        "opponent": "Paris Saint-Germain FC",
+        "date": "2026-08-22T19:00:00Z",
+        "marketWinProb": 0.1809290953545232,
+        "predictedWinProb": 0.16810521876532047,
+        "isHome": false
+      },
+      "lastUpdated": "2026-02-22T14:00:00Z"
     },
     {
       "team": "Nottingham Forest FC",
@@ -971,17 +990,17 @@
       "team": "Real Sociedad de Fútbol",
       "league": "PD",
       "baseElo": 1568.0046286385227,
-      "oddsAdjustment": 7,
+      "oddsAdjustment": 7.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1575.0349740722615,
+      "msiLive": 1575.0766846745412,
       "msiLiveRank": 45,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Real Madrid CF",
         "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.16957605985037408,
+        "marketWinProb": 0.15954773869346733,
         "predictedWinProb": 0.13488565593810797,
         "isHome": false
       },
@@ -1005,17 +1024,17 @@
       "team": "Tottenham Hotspur FC",
       "league": "PL",
       "baseElo": 1545.3202849516715,
-      "oddsAdjustment": 27,
+      "oddsAdjustment": 26.9,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1572.308983215547,
+      "msiLive": 1572.245505306167,
       "msiLiveRank": 47,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Brentford FC",
         "date": "2026-08-22T16:30:00Z",
-        "marketWinProb": 0.445945945945946,
+        "marketWinProb": 0.4453441295546559,
         "predictedWinProb": 0.222216845501676,
         "isHome": false
       },
@@ -1070,14 +1089,14 @@
       "oddsAdjustment": 7.3,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1564.7514675618281,
+      "msiLive": 1564.8257853939542,
       "msiLiveRank": 51,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Le Havre AC",
         "date": "2026-08-22T15:00:00Z",
-        "marketWinProb": 0.6243315508021391,
+        "marketWinProb": 0.625668449197861,
         "predictedWinProb": 0.5585397138942619,
         "isHome": false
       },
@@ -1141,10 +1160,10 @@
       "team": "US Sassuolo Calcio",
       "league": "SA",
       "baseElo": 1560.017556999847,
-      "oddsAdjustment": 0.1,
+      "oddsAdjustment": 0.2,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1560.1662709427383,
+      "msiLive": 1560.219883290083,
       "msiLiveRank": 55,
       "injuries": null,
       "news": null,
@@ -1195,10 +1214,10 @@
       "team": "ACF Fiorentina",
       "league": "SA",
       "baseElo": 1553.5682843819816,
-      "oddsAdjustment": -2.2,
+      "oddsAdjustment": -2.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1551.3582106762026,
+      "msiLive": 1551.462309983895,
       "msiLiveRank": 58,
       "injuries": null,
       "news": null,
@@ -1215,17 +1234,17 @@
       "team": "SC Freiburg",
       "league": "BL1",
       "baseElo": 1566.0238384485638,
-      "oddsAdjustment": -16.6,
+      "oddsAdjustment": -16.8,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1549.469274070829,
+      "msiLive": 1549.2608662997966,
       "msiLiveRank": 59,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "SV Werder Bremen",
         "date": "2026-08-29T13:30:00Z",
-        "marketWinProb": 0.6331521739130436,
+        "marketWinProb": 0.6312925170068027,
         "predictedWinProb": 0.7651398794923512,
         "isHome": true
       },
@@ -1283,17 +1302,17 @@
       "team": "Valencia CF",
       "league": "PD",
       "baseElo": 1519.1264878381219,
-      "oddsAdjustment": 13.5,
+      "oddsAdjustment": 13.6,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1532.6724479524191,
+      "msiLive": 1532.7101207662377,
       "msiLiveRank": 63,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Real Betis Balompié",
         "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.4978902953586498,
+        "marketWinProb": 0.5007052186177715,
         "predictedWinProb": 0.37091713683873295,
         "isHome": true
       },
@@ -1323,17 +1342,17 @@
       "team": "RCD Espanyol de Barcelona",
       "league": "PD",
       "baseElo": 1519.8771586508728,
-      "oddsAdjustment": -5.5,
+      "oddsAdjustment": -5.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1514.3779127910936,
+      "msiLive": 1514.2175519016844,
       "msiLiveRank": 65,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Levante UD",
-        "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.6545961002785515,
+        "date": "2026-08-16T17:00:00Z",
+        "marketWinProb": 0.6532033426183844,
         "predictedWinProb": 0.7006395735916157,
         "isHome": true
       },
@@ -1357,17 +1376,17 @@
       "team": "FC Lorient",
       "league": "FL1",
       "baseElo": 1517.6450263007466,
-      "oddsAdjustment": -5.5,
+      "oddsAdjustment": -5.6,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1512.0987319548904,
+      "msiLive": 1512.0380621511986,
       "msiLiveRank": 67,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "OGC Nice",
         "date": "2026-08-22T18:45:00Z",
-        "marketWinProb": 0.4131326949384405,
+        "marketWinProb": 0.412568306010929,
         "predictedWinProb": 0.465509117287422,
         "isHome": false
       },
@@ -1377,17 +1396,17 @@
       "team": "Toulouse FC",
       "league": "FL1",
       "baseElo": 1512.8842380912445,
-      "oddsAdjustment": -5.9,
+      "oddsAdjustment": -5.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1507.0051480513525,
+      "msiLive": 1507.2115670060193,
       "msiLiveRank": 68,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Olympique Lyonnais",
         "date": "2026-08-22T18:45:00Z",
-        "marketWinProb": 0.3706199460916442,
+        "marketWinProb": 0.3724696356275303,
         "predictedWinProb": 0.42459466416039665,
         "isHome": true
       },
@@ -1411,17 +1430,17 @@
       "team": "Hamburger SV",
       "league": "BL1",
       "baseElo": 1499.5002226469658,
-      "oddsAdjustment": 5.1,
+      "oddsAdjustment": 5.4,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1504.5976559586275,
+      "msiLive": 1504.8582110744878,
       "msiLiveRank": 70,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Borussia Dortmund",
         "date": "2026-08-29T13:30:00Z",
-        "marketWinProb": 0.14094775212636695,
+        "marketWinProb": 0.14216281895504254,
         "predictedWinProb": 0.1188818369862335,
         "isHome": false
       },
@@ -1451,17 +1470,17 @@
       "team": "Rayo Vallecano de Madrid",
       "league": "PD",
       "baseElo": 1505.122820795343,
-      "oddsAdjustment": -3.1,
+      "oddsAdjustment": -2.6,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1502.067519658208,
+      "msiLive": 1502.5261464700293,
       "msiLiveRank": 72,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Sevilla FC",
-        "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.40909090909090906,
+        "date": "2026-08-15T19:30:00Z",
+        "marketWinProb": 0.4133522727272727,
         "predictedWinProb": 0.4377070156735973,
         "isHome": false
       },
@@ -1584,26 +1603,6 @@
       "lastUpdated": "2017-05-20T15:00:00Z"
     },
     {
-      "team": "Sevilla FC",
-      "league": "PD",
-      "baseElo": 1483.6344836947828,
-      "oddsAdjustment": 3.1,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1486.6897848319174,
-      "msiLiveRank": 80,
-      "injuries": null,
-      "news": null,
-      "nextFixture": {
-        "opponent": "Rayo Vallecano de Madrid",
-        "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.5909090909090909,
-        "predictedWinProb": 0.5622929843264027,
-        "isHome": true
-      },
-      "lastUpdated": "2026-02-22T13:00:00Z"
-    },
-    {
       "team": "Huesca",
       "league": "PD",
       "baseElo": 1486.4761250760757,
@@ -1611,27 +1610,47 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1486.4761250760757,
-      "msiLiveRank": 81,
+      "msiLiveRank": 80,
       "injuries": null,
       "news": null,
       "nextFixture": null,
       "lastUpdated": "2021-05-22T15:00:00Z"
     },
     {
+      "team": "Sevilla FC",
+      "league": "PD",
+      "baseElo": 1483.6344836947828,
+      "oddsAdjustment": 2.6,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1486.2311580200965,
+      "msiLiveRank": 81,
+      "injuries": null,
+      "news": null,
+      "nextFixture": {
+        "opponent": "Rayo Vallecano de Madrid",
+        "date": "2026-08-15T19:30:00Z",
+        "marketWinProb": 0.5866477272727273,
+        "predictedWinProb": 0.5622929843264027,
+        "isHome": true
+      },
+      "lastUpdated": "2026-02-22T13:00:00Z"
+    },
+    {
       "team": "OGC Nice",
       "league": "FL1",
       "baseElo": 1476.6498703527343,
-      "oddsAdjustment": 5.5,
+      "oddsAdjustment": 5.6,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1482.1961646985906,
+      "msiLive": 1482.2568345022823,
       "msiLiveRank": 82,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "FC Lorient",
         "date": "2026-08-22T18:45:00Z",
-        "marketWinProb": 0.5868673050615595,
+        "marketWinProb": 0.587431693989071,
         "predictedWinProb": 0.5344908827125779,
         "isHome": true
       },
@@ -1859,20 +1878,20 @@
       "baseElo": 1451.493192838945,
       "oddsAdjustment": 5.7,
       "injuryAdjustment": 0,
-      "newsAdjustment": -1.4,
-      "msiLive": 1455.7879092723667,
+      "newsAdjustment": -1.2,
+      "msiLive": 1455.9879092723668,
       "msiLiveRank": 98,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": -1.4,
+        "totalAdjustment": -1.2,
         "topEvents": [
           {
             "type": "star_departure",
             "label": "Star Departure",
             "headline": "Schalke defender departs on loan",
-            "daysAgo": 9,
-            "decayedImpact": -2.4
+            "daysAgo": 10,
+            "decayedImpact": -1.9
           }
         ]
       },
@@ -1889,10 +1908,10 @@
       "team": "Torino FC",
       "league": "SA",
       "baseElo": 1441.395175181537,
-      "oddsAdjustment": 13,
+      "oddsAdjustment": 12.3,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1454.42736978304,
+      "msiLive": 1453.6892512857125,
       "msiLiveRank": 99,
       "injuries": null,
       "news": null,
@@ -1937,17 +1956,17 @@
       "team": "Borussia Mönchengladbach",
       "league": "BL1",
       "baseElo": 1444.1453000187364,
-      "oddsAdjustment": 3.1,
+      "oddsAdjustment": 3.3,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1447.222146263466,
+      "msiLive": 1447.4115631344714,
       "msiLiveRank": 102,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "RB Leipzig",
         "date": "2026-08-29T13:30:00Z",
-        "marketWinProb": 0.22433460076045628,
+        "marketWinProb": 0.22560202788339673,
         "predictedWinProb": 0.2044580292349879,
         "isHome": false
       },
@@ -1985,29 +2004,29 @@
       "team": "SV Werder Bremen",
       "league": "BL1",
       "baseElo": 1425.851214917926,
-      "oddsAdjustment": 16.6,
+      "oddsAdjustment": 16.8,
       "injuryAdjustment": 0,
-      "newsAdjustment": 3.5,
-      "msiLive": 1445.905779295661,
+      "newsAdjustment": 3.1,
+      "msiLive": 1445.714187066693,
       "msiLiveRank": 105,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 3.5,
+        "totalAdjustment": 3.1,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Official: Bremen complete coup of Schlager from RB Salzburg",
-            "daysAgo": 4,
-            "decayedImpact": 5.8
+            "daysAgo": 5,
+            "decayedImpact": 5.2
           }
         ]
       },
       "nextFixture": {
         "opponent": "SC Freiburg",
         "date": "2026-08-29T13:30:00Z",
-        "marketWinProb": 0.36684782608695654,
+        "marketWinProb": 0.3687074829931973,
         "predictedWinProb": 0.2348601205076487,
         "isHome": false
       },
@@ -2020,14 +2039,14 @@
       "oddsAdjustment": -7.3,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1444.3752385686928,
+      "msiLive": 1444.3009207365667,
       "msiLiveRank": 106,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "AS Monaco FC",
         "date": "2026-08-22T15:00:00Z",
-        "marketWinProb": 0.375668449197861,
+        "marketWinProb": 0.3743315508021391,
         "predictedWinProb": 0.44146028610573806,
         "isHome": true
       },
@@ -2048,28 +2067,14 @@
       "lastUpdated": "2017-05-20T15:00:00Z"
     },
     {
-      "team": "Leicester City FC",
-      "league": "PL",
-      "baseElo": 1443.176790869612,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1443.176790869612,
-      "msiLiveRank": 108,
-      "injuries": null,
-      "news": null,
-      "nextFixture": null,
-      "lastUpdated": "2025-05-25T15:00:00Z"
-    },
-    {
       "team": "US Lecce",
       "league": "SA",
       "baseElo": 1447.795769014424,
-      "oddsAdjustment": -4.9,
+      "oddsAdjustment": -3.8,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1442.9094073418512,
-      "msiLiveRank": 109,
+      "msiLive": 1443.9525436758217,
+      "msiLiveRank": 108,
       "injuries": null,
       "news": null,
       "nextFixture": {
@@ -2080,6 +2085,20 @@
         "isHome": false
       },
       "lastUpdated": "2026-02-21T17:00:00Z"
+    },
+    {
+      "team": "Leicester City FC",
+      "league": "PL",
+      "baseElo": 1443.176790869612,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1443.176790869612,
+      "msiLiveRank": 109,
+      "injuries": null,
+      "news": null,
+      "nextFixture": null,
+      "lastUpdated": "2025-05-25T15:00:00Z"
     },
     {
       "team": "Elche",
@@ -2099,17 +2118,17 @@
       "team": "Levante UD",
       "league": "PD",
       "baseElo": 1437.1570487418778,
-      "oddsAdjustment": 5.5,
+      "oddsAdjustment": 5.7,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1442.656294601657,
+      "msiLive": 1442.8166554910663,
       "msiLiveRank": 111,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "RCD Espanyol de Barcelona",
-        "date": "2026-08-16T19:00:00Z",
-        "marketWinProb": 0.34540389972144847,
+        "date": "2026-08-16T17:00:00Z",
+        "marketWinProb": 0.34679665738161564,
         "predictedWinProb": 0.29936042640838434,
         "isHome": false
       },
@@ -2360,7 +2379,7 @@
       "oddsAdjustment": -18.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1423.0808978236698,
+      "msiLive": 1423.1045221899922,
       "msiLiveRank": 129,
       "injuries": null,
       "news": null,
@@ -2379,34 +2398,34 @@
       "baseElo": 1431.8635887569767,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": -9.4,
-      "msiLive": 1422.4635887569766,
+      "newsAdjustment": -9.1,
+      "msiLive": 1422.7635887569768,
       "msiLiveRank": 130,
       "injuries": null,
       "news": {
         "eventCount": 5,
-        "totalAdjustment": -9.4,
+        "totalAdjustment": -9.1,
         "topEvents": [
           {
             "type": "manager_sacked",
             "label": "Manager Sacked",
             "headline": "Former Chelsea boss Liam Rosenior appointed Paris FC manager",
-            "daysAgo": 7,
-            "decayedImpact": -10
+            "daysAgo": 8,
+            "decayedImpact": -9.6
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Rosenior returns to management with Paris FC",
-            "daysAgo": 7,
-            "decayedImpact": 2.8
+            "daysAgo": 8,
+            "decayedImpact": 2.6
           },
           {
             "type": "manager_appointed",
             "label": "Manager Appointed",
             "headline": "Liam Rosenior named new Paris FC head coach",
-            "daysAgo": 7,
-            "decayedImpact": 3.5
+            "daysAgo": 8,
+            "decayedImpact": 3.2
           }
         ]
       },
@@ -2459,17 +2478,17 @@
       "team": "AJ Auxerre",
       "league": "FL1",
       "baseElo": 1396.170815756924,
-      "oddsAdjustment": 21.2,
+      "oddsAdjustment": 21.1,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1417.4095751070863,
+      "msiLive": 1417.3206409971601,
       "msiLiveRank": 134,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "Racing Club de Lens",
         "date": "2026-08-22T15:15:00Z",
-        "marketWinProb": 0.2422279792746114,
+        "marketWinProb": 0.24160206718346253,
         "predictedWinProb": 0.12394719489874774,
         "isHome": false
       },
@@ -2518,32 +2537,6 @@
       "lastUpdated": "2026-02-21T15:00:00Z"
     },
     {
-      "team": "VfL Wolfsburg",
-      "league": "BL1",
-      "baseElo": 1413.334566287067,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 1,
-      "msiLive": 1414.334566287067,
-      "msiLiveRank": 138,
-      "injuries": null,
-      "news": {
-        "eventCount": 1,
-        "totalAdjustment": 1,
-        "topEvents": [
-          {
-            "type": "star_signing",
-            "label": "Star Signing",
-            "headline": "Aston Villa sign Norway midfielder Kielland",
-            "daysAgo": 11,
-            "decayedImpact": 1.7
-          }
-        ]
-      },
-      "nextFixture": null,
-      "lastUpdated": "2026-02-21T14:30:00Z"
-    },
-    {
       "team": "Real Oviedo",
       "league": "PD",
       "baseElo": 1414.3054507958352,
@@ -2551,21 +2544,61 @@
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
       "msiLive": 1414.3054507958352,
-      "msiLiveRank": 139,
+      "msiLiveRank": 138,
       "injuries": null,
       "news": null,
       "nextFixture": null,
       "lastUpdated": "2026-02-21T13:00:00Z"
     },
     {
+      "team": "VfL Wolfsburg",
+      "league": "BL1",
+      "baseElo": 1413.334566287067,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0.7,
+      "msiLive": 1414.034566287067,
+      "msiLiveRank": 139,
+      "injuries": null,
+      "news": {
+        "eventCount": 1,
+        "totalAdjustment": 0.7,
+        "topEvents": [
+          {
+            "type": "star_signing",
+            "label": "Star Signing",
+            "headline": "Aston Villa sign Norway midfielder Kielland",
+            "daysAgo": 12,
+            "decayedImpact": 1.2
+          }
+        ]
+      },
+      "nextFixture": null,
+      "lastUpdated": "2026-02-21T14:30:00Z"
+    },
+    {
+      "team": "UD Almería",
+      "league": "PD",
+      "baseElo": 1409.466721783555,
+      "oddsAdjustment": 0,
+      "injuryAdjustment": 0,
+      "newsAdjustment": 0,
+      "msiLive": 1409.466721783555,
+      "msiLiveRank": 140,
+      "injuries": null,
+      "news": null,
+      "nextFixture": null,
+      "lastUpdated": "2024-05-25T16:30:00Z"
+    },
+    {
       "team": "Venezia FC",
       "league": "SA",
       "baseElo": 1404.8753501688188,
-      "oddsAdjustment": 4.9,
+      "oddsAdjustment": 3.8,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1409.7617118413916,
-      "msiLiveRank": 140,
+      "msiLive": 1408.718575507421,
+      "msiLiveRank": 141,
       "injuries": null,
       "news": null,
       "nextFixture": {
@@ -2576,20 +2609,6 @@
         "isHome": true
       },
       "lastUpdated": "2025-05-25T18:45:00Z"
-    },
-    {
-      "team": "UD Almería",
-      "league": "PD",
-      "baseElo": 1409.466721783555,
-      "oddsAdjustment": 0,
-      "injuryAdjustment": 0,
-      "newsAdjustment": 0,
-      "msiLive": 1409.466721783555,
-      "msiLiveRank": 141,
-      "injuries": null,
-      "news": null,
-      "nextFixture": null,
-      "lastUpdated": "2024-05-25T16:30:00Z"
     },
     {
       "team": "FC Girondins de Bordeaux",
@@ -2681,20 +2700,20 @@
       "baseElo": 1401.1463548424178,
       "oddsAdjustment": 0,
       "injuryAdjustment": 0,
-      "newsAdjustment": 0.8,
-      "msiLive": 1401.9463548424178,
+      "newsAdjustment": 0.4,
+      "msiLive": 1401.546354842418,
       "msiLiveRank": 148,
       "injuries": null,
       "news": {
         "eventCount": 1,
-        "totalAdjustment": 0.8,
+        "totalAdjustment": 0.4,
         "topEvents": [
           {
             "type": "star_signing",
             "label": "Star Signing",
             "headline": "Official I Former Saint-Étienne defender Léo Pétrot joins Anderlecht",
-            "daysAgo": 12,
-            "decayedImpact": 1.3
+            "daysAgo": 13,
+            "decayedImpact": 0.7
           }
         ]
       },
@@ -2873,17 +2892,17 @@
       "team": "AC Monza",
       "league": "SA",
       "baseElo": 1310.5069010776726,
-      "oddsAdjustment": 35.6,
+      "oddsAdjustment": 34.8,
       "injuryAdjustment": 0,
       "newsAdjustment": 0,
-      "msiLive": 1346.1351108535207,
+      "msiLive": 1345.3294805324956,
       "msiLiveRank": 161,
       "injuries": null,
       "news": null,
       "nextFixture": {
         "opponent": "FC Internazionale Milano",
         "date": "2026-08-22T13:00:00Z",
-        "marketWinProb": 0.08875739644970414,
+        "marketWinProb": 0.08628841607565012,
         "predictedWinProb": 0.024216997158944716,
         "isHome": false
       },
