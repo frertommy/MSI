@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-07-22T08:37:17.519Z",
+  "computedAt": "2026-07-23T08:39:06.344Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Worldsoccertalk.com",
           "publishedAt": "2026-07-08T18:36:38Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.5,
-          "daysAgo": 14
+          "decayedImpact": 1.3,
+          "daysAgo": 15
         },
         {
           "type": "manager_appointed",
@@ -24,8 +24,8 @@
           "source": "Cityxtra.co.uk",
           "publishedAt": "2026-07-07T20:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.3,
-          "daysAgo": 15
+          "decayedImpact": 1.1,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -35,8 +35,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-07-06T14:34:33Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1,
-          "daysAgo": 16
+          "decayedImpact": 0.8,
+          "daysAgo": 17
         },
         {
           "type": "manager_appointed",
@@ -46,13 +46,13 @@
           "source": "Footballmuse.com",
           "publishedAt": "2026-07-04T06:45:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.6,
-          "daysAgo": 18
+          "decayedImpact": 0.4,
+          "daysAgo": 19
         }
       ],
       "totalRawImpact": 16.8,
-      "totalDecayedImpact": 4.4,
-      "newsAdjustment": 2.6
+      "totalDecayedImpact": 3.6,
+      "newsAdjustment": 2.2
     },
     "AS Roma": {
       "events": [
@@ -64,13 +64,13 @@
           "source": "Footballtoday.com",
           "publishedAt": "2026-07-14T05:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 2.7,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "FC Barcelona": {
       "events": [
@@ -82,8 +82,8 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-07-15T20:45:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 6
+          "decayedImpact": 3.6,
+          "daysAgo": 7
         },
         {
           "type": "star_signing",
@@ -93,8 +93,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-07-13T16:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.4,
+          "daysAgo": 10
         },
         {
           "type": "star_signing",
@@ -104,24 +104,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-13T11:01:16Z",
           "rawImpact": 12,
-          "decayedImpact": 4.4,
-          "daysAgo": 9
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Spanish football legend Alexia Putellas joins London City Lionesses",
-          "url": "https://www.aljazeera.com/sports/2026/7/8/spanish-football-legend-alexia-putellas-joins-london-city-lionesses",
-          "source": "Al Jazeera English",
-          "publishedAt": "2026-07-08T18:25:13Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.2,
-          "daysAgo": 14
+          "decayedImpact": 3.5,
+          "daysAgo": 10
         }
       ],
-      "totalRawImpact": 35.4,
-      "totalDecayedImpact": 11.8,
-      "newsAdjustment": 7.1
+      "totalRawImpact": 27.6,
+      "totalDecayedImpact": 9.6,
+      "newsAdjustment": 5.7
     },
     "AFC Bournemouth": {
       "events": [
@@ -133,13 +122,13 @@
           "source": "BBC News",
           "publishedAt": "2026-06-30T12:56:23Z",
           "rawImpact": 4,
-          "decayedImpact": 1.1,
-          "daysAgo": 22
+          "decayedImpact": 1,
+          "daysAgo": 23
         }
       ],
       "totalRawImpact": 4,
-      "totalDecayedImpact": 1.1,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 1,
+      "newsAdjustment": 0.6
     },
     "RC Lens": {
       "events": [
@@ -151,13 +140,13 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-07-16T11:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.5,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.5,
-      "newsAdjustment": 2.7
+      "totalDecayedImpact": 4,
+      "newsAdjustment": 2.4
     },
     "Borussia Dortmund": {
       "events": [
@@ -169,13 +158,13 @@
           "source": "Www.bvb.de",
           "publishedAt": "2026-07-13T12:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.9,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.3,
+      "newsAdjustment": 1.4
     },
     "RB Leipzig": {
       "events": [
@@ -187,13 +176,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-07-17T09:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5,
-          "daysAgo": 5
+          "decayedImpact": 4.5,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5,
-      "newsAdjustment": 3
+      "totalDecayedImpact": 4.5,
+      "newsAdjustment": 2.7
     },
     "Leeds": {
       "events": [
@@ -205,13 +194,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-07-16T13:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.6,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.6,
-      "newsAdjustment": 2.7
+      "totalDecayedImpact": 4,
+      "newsAdjustment": 2.4
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -223,8 +212,8 @@
           "source": "Dailymail.com",
           "publishedAt": "2026-07-16T11:10:53Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.5,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         },
         {
           "type": "star_signing",
@@ -234,24 +223,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-07-14T11:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.4,
-          "daysAgo": 8
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Barcelona receive major boost as Atletico Madrid relax stance over Julian Alvarez sale",
-          "url": "https://barcauniversal.com/barcelona-receive-major-boost-as-atletico-madrid-relax-stance-over-julian-alvarez-sale/",
-          "source": "Barcauniversal.com",
-          "publishedAt": "2026-07-08T11:45:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
+          "decayedImpact": 2.8,
+          "daysAgo": 9
         }
       ],
-      "totalRawImpact": 23.4,
-      "totalDecayedImpact": 8,
-      "newsAdjustment": 4.8
+      "totalRawImpact": 15.6,
+      "totalDecayedImpact": 6.8,
+      "newsAdjustment": 4.1
     },
     "SSC Napoli": {
       "events": [
@@ -263,8 +241,8 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-07-10T12:00:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.6,
-          "daysAgo": 12
+          "decayedImpact": 1.5,
+          "daysAgo": 13
         },
         {
           "type": "manager_appointed",
@@ -274,13 +252,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-07-03T08:08:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.4,
-          "daysAgo": 19
+          "decayedImpact": 0.2,
+          "daysAgo": 20
         }
       ],
       "totalRawImpact": 6.8,
-      "totalDecayedImpact": 2,
-      "newsAdjustment": 1.2
+      "totalDecayedImpact": 1.7,
+      "newsAdjustment": 1
     },
     "Paris FC": {
       "events": [
@@ -292,8 +270,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-07-07T12:50:00Z",
           "rawImpact": -13,
-          "decayedImpact": -6.6,
-          "daysAgo": 15
+          "decayedImpact": -6.1,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -303,8 +281,8 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-07-07T10:33:32Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.2,
-          "daysAgo": 15
+          "decayedImpact": 1,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -314,8 +292,8 @@
           "source": "Playmakerstats.com",
           "publishedAt": "2026-07-07T10:15:00Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.5,
-          "daysAgo": 15
+          "decayedImpact": 1.3,
+          "daysAgo": 16
         },
         {
           "type": "manager_appointed",
@@ -325,8 +303,8 @@
           "source": "CNA",
           "publishedAt": "2026-07-07T08:59:46Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.5,
-          "daysAgo": 15
+          "decayedImpact": 1.2,
+          "daysAgo": 16
         },
         {
           "type": "manager_sacked",
@@ -336,13 +314,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-07T08:58:21Z",
           "rawImpact": -20,
-          "decayedImpact": -10,
-          "daysAgo": 15
+          "decayedImpact": -9.3,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": -18.4,
-      "totalDecayedImpact": -12.4,
-      "newsAdjustment": -7.4
+      "totalDecayedImpact": -12,
+      "newsAdjustment": -7.2
     },
     "SV Werder Bremen": {
       "events": [
@@ -354,13 +332,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-10T17:58:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.3,
-          "daysAgo": 12
+          "decayedImpact": 0.8,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.3,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "FC Ingolstadt 04": {
       "events": [
@@ -372,13 +350,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-18T13:14:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.7,
-          "daysAgo": 4
+          "decayedImpact": 5.1,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.7,
-      "newsAdjustment": 3.4
+      "totalDecayedImpact": 5.1,
+      "newsAdjustment": 3.1
     },
     "Eintracht Frankfurt": {
       "events": [
@@ -390,8 +368,8 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-18T14:55:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 4.6,
-          "daysAgo": 4
+          "decayedImpact": 4.2,
+          "daysAgo": 5
         },
         {
           "type": "star_signing",
@@ -401,13 +379,13 @@
           "source": "Fcbayern.com",
           "publishedAt": "2026-07-18T13:46:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.7,
-          "daysAgo": 4
+          "decayedImpact": 5.1,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 14.1,
-      "totalDecayedImpact": 10.3,
-      "newsAdjustment": 6.2
+      "totalDecayedImpact": 9.3,
+      "newsAdjustment": 5.6
     }
   }
 }
