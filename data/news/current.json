@@ -1,8 +1,26 @@
 {
-  "computedAt": "2026-07-31T08:57:44.886Z",
+  "computedAt": "2026-08-01T08:28:58.939Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
+    "FC Barcelona": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Spain striker Paralluelo joins Lyon from Barcelona",
+          "url": "https://sports.yahoo.com/articles/spain-striker-paralluelo-joins-lyon-090754891.html",
+          "source": "Yahoo Entertainment",
+          "publishedAt": "2026-07-25T09:07:54Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 3.9,
+          "daysAgo": 7
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 3.9,
+      "newsAdjustment": 2.3
+    },
     "Bayer 04 Leverkusen": {
       "events": [
         {
@@ -13,13 +31,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-27T15:10:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 4.6,
-          "daysAgo": 4
+          "decayedImpact": 4.2,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 4.6,
-      "newsAdjustment": 2.8
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     },
     "RC Lens": {
       "events": [
@@ -31,13 +49,13 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-07-19T18:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.3,
-          "daysAgo": 12
+          "decayedImpact": 0.8,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.3,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "Borussia Dortmund": {
       "events": [
@@ -49,31 +67,31 @@
           "source": "CNA",
           "publishedAt": "2026-07-24T09:42:59Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.5,
-          "daysAgo": 7
+          "decayedImpact": 3.2,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 5.2,
-      "totalDecayedImpact": 3.5,
-      "newsAdjustment": 2.1
+      "totalDecayedImpact": 3.2,
+      "newsAdjustment": 1.9
     },
-    "RB Leipzig": {
+    "Club Atlético de Madrid": {
       "events": [
         {
           "type": "star_signing",
           "label": "Star Signing",
-          "headline": "Official | Maxime Esteve joins RB Leipzig from Burnley",
-          "url": "https://www.getfootballnewsfrance.com/2026/official-maxime-esteve-joins-rb-leipzig-from-burnley/",
-          "source": "Get French Football News",
-          "publishedAt": "2026-07-17T09:35:00Z",
+          "headline": "Barcelona consider increasing their initial offer for Atletico Madrid star through variables",
+          "url": "https://barcauniversal.com/barcelona-consider-increasing-their-initial-offer-for-atletico-madrid-star-through-variables/",
+          "source": "Barcauniversal.com",
+          "publishedAt": "2026-07-31T06:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0,
-          "daysAgo": 14
+          "decayedImpact": 7.2,
+          "daysAgo": 1
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
+      "totalDecayedImpact": 7.2,
+      "newsAdjustment": 4.3
     },
     "SSC Napoli": {
       "events": [
@@ -85,13 +103,31 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-07-10T12:00:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.8,
-          "daysAgo": 21
+          "decayedImpact": 0.7,
+          "daysAgo": 22
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
+      "totalDecayedImpact": 0.7,
+      "newsAdjustment": 0.4
+    },
+    "TSG 1899 Hoffenheim": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Orban joins Amedspor",
+          "url": "https://punchng.com/orban-joins-amedspor/",
+          "source": "The Punch",
+          "publishedAt": "2026-07-29T23:50:33Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.5,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.5,
+      "newsAdjustment": 3.9
     },
     "Paris FC": {
       "events": [
@@ -103,8 +139,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-07-07T12:50:00Z",
           "rawImpact": -13,
-          "decayedImpact": -2.7,
-          "daysAgo": 24
+          "decayedImpact": -2.2,
+          "daysAgo": 25
         },
         {
           "type": "manager_sacked",
@@ -114,13 +150,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-07T08:58:21Z",
           "rawImpact": -20,
-          "decayedImpact": -4,
-          "daysAgo": 24
+          "decayedImpact": -3.3,
+          "daysAgo": 25
         }
       ],
       "totalRawImpact": -33,
-      "totalDecayedImpact": -6.7,
-      "newsAdjustment": -4
+      "totalDecayedImpact": -5.6,
+      "newsAdjustment": -3.4
     },
     "FC Ingolstadt 04": {
       "events": [
@@ -132,13 +168,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-18T13:14:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.7,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.7,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.1,
+      "newsAdjustment": 0.1
     },
     "Eintracht Frankfurt": {
       "events": [
@@ -150,8 +186,8 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-18T14:55:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         },
         {
           "type": "star_signing",
@@ -161,13 +197,13 @@
           "source": "Fcbayern.com",
           "publishedAt": "2026-07-18T13:46:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.7,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 14.1,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     }
   }
 }
