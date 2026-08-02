@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-08-01T08:28:58.939Z",
+  "computedAt": "2026-08-02T08:31:42.219Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-07-25T09:07:54Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.9,
-          "daysAgo": 7
+          "decayedImpact": 3.4,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.3
+      "totalDecayedImpact": 3.4,
+      "newsAdjustment": 2
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -31,13 +31,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-27T15:10:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 4.2,
-          "daysAgo": 5
+          "decayedImpact": 3.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.7,
+      "newsAdjustment": 2.2
     },
     "RC Lens": {
       "events": [
@@ -49,16 +49,27 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-07-19T18:30:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.8,
-          "daysAgo": 13
+          "decayedImpact": 0.2,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     },
     "Borussia Dortmund": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Ajax sign Julian Brandt as ex-Dortmund star snubs Fulham and Leeds",
+          "url": "https://footballtoday.com/2026/08/01/ajax-sign-julian-brandt-as-ex-dortmund-star-snubs-fulham-and-leeds/",
+          "source": "Footballtoday.com",
+          "publishedAt": "2026-08-01T06:05:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 7.2,
+          "daysAgo": 1
+        },
         {
           "type": "manager_appointed",
           "label": "Manager Appointed",
@@ -67,13 +78,13 @@
           "source": "CNA",
           "publishedAt": "2026-07-24T09:42:59Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3.2,
-          "daysAgo": 8
+          "decayedImpact": 3,
+          "daysAgo": 9
         }
       ],
-      "totalRawImpact": 5.2,
-      "totalDecayedImpact": 3.2,
-      "newsAdjustment": 1.9
+      "totalRawImpact": 13,
+      "totalDecayedImpact": 10.2,
+      "newsAdjustment": 6.1
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -85,13 +96,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-07-31T06:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7.2,
-          "daysAgo": 1
+          "decayedImpact": 6.6,
+          "daysAgo": 2
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 7.2,
-      "newsAdjustment": 4.3
+      "totalDecayedImpact": 6.6,
+      "newsAdjustment": 4
     },
     "SSC Napoli": {
       "events": [
@@ -103,12 +114,12 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-07-10T12:00:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.7,
-          "daysAgo": 22
+          "decayedImpact": 0.6,
+          "daysAgo": 23
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.7,
+      "totalDecayedImpact": 0.6,
       "newsAdjustment": 0.4
     },
     "TSG 1899 Hoffenheim": {
@@ -121,13 +132,13 @@
           "source": "The Punch",
           "publishedAt": "2026-07-29T23:50:33Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.5,
-          "daysAgo": 2
+          "decayedImpact": 5.9,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.5,
-      "newsAdjustment": 3.9
+      "totalDecayedImpact": 5.9,
+      "newsAdjustment": 3.6
     },
     "Paris FC": {
       "events": [
@@ -139,8 +150,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-07-07T12:50:00Z",
           "rawImpact": -13,
-          "decayedImpact": -2.2,
-          "daysAgo": 25
+          "decayedImpact": -1.8,
+          "daysAgo": 26
         },
         {
           "type": "manager_sacked",
@@ -150,60 +161,31 @@
           "source": "BBC News",
           "publishedAt": "2026-07-07T08:58:21Z",
           "rawImpact": -20,
-          "decayedImpact": -3.3,
-          "daysAgo": 25
+          "decayedImpact": -2.7,
+          "daysAgo": 26
         }
       ],
       "totalRawImpact": -33,
-      "totalDecayedImpact": -5.6,
-      "newsAdjustment": -3.4
+      "totalDecayedImpact": -4.5,
+      "newsAdjustment": -2.7
     },
-    "FC Ingolstadt 04": {
+    "RC Celta de Vigo": {
       "events": [
         {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Former England youth international joins Ingolstadt from Notts County",
-          "url": "https://bulinews.com/former-england-youth-international-joins-ingolstadt-notts-county",
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Abdoulaye Faye set to leave Leverkusen on loan for second time",
+          "url": "https://bulinews.com/abdoulaye-faye-set-leave-leverkusen-loan-for-second-time",
           "source": "Bulinews.com",
-          "publishedAt": "2026-07-18T13:14:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
+          "publishedAt": "2026-07-31T10:31:00Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -5.4,
+          "daysAgo": 2
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.1,
-      "newsAdjustment": 0.1
-    },
-    "Eintracht Frankfurt": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Official | Eintracht Frankfurt seal €13m Noël Aséko capture",
-          "url": "https://www.getfootballnewsgermany.com/2026/noel-aseko-eintracht-frankfurt/",
-          "source": "Getfootballnewsgermany.com",
-          "publishedAt": "2026-07-18T14:55:00Z",
-          "rawImpact": 6.3,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Noel Aseko departs for Frankfurt",
-          "url": "https://fcbayern.com/en/news/2026/07/after-loan-at-hannover-noel-aseko-departs-for-frankfurt",
-          "source": "Fcbayern.com",
-          "publishedAt": "2026-07-18T13:46:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 14.1,
-      "totalDecayedImpact": 0.2,
-      "newsAdjustment": 0.1
+      "totalRawImpact": -6.3,
+      "totalDecayedImpact": -5.4,
+      "newsAdjustment": -3.3
     }
   }
 }
