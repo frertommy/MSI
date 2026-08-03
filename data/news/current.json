@@ -1,8 +1,26 @@
 {
-  "computedAt": "2026-08-03T06:56:19.657Z",
+  "computedAt": "2026-08-03T09:56:57.291Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
+    "Bayer 04 Leverkusen": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Official | Bayer Leverkusen’s Luca Erlein joins Energie Cottbus on loan",
+          "url": "https://www.getfootballnewsgermany.com/2026/official-bayer-leverkusens-luca-erlein-joins-energie-cottbus-on-loan/",
+          "source": "Getfootballnewsgermany.com",
+          "publishedAt": "2026-07-27T15:10:00Z",
+          "rawImpact": 6.3,
+          "decayedImpact": 3.2,
+          "daysAgo": 7
+        }
+      ],
+      "totalRawImpact": 6.3,
+      "totalDecayedImpact": 3.2,
+      "newsAdjustment": 1.9
+    },
     "FC Barcelona": {
       "events": [
         {
@@ -21,24 +39,6 @@
       "totalDecayedImpact": 2.8,
       "newsAdjustment": 1.7
     },
-    "Bayer 04 Leverkusen": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Official | Bayer Leverkusen’s Luca Erlein joins Energie Cottbus on loan",
-          "url": "https://www.getfootballnewsgermany.com/2026/official-bayer-leverkusens-luca-erlein-joins-energie-cottbus-on-loan/",
-          "source": "Getfootballnewsgermany.com",
-          "publishedAt": "2026-07-27T15:10:00Z",
-          "rawImpact": 6.3,
-          "decayedImpact": 3.3,
-          "daysAgo": 7
-        }
-      ],
-      "totalRawImpact": 6.3,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
-    },
     "Borussia Dortmund": {
       "events": [
         {
@@ -49,7 +49,7 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-08-01T10:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.8,
+          "decayedImpact": 6.7,
           "daysAgo": 2
         },
         {
@@ -60,7 +60,7 @@
           "source": "Footballtoday.com",
           "publishedAt": "2026-08-01T06:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.7,
+          "decayedImpact": 6.6,
           "daysAgo": 2
         },
         {
@@ -71,13 +71,13 @@
           "source": "CNA",
           "publishedAt": "2026-07-24T09:42:59Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2.8,
+          "decayedImpact": 2.7,
           "daysAgo": 10
         }
       ],
       "totalRawImpact": 20.8,
-      "totalDecayedImpact": 16.2,
-      "newsAdjustment": 9.7
+      "totalDecayedImpact": 16,
+      "newsAdjustment": 9.6
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -95,7 +95,7 @@
       ],
       "totalRawImpact": 7.8,
       "totalDecayedImpact": 6.1,
-      "newsAdjustment": 3.7
+      "newsAdjustment": 3.6
     },
     "SSC Napoli": {
       "events": [
@@ -125,12 +125,12 @@
           "source": "The Punch",
           "publishedAt": "2026-07-29T23:50:33Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.4,
+          "decayedImpact": 5.3,
           "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.4,
+      "totalDecayedImpact": 5.3,
       "newsAdjustment": 3.2
     },
     "Paris FC": {
@@ -154,13 +154,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-07T08:58:21Z",
           "rawImpact": -20,
-          "decayedImpact": -2.1,
+          "decayedImpact": -2,
           "daysAgo": 27
         }
       ],
       "totalRawImpact": -33,
-      "totalDecayedImpact": -3.5,
-      "newsAdjustment": -2.1
+      "totalDecayedImpact": -3.3,
+      "newsAdjustment": -2
     },
     "RC Celta de Vigo": {
       "events": [
