@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-08-02T08:31:42.219Z",
+  "computedAt": "2026-08-03T06:56:19.657Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-07-25T09:07:54Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.4,
-          "daysAgo": 8
+          "decayedImpact": 2.8,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.4,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 2.8,
+      "newsAdjustment": 1.7
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -31,34 +31,27 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-27T15:10:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 3.7,
-          "daysAgo": 6
+          "decayedImpact": 3.3,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 3.7,
-      "newsAdjustment": 2.2
+      "totalDecayedImpact": 3.3,
+      "newsAdjustment": 2
     },
-    "RC Lens": {
+    "Borussia Dortmund": {
       "events": [
         {
           "type": "star_signing",
           "label": "Star Signing",
-          "headline": "Mamadou Sangare: Why RC Lens star will fix Man United’s midfield",
-          "url": "https://thepeoplesperson.com/2026/07/19/mamadou-sangare-why-rc-lens-star-will-fix-man-uniteds-midfield-312937/",
-          "source": "The Peoples Person",
-          "publishedAt": "2026-07-19T18:30:00Z",
+          "headline": "Former Borussia Dortmund star Julian Brandt enthusiastic about Ajax transfer",
+          "url": "https://getfootballnewsbene.com/former-borussia-dortmund-star-julian-brandt-enthusiastic-about-ajax-transfer/",
+          "source": "Getfootballnewsbene.com",
+          "publishedAt": "2026-08-01T10:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.2,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.2,
-      "newsAdjustment": 0.1
-    },
-    "Borussia Dortmund": {
-      "events": [
+          "decayedImpact": 6.8,
+          "daysAgo": 2
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -67,8 +60,8 @@
           "source": "Footballtoday.com",
           "publishedAt": "2026-08-01T06:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7.2,
-          "daysAgo": 1
+          "decayedImpact": 6.7,
+          "daysAgo": 2
         },
         {
           "type": "manager_appointed",
@@ -78,13 +71,13 @@
           "source": "CNA",
           "publishedAt": "2026-07-24T09:42:59Z",
           "rawImpact": 5.2,
-          "decayedImpact": 3,
-          "daysAgo": 9
+          "decayedImpact": 2.8,
+          "daysAgo": 10
         }
       ],
-      "totalRawImpact": 13,
-      "totalDecayedImpact": 10.2,
-      "newsAdjustment": 6.1
+      "totalRawImpact": 20.8,
+      "totalDecayedImpact": 16.2,
+      "newsAdjustment": 9.7
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -96,13 +89,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-07-31T06:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.6,
-          "daysAgo": 2
+          "decayedImpact": 6.1,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.6,
-      "newsAdjustment": 4
+      "totalDecayedImpact": 6.1,
+      "newsAdjustment": 3.7
     },
     "SSC Napoli": {
       "events": [
@@ -114,13 +107,13 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-07-10T12:00:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.6,
-          "daysAgo": 23
+          "decayedImpact": 0.5,
+          "daysAgo": 24
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.5,
+      "newsAdjustment": 0.3
     },
     "TSG 1899 Hoffenheim": {
       "events": [
@@ -132,13 +125,13 @@
           "source": "The Punch",
           "publishedAt": "2026-07-29T23:50:33Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.9,
-          "daysAgo": 3
+          "decayedImpact": 5.4,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.9,
-      "newsAdjustment": 3.6
+      "totalDecayedImpact": 5.4,
+      "newsAdjustment": 3.2
     },
     "Paris FC": {
       "events": [
@@ -150,8 +143,8 @@
           "source": "Hayters.com",
           "publishedAt": "2026-07-07T12:50:00Z",
           "rawImpact": -13,
-          "decayedImpact": -1.8,
-          "daysAgo": 26
+          "decayedImpact": -1.4,
+          "daysAgo": 27
         },
         {
           "type": "manager_sacked",
@@ -161,13 +154,13 @@
           "source": "BBC News",
           "publishedAt": "2026-07-07T08:58:21Z",
           "rawImpact": -20,
-          "decayedImpact": -2.7,
-          "daysAgo": 26
+          "decayedImpact": -2.1,
+          "daysAgo": 27
         }
       ],
       "totalRawImpact": -33,
-      "totalDecayedImpact": -4.5,
-      "newsAdjustment": -2.7
+      "totalDecayedImpact": -3.5,
+      "newsAdjustment": -2.1
     },
     "RC Celta de Vigo": {
       "events": [
@@ -179,13 +172,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-31T10:31:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -5.4,
-          "daysAgo": 2
+          "decayedImpact": -5,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -5.4,
-      "newsAdjustment": -3.3
+      "totalDecayedImpact": -5,
+      "newsAdjustment": -3
     }
   }
 }
