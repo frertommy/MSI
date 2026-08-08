@@ -1,37 +1,8 @@
 {
-  "computedAt": "2026-08-07T07:24:52.759Z",
+  "computedAt": "2026-08-08T07:02:24.522Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "FC Barcelona": {
-      "events": [
-        {
-          "type": "financial_crisis",
-          "label": "Financial Crisis",
-          "headline": "Barcelona’s ambitious swap plan remains stalled because of La Liga rivals’ firm stance",
-          "url": "https://barcauniversal.com/barcelonas-ambitious-swap-plan-remains-stalled-because-of-la-liga-rivals-firm-stance/",
-          "source": "Barcauniversal.com",
-          "publishedAt": "2026-08-04T13:40:00Z",
-          "rawImpact": -6.3,
-          "decayedImpact": -5.9,
-          "daysAgo": 3
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Spain striker Paralluelo joins Lyon from Barcelona",
-          "url": "https://sports.yahoo.com/articles/spain-striker-paralluelo-joins-lyon-090754891.html",
-          "source": "Yahoo Entertainment",
-          "publishedAt": "2026-07-25T09:07:54Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
-        }
-      ],
-      "totalRawImpact": 1.5,
-      "totalDecayedImpact": -5.3,
-      "newsAdjustment": -3.2
-    },
     "AS Roma": {
       "events": [
         {
@@ -42,13 +13,42 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-08-02T11:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
+          "decayedImpact": 4.6,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.1,
-      "newsAdjustment": 3.1
+      "totalDecayedImpact": 4.6,
+      "newsAdjustment": 2.7
+    },
+    "FC Barcelona": {
+      "events": [
+        {
+          "type": "financial_crisis",
+          "label": "Financial Crisis",
+          "headline": "Barcelona’s ambitious swap plan remains stalled because of La Liga rivals’ firm stance",
+          "url": "https://barcauniversal.com/barcelonas-ambitious-swap-plan-remains-stalled-because-of-la-liga-rivals-firm-stance/",
+          "source": "Barcauniversal.com",
+          "publishedAt": "2026-08-04T13:40:00Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -5.8,
+          "daysAgo": 4
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Spain striker Paralluelo joins Lyon from Barcelona",
+          "url": "https://sports.yahoo.com/articles/spain-striker-paralluelo-joins-lyon-090754891.html",
+          "source": "Yahoo Entertainment",
+          "publishedAt": "2026-07-25T09:07:54Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 0,
+          "daysAgo": 14
+        }
+      ],
+      "totalRawImpact": 1.5,
+      "totalDecayedImpact": -5.7,
+      "newsAdjustment": -3.4
     },
     "Borussia Dortmund": {
       "events": [
@@ -60,8 +60,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-08-01T10:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.5,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         },
         {
           "type": "star_signing",
@@ -71,8 +71,8 @@
           "source": "Footballtoday.com",
           "publishedAt": "2026-08-01T06:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.4,
-          "daysAgo": 6
+          "decayedImpact": 3.9,
+          "daysAgo": 7
         },
         {
           "type": "manager_appointed",
@@ -82,13 +82,31 @@
           "source": "CNA",
           "publishedAt": "2026-07-24T09:42:59Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.8,
-          "daysAgo": 14
+          "decayedImpact": 1.5,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": 20.8,
-      "totalDecayedImpact": 10.7,
-      "newsAdjustment": 6.4
+      "totalDecayedImpact": 9.4,
+      "newsAdjustment": 5.6
+    },
+    "AC Milan": {
+      "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Confirmed Line-Ups: Manchester City vs Inter (Pre-Season Friendly)",
+          "url": "https://cityxtra.co.uk/50522/confirmed-line-ups-manchester-city-vs-inter-pre-season-friendly/",
+          "source": "Cityxtra.co.uk",
+          "publishedAt": "2026-08-01T10:30:00Z",
+          "rawImpact": 4.2,
+          "decayedImpact": 2.8,
+          "daysAgo": 7
+        }
+      ],
+      "totalRawImpact": 4.2,
+      "totalDecayedImpact": 2.8,
+      "newsAdjustment": 1.7
     },
     "RB Leipzig": {
       "events": [
@@ -100,13 +118,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-03T17:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.8,
-          "daysAgo": 4
+          "decayedImpact": 5.3,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.8,
-      "newsAdjustment": 3.5
+      "totalDecayedImpact": 5.3,
+      "newsAdjustment": 3.2
     },
     "OGC Nice": {
       "events": [
@@ -118,16 +136,27 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-03T08:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.6,
-          "daysAgo": 4
+          "decayedImpact": 5,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.6,
-      "newsAdjustment": 3.4
+      "totalDecayedImpact": 5,
+      "newsAdjustment": 3
     },
     "Club Atlético de Madrid": {
       "events": [
+        {
+          "type": "manager_appointed",
+          "label": "Manager Appointed",
+          "headline": "Uruguay appoint Forlan as head coach after World Cup debacle",
+          "url": "https://www.channelnewsasia.com/sport/uruguay-appoint-forlan-head-coach-after-world-cup-debacle-6304186",
+          "source": "CNA",
+          "publishedAt": "2026-08-06T15:02:09Z",
+          "rawImpact": 5.2,
+          "decayedImpact": 4.8,
+          "daysAgo": 2
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -136,13 +165,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-07-31T06:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.9,
-          "daysAgo": 7
+          "decayedImpact": 3.3,
+          "daysAgo": 8
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.3
+      "totalRawImpact": 13,
+      "totalDecayedImpact": 8.1,
+      "newsAdjustment": 4.9
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -154,13 +183,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-27T15:10:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 1.5,
-          "daysAgo": 11
+          "decayedImpact": 1.1,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 1.5,
-      "newsAdjustment": 0.9
+      "totalDecayedImpact": 1.1,
+      "newsAdjustment": 0.6
     },
     "SSC Napoli": {
       "events": [
@@ -172,12 +201,12 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-07-10T12:00:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.2,
-          "daysAgo": 28
+          "decayedImpact": 0.1,
+          "daysAgo": 29
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.2,
+      "totalDecayedImpact": 0.1,
       "newsAdjustment": 0.1
     },
     "TSG 1899 Hoffenheim": {
@@ -190,8 +219,8 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-02T21:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.3,
-          "daysAgo": 4
+          "decayedImpact": 4.8,
+          "daysAgo": 5
         },
         {
           "type": "star_signing",
@@ -201,13 +230,13 @@
           "source": "The Punch",
           "publishedAt": "2026-07-29T23:50:33Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.2,
-          "daysAgo": 8
+          "decayedImpact": 2.6,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 8.5,
-      "newsAdjustment": 5.1
+      "totalDecayedImpact": 7.4,
+      "newsAdjustment": 4.4
     },
     "RC Celta de Vigo": {
       "events": [
@@ -219,13 +248,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-31T10:31:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.2,
-          "daysAgo": 7
+          "decayedImpact": -2.8,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -3.2,
-      "newsAdjustment": -1.9
+      "totalDecayedImpact": -2.8,
+      "newsAdjustment": -1.7
     },
     "Hamburger SV": {
       "events": [
@@ -237,13 +266,13 @@
           "source": "Herfootballhub.com",
           "publishedAt": "2026-07-31T08:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.9,
-          "daysAgo": 7
+          "decayedImpact": 3.4,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.9,
-      "newsAdjustment": 2.4
+      "totalDecayedImpact": 3.4,
+      "newsAdjustment": 2
     },
     "Borussia Mönchengladbach": {
       "events": [
@@ -255,13 +284,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-04T10:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.2,
-          "daysAgo": 3
+          "decayedImpact": 5.6,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.2,
-      "newsAdjustment": 3.7
+      "totalDecayedImpact": 5.6,
+      "newsAdjustment": 3.4
     },
     "Middlesbrough": {
       "events": [
@@ -273,12 +302,30 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-08-05T16:20:26Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.9,
+          "decayedImpact": 6.3,
+          "daysAgo": 3
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.3,
+      "newsAdjustment": 3.8
+    },
+    "1. FC Köln": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "1. FC Köln manage coup signing as Kathy Hendrich joins from NWSL Chicago Stars",
+          "url": "https://herfootballhub.com/1-fc-koln-manage-coup-signing-as-kathy-hendrich-joins-from-nwsl-chicago-stars/",
+          "source": "Herfootballhub.com",
+          "publishedAt": "2026-08-06T14:05:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.8,
           "daysAgo": 2
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.9,
+      "totalDecayedImpact": 6.8,
       "newsAdjustment": 4.1
     }
   }
