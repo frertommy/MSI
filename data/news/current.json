@@ -1,8 +1,26 @@
 {
-  "computedAt": "2026-08-09T07:04:35.432Z",
+  "computedAt": "2026-08-10T05:21:27.954Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
+    "Olympique de Marseille": {
+      "events": [
+        {
+          "type": "financial_crisis",
+          "label": "Financial Crisis",
+          "headline": "FEATURE | ‘Everything must go’ Inside the financial crisis engulfing Marseille",
+          "url": "https://www.getfootballnewsfrance.com/2026/feature-everything-must-go-inside-the-financial-crisis-engulfing-marseille/",
+          "source": "Get French Football News",
+          "publishedAt": "2026-08-08T12:10:00Z",
+          "rawImpact": -7.8,
+          "decayedImpact": -7.5,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": -7.8,
+      "totalDecayedImpact": -7.5,
+      "newsAdjustment": -4.5
+    },
     "Borussia Dortmund": {
       "events": [
         {
@@ -13,8 +31,8 @@
           "source": "Getfootballnewsbene.com",
           "publishedAt": "2026-08-01T10:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.4,
-          "daysAgo": 8
+          "decayedImpact": 2.9,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -24,8 +42,8 @@
           "source": "Footballtoday.com",
           "publishedAt": "2026-08-01T06:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 2.8,
+          "daysAgo": 9
         },
         {
           "type": "manager_appointed",
@@ -35,13 +53,13 @@
           "source": "CNA",
           "publishedAt": "2026-07-24T09:42:59Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.3,
-          "daysAgo": 16
+          "decayedImpact": 1,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": 20.8,
-      "totalDecayedImpact": 8,
-      "newsAdjustment": 4.8
+      "totalDecayedImpact": 6.7,
+      "newsAdjustment": 4
     },
     "AC Milan": {
       "events": [
@@ -53,13 +71,13 @@
           "source": "Cityxtra.co.uk",
           "publishedAt": "2026-08-01T10:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 8
+          "decayedImpact": 2.4,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.6,
-      "newsAdjustment": 1.6
+      "totalDecayedImpact": 2.4,
+      "newsAdjustment": 1.5
     },
     "FC Barcelona": {
       "events": [
@@ -71,13 +89,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-04T13:40:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -5.6,
-          "daysAgo": 5
+          "decayedImpact": -5.5,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -5.6,
-      "newsAdjustment": -3.4
+      "totalDecayedImpact": -5.5,
+      "newsAdjustment": -3.3
     },
     "RB Leipzig": {
       "events": [
@@ -89,13 +107,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-03T17:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.7,
-          "daysAgo": 6
+          "decayedImpact": 4.2,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.7,
-      "newsAdjustment": 2.8
+      "totalDecayedImpact": 4.2,
+      "newsAdjustment": 2.5
     },
     "OGC Nice": {
       "events": [
@@ -107,13 +125,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-03T08:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.5,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.5,
-      "newsAdjustment": 2.7
+      "totalDecayedImpact": 4,
+      "newsAdjustment": 2.4
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -125,8 +143,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-07T09:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.7,
-          "daysAgo": 2
+          "decayedImpact": 6.2,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -136,8 +154,8 @@
           "source": "CNA",
           "publishedAt": "2026-08-06T15:02:09Z",
           "rawImpact": 5.2,
-          "decayedImpact": 4.5,
-          "daysAgo": 3
+          "decayedImpact": 4.3,
+          "daysAgo": 4
         },
         {
           "type": "star_signing",
@@ -147,13 +165,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-07-31T06:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.8,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 20.8,
-      "totalDecayedImpact": 14.1,
-      "newsAdjustment": 8.4
+      "totalDecayedImpact": 12.8,
+      "newsAdjustment": 7.7
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -165,31 +183,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-07-27T15:10:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
+          "decayedImpact": 0.2,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.4
-    },
-    "SSC Napoli": {
-      "events": [
-        {
-          "type": "ownership_change",
-          "label": "Ownership Change",
-          "headline": "Inter Set to Complete the Acquisition of Khalaili",
-          "url": "https://cultofcalcio.com/inter-set-to-complete-the-acquisition-of-khalaili/",
-          "source": "Cultofcalcio.com",
-          "publishedAt": "2026-07-10T12:00:00Z",
-          "rawImpact": 2.6,
-          "decayedImpact": 0,
-          "daysAgo": 30
-        }
-      ],
-      "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0,
-      "newsAdjustment": 0
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     },
     "TSG 1899 Hoffenheim": {
       "events": [
@@ -201,8 +201,8 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-02T21:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 6
+          "decayedImpact": 3.7,
+          "daysAgo": 7
         },
         {
           "type": "star_signing",
@@ -212,13 +212,13 @@
           "source": "The Punch",
           "publishedAt": "2026-07-29T23:50:33Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.1,
-          "daysAgo": 10
+          "decayedImpact": 1.5,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
+      "totalDecayedImpact": 5.3,
+      "newsAdjustment": 3.2
     },
     "AS Roma": {
       "events": [
@@ -230,13 +230,13 @@
           "source": "Cultofcalcio.com",
           "publishedAt": "2026-08-02T11:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4,
-          "daysAgo": 7
+          "decayedImpact": 3.5,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4,
-      "newsAdjustment": 2.4
+      "totalDecayedImpact": 3.5,
+      "newsAdjustment": 2.1
     },
     "RC Celta de Vigo": {
       "events": [
@@ -248,13 +248,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-07-31T10:31:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.3,
-          "daysAgo": 9
+          "decayedImpact": -1.9,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -2.3,
-      "newsAdjustment": -1.4
+      "totalDecayedImpact": -1.9,
+      "newsAdjustment": -1.1
     },
     "Hamburger SV": {
       "events": [
@@ -266,13 +266,13 @@
           "source": "Herfootballhub.com",
           "publishedAt": "2026-07-31T08:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.8,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.8,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.3,
+      "newsAdjustment": 1.4
     },
     "Borussia Mönchengladbach": {
       "events": [
@@ -284,13 +284,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-04T10:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
+          "decayedImpact": 4.6,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.1,
-      "newsAdjustment": 3.1
+      "totalDecayedImpact": 4.6,
+      "newsAdjustment": 2.7
     },
     "Middlesbrough": {
       "events": [
@@ -302,13 +302,13 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-08-05T16:20:26Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.8,
-          "daysAgo": 4
+          "decayedImpact": 5.3,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.8,
-      "newsAdjustment": 3.5
+      "totalDecayedImpact": 5.3,
+      "newsAdjustment": 3.2
     },
     "1. FC Köln": {
       "events": [
@@ -320,13 +320,13 @@
           "source": "Herfootballhub.com",
           "publishedAt": "2026-08-06T14:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.3,
-          "daysAgo": 3
+          "decayedImpact": 5.8,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
+      "totalDecayedImpact": 5.8,
+      "newsAdjustment": 3.5
     }
   }
 }
