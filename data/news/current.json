@@ -1,10 +1,21 @@
 {
-  "computedAt": "2026-08-16T06:49:23.074Z",
+  "computedAt": "2026-08-17T04:36:39.617Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
     "FC Barcelona": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "World Cup winner Ferran Torres joins Paris Saint-Germain from Barcelona",
+          "url": "https://www.aljazeera.com/sports/2026/8/15/world-cup-winner-ferran-torres-joins-paris-saint-germain-from-barcelona",
+          "source": "Al Jazeera English",
+          "publishedAt": "2026-08-15T10:48:41Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.8,
+          "daysAgo": 2
+        },
         {
           "type": "star_departure",
           "label": "Star Departure",
@@ -13,8 +24,19 @@
           "source": "BBC News",
           "publishedAt": "2026-08-13T21:37:39Z",
           "rawImpact": -9.7,
-          "decayedImpact": -8.1,
-          "daysAgo": 2
+          "decayedImpact": -7.5,
+          "daysAgo": 3
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Barcelona set price limit for Rodri signing",
+          "url": "https://getfootballnewsspain.com/barcelona-set-price-limit-for-rodri-signing/",
+          "source": "Getfootballnewsspain.com",
+          "publishedAt": "2026-08-13T17:20:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 5.9,
+          "daysAgo": 3
         },
         {
           "type": "manager_appointed",
@@ -24,8 +46,8 @@
           "source": "BBC News",
           "publishedAt": "2026-08-12T20:15:18Z",
           "rawImpact": 8,
-          "decayedImpact": 6.7,
-          "daysAgo": 3
+          "decayedImpact": 6.3,
+          "daysAgo": 4
         },
         {
           "type": "star_signing",
@@ -35,7 +57,7 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-10T17:30:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 3.8,
+          "decayedImpact": 3.4,
           "daysAgo": 6
         },
         {
@@ -46,13 +68,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-04T13:40:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.7,
-          "daysAgo": 12
+          "decayedImpact": -4.5,
+          "daysAgo": 13
         }
       ],
-      "totalRawImpact": -1.7,
-      "totalDecayedImpact": -2.3,
-      "newsAdjustment": -1.4
+      "totalRawImpact": 13.9,
+      "totalDecayedImpact": 10.4,
+      "newsAdjustment": 6.3
     },
     "RB Leipzig": {
       "events": [
@@ -64,31 +86,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-03T17:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.8,
+          "decayedImpact": 0.3,
           "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
-    },
-    "OGC Nice": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Newcastle sign goalkeeper Hornicek",
-          "url": "https://www.skysports.com/football/news/11678/13569327/lukas-hornicek-newcastle-united-sign-czech-republic-international-goalkeeper-on-five-year-contract-from-braga-in-deal-worth-lb25-7m",
-          "source": "Sky Sports",
-          "publishedAt": "2026-08-03T08:00:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.3,
+      "newsAdjustment": 0.2
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -100,8 +104,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-07T09:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.8,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         },
         {
           "type": "manager_appointed",
@@ -111,13 +115,13 @@
           "source": "CNA",
           "publishedAt": "2026-08-06T15:02:09Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2.8,
-          "daysAgo": 10
+          "decayedImpact": 2.6,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 13,
-      "totalDecayedImpact": 5.7,
-      "newsAdjustment": 3.4
+      "totalDecayedImpact": 4.9,
+      "newsAdjustment": 3
     },
     "AC Milan": {
       "events": [
@@ -129,13 +133,13 @@
           "source": "Cityxtra.co.uk",
           "publishedAt": "2026-08-01T10:30:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.2,
-          "daysAgo": 15
+          "decayedImpact": 1,
+          "daysAgo": 16
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 1.2,
-      "newsAdjustment": 0.7
+      "totalDecayedImpact": 1,
+      "newsAdjustment": 0.6
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -147,31 +151,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-08-14T14:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.9,
-          "daysAgo": 2
+          "decayedImpact": 6.4,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.9,
-      "newsAdjustment": 4.1
-    },
-    "TSG 1899 Hoffenheim": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Official | Hoffenheim complete €14.5m Adam Daghim signing",
-          "url": "https://www.getfootballnewsgermany.com/2026/daghim-hoffenheim-official/",
-          "source": "Getfootballnewsgermany.com",
-          "publishedAt": "2026-08-02T21:10:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 13
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.3,
-      "newsAdjustment": 0.2
+      "totalDecayedImpact": 6.4,
+      "newsAdjustment": 3.8
     },
     "SV Werder Bremen": {
       "events": [
@@ -183,13 +169,13 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-12T12:15:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.6,
-          "daysAgo": 4
+          "decayedImpact": -4.2,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -4.6,
-      "newsAdjustment": -2.8
+      "totalDecayedImpact": -4.2,
+      "newsAdjustment": -2.5
     },
     "AS Roma": {
       "events": [
@@ -201,24 +187,31 @@
           "source": "Anfieldwatch.co.uk",
           "publishedAt": "2026-08-06T20:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.5,
-          "daysAgo": 9
-        },
+          "decayedImpact": 2,
+          "daysAgo": 10
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 2,
+      "newsAdjustment": 1.2
+    },
+    "OGC Nice": {
+      "events": [
         {
           "type": "star_signing",
           "label": "Star Signing",
-          "headline": "Report – PSG Set to Beat Juventus in Race to Sign Parma Star",
-          "url": "https://cultofcalcio.com/report-psg-set-to-beat-juventus-in-race-to-sign-parma-star/",
-          "source": "Cultofcalcio.com",
-          "publishedAt": "2026-08-02T11:40:00Z",
+          "headline": "Newcastle sign goalkeeper Hornicek",
+          "url": "https://www.skysports.com/football/news/11678/13569327/lukas-hornicek-newcastle-united-sign-czech-republic-international-goalkeeper-on-five-year-contract-from-braga-in-deal-worth-lb25-7m",
+          "source": "Sky Sports",
+          "publishedAt": "2026-08-03T08:00:00Z",
           "rawImpact": 7.8,
           "decayedImpact": 0.1,
           "daysAgo": 14
         }
       ],
-      "totalRawImpact": 15.6,
-      "totalDecayedImpact": 2.7,
-      "newsAdjustment": 1.6
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 0.1,
+      "newsAdjustment": 0
     },
     "Borussia Mönchengladbach": {
       "events": [
@@ -230,8 +223,8 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-08-14T11:26:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -5.5,
-          "daysAgo": 2
+          "decayedImpact": -5.1,
+          "daysAgo": 3
         },
         {
           "type": "star_signing",
@@ -241,12 +234,12 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-04T10:10:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.7,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 1.5,
-      "totalDecayedImpact": -4.3,
+      "totalDecayedImpact": -4.4,
       "newsAdjustment": -2.6
     },
     "Middlesbrough": {
@@ -259,13 +252,13 @@
           "source": "NBCSports.com",
           "publishedAt": "2026-08-05T16:20:26Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.9,
-          "daysAgo": 11
+          "decayedImpact": 1.4,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.9,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 1.4,
+      "newsAdjustment": 0.8
     },
     "1. FC Köln": {
       "events": [
@@ -277,13 +270,13 @@
           "source": "Herfootballhub.com",
           "publishedAt": "2026-08-06T14:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.4,
-          "daysAgo": 10
+          "decayedImpact": 1.9,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.4,
-      "newsAdjustment": 1.4
+      "totalDecayedImpact": 1.9,
+      "newsAdjustment": 1.1
     },
     "Olympique de Marseille": {
       "events": [
@@ -295,13 +288,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-08T12:10:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -6.5,
-          "daysAgo": 8
+          "decayedImpact": -6.3,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -6.5,
-      "newsAdjustment": -3.9
+      "totalDecayedImpact": -6.3,
+      "newsAdjustment": -3.8
     },
     "CA Osasuna": {
       "events": [
@@ -313,13 +306,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-11T09:00:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 3.2,
-          "daysAgo": 5
+          "decayedImpact": 3,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 3.2,
-      "newsAdjustment": 1.9
+      "totalDecayedImpact": 3,
+      "newsAdjustment": 1.8
     },
     "Paderborn": {
       "events": [
@@ -331,13 +324,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-13T15:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.3,
-          "daysAgo": 3
+          "decayedImpact": 5.8,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
+      "totalDecayedImpact": 5.8,
+      "newsAdjustment": 3.5
     }
   }
 }
