@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-08-31T10:22:45.351Z",
+  "computedAt": "2026-08-31T13:16:58.501Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -24,16 +24,27 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-08-21T08:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.2,
+          "decayedImpact": 2.1,
           "daysAgo": 10
         }
       ],
       "totalRawImpact": 13,
-      "totalDecayedImpact": 5.2,
+      "totalDecayedImpact": 5.1,
       "newsAdjustment": 3.1
     },
     "FC Barcelona": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Barcelona agree deal to sign Jesus from Arsenal",
+          "url": "https://www.skysports.com/football/news/11670/13579021/gabriel-jesus-barcelona-agree-lb8-6m-deal-in-principle-to-sign-arsenal-and-brazil-forward",
+          "source": "Sky Sports",
+          "publishedAt": "2026-08-30T13:01:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 7.2,
+          "daysAgo": 1
+        },
         {
           "type": "star_departure",
           "label": "Star Departure",
@@ -64,7 +75,7 @@
           "source": "Vanguard",
           "publishedAt": "2026-08-22T11:43:17Z",
           "rawImpact": 6.3,
-          "decayedImpact": 2.3,
+          "decayedImpact": 2.2,
           "daysAgo": 9
         },
         {
@@ -90,9 +101,9 @@
           "daysAgo": 27
         }
       ],
-      "totalRawImpact": 9.5,
-      "totalDecayedImpact": 0.7,
-      "newsAdjustment": 0.4
+      "totalRawImpact": 17.3,
+      "totalDecayedImpact": 7.8,
+      "newsAdjustment": 4.7
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -122,7 +133,7 @@
           "source": "Dailycannon.com",
           "publishedAt": "2026-08-21T09:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.2,
+          "decayedImpact": 2.1,
           "daysAgo": 10
         },
         {
@@ -138,7 +149,7 @@
         }
       ],
       "totalRawImpact": 0,
-      "totalDecayedImpact": -1.6,
+      "totalDecayedImpact": -1.7,
       "newsAdjustment": -1
     },
     "CA Osasuna": {
@@ -169,12 +180,12 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-08-17T17:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.2,
+          "decayedImpact": 0.1,
           "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.2,
+      "totalDecayedImpact": 0.1,
       "newsAdjustment": 0.1
     },
     "Liverpool FC": {
@@ -187,7 +198,7 @@
           "source": "SB Nation",
           "publishedAt": "2026-08-21T19:18:56Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2,
+          "decayedImpact": -1.9,
           "daysAgo": 10
         },
         {
