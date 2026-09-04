@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-09-03T10:59:40.106Z",
+  "computedAt": "2026-09-04T10:59:52.100Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-31T07:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.9,
-          "daysAgo": 3
+          "decayedImpact": -4.4,
+          "daysAgo": 4
         },
         {
           "type": "manager_appointed",
@@ -24,24 +24,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-08-22T14:03:26Z",
           "rawImpact": 5.2,
-          "decayedImpact": 2.3,
-          "daysAgo": 12
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Aston Villa is challenging Juventus for AC Milan man",
-          "url": "https://talkjuve.com/2026/08/21/aston-villa-is-challenging-juventus-for-ac-milan-man/",
-          "source": "Talkjuve.com",
-          "publishedAt": "2026-08-21T08:05:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.5,
+          "decayedImpact": 2,
           "daysAgo": 13
         }
       ],
-      "totalRawImpact": 6.7,
-      "totalDecayedImpact": -2.1,
-      "newsAdjustment": -1.3
+      "totalRawImpact": -1.1,
+      "totalDecayedImpact": -2.4,
+      "newsAdjustment": -1.5
     },
     "FC Barcelona": {
       "events": [
@@ -53,8 +42,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-30T13:01:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.6,
-          "daysAgo": 4
+          "decayedImpact": 5.1,
+          "daysAgo": 5
         },
         {
           "type": "star_departure",
@@ -64,8 +53,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-23T21:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -1.5,
-          "daysAgo": 11
+          "decayedImpact": -1.1,
+          "daysAgo": 12
         },
         {
           "type": "star_signing",
@@ -75,8 +64,8 @@
           "source": "Al Jazeera English",
           "publishedAt": "2026-08-22T16:10:21Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.2,
-          "daysAgo": 12
+          "decayedImpact": 0.7,
+          "daysAgo": 13
         },
         {
           "type": "star_signing",
@@ -86,8 +75,8 @@
           "source": "Vanguard",
           "publishedAt": "2026-08-22T11:43:17Z",
           "rawImpact": 6.3,
-          "decayedImpact": 0.9,
-          "daysAgo": 12
+          "decayedImpact": 0.5,
+          "daysAgo": 13
         },
         {
           "type": "financial_crisis",
@@ -97,16 +86,45 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-04T13:40:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -2.1,
-          "daysAgo": 30
+          "decayedImpact": -2,
+          "daysAgo": 31
         }
       ],
       "totalRawImpact": 9.3,
-      "totalDecayedImpact": 4.1,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.1,
+      "newsAdjustment": 1.9
+    },
+    "Leeds": {
+      "events": [
+        {
+          "type": "star_departure",
+          "label": "Star Departure",
+          "headline": "Leeds United Lead Race For Sidelined £88k Star: His Role Under Farke?",
+          "url": "https://the4thofficial.net/2026/09/leeds-united-lead-race-for-sidelined-88k-star-his-role-under-farke/",
+          "source": "The4thofficial.net",
+          "publishedAt": "2026-09-01T19:05:00Z",
+          "rawImpact": -6.3,
+          "decayedImpact": -5.1,
+          "daysAgo": 3
+        }
+      ],
+      "totalRawImpact": -6.3,
+      "totalDecayedImpact": -5.1,
+      "newsAdjustment": -3.1
     },
     "Bayer 04 Leverkusen": {
       "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Official | Werder Bremen confirm Brazilian fullback Arthur as 14th and final summer arrival",
+          "url": "https://www.getfootballnewsgermany.com/2026/arthur-werder-bremen-official/",
+          "source": "Getfootballnewsgermany.com",
+          "publishedAt": "2026-09-01T20:25:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.3,
+          "daysAgo": 3
+        },
         {
           "type": "star_signing",
           "label": "Star Signing",
@@ -115,13 +133,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-08-27T21:48:50Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalRawImpact": 15.6,
+      "totalDecayedImpact": 9.9,
+      "newsAdjustment": 6
     },
     "RC Celta de Vigo": {
       "events": [
@@ -133,27 +151,16 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-09-01T08:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.6,
-          "daysAgo": 2
+          "decayedImpact": 6.1,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.6,
-      "newsAdjustment": 4
+      "totalDecayedImpact": 6.1,
+      "newsAdjustment": 3.6
     },
     "Olympique de Marseille": {
       "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Crystal Palace start talks over signing Arsenal star’s twin brother",
-          "url": "https://dailycannon.com/2026/08/crystal-palace-quinten-timber/",
-          "source": "Dailycannon.com",
-          "publishedAt": "2026-08-21T09:35:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.5,
-          "daysAgo": 13
-        },
         {
           "type": "financial_crisis",
           "label": "Financial Crisis",
@@ -162,13 +169,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-08T12:10:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -3.3,
-          "daysAgo": 26
+          "decayedImpact": -3.1,
+          "daysAgo": 27
         }
       ],
-      "totalRawImpact": 0,
-      "totalDecayedImpact": -2.8,
-      "newsAdjustment": -1.7
+      "totalRawImpact": -7.8,
+      "totalDecayedImpact": -3.1,
+      "newsAdjustment": -1.9
     },
     "CA Osasuna": {
       "events": [
@@ -180,13 +187,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-09-01T09:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.7,
-          "daysAgo": 2
+          "decayedImpact": 6.1,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.7,
-      "newsAdjustment": 4
+      "totalDecayedImpact": 6.1,
+      "newsAdjustment": 3.7
     },
     "Liverpool FC": {
       "events": [
@@ -198,8 +205,8 @@
           "source": "SB Nation",
           "publishedAt": "2026-08-21T19:18:56Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.6,
-          "daysAgo": 13
+          "decayedImpact": -0.2,
+          "daysAgo": 14
         },
         {
           "type": "ownership_change",
@@ -209,8 +216,8 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-08-18T13:35:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.2,
-          "daysAgo": 16
+          "decayedImpact": 1.1,
+          "daysAgo": 17
         },
         {
           "type": "ownership_change",
@@ -220,13 +227,13 @@
           "source": "Biztoc.com",
           "publishedAt": "2026-08-14T16:07:20Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.9,
-          "daysAgo": 20
+          "decayedImpact": 0.8,
+          "daysAgo": 21
         }
       ],
       "totalRawImpact": -1.1,
-      "totalDecayedImpact": 1.5,
-      "newsAdjustment": 0.9
+      "totalDecayedImpact": 1.8,
+      "newsAdjustment": 1.1
     },
     "ACF Fiorentina": {
       "events": [
@@ -238,13 +245,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-08-28T06:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.4,
-          "daysAgo": 6
+          "decayedImpact": 3.8,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.4,
-      "newsAdjustment": 2.6
+      "totalDecayedImpact": 3.8,
+      "newsAdjustment": 2.3
     },
     "Hull": {
       "events": [
@@ -256,13 +263,13 @@
           "source": "Football Italia",
           "publishedAt": "2026-09-01T15:47:04Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.8,
-          "daysAgo": 2
+          "decayedImpact": 6.2,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.8,
-      "newsAdjustment": 4.1
+      "totalDecayedImpact": 6.2,
+      "newsAdjustment": 3.7
     }
   }
 }
