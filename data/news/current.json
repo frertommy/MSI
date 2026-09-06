@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-09-05T10:21:21.832Z",
+  "computedAt": "2026-09-06T10:40:43.853Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-30T13:01:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.5,
-          "daysAgo": 6
+          "decayedImpact": 4,
+          "daysAgo": 7
         },
         {
           "type": "star_departure",
@@ -24,29 +24,7 @@
           "source": "Sky Sports",
           "publishedAt": "2026-08-23T21:25:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.7,
-          "daysAgo": 13
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Elche vs Barcelona: La Liga – prediction, team news, lineups",
-          "url": "https://www.aljazeera.com/sports/2026/8/22/elche-vs-barcelona-la-liga-prediction-team-news-lineups",
-          "source": "Al Jazeera English",
-          "publishedAt": "2026-08-22T16:10:21Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "LaLiga: Barca’s new arrival Rodri to miss Elche opener",
-          "url": "https://www.vanguardngr.com/2026/08/new-arrival-rodri-to-miss-elche-opener/",
-          "source": "Vanguard",
-          "publishedAt": "2026-08-22T11:43:17Z",
-          "rawImpact": 6.3,
-          "decayedImpact": 0,
+          "decayedImpact": -0.2,
           "daysAgo": 14
         },
         {
@@ -57,13 +35,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-04T13:40:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -1.8,
-          "daysAgo": 32
+          "decayedImpact": -1.7,
+          "daysAgo": 33
         }
       ],
-      "totalRawImpact": 9.3,
-      "totalDecayedImpact": 2.2,
-      "newsAdjustment": 1.3
+      "totalRawImpact": -4.8,
+      "totalDecayedImpact": 2.1,
+      "newsAdjustment": 1.2
     },
     "AC Milan": {
       "events": [
@@ -75,8 +53,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-31T07:50:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4,
-          "daysAgo": 5
+          "decayedImpact": -3.5,
+          "daysAgo": 6
         },
         {
           "type": "manager_appointed",
@@ -86,13 +64,31 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-08-22T14:03:26Z",
           "rawImpact": 5.2,
-          "decayedImpact": 1.8,
-          "daysAgo": 14
+          "decayedImpact": 1.5,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": -1.1,
-      "totalDecayedImpact": -2.2,
-      "newsAdjustment": -1.3
+      "totalDecayedImpact": -2,
+      "newsAdjustment": -1.2
+    },
+    "SSC Napoli": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Europa League winner moves to Salzburg",
+          "url": "https://www.redbullsalzburg.at/en/recent/news/lindstrom-neuzugang",
+          "source": "Redbullsalzburg.at",
+          "publishedAt": "2026-09-01T18:53:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 5.2,
+          "daysAgo": 5
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 5.2,
+      "newsAdjustment": 3.1
     },
     "Leeds": {
       "events": [
@@ -104,13 +100,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-09-01T19:05:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.7,
-          "daysAgo": 4
+          "decayedImpact": -4.2,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -4.7,
-      "newsAdjustment": -2.8
+      "totalDecayedImpact": -4.2,
+      "newsAdjustment": -2.5
     },
     "Bayer 04 Leverkusen": {
       "events": [
@@ -122,8 +118,19 @@
           "source": "Getfootballnewsgermany.com",
           "publishedAt": "2026-09-01T20:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.8,
-          "daysAgo": 4
+          "decayedImpact": 5.2,
+          "daysAgo": 5
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "WSL: Carlotta Wamser signs for Man City on four-year deal",
+          "url": "https://herfootballhub.com/wsl-carlotta-wamser-signs-for-man-city-on-four-year-deal/",
+          "source": "Herfootballhub.com",
+          "publishedAt": "2026-08-31T16:05:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 4.6,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -133,13 +140,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-08-27T21:48:50Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.1,
-          "daysAgo": 9
+          "decayedImpact": 2.5,
+          "daysAgo": 10
         }
       ],
-      "totalRawImpact": 15.6,
-      "totalDecayedImpact": 8.9,
-      "newsAdjustment": 5.3
+      "totalRawImpact": 23.4,
+      "totalDecayedImpact": 12.3,
+      "newsAdjustment": 7.4
     },
     "RC Celta de Vigo": {
       "events": [
@@ -151,13 +158,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-09-01T08:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.5,
-          "daysAgo": 4
+          "decayedImpact": 5,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.5,
-      "newsAdjustment": 3.3
+      "totalDecayedImpact": 5,
+      "newsAdjustment": 3
     },
     "Olympique de Marseille": {
       "events": [
@@ -169,8 +176,8 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-31T12:05:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
+          "decayedImpact": 4.5,
+          "daysAgo": 6
         },
         {
           "type": "financial_crisis",
@@ -180,13 +187,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-08T12:10:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -3,
-          "daysAgo": 28
+          "decayedImpact": -2.8,
+          "daysAgo": 29
         }
       ],
       "totalRawImpact": 0,
-      "totalDecayedImpact": 2.1,
-      "newsAdjustment": 1.3
+      "totalDecayedImpact": 1.7,
+      "newsAdjustment": 1
     },
     "CA Osasuna": {
       "events": [
@@ -198,13 +205,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-09-01T09:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.6,
-          "daysAgo": 4
+          "decayedImpact": 5,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.6,
-      "newsAdjustment": 3.3
+      "totalDecayedImpact": 5,
+      "newsAdjustment": 3
     },
     "Liverpool FC": {
       "events": [
@@ -216,8 +223,8 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-08-18T13:35:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.1,
-          "daysAgo": 18
+          "decayedImpact": 1,
+          "daysAgo": 19
         },
         {
           "type": "ownership_change",
@@ -227,13 +234,13 @@
           "source": "Biztoc.com",
           "publishedAt": "2026-08-14T16:07:20Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.7,
-          "daysAgo": 22
+          "decayedImpact": 0.6,
+          "daysAgo": 23
         }
       ],
       "totalRawImpact": 5.2,
-      "totalDecayedImpact": 1.8,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 1.6,
+      "newsAdjustment": 1
     },
     "ACF Fiorentina": {
       "events": [
@@ -245,13 +252,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-08-28T06:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.3,
-          "daysAgo": 8
+          "decayedImpact": 2.7,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.3,
-      "newsAdjustment": 2
+      "totalDecayedImpact": 2.7,
+      "newsAdjustment": 1.6
     },
     "Hull": {
       "events": [
@@ -263,13 +270,13 @@
           "source": "Football Italia",
           "publishedAt": "2026-09-01T15:47:04Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.7,
-          "daysAgo": 4
+          "decayedImpact": 5.1,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.7,
-      "newsAdjustment": 3.4
+      "totalDecayedImpact": 5.1,
+      "newsAdjustment": 3.1
     }
   }
 }

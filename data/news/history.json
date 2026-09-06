@@ -1,33 +1,5 @@
 [
   {
-    "id": "Paris FC:manager_sacked:2026-07-07:formerchelseabossliamroseniorappointedpa",
-    "type": "manager_sacked",
-    "label": "Manager Sacked",
-    "eloImpact": -25,
-    "decayDays": 30,
-    "headline": "Former Chelsea boss Liam Rosenior appointed Paris FC manager",
-    "url": "https://hayters.com/former-chelsea-boss-liam-rosenior-appointed-paris-fc-manager/",
-    "source": "Hayters.com",
-    "publishedAt": "2026-07-07T12:50:00Z",
-    "team": "Paris FC",
-    "confidence": 0.52,
-    "firstSeen": "2026-07-09T09:50:37.684Z"
-  },
-  {
-    "id": "Paris FC:manager_appointed:2026-07-07:roseniorreturnstomanagementwithparisfc",
-    "type": "manager_appointed",
-    "label": "Manager Appointed",
-    "eloImpact": 10,
-    "decayDays": 21,
-    "headline": "Rosenior returns to management with Paris FC",
-    "url": "https://dpa-international.com/sports/urn:newsml:dpa.com:20090101:260707-99-987925/",
-    "source": "Dpa-international.com",
-    "publishedAt": "2026-07-07T10:33:32Z",
-    "team": "Paris FC",
-    "confidence": 0.42,
-    "firstSeen": "2026-07-09T09:50:37.684Z"
-  },
-  {
     "id": "FC Barcelona:star_signing:2026-07-08:spanishfootballlegendalexiaputellasjoins",
     "type": "star_signing",
     "label": "Star Signing",
@@ -95,20 +67,6 @@
     "publishedAt": "2026-07-10T17:58:00Z",
     "team": "SV Werder Bremen",
     "confidence": 0.52,
-    "firstSeen": "2026-07-14T08:18:48.263Z"
-  },
-  {
-    "id": "AC Milan:manager_appointed:2026-07-07:enzomarescatheeuropeanodysseythatcreated",
-    "type": "manager_appointed",
-    "label": "Manager Appointed",
-    "eloImpact": 10,
-    "decayDays": 21,
-    "headline": "Enzo Maresca: The European odyssey that created Manchester City’s new manager",
-    "url": "https://cityxtra.co.uk/49592/enzo-maresca-the-european-odyssey-that-created-manchester-citys-new-manager/",
-    "source": "Cityxtra.co.uk",
-    "publishedAt": "2026-07-07T20:30:00Z",
-    "team": "AC Milan",
-    "confidence": 0.42,
     "firstSeen": "2026-07-14T08:18:48.263Z"
   },
   {
@@ -1090,5 +1048,33 @@
     "team": "Olympique de Marseille",
     "confidence": 0.52,
     "firstSeen": "2026-09-05T10:21:21.832Z"
+  },
+  {
+    "id": "SSC Napoli:star_signing:2026-09-01:europaleaguewinnermovestosalzburg",
+    "type": "star_signing",
+    "label": "Star Signing",
+    "eloImpact": 15,
+    "decayDays": 14,
+    "headline": "Europa League winner moves to Salzburg",
+    "url": "https://www.redbullsalzburg.at/en/recent/news/lindstrom-neuzugang",
+    "source": "Redbullsalzburg.at",
+    "publishedAt": "2026-09-01T18:53:00Z",
+    "team": "SSC Napoli",
+    "confidence": 0.52,
+    "firstSeen": "2026-09-06T10:40:43.853Z"
+  },
+  {
+    "id": "Bayer 04 Leverkusen:star_signing:2026-08-31:wslcarlottawamsersignsformancityonfourye",
+    "type": "star_signing",
+    "label": "Star Signing",
+    "eloImpact": 15,
+    "decayDays": 14,
+    "headline": "WSL: Carlotta Wamser signs for Man City on four-year deal",
+    "url": "https://herfootballhub.com/wsl-carlotta-wamser-signs-for-man-city-on-four-year-deal/",
+    "source": "Herfootballhub.com",
+    "publishedAt": "2026-08-31T16:05:00Z",
+    "team": "Bayer 04 Leverkusen",
+    "confidence": 0.52,
+    "firstSeen": "2026-09-06T10:40:43.853Z"
   }
 ]
