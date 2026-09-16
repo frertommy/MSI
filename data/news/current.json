@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-09-15T11:29:05.863Z",
+  "computedAt": "2026-09-16T11:15:48.705Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-09-14T10:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7.2,
-          "daysAgo": 1
+          "decayedImpact": 6.7,
+          "daysAgo": 2
         },
         {
           "type": "star_signing",
@@ -24,31 +24,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-09-13T21:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.9,
-          "daysAgo": 2
+          "decayedImpact": 6.4,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 14.1,
-      "newsAdjustment": 8.5
-    },
-    "Bayer 04 Leverkusen": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Official | Werder Bremen confirm Brazilian fullback Arthur as 14th and final summer arrival",
-          "url": "https://www.getfootballnewsgermany.com/2026/arthur-werder-bremen-official/",
-          "source": "Getfootballnewsgermany.com",
-          "publishedAt": "2026-09-01T20:25:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.2,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.2,
-      "newsAdjustment": 0.1
+      "totalDecayedImpact": 13,
+      "newsAdjustment": 7.8
     },
     "FC Barcelona": {
       "events": [
@@ -60,13 +42,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-08-04T13:40:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -0.4,
-          "daysAgo": 42
+          "decayedImpact": -0.3,
+          "daysAgo": 43
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.4,
-      "newsAdjustment": -0.3
+      "totalDecayedImpact": -0.3,
+      "newsAdjustment": -0.2
     },
     "AC Milan": {
       "events": [
@@ -78,8 +60,8 @@
           "source": "Sky Sports",
           "publishedAt": "2026-09-07T22:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.6,
-          "daysAgo": 8
+          "decayedImpact": 3,
+          "daysAgo": 9
         },
         {
           "type": "manager_appointed",
@@ -89,13 +71,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-09-07T11:55:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.6,
-          "daysAgo": 8
+          "decayedImpact": 2.4,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 6.2,
-      "newsAdjustment": 3.7
+      "totalDecayedImpact": 5.4,
+      "newsAdjustment": 3.3
     },
     "Olympique de Marseille": {
       "events": [
@@ -107,13 +89,13 @@
           "source": "Get French Football News",
           "publishedAt": "2026-08-08T12:10:00Z",
           "rawImpact": -7.8,
-          "decayedImpact": -1.2,
-          "daysAgo": 38
+          "decayedImpact": -1,
+          "daysAgo": 39
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -1.2,
-      "newsAdjustment": -0.7
+      "totalDecayedImpact": -1,
+      "newsAdjustment": -0.6
     },
     "SSC Napoli": {
       "events": [
@@ -125,24 +107,13 @@
           "source": "Getfootballnewsitaly.com",
           "publishedAt": "2026-09-03T13:55:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.8,
-          "daysAgo": 12
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Europa League winner moves to Salzburg",
-          "url": "https://www.redbullsalzburg.at/en/recent/news/lindstrom-neuzugang",
-          "source": "Redbullsalzburg.at",
-          "publishedAt": "2026-09-01T18:53:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.2,
-          "daysAgo": 14
+          "decayedImpact": 1.6,
+          "daysAgo": 13
         }
       ],
-      "totalRawImpact": 12,
-      "totalDecayedImpact": 2,
-      "newsAdjustment": 1.2
+      "totalRawImpact": 4.2,
+      "totalDecayedImpact": 1.6,
+      "newsAdjustment": 1
     },
     "Liverpool FC": {
       "events": [
@@ -154,67 +125,13 @@
           "source": "Empire of The Kop",
           "publishedAt": "2026-08-18T13:35:00Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.2,
-          "daysAgo": 28
+          "decayedImpact": 0.1,
+          "daysAgo": 29
         }
       ],
       "totalRawImpact": 2.6,
-      "totalDecayedImpact": 0.2,
-      "newsAdjustment": 0.1
-    },
-    "Hull": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Genoa send Coulibaly back to Leicester, Norton-Cuffy to Hull and secure Drameh",
-          "url": "https://football-italia.net/genoa-send-coulibaly-back-to-leicester/",
-          "source": "Football Italia",
-          "publishedAt": "2026-09-01T15:47:04Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.1,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": 7.8,
       "totalDecayedImpact": 0.1,
       "newsAdjustment": 0.1
-    },
-    "Leeds": {
-      "events": [
-        {
-          "type": "star_departure",
-          "label": "Star Departure",
-          "headline": "Leeds United Lead Race For Sidelined £88k Star: His Role Under Farke?",
-          "url": "https://the4thofficial.net/2026/09/leeds-united-lead-race-for-sidelined-88k-star-his-role-under-farke/",
-          "source": "The4thofficial.net",
-          "publishedAt": "2026-09-01T19:05:00Z",
-          "rawImpact": -6.3,
-          "decayedImpact": -0.1,
-          "daysAgo": 14
-        }
-      ],
-      "totalRawImpact": -6.3,
-      "totalDecayedImpact": -0.1,
-      "newsAdjustment": -0.1
-    },
-    "VfB Stuttgart": {
-      "events": [
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Bundesliga loan roundup | Union Berlin, Stuttgart, and Leverkusen youngsters secure moves",
-          "url": "https://www.getfootballnewsgermany.com/2026/bundesliga-loan-roundup-3/",
-          "source": "Getfootballnewsgermany.com",
-          "publishedAt": "2026-09-02T00:05:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 13
-        }
-      ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.3,
-      "newsAdjustment": 0.2
     },
     "Spal": {
       "events": [
@@ -226,13 +143,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-09-05T08:00:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 1.7,
-          "daysAgo": 10
+          "decayedImpact": 1.3,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 6.3,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.3,
+      "newsAdjustment": 0.8
     }
   }
 }
