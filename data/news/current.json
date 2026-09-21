@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-09-21T06:40:08.228Z",
+  "computedAt": "2026-09-21T09:31:52.217Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -14,7 +14,7 @@
           "publishedAt": "2026-09-16T20:10:23Z",
           "rawImpact": 7.8,
           "decayedImpact": 5.3,
-          "daysAgo": 4
+          "daysAgo": 5
         },
         {
           "type": "star_signing",
@@ -24,7 +24,7 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-09-14T10:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4,
+          "decayedImpact": 3.9,
           "daysAgo": 7
         },
         {
@@ -35,13 +35,13 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-09-13T21:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.7,
+          "decayedImpact": 3.6,
           "daysAgo": 7
         }
       ],
       "totalRawImpact": 23.4,
-      "totalDecayedImpact": 13,
-      "newsAdjustment": 7.8
+      "totalDecayedImpact": 12.8,
+      "newsAdjustment": 7.7
     },
     "AC Milan": {
       "events": [
@@ -53,7 +53,7 @@
           "source": "Sky Sports",
           "publishedAt": "2026-09-07T22:15:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.4,
+          "decayedImpact": 0.3,
           "daysAgo": 13
         },
         {
@@ -69,8 +69,8 @@
         }
       ],
       "totalRawImpact": 12,
-      "totalDecayedImpact": 1.8,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 1.7,
+      "newsAdjustment": 1
     },
     "Olympique de Marseille": {
       "events": [
@@ -100,12 +100,12 @@
           "source": "Getfootballnewsitaly.com",
           "publishedAt": "2026-09-03T13:55:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.7,
+          "decayedImpact": 0.6,
           "daysAgo": 18
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.7,
+      "totalDecayedImpact": 0.6,
       "newsAdjustment": 0.4
     }
   }
