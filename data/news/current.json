@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-09-25T06:31:34.667Z",
+  "computedAt": "2026-09-26T06:28:40.060Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Worldsoccertalk.com",
           "publishedAt": "2026-09-16T20:10:23Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.1,
-          "daysAgo": 8
+          "decayedImpact": 2.5,
+          "daysAgo": 9
         },
         {
           "type": "star_signing",
@@ -24,8 +24,8 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-09-14T10:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.8,
-          "daysAgo": 11
+          "decayedImpact": 1.2,
+          "daysAgo": 12
         },
         {
           "type": "star_signing",
@@ -35,13 +35,31 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-09-13T21:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.5,
-          "daysAgo": 11
+          "decayedImpact": 0.9,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 23.4,
-      "totalDecayedImpact": 6.3,
-      "newsAdjustment": 3.8
+      "totalDecayedImpact": 4.7,
+      "newsAdjustment": 2.8
+    },
+    "FC Barcelona": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Deco confirms Barcelona explored summer move for Inter Milan superstar: ‘He was a player we liked’",
+          "url": "https://barcauniversal.com/deco-confirms-barcelona-explored-summer-move-for-inter-milan-superstar-he-was-a-player-we-liked/",
+          "source": "Barcauniversal.com",
+          "publishedAt": "2026-09-24T18:20:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 7,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 7,
+      "newsAdjustment": 4.2
     },
     "AC Milan": {
       "events": [
@@ -53,13 +71,13 @@
           "source": "Anfieldindex.com",
           "publishedAt": "2026-09-07T11:55:00Z",
           "rawImpact": 4.2,
-          "decayedImpact": 0.6,
-          "daysAgo": 18
+          "decayedImpact": 0.4,
+          "daysAgo": 19
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 0.6,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.4,
+      "newsAdjustment": 0.3
     },
     "Olympique de Marseille": {
       "events": [
@@ -71,13 +89,13 @@
           "source": "CNA",
           "publishedAt": "2026-09-21T05:35:31Z",
           "rawImpact": -7.8,
-          "decayedImpact": -7.1,
-          "daysAgo": 4
+          "decayedImpact": -6.9,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -7.1,
-      "newsAdjustment": -4.3
+      "totalDecayedImpact": -6.9,
+      "newsAdjustment": -4.2
     }
   }
 }
