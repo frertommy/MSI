@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-10-01T06:33:33.143Z",
+  "computedAt": "2026-10-02T06:31:52.547Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -8,18 +8,40 @@
         {
           "type": "star_signing",
           "label": "Star Signing",
+          "headline": "Anthony Gordon Takes Aim at English Football After Barcelona Start",
+          "url": "https://heavy.com/sports/soccer/anthony-gordon-takes-aim-english-football-barcelona-start/",
+          "source": "Heavy.com",
+          "publishedAt": "2026-09-30T09:23:15Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.8,
+          "daysAgo": 2
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "Joan Laporta reveals Barcelona made direct approach for Inter captain in summer: ‘We didn’t want to let him slip away’",
+          "url": "https://barcauniversal.com/joan-laporta-reveals-barcelona-made-direct-approach-for-inter-captain-in-summer-we-didnt-want-to-let-him-slip-away/",
+          "source": "Barcauniversal.com",
+          "publishedAt": "2026-09-30T08:00:00Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.7,
+          "daysAgo": 2
+        },
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
           "headline": "Deco confirms Barcelona explored summer move for Inter Milan superstar: ‘He was a player we liked’",
           "url": "https://barcauniversal.com/deco-confirms-barcelona-explored-summer-move-for-inter-milan-superstar-he-was-a-player-we-liked/",
           "source": "Barcauniversal.com",
           "publishedAt": "2026-09-24T18:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 7
+          "decayedImpact": 3.6,
+          "daysAgo": 8
         }
       ],
-      "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalRawImpact": 23.4,
+      "totalDecayedImpact": 17.1,
+      "newsAdjustment": 10.3
     },
     "Olympique de Marseille": {
       "events": [
@@ -31,13 +53,13 @@
           "source": "CNA",
           "publishedAt": "2026-09-21T05:35:31Z",
           "rawImpact": -7.8,
-          "decayedImpact": -6.1,
-          "daysAgo": 10
+          "decayedImpact": -5.9,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -6.1,
-      "newsAdjustment": -3.6
+      "totalDecayedImpact": -5.9,
+      "newsAdjustment": -3.5
     },
     "Borussia Dortmund": {
       "events": [
@@ -49,16 +71,38 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-09-26T11:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
+          "decayedImpact": 4.6,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 5.1,
-      "newsAdjustment": 3.1
+      "totalDecayedImpact": 4.6,
+      "newsAdjustment": 2.7
     },
     "AC Milan": {
       "events": [
+        {
+          "type": "ownership_change",
+          "label": "Ownership Change",
+          "headline": "Pato consortium completes Northampton takeover",
+          "url": "https://www.bbc.com/sport/football/articles/cmqxvqyy125lo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+          "source": "BBC News",
+          "publishedAt": "2026-09-30T12:05:11Z",
+          "rawImpact": 2.6,
+          "decayedImpact": 2.4,
+          "daysAgo": 2
+        },
+        {
+          "type": "ownership_change",
+          "label": "Ownership Change",
+          "headline": "Consortium involving ex-Brazil forward Pato seals Northampton takeover",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmqxvqyy125lo",
+          "source": "BBC News",
+          "publishedAt": "2026-09-30T12:05:06Z",
+          "rawImpact": 4,
+          "decayedImpact": 3.8,
+          "daysAgo": 2
+        },
         {
           "type": "star_departure",
           "label": "Star Departure",
@@ -67,13 +111,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-09-25T11:05:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -3.7,
-          "daysAgo": 6
+          "decayedImpact": -3.2,
+          "daysAgo": 7
         }
       ],
-      "totalRawImpact": -6.3,
-      "totalDecayedImpact": -3.7,
-      "newsAdjustment": -2.2
+      "totalRawImpact": 0.3,
+      "totalDecayedImpact": 3,
+      "newsAdjustment": 1.8
     }
   }
 }
