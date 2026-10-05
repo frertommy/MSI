@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-10-05T04:15:57.801Z",
+  "computedAt": "2026-10-05T06:46:05.125Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -53,7 +53,7 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-09-30T08:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
+          "decayedImpact": 5,
           "daysAgo": 5
         },
         {
@@ -64,13 +64,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-09-24T18:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2,
-          "daysAgo": 10
+          "decayedImpact": 1.9,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 22.1,
-      "totalDecayedImpact": 11.1,
-      "newsAdjustment": 6.7
+      "totalDecayedImpact": 11,
+      "newsAdjustment": 6.6
     },
     "Borussia Dortmund": {
       "events": [
@@ -98,7 +98,7 @@
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 9.9,
+      "totalDecayedImpact": 9.8,
       "newsAdjustment": 5.9
     },
     "AC Milan": {
@@ -138,7 +138,7 @@
         }
       ],
       "totalRawImpact": 0.3,
-      "totalDecayedImpact": 3.6,
+      "totalDecayedImpact": 3.7,
       "newsAdjustment": 2.2
     }
   }
