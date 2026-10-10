@@ -1,19 +1,5 @@
 [
   {
-    "id": "FC Barcelona:star_signing:2026-08-10:liverpoolsignaraujofrombarcelona",
-    "type": "star_signing",
-    "label": "Star Signing",
-    "eloImpact": 15,
-    "decayDays": 14,
-    "headline": "Liverpool sign Araujo from Barcelona",
-    "url": "https://www.skysports.com/football/news/11669/13570899/ronald-araujo-transfer-news-liverpool-complete-deal-to-sign-barcelona-defender-on-loan-with-option-to-buy",
-    "source": "Sky Sports",
-    "publishedAt": "2026-08-10T17:30:00Z",
-    "team": "FC Barcelona",
-    "confidence": 0.42,
-    "firstSeen": "2026-08-12T07:41:00.001Z"
-  },
-  {
     "id": "CA Osasuna:manager_appointed:2026-08-11:meetosasunasnewcoachwhostartedinrealmadr",
     "type": "manager_appointed",
     "label": "Manager Appointed",
@@ -810,5 +796,47 @@
     "team": "Club Atlético de Madrid",
     "confidence": 0.52,
     "firstSeen": "2026-10-08T06:33:51.794Z"
+  },
+  {
+    "id": "SV Werder Bremen:star_departure:2026-10-08:travelinformationforthebundesligahomemat",
+    "type": "star_departure",
+    "label": "Star Departure",
+    "eloImpact": -15,
+    "decayDays": 14,
+    "headline": "Travel information for the Bundesliga home match against Werder Bremen",
+    "url": "https://onefootball.com/en/news/travel-information-for-the-bundesliga-home-match-against-werder-bremen-43581444",
+    "source": "Onefootball.com",
+    "publishedAt": "2026-10-08T23:15:00Z",
+    "team": "SV Werder Bremen",
+    "confidence": 0.42,
+    "firstSeen": "2026-10-10T06:30:08.619Z"
+  },
+  {
+    "id": "Hertha BSC:stadium_issue:2026-10-08:herthabscplacebanonallcommercialandmonet",
+    "type": "stadium_issue",
+    "label": "Stadium Issue",
+    "eloImpact": -3,
+    "decayDays": 10,
+    "headline": "Hertha BSC place ban on all commercial and monetized stadium vlogs",
+    "url": "https://bulinews.com/hertha-bsc-place-ban-all-commercial-and-monetized-stadium-vlogs",
+    "source": "Bulinews.com",
+    "publishedAt": "2026-10-08T20:39:00Z",
+    "team": "Hertha BSC",
+    "confidence": 0.52,
+    "firstSeen": "2026-10-10T06:30:08.619Z"
+  },
+  {
+    "id": "FC Barcelona:star_signing:2026-10-08:barcelonastepupinterestinborussiadortmun",
+    "type": "star_signing",
+    "label": "Star Signing",
+    "eloImpact": 15,
+    "decayDays": 14,
+    "headline": "Barcelona step up interest in Borussia Dortmund starlet dubbed the ‘new Bellingham’",
+    "url": "https://barcauniversal.com/barcelona-step-up-interest-in-borussia-dortmund-starlet-dubbed-the-new-bellingham/",
+    "source": "Barcauniversal.com",
+    "publishedAt": "2026-10-08T09:40:00Z",
+    "team": "FC Barcelona",
+    "confidence": 0.52,
+    "firstSeen": "2026-10-10T06:30:08.619Z"
   }
 ]
