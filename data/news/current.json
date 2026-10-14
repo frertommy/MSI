@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-10-13T06:35:22.135Z",
+  "computedAt": "2026-10-14T06:30:08.028Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,19 +13,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-10-08T09:40:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 5.1,
-          "daysAgo": 5
-        },
-        {
-          "type": "stadium_issue",
-          "label": "Stadium Issue",
-          "headline": "Papers: Arsenal leading race for winger Nusa",
-          "url": "https://www.skysports.com/football/transfer-paper-talk/13594837/arsenal-leading-race-for-rb-leipzig-winger-antonio-nusa-paper-talk",
-          "source": "Sky Sports",
-          "publishedAt": "2026-10-03T22:00:00Z",
-          "rawImpact": -1.3,
-          "decayedImpact": -0.1,
-          "daysAgo": 9
+          "decayedImpact": 4.5,
+          "daysAgo": 6
         },
         {
           "type": "star_signing",
@@ -35,8 +24,8 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-10-03T18:20:00Z",
           "rawImpact": 6.3,
-          "decayedImpact": 2,
-          "daysAgo": 10
+          "decayedImpact": 1.6,
+          "daysAgo": 11
         },
         {
           "type": "star_signing",
@@ -46,8 +35,8 @@
           "source": "Heavy.com",
           "publishedAt": "2026-09-30T09:23:15Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         },
         {
           "type": "star_signing",
@@ -57,13 +46,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-09-30T08:00:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.6,
-          "daysAgo": 13
+          "decayedImpact": 0,
+          "daysAgo": 14
         }
       ],
-      "totalRawImpact": 28.4,
-      "totalDecayedImpact": 8.2,
-      "newsAdjustment": 4.9
+      "totalRawImpact": 29.7,
+      "totalDecayedImpact": 6.2,
+      "newsAdjustment": 3.7
     },
     "Borussia Dortmund": {
       "events": [
@@ -75,13 +64,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-10-03T14:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.4,
-          "daysAgo": 10
+          "decayedImpact": 1.9,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.4,
-      "newsAdjustment": 1.5
+      "totalDecayedImpact": 1.9,
+      "newsAdjustment": 1.1
     },
     "Olympique de Marseille": {
       "events": [
@@ -93,16 +82,27 @@
           "source": "CNA",
           "publishedAt": "2026-09-21T05:35:31Z",
           "rawImpact": -7.8,
-          "decayedImpact": -4,
-          "daysAgo": 22
+          "decayedImpact": -3.8,
+          "daysAgo": 23
         }
       ],
       "totalRawImpact": -7.8,
-      "totalDecayedImpact": -4,
-      "newsAdjustment": -2.4
+      "totalDecayedImpact": -3.8,
+      "newsAdjustment": -2.3
     },
     "AC Milan": {
       "events": [
+        {
+          "type": "manager_sacked",
+          "label": "Manager Sacked",
+          "headline": "AC Milan boss Ruben Amorim makes fresh Man United admission with blunt assessment",
+          "url": "https://thepeoplesperson.com/2026/10/08/ac-milan-boss-ruben-amorim-makes-fresh-man-united-admission-with-blunt-assessment-318424/",
+          "source": "The Peoples Person",
+          "publishedAt": "2026-10-08T13:05:00Z",
+          "rawImpact": -13,
+          "decayedImpact": -10.5,
+          "daysAgo": 6
+        },
         {
           "type": "ownership_change",
           "label": "Ownership Change",
@@ -111,8 +111,8 @@
           "source": "BBC News",
           "publishedAt": "2026-09-30T12:05:11Z",
           "rawImpact": 2.6,
-          "decayedImpact": 1.5,
-          "daysAgo": 13
+          "decayedImpact": 1.4,
+          "daysAgo": 14
         },
         {
           "type": "ownership_change",
@@ -122,13 +122,13 @@
           "source": "BBC News",
           "publishedAt": "2026-09-30T12:05:06Z",
           "rawImpact": 4,
-          "decayedImpact": 2.3,
-          "daysAgo": 13
+          "decayedImpact": 2.2,
+          "daysAgo": 14
         }
       ],
-      "totalRawImpact": 6.6,
-      "totalDecayedImpact": 3.8,
-      "newsAdjustment": 2.3
+      "totalRawImpact": -6.4,
+      "totalDecayedImpact": -6.9,
+      "newsAdjustment": -4.2
     },
     "Hull": {
       "events": [
@@ -140,13 +140,13 @@
           "source": "The Mag",
           "publishedAt": "2026-10-03T07:45:52Z",
           "rawImpact": 4.2,
-          "decayedImpact": 2.2,
-          "daysAgo": 10
+          "decayedImpact": 2,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 4.2,
-      "totalDecayedImpact": 2.2,
-      "newsAdjustment": 1.3
+      "totalDecayedImpact": 2,
+      "newsAdjustment": 1.2
     },
     "Club Atlético de Madrid": {
       "events": [
@@ -158,13 +158,13 @@
           "source": "The4thofficial.net",
           "publishedAt": "2026-10-06T20:35:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 4.2,
-          "daysAgo": 6
+          "decayedImpact": 3.7,
+          "daysAgo": 7
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 4.2,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.7,
+      "newsAdjustment": 2.2
     },
     "SV Werder Bremen": {
       "events": [
@@ -176,13 +176,13 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-10-08T23:15:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.4,
-          "daysAgo": 4
+          "decayedImpact": -3.9,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -4.4,
-      "newsAdjustment": -2.6
+      "totalDecayedImpact": -3.9,
+      "newsAdjustment": -2.3
     },
     "Hertha BSC": {
       "events": [
@@ -194,13 +194,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-10-08T20:39:00Z",
           "rawImpact": -1.6,
-          "decayedImpact": -0.9,
-          "daysAgo": 4
+          "decayedImpact": -0.7,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": -1.6,
-      "totalDecayedImpact": -0.9,
-      "newsAdjustment": -0.5
+      "totalDecayedImpact": -0.7,
+      "newsAdjustment": -0.4
     }
   }
 }
