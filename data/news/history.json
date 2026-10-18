@@ -1,19 +1,5 @@
 [
   {
-    "id": "Liverpool FC:ownership_change:2026-08-18:justin1892holdingsstakeinliverpoolfcissi",
-    "type": "ownership_change",
-    "label": "Ownership Change",
-    "eloImpact": 5,
-    "decayDays": 30,
-    "headline": "Just in: 1892 Holdings’ stake in Liverpool FC is significantly more than initially reported",
-    "url": "https://www.empireofthekop.com/2026/08/18/1892-holdings-stake-in-liverpool-more-than-initially-reported/",
-    "source": "Empire of The Kop",
-    "publishedAt": "2026-08-18T13:35:00Z",
-    "team": "Liverpool FC",
-    "confidence": 0.52,
-    "firstSeen": "2026-08-20T06:54:51.347Z"
-  },
-  {
     "id": "Liverpool FC:star_departure:2026-08-21:officialcurtisjonesdepartsliverpoolforin",
     "type": "star_departure",
     "label": "Star Departure",
@@ -684,5 +670,19 @@
     "team": "FC Barcelona",
     "confidence": 0.42,
     "firstSeen": "2026-10-17T06:26:38.868Z"
+  },
+  {
+    "id": "AC Milan:player_scandal:2026-10-16:realmadridmagicanddramainmanchesterwhats",
+    "type": "player_scandal",
+    "label": "Player Scandal",
+    "eloImpact": -8,
+    "decayDays": 14,
+    "headline": "Real Madrid Magic And Drama In Manchester: What Stood Out With Europe's Top Clubs",
+    "url": "https://www.foxsports.com/stories/soccer/manchester-city-champions-league-psg-manchester-united-real-madrid-inter-milan",
+    "source": "Fox Sports",
+    "publishedAt": "2026-10-16T20:58:24Z",
+    "team": "AC Milan",
+    "confidence": 0.42,
+    "firstSeen": "2026-10-18T06:27:03.225Z"
   }
 ]
