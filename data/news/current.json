@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-10-27T06:29:58.685Z",
+  "computedAt": "2026-10-28T06:22:17.652Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "The Punch",
           "publishedAt": "2026-10-15T15:07:22Z",
           "rawImpact": 4.2,
-          "decayedImpact": 1.9,
-          "daysAgo": 12
+          "decayedImpact": 1.7,
+          "daysAgo": 13
         },
         {
           "type": "player_scandal",
@@ -24,13 +24,13 @@
           "source": "Madriduniversal.com",
           "publishedAt": "2026-10-14T13:29:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.3,
-          "daysAgo": 13
+          "decayedImpact": -0.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 0.8,
       "totalDecayedImpact": 1.6,
-      "newsAdjustment": 0.9
+      "newsAdjustment": 1
     },
     "AC Milan": {
       "events": [
@@ -42,8 +42,8 @@
           "source": "CNA",
           "publishedAt": "2026-10-21T14:59:50Z",
           "rawImpact": -1.6,
-          "decayedImpact": -0.7,
-          "daysAgo": 6
+          "decayedImpact": -0.5,
+          "daysAgo": 7
         },
         {
           "type": "fan_unrest",
@@ -53,8 +53,8 @@
           "source": "Yahoo Entertainment",
           "publishedAt": "2026-10-21T12:19:13Z",
           "rawImpact": -1.6,
-          "decayedImpact": -0.7,
-          "daysAgo": 6
+          "decayedImpact": -0.5,
+          "daysAgo": 7
         },
         {
           "type": "player_scandal",
@@ -64,19 +64,8 @@
           "source": "Fox Sports",
           "publishedAt": "2026-10-16T20:58:24Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.9,
-          "daysAgo": 10
-        },
-        {
-          "type": "star_signing",
-          "label": "Star Signing",
-          "headline": "Chelsea set to battle Arsenal in the race to sign Serie A star",
-          "url": "https://eplindex.com/151395/chelsea-set-to-battle-arsenal-in-the-race-to-sign-serie-a-star.html",
-          "source": "English Premier League Index - Opta Stats",
-          "publishedAt": "2026-10-13T17:50:00Z",
-          "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 14
+          "decayedImpact": -0.6,
+          "daysAgo": 11
         },
         {
           "type": "manager_sacked",
@@ -86,8 +75,8 @@
           "source": "The Peoples Person",
           "publishedAt": "2026-10-08T13:05:00Z",
           "rawImpact": -13,
-          "decayedImpact": -4.9,
-          "daysAgo": 19
+          "decayedImpact": -4.5,
+          "daysAgo": 20
         },
         {
           "type": "ownership_change",
@@ -97,8 +86,8 @@
           "source": "BBC News",
           "publishedAt": "2026-09-30T12:05:11Z",
           "rawImpact": 2.6,
-          "decayedImpact": 0.3,
-          "daysAgo": 27
+          "decayedImpact": 0.2,
+          "daysAgo": 28
         },
         {
           "type": "ownership_change",
@@ -108,13 +97,13 @@
           "source": "BBC News",
           "publishedAt": "2026-09-30T12:05:06Z",
           "rawImpact": 4,
-          "decayedImpact": 0.4,
-          "daysAgo": 27
+          "decayedImpact": 0.3,
+          "daysAgo": 28
         }
       ],
-      "totalRawImpact": -5.1,
-      "totalDecayedImpact": -6.1,
-      "newsAdjustment": -3.7
+      "totalRawImpact": -12.9,
+      "totalDecayedImpact": -5.6,
+      "newsAdjustment": -3.4
     },
     "Olympique de Marseille": {
       "events": [
@@ -126,8 +115,8 @@
           "source": "Rediff.com",
           "publishedAt": "2026-10-19T15:30:27Z",
           "rawImpact": -3.4,
-          "decayedImpact": -1.5,
-          "daysAgo": 8
+          "decayedImpact": -1.3,
+          "daysAgo": 9
         },
         {
           "type": "financial_crisis",
@@ -137,13 +126,13 @@
           "source": "CNA",
           "publishedAt": "2026-09-21T05:35:31Z",
           "rawImpact": -7.8,
-          "decayedImpact": -1.6,
-          "daysAgo": 36
+          "decayedImpact": -1.4,
+          "daysAgo": 37
         }
       ],
       "totalRawImpact": -11.2,
-      "totalDecayedImpact": -3.1,
-      "newsAdjustment": -1.9
+      "totalDecayedImpact": -2.7,
+      "newsAdjustment": -1.6
     },
     "SSC Napoli": {
       "events": [
@@ -155,13 +144,13 @@
           "source": "Alloutsoccer.com",
           "publishedAt": "2026-10-20T15:22:20Z",
           "rawImpact": -13,
-          "decayedImpact": -10.1,
-          "daysAgo": 7
+          "decayedImpact": -9.7,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -10.1,
-      "newsAdjustment": -6.1
+      "totalDecayedImpact": -9.7,
+      "newsAdjustment": -5.8
     },
     "Spal": {
       "events": [
@@ -173,13 +162,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-10-19T18:35:00Z",
           "rawImpact": -13,
-          "decayedImpact": -9.8,
-          "daysAgo": 7
+          "decayedImpact": -9.3,
+          "daysAgo": 8
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -9.8,
-      "newsAdjustment": -5.9
+      "totalDecayedImpact": -9.3,
+      "newsAdjustment": -5.6
     },
     "Borussia Dortmund": {
       "events": [
@@ -191,13 +180,13 @@
           "source": "The Football Faithful",
           "publishedAt": "2026-10-24T04:52:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.1,
-          "daysAgo": 3
+          "decayedImpact": 5.5,
+          "daysAgo": 4
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.1,
-      "newsAdjustment": 3.7
+      "totalDecayedImpact": 5.5,
+      "newsAdjustment": 3.3
     },
     "RC Lens": {
       "events": [
@@ -209,13 +198,13 @@
           "source": "BBC News",
           "publishedAt": "2026-10-19T15:19:49Z",
           "rawImpact": 6.5,
-          "decayedImpact": 4.1,
-          "daysAgo": 8
+          "decayedImpact": 3.8,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 6.5,
-      "totalDecayedImpact": 4.1,
-      "newsAdjustment": 2.5
+      "totalDecayedImpact": 3.8,
+      "newsAdjustment": 2.3
     },
     "Eintracht Frankfurt": {
       "events": [
@@ -227,13 +216,31 @@
           "source": "Onefootball.com",
           "publishedAt": "2026-10-22T09:46:00Z",
           "rawImpact": -6.3,
-          "decayedImpact": -4.1,
-          "daysAgo": 5
+          "decayedImpact": -3.7,
+          "daysAgo": 6
         }
       ],
       "totalRawImpact": -6.3,
-      "totalDecayedImpact": -4.1,
-      "newsAdjustment": -2.5
+      "totalDecayedImpact": -3.7,
+      "newsAdjustment": -2.2
+    },
+    "Athletic Club": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "'I said no to everyone!' - Nico Williams reveals he rejected PSG, Arsenal and Barcelona to stay at Athletic Club",
+          "url": "https://www.goal.com/en-us/news/-nico-williams-psg-arsenal-barcelona-athletic-club-/bltb7bf2673da0b2d0c",
+          "source": "Goal.com",
+          "publishedAt": "2026-10-26T16:16:53Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.9,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.9,
+      "newsAdjustment": 4.1
     }
   }
 }
