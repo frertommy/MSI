@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-11-09T04:08:11.558Z",
+  "computedAt": "2026-11-09T06:26:18.894Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,12 +13,12 @@
           "source": "BBC News",
           "publishedAt": "2026-10-31T22:14:36Z",
           "rawImpact": -9.7,
-          "decayedImpact": -4,
+          "decayedImpact": -3.9,
           "daysAgo": 8
         }
       ],
       "totalRawImpact": -9.7,
-      "totalDecayedImpact": -4,
+      "totalDecayedImpact": -3.9,
       "newsAdjustment": -2.4
     },
     "Spal": {
@@ -31,12 +31,12 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-10-19T18:35:00Z",
           "rawImpact": -13,
-          "decayedImpact": -4.2,
+          "decayedImpact": -4.1,
           "daysAgo": 20
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -4.2,
+      "totalDecayedImpact": -4.1,
       "newsAdjustment": -2.5
     },
     "RC Lens": {
@@ -85,13 +85,13 @@
           "source": "Goal.com",
           "publishedAt": "2026-10-26T16:16:53Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.3,
-          "daysAgo": 13
+          "decayedImpact": 0.2,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.3,
-      "newsAdjustment": 0.2
+      "totalDecayedImpact": 0.2,
+      "newsAdjustment": 0.1
     },
     "Arsenal FC": {
       "events": [
@@ -119,8 +119,8 @@
         }
       ],
       "totalRawImpact": 15.6,
-      "totalDecayedImpact": 3.2,
-      "newsAdjustment": 1.9
+      "totalDecayedImpact": 3,
+      "newsAdjustment": 1.8
     },
     "Chelsea FC": {
       "events": [
@@ -150,12 +150,12 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-10-29T18:20:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2,
-          "daysAgo": 10
+          "decayedImpact": 1.9,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2,
+      "totalDecayedImpact": 1.9,
       "newsAdjustment": 1.2
     },
     "AC Monza": {
@@ -168,13 +168,13 @@
           "source": "Roundtable.io",
           "publishedAt": "2026-10-31T11:30:05Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3,
+          "decayedImpact": 2.9,
           "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3,
-      "newsAdjustment": 1.8
+      "totalDecayedImpact": 2.9,
+      "newsAdjustment": 1.7
     }
   }
 }
