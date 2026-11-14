@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-11-13T06:19:05.997Z",
+  "computedAt": "2026-11-14T06:16:52.589Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,13 +13,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-11-04T07:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.8,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.8,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.3,
+      "newsAdjustment": 1.4
     },
     "FC Barcelona": {
       "events": [
@@ -31,13 +31,13 @@
           "source": "BBC News",
           "publishedAt": "2026-10-31T22:14:36Z",
           "rawImpact": -9.7,
-          "decayedImpact": -1.2,
-          "daysAgo": 12
+          "decayedImpact": -0.5,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": -9.7,
-      "totalDecayedImpact": -1.2,
-      "newsAdjustment": -0.7
+      "totalDecayedImpact": -0.5,
+      "newsAdjustment": -0.3
     },
     "Spal": {
       "events": [
@@ -49,13 +49,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-10-19T18:35:00Z",
           "rawImpact": -13,
-          "decayedImpact": -2.4,
-          "daysAgo": 24
+          "decayedImpact": -2,
+          "daysAgo": 25
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -2.4,
-      "newsAdjustment": -1.4
+      "totalDecayedImpact": -2,
+      "newsAdjustment": -1.2
     },
     "SSC Napoli": {
       "events": [
@@ -67,13 +67,13 @@
           "source": "Alloutsoccer.com",
           "publishedAt": "2026-10-20T15:22:20Z",
           "rawImpact": -13,
-          "decayedImpact": -2.8,
-          "daysAgo": 24
+          "decayedImpact": -2.3,
+          "daysAgo": 25
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -2.8,
-      "newsAdjustment": -1.7
+      "totalDecayedImpact": -2.3,
+      "newsAdjustment": -1.4
     },
     "AC Monza": {
       "events": [
@@ -85,13 +85,13 @@
           "source": "Roundtable.io",
           "publishedAt": "2026-10-31T11:30:05Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.7,
-          "daysAgo": 13
+          "decayedImpact": 0.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.7,
-      "newsAdjustment": 0.4
+      "totalDecayedImpact": 0.1,
+      "newsAdjustment": 0.1
     },
     "Oviedo": {
       "events": [
@@ -103,13 +103,13 @@
           "source": "BBC News",
           "publishedAt": "2026-11-09T16:16:30Z",
           "rawImpact": 8,
-          "decayedImpact": 6.6,
-          "daysAgo": 4
+          "decayedImpact": 6.3,
+          "daysAgo": 5
         }
       ],
       "totalRawImpact": 8,
-      "totalDecayedImpact": 6.6,
-      "newsAdjustment": 4
+      "totalDecayedImpact": 6.3,
+      "newsAdjustment": 3.8
     }
   }
 }
