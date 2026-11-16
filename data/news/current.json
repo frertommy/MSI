@@ -1,8 +1,26 @@
 {
-  "computedAt": "2026-11-15T06:18:19.168Z",
+  "computedAt": "2026-11-16T04:07:59.969Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
+    "AC Milan": {
+      "events": [
+        {
+          "type": "star_signing",
+          "label": "Star Signing",
+          "headline": "AC Milan set to steal transfer mastermind in massive €4m boardroom swoop",
+          "url": "https://www.goal.com/en-us/news/ac-milan-near-markus-krosche-appointment/blt569211e0b3112a4f",
+          "source": "Goal.com",
+          "publishedAt": "2026-11-14T14:32:03Z",
+          "rawImpact": 7.8,
+          "decayedImpact": 6.9,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": 7.8,
+      "totalDecayedImpact": 6.9,
+      "newsAdjustment": 4.2
+    },
     "Borussia Dortmund": {
       "events": [
         {
@@ -13,13 +31,13 @@
           "source": "Bulinews.com",
           "publishedAt": "2026-11-04T07:25:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.7,
-          "daysAgo": 11
+          "decayedImpact": 1.2,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.2,
+      "newsAdjustment": 0.7
     },
     "Spal": {
       "events": [
@@ -31,13 +49,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-10-19T18:35:00Z",
           "rawImpact": -13,
-          "decayedImpact": -1.5,
-          "daysAgo": 26
+          "decayedImpact": -1.1,
+          "daysAgo": 27
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -1.5,
-      "newsAdjustment": -0.9
+      "totalDecayedImpact": -1.1,
+      "newsAdjustment": -0.7
     },
     "SSC Napoli": {
       "events": [
@@ -49,13 +67,13 @@
           "source": "Alloutsoccer.com",
           "publishedAt": "2026-10-20T15:22:20Z",
           "rawImpact": -13,
-          "decayedImpact": -1.9,
-          "daysAgo": 26
+          "decayedImpact": -1.5,
+          "daysAgo": 27
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -1.9,
-      "newsAdjustment": -1.1
+      "totalDecayedImpact": -1.5,
+      "newsAdjustment": -0.9
     },
     "AC Monza": {
       "events": [
@@ -67,13 +85,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-11-13T17:38:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.9,
+          "decayedImpact": 6.4,
           "daysAgo": 2
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 6.9,
-      "newsAdjustment": 4.2
+      "totalDecayedImpact": 6.4,
+      "newsAdjustment": 3.9
     },
     "Oviedo": {
       "events": [
@@ -85,13 +103,13 @@
           "source": "BBC News",
           "publishedAt": "2026-11-09T16:16:30Z",
           "rawImpact": 8,
-          "decayedImpact": 5.9,
+          "decayedImpact": 5.5,
           "daysAgo": 6
         }
       ],
       "totalRawImpact": 8,
-      "totalDecayedImpact": 5.9,
-      "newsAdjustment": 3.5
+      "totalDecayedImpact": 5.5,
+      "newsAdjustment": 3.3
     },
     "RB Leipzig": {
       "events": [
@@ -103,13 +121,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-11-13T22:51:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7.1,
-          "daysAgo": 1
+          "decayedImpact": 6.6,
+          "daysAgo": 2
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 7.1,
-      "newsAdjustment": 4.2
+      "totalDecayedImpact": 6.6,
+      "newsAdjustment": 3.9
     }
   }
 }
