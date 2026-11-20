@@ -1,19 +1,5 @@
 [
   {
-    "id": "Olympique de Marseille:financial_crisis:2026-09-21:crisisloomingformarseilleafterfivesucces",
-    "type": "financial_crisis",
-    "label": "Financial Crisis",
-    "eloImpact": -15,
-    "decayDays": 45,
-    "headline": "Crisis looming for Marseille after five successive losses",
-    "url": "https://www.channelnewsasia.com/sport/crisis-looming-marseille-after-five-successive-losses-6398901",
-    "source": "CNA",
-    "publishedAt": "2026-09-21T05:35:31Z",
-    "team": "Olympique de Marseille",
-    "confidence": 0.52,
-    "firstSeen": "2026-09-22T06:30:41.801Z"
-  },
-  {
     "id": "FC Barcelona:star_signing:2026-09-24:decoconfirmsbarcelonaexploredsummermovef",
     "type": "star_signing",
     "label": "Star Signing",
@@ -628,5 +614,19 @@
     "team": "VfL Wolfsburg",
     "confidence": 0.65,
     "firstSeen": "2026-11-19T06:20:14.457Z"
+  },
+  {
+    "id": "Borussia Dortmund:fan_unrest:2026-11-18:borussiadortmundbowstofanpressureandendr",
+    "type": "fan_unrest",
+    "label": "Fan Unrest",
+    "eloImpact": -3,
+    "decayDays": 10,
+    "headline": "Borussia Dortmund bows to fan pressure and end Rheinmetall deal",
+    "url": "https://www.dw.com/en/borussia-dortmund-bows-to-fan-pressure-and-end-rheinmetall-deal/a-79980121",
+    "source": "DW (English)",
+    "publishedAt": "2026-11-18T15:39:00Z",
+    "team": "Borussia Dortmund",
+    "confidence": 0.42,
+    "firstSeen": "2026-11-20T06:19:15.397Z"
   }
 ]
