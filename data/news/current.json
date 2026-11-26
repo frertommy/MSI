@@ -1,26 +1,8 @@
 {
-  "computedAt": "2026-11-25T06:20:31.340Z",
+  "computedAt": "2026-11-26T06:20:40.016Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
-    "Borussia Dortmund": {
-      "events": [
-        {
-          "type": "fan_unrest",
-          "label": "Fan Unrest",
-          "headline": "Borussia Dortmund bows to fan pressure and end Rheinmetall deal",
-          "url": "https://www.dw.com/en/borussia-dortmund-bows-to-fan-pressure-and-end-rheinmetall-deal/a-79980121",
-          "source": "DW (English)",
-          "publishedAt": "2026-11-18T15:39:00Z",
-          "rawImpact": -1.3,
-          "decayedImpact": -0.4,
-          "daysAgo": 7
-        }
-      ],
-      "totalRawImpact": -1.3,
-      "totalDecayedImpact": -0.4,
-      "newsAdjustment": -0.3
-    },
     "FC Barcelona": {
       "events": [
         {
@@ -31,8 +13,8 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-11-23T21:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 7,
-          "daysAgo": 1
+          "decayedImpact": 6.5,
+          "daysAgo": 2
         },
         {
           "type": "ownership_change",
@@ -42,8 +24,8 @@
           "source": "Goal.com",
           "publishedAt": "2026-11-20T10:37:30Z",
           "rawImpact": 2.1,
-          "decayedImpact": 1.8,
-          "daysAgo": 5
+          "decayedImpact": 1.7,
+          "daysAgo": 6
         },
         {
           "type": "player_scandal",
@@ -53,13 +35,13 @@
           "source": "Barcauniversal.com",
           "publishedAt": "2026-11-12T08:00:00Z",
           "rawImpact": -3.4,
-          "decayedImpact": -0.3,
-          "daysAgo": 13
+          "decayedImpact": 0,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 6.5,
-      "totalDecayedImpact": 8.6,
-      "newsAdjustment": 5.1
+      "totalDecayedImpact": 8.2,
+      "newsAdjustment": 4.9
     },
     "AC Milan": {
       "events": [
@@ -71,13 +53,31 @@
           "source": "Goal.com",
           "publishedAt": "2026-11-14T14:32:03Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.9,
-          "daysAgo": 11
+          "decayedImpact": 1.3,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.9,
-      "newsAdjustment": 1.1
+      "totalDecayedImpact": 1.3,
+      "newsAdjustment": 0.8
+    },
+    "Borussia Dortmund": {
+      "events": [
+        {
+          "type": "fan_unrest",
+          "label": "Fan Unrest",
+          "headline": "Borussia Dortmund bows to fan pressure and end Rheinmetall deal",
+          "url": "https://www.dw.com/en/borussia-dortmund-bows-to-fan-pressure-and-end-rheinmetall-deal/a-79980121",
+          "source": "DW (English)",
+          "publishedAt": "2026-11-18T15:39:00Z",
+          "rawImpact": -1.3,
+          "decayedImpact": -0.3,
+          "daysAgo": 8
+        }
+      ],
+      "totalRawImpact": -1.3,
+      "totalDecayedImpact": -0.3,
+      "newsAdjustment": -0.2
     },
     "RC Lens": {
       "events": [
@@ -89,13 +89,31 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-11-12T13:03:45Z",
           "rawImpact": -13,
-          "decayedImpact": -7.5,
-          "daysAgo": 13
+          "decayedImpact": -7.1,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -7.5,
-      "newsAdjustment": -4.5
+      "totalDecayedImpact": -7.1,
+      "newsAdjustment": -4.2
+    },
+    "SSC Napoli": {
+      "events": [
+        {
+          "type": "manager_sacked",
+          "label": "Manager Sacked",
+          "headline": "Enzo Maresca shuts down Massimiliano Allegri's mind games ahead of Man City vs Napoli",
+          "url": "https://www.goal.com/en-us/news/enzo-maresca-massimiliano-allegri-mind-games-man-city-napoli/blt6e86aac750b9327f",
+          "source": "Goal.com",
+          "publishedAt": "2026-11-24T11:10:11Z",
+          "rawImpact": -13,
+          "decayedImpact": -12.2,
+          "daysAgo": 2
+        }
+      ],
+      "totalRawImpact": -13,
+      "totalDecayedImpact": -12.2,
+      "newsAdjustment": -7.3
     },
     "AC Monza": {
       "events": [
@@ -107,13 +125,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-11-13T17:38:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.4,
-          "daysAgo": 12
+          "decayedImpact": 0.8,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.4,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 0.8,
+      "newsAdjustment": 0.5
     },
     "Oviedo": {
       "events": [
@@ -125,13 +143,13 @@
           "source": "BBC News",
           "publishedAt": "2026-11-09T16:16:30Z",
           "rawImpact": 8,
-          "decayedImpact": 2.1,
-          "daysAgo": 16
+          "decayedImpact": 1.7,
+          "daysAgo": 17
         }
       ],
       "totalRawImpact": 8,
-      "totalDecayedImpact": 2.1,
-      "newsAdjustment": 1.2
+      "totalDecayedImpact": 1.7,
+      "newsAdjustment": 1
     },
     "RB Leipzig": {
       "events": [
@@ -143,13 +161,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-11-13T22:51:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.5,
-          "daysAgo": 11
+          "decayedImpact": 0.9,
+          "daysAgo": 12
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.5,
-      "newsAdjustment": 0.9
+      "totalDecayedImpact": 0.9,
+      "newsAdjustment": 0.6
     },
     "Leeds": {
       "events": [
@@ -161,13 +179,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-11-17T10:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 3.4,
-          "daysAgo": 8
+          "decayedImpact": 2.9,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 3.4,
-      "newsAdjustment": 2.1
+      "totalDecayedImpact": 2.9,
+      "newsAdjustment": 1.7
     },
     "VfL Wolfsburg": {
       "events": [
@@ -179,13 +197,13 @@
           "source": "BBC News",
           "publishedAt": "2026-11-16T08:17:46Z",
           "rawImpact": 6.5,
-          "decayedImpact": 3.7,
-          "daysAgo": 9
+          "decayedImpact": 3.4,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 6.5,
-      "totalDecayedImpact": 3.7,
-      "newsAdjustment": 2.2
+      "totalDecayedImpact": 3.4,
+      "newsAdjustment": 2.1
     }
   }
 }
