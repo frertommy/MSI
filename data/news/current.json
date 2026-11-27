@@ -1,5 +1,5 @@
 {
-  "computedAt": "2026-11-26T06:20:40.016Z",
+  "computedAt": "2026-11-27T06:20:50.354Z",
   "dampeningFactor": 0.6,
   "capElo": 30,
   "teams": {
@@ -13,8 +13,8 @@
           "source": "Getfootballnewsspain.com",
           "publishedAt": "2026-11-23T21:55:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 6.5,
-          "daysAgo": 2
+          "decayedImpact": 5.9,
+          "daysAgo": 3
         },
         {
           "type": "ownership_change",
@@ -24,24 +24,13 @@
           "source": "Goal.com",
           "publishedAt": "2026-11-20T10:37:30Z",
           "rawImpact": 2.1,
-          "decayedImpact": 1.7,
-          "daysAgo": 6
-        },
-        {
-          "type": "player_scandal",
-          "label": "Player Scandal",
-          "headline": "Spanish journalist claims Barcelona connection is driving Lamine Yamal controversy with national team: ‘If a row breaks out’",
-          "url": "https://barcauniversal.com/spanish-journalist-claims-barcelona-connection-is-driving-lamine-yamal-controversy-with-national-team-if-a-row-breaks-out/",
-          "source": "Barcauniversal.com",
-          "publishedAt": "2026-11-12T08:00:00Z",
-          "rawImpact": -3.4,
-          "decayedImpact": 0,
-          "daysAgo": 14
+          "decayedImpact": 1.6,
+          "daysAgo": 7
         }
       ],
-      "totalRawImpact": 6.5,
-      "totalDecayedImpact": 8.2,
-      "newsAdjustment": 4.9
+      "totalRawImpact": 9.9,
+      "totalDecayedImpact": 7.6,
+      "newsAdjustment": 4.5
     },
     "AC Milan": {
       "events": [
@@ -53,13 +42,13 @@
           "source": "Goal.com",
           "publishedAt": "2026-11-14T14:32:03Z",
           "rawImpact": 7.8,
-          "decayedImpact": 1.3,
-          "daysAgo": 12
+          "decayedImpact": 0.7,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 1.3,
-      "newsAdjustment": 0.8
+      "totalDecayedImpact": 0.7,
+      "newsAdjustment": 0.4
     },
     "Borussia Dortmund": {
       "events": [
@@ -71,13 +60,13 @@
           "source": "DW (English)",
           "publishedAt": "2026-11-18T15:39:00Z",
           "rawImpact": -1.3,
-          "decayedImpact": -0.3,
-          "daysAgo": 8
+          "decayedImpact": -0.2,
+          "daysAgo": 9
         }
       ],
       "totalRawImpact": -1.3,
-      "totalDecayedImpact": -0.3,
-      "newsAdjustment": -0.2
+      "totalDecayedImpact": -0.2,
+      "newsAdjustment": -0.1
     },
     "RC Lens": {
       "events": [
@@ -89,13 +78,13 @@
           "source": "Dpa-international.com",
           "publishedAt": "2026-11-12T13:03:45Z",
           "rawImpact": -13,
-          "decayedImpact": -7.1,
-          "daysAgo": 14
+          "decayedImpact": -6.6,
+          "daysAgo": 15
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -7.1,
-      "newsAdjustment": -4.2
+      "totalDecayedImpact": -6.6,
+      "newsAdjustment": -4
     },
     "SSC Napoli": {
       "events": [
@@ -107,13 +96,13 @@
           "source": "Goal.com",
           "publishedAt": "2026-11-24T11:10:11Z",
           "rawImpact": -13,
-          "decayedImpact": -12.2,
-          "daysAgo": 2
+          "decayedImpact": -11.8,
+          "daysAgo": 3
         }
       ],
       "totalRawImpact": -13,
-      "totalDecayedImpact": -12.2,
-      "newsAdjustment": -7.3
+      "totalDecayedImpact": -11.8,
+      "newsAdjustment": -7.1
     },
     "AC Monza": {
       "events": [
@@ -125,13 +114,13 @@
           "source": "Talkjuve.com",
           "publishedAt": "2026-11-13T17:38:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.8,
-          "daysAgo": 13
+          "decayedImpact": 0.3,
+          "daysAgo": 14
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.8,
-      "newsAdjustment": 0.5
+      "totalDecayedImpact": 0.3,
+      "newsAdjustment": 0.2
     },
     "Oviedo": {
       "events": [
@@ -143,13 +132,13 @@
           "source": "BBC News",
           "publishedAt": "2026-11-09T16:16:30Z",
           "rawImpact": 8,
-          "decayedImpact": 1.7,
-          "daysAgo": 17
+          "decayedImpact": 1.3,
+          "daysAgo": 18
         }
       ],
       "totalRawImpact": 8,
-      "totalDecayedImpact": 1.7,
-      "newsAdjustment": 1
+      "totalDecayedImpact": 1.3,
+      "newsAdjustment": 0.8
     },
     "RB Leipzig": {
       "events": [
@@ -161,13 +150,13 @@
           "source": "Sky Sports",
           "publishedAt": "2026-11-13T22:51:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 0.9,
-          "daysAgo": 12
+          "decayedImpact": 0.4,
+          "daysAgo": 13
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 0.9,
-      "newsAdjustment": 0.6
+      "totalDecayedImpact": 0.4,
+      "newsAdjustment": 0.2
     },
     "Leeds": {
       "events": [
@@ -179,13 +168,13 @@
           "source": "English Premier League Index - Opta Stats",
           "publishedAt": "2026-11-17T10:50:00Z",
           "rawImpact": 7.8,
-          "decayedImpact": 2.9,
-          "daysAgo": 9
+          "decayedImpact": 2.3,
+          "daysAgo": 10
         }
       ],
       "totalRawImpact": 7.8,
-      "totalDecayedImpact": 2.9,
-      "newsAdjustment": 1.7
+      "totalDecayedImpact": 2.3,
+      "newsAdjustment": 1.4
     },
     "VfL Wolfsburg": {
       "events": [
@@ -197,13 +186,13 @@
           "source": "BBC News",
           "publishedAt": "2026-11-16T08:17:46Z",
           "rawImpact": 6.5,
-          "decayedImpact": 3.4,
-          "daysAgo": 10
+          "decayedImpact": 3.1,
+          "daysAgo": 11
         }
       ],
       "totalRawImpact": 6.5,
-      "totalDecayedImpact": 3.4,
-      "newsAdjustment": 2.1
+      "totalDecayedImpact": 3.1,
+      "newsAdjustment": 1.9
     }
   }
 }
